@@ -24,18 +24,20 @@
     <div class="exam-container">
         
        <aside class="sidebar">
-        <div class="block-selector-container">
-            <label for="block-select" style="font-size: 14px; font-weight: bold; color: #333;">Select Exam Block:</label>
-            <select id="block-select" class="block-select">
-                <option value="question_bank.json">Block 1 (Baseline)</option>
-                <option value="block2.json">Block 2 (Advanced)</option>
-                <option value="block3.json">Block 3</option>
-                <option value="block4.json">Block 4</option>
-                <option value="block5.json">Block 5</option>
-                <option value="block6.json">Block 6</option>
-                <option value="block7.json">Block 7</option>
-            </select>
+        <div class="level-selector-container">
+            <span class="level-label">Select Level:</span>
+            <div class="level-buttons">
+                <button class="lvl-btn active" data-file="question_bank.json">L-1</button>
+                <button class="lvl-btn" data-file="block2.json">L-2</button>
+                <button class="lvl-btn" data-file="block3.json">L-3</button>
+                <button class="lvl-btn" data-file="block4.json">L-4</button>
+                <button class="lvl-btn" data-file="block5.json">L-5</button>
+                <button class="lvl-btn" data-file="block6.json">L-6</button>
+                <button class="lvl-btn" data-file="block7.json">L-7</button>
+            </div>
         </div>
+
+        <h3>Item Navigation</h3>
 
         <h3>Item Navigation</h3>
             <div id="question-grid" class="grid-container">
