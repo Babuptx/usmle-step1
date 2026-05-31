@@ -14,61 +14,65 @@ let timerInterval;
 // Initialize Exam Block
 async function loadBlock(filename) {
     try {
-        // 1. Reset all global states for the new block
         currentQuestionIndex = 0;
         userAnswers = {};
         flaggedQuestions.clear();
         revealedQuestions.clear();
         isReviewMode = false;
         
-        // 2. Reset and restart the timer
         clearInterval(timerInterval);
         timeRemaining = 3600; 
         
-        // 3. Fetch the new JSON file
-        const response = await fetch(filename);
+        // Append a timestamp query parameter to force the browser to bypass the cache
+        const response = await fetch(`${filename}?t=${new Date().getTime()}`);
         const data = await response.json();
         questionData = data.questions || [];
         
-        // 4. Update the UI
-        document.getElementById('block-title').innerText = data.block_title || "USMLE Step 1 Mock Exam";
+        document.getElementById('block-title').innerText = data.block_title || `USMLE Step 1 - ${filename}`;
         
-        // Ensure End Block button is visible again
         const btnEndBlock = document.getElementById('btn-end-block');
         if(btnEndBlock) btnEndBlock.classList.remove('hidden');
 
-        // 5. Render questions if the file has data
         if (questionData.length > 0) {
             renderQuestion(currentQuestionIndex);
             generateNavigationGrid();
             startTimer();
         } else {
-            document.getElementById('vignette-text').innerText = "This block is currently empty. Add questions to the JSON file!";
+            document.getElementById('vignette-text').innerText = "This level is currently empty. Add questions to the JSON file!";
             document.getElementById('options-container').innerHTML = '';
             document.getElementById('question-grid').innerHTML = '';
             document.getElementById('question-number').innerText = "No Questions Found";
         }
     } catch (error) {
         console.error("Error loading question bank:", error);
-        document.getElementById('vignette-text').innerText = "System Error: Failed to load block data. Ensure the JSON file is formatted correctly.";
+        document.getElementById('vignette-text').innerText = "System Error: Failed to load block data. Ensure the JSON file exists and is formatted correctly.";
     }
 }
 
-// Listen for Dropdown Changes
-document.getElementById('block-select').addEventListener('change', (e) => {
-    const selectedFile = e.target.value;
-    
-    // Warn the user before wiping their current progress
-    const confirmSwitch = confirm("Are you sure you want to switch blocks? Your current progress and timer will be reset.");
-    
-    if (confirmSwitch) {
-        currentBlockFile = selectedFile;
-        loadBlock(currentBlockFile);
-    } else {
-        // If they cancel, revert the dropdown back to the file they are currently on
-        e.target.value = currentBlockFile; 
-    }
-});
+// Setup Level Buttons
+function setupLevelButtons() {
+    const levelButtons = document.querySelectorAll('.lvl-btn');
+    levelButtons.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            const targetFile = e.target.getAttribute('data-file');
+            
+            // Do nothing if they click the level they are already on
+            if (targetFile === currentBlockFile) return;
+
+            const confirmSwitch = confirm("Are you sure you want to switch levels? Your current progress and timer will be reset.");
+            
+            if (confirmSwitch) {
+                currentBlockFile = targetFile;
+                
+                // Remove active class from all buttons, add to the clicked one
+                levelButtons.forEach(b => b.classList.remove('active'));
+                e.target.classList.add('active');
+                
+                loadBlock(currentBlockFile);
+            }
+        });
+    });
+}
 
 // Timer Logic
 function startTimer() {
@@ -96,7 +100,6 @@ function renderQuestion(index) {
     document.getElementById('question-number').innerText = `Question ${index + 1}`;
     document.getElementById('vignette-text').innerText = q.vignette;
     
-    // Image Exhibit Logic
     const exhibitContainer = document.getElementById('exhibit-container');
     const exhibitImage = document.getElementById('exhibit-image');
     
@@ -107,7 +110,6 @@ function renderQuestion(index) {
         exhibitContainer.classList.add('hidden');
     }
     
-    // Flag Button UI
     const flagBtn = document.getElementById('btn-flag');
     if (flaggedQuestions.has(index)) {
         flagBtn.innerText = '⚑ Unflag';
@@ -117,7 +119,6 @@ function renderQuestion(index) {
         flagBtn.style.backgroundColor = '';
     }
     
-    // Render Options
     const optionsContainer = document.getElementById('options-container');
     optionsContainer.innerHTML = ''; 
     
@@ -150,7 +151,6 @@ function renderQuestion(index) {
         optionsContainer.appendChild(label);
     });
     
-    // Render Explanation
     const expContainer = document.getElementById('explanation-container');
     if (isReviewMode || isRevealed) {
         expContainer.classList.remove('hidden');
@@ -166,7 +166,6 @@ function renderQuestion(index) {
         expContainer.classList.add('hidden');
     }
     
-    // Footer Navigation state
     document.getElementById('btn-prev').disabled = index === 0;
     const nextBtn = document.getElementById('btn-next');
     if (index === questionData.length - 1 && !isReviewMode) {
@@ -178,7 +177,6 @@ function renderQuestion(index) {
         if(index === questionData.length - 1 && isReviewMode) nextBtn.disabled = true;
     }
 
-    // Show Answer Button UI
     const btnShowAnswer = document.getElementById('btn-show-answer');
     if (btnShowAnswer) {
         if (isReviewMode) {
@@ -200,7 +198,6 @@ function renderQuestion(index) {
     }
 }
 
-// Sidebar Navigation Grid
 function generateNavigationGrid() {
     const grid = document.getElementById('question-grid');
     grid.innerHTML = '';
@@ -221,7 +218,6 @@ function generateNavigationGrid() {
     updateSidebarGrid();
 }
 
-// Update Sidebar Visual States
 function updateSidebarGrid() {
     questionData.forEach((_, i) => {
         const btn = document.getElementById(`grid-btn-${i}`);
@@ -235,7 +231,6 @@ function updateSidebarGrid() {
     });
 }
 
-// Flagging Logic
 document.getElementById('btn-flag').addEventListener('click', () => {
     if (isReviewMode) return;
     
@@ -248,7 +243,6 @@ document.getElementById('btn-flag').addEventListener('click', () => {
     updateSidebarGrid();
 });
 
-// Show Answer Logic
 const btnShowAnswerEvent = document.getElementById('btn-show-answer');
 if (btnShowAnswerEvent) {
     btnShowAnswerEvent.addEventListener('click', () => {
@@ -261,7 +255,6 @@ if (btnShowAnswerEvent) {
     });
 }
 
-// End Block / Grade Test
 function endBlock() {
     if (isReviewMode) return;
     
@@ -284,7 +277,6 @@ function endBlock() {
     renderQuestion(currentQuestionIndex);
 }
 
-// Event Listeners for Buttons
 document.getElementById('btn-next').addEventListener('click', () => {
     if (currentQuestionIndex < questionData.length - 1) {
         currentQuestionIndex++;
@@ -307,12 +299,11 @@ document.getElementById('btn-end-block').addEventListener('click', endBlock);
 
 // Boot up sequence
 window.onload = () => {
-    const initialBlock = document.getElementById('block-select').value;
-    currentBlockFile = initialBlock;
-    loadBlock(initialBlock);
+    setupLevelButtons(); // Initialize button listeners
+    currentBlockFile = 'question_bank.json'; // Default load
+    loadBlock(currentBlockFile);
 };
 
-// Lab Values Modal Logic
 const labModal = document.getElementById('lab-modal');
 const btnLabValues = document.getElementById('btn-lab-values');
 const btnCloseModal = document.getElementById('btn-close-modal');

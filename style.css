@@ -209,26 +209,46 @@ body {
 }
 .rationale-list li { margin-bottom: 10px; }
 /* --- Block Selector Styles --- */
-.block-selector-container {
-    padding: 15px;
+/* --- Level Selector Styles --- */
+.level-selector-container {
+    padding: 10px;
     background-color: #e9ecef;
     border-bottom: 2px solid #bdc3c7;
-    text-align: left;
-    margin-bottom: 10px;
+    text-align: center;
 }
 
-.block-select {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
+.level-label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.level-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+
+.lvl-btn {
+    padding: 6px 12px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 4px;
-    font-size: 14px;
-    background-color: #fff;
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
 
-.block-select:focus {
-    outline: none;
+.lvl-btn:hover {
+    background-color: #d1d8e0;
+}
+
+.lvl-btn.active {
+    background-color: #003366;
+    color: white;
     border-color: #003366;
 }
