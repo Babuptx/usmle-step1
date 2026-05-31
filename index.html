@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USMLE Step 1 - Block Simulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="exam-header">
+        <div class="header-left">
+            <span id="block-title">Loading Block...</span>
+        </div>
+        <div class="header-center">
+            <span class="timer-icon">⏱</span>
+            <span id="exam-timer">60:00</span>
+        </div>
+        <div class="header-right">
+            <button id="btn-lab-values" class="control-btn">Lab Values</button>
+            <button id="btn-end-block" class="control-btn danger">End Block</button>
+        </div>
+    </header>
+
+    <div class="exam-container">
+        
+        <aside class="nav-sidebar">
+            <h3>Item Navigation</h3>
+            <div id="question-grid" class="grid-container">
+                </div>
+            
+            <div class="legend">
+                <div class="legend-item"><span class="box unanswered"></span> Unanswered</div>
+                <div class="legend-item"><span class="box answered"></span> Answered</div>
+                <div class="legend-item"><span class="box flagged"></span> Flagged</div>
+            </div>
+        </aside>
+
+        <main class="question-stage">
+            <div class="question-header">
+                <h2 id="question-number">Question 1</h2>
+                <button id="btn-flag" class="control-btn flag-btn">⚑ Flag for Review</button>
+            </div>
+            
+            <div class="vignette-container">
+                <p id="vignette-text">Loading question data...</p>
+                <div id="exhibit-container" class="hidden">
+                    <img id="exhibit-image" src="" alt="Clinical Exhibit">
+                </div>
+            </div>
+
+            <div class="options-container" id="options-container">
+                </div>
+
+            <div id="explanation-container" class="hidden">
+                <h3>Explanation</h3>
+                <div id="explanation-text"></div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="exam-footer">
+        <button id="btn-prev" class="nav-btn" disabled>◄ Previous</button>
+        <button id="btn-next" class="nav-btn">Next ►</button>
+    </footer>
+
+    <div id="lab-modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Standard Laboratory Values</h2>
+                <button id="btn-close-modal" class="close-btn">✖</button>
+            </div>
+            <div class="modal-body" id="lab-values-content">
+                <p>Blood, Plasma, Serum reference ranges will appear here.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

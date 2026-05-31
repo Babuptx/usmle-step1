@@ -1,0 +1,136 @@
+{
+  "block_id": 1,
+  "block_title": "USMLE Step 1 Mock Exam - Block 1",
+  "questions": [
+    {
+      "id": "q1",
+      "discipline": "Biochemistry",
+      "system": "Metabolic",
+      "vignette": "A 6-month-old boy is brought to the pediatrician due to loss of motor milestones. He can no longer roll over or sit with support. He exhibits an exaggerated startle response to loud noises. Physical examination reveals generalized hypotonia and a bright red spot on the macula bilaterally. There is no organomegaly. Which of the following substrates accumulates in this patient's lysosomes?",
+      "options": [
+        "Sphingomyelin",
+        "Glucocerebroside",
+        "GM2 ganglioside",
+        "Galactocerebroside",
+        "Heparan sulfate"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify the accumulating substrate in Tay-Sachs disease.",
+        "correct_rationale": "Option C is correct. Tay-Sachs disease is an autosomal recessive lysosomal storage disorder caused by a deficiency in Hexosaminidase A, leading to the accumulation of GM2 ganglioside. Classic presentation includes progressive neurodegeneration, hyperacusis, and a cherry-red macular spot. Notably, it lacks the hepatosplenomegaly seen in Niemann-Pick disease.",
+        "incorrect_rationales": [
+          "Option A accumulates in Niemann-Pick disease, which features hepatosplenomegaly.",
+          "Option B accumulates in Gaucher disease, presenting with bone pain and splenomegaly.",
+          "Option D accumulates in Krabbe disease, causing global developmental delay and peripheral neuropathy.",
+          "Option E accumulates in Hurler/Hunter syndromes, characterized by coarse facial features."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q2",
+      "discipline": "Pharmacology",
+      "system": "Neurology",
+      "vignette": "A 28-year-old woman at 12 weeks gestation presents for a routine prenatal visit. She has a history of a seizure disorder managed compliantly with valproic acid and has been seizure-free for two years. An obstetric ultrasound reveals a failure of neural tube closure in the developing fetus. The mechanism of action of the medication this patient is taking most directly impacts which of the following cellular pathways?",
+      "options": [
+        "Blockade of post-synaptic NMDA glutamate receptors",
+        "Inhibition of endogenous folate metabolism and transport",
+        "Irreversible inactivation of voltage-gated calcium channels",
+        "Competitive antagonism of GABA-A receptor sites",
+        "Decreased degradation of GABA via transaminase inhibition"
+      ],
+      "correct_index": 4,
+      "explanation": {
+        "educational_objective": "Understand the anticonvulsant mechanism of valproic acid and its teratogenic risk.",
+        "correct_rationale": "Option E is correct. Valproic acid increases GABA concentrations by inhibiting GABA transaminase (the enzyme responsible for GABA degradation) and by blocking voltage-gated sodium channels. Its use during pregnancy is highly teratogenic, specifically causing neural tube defects (e.g., spina bifida) due to interference with folate-regulated pathways.",
+        "incorrect_rationales": [
+          "Option A describes the mechanism of drugs like ketamine or phencyclidine.",
+          "Option B is an effect of methotrexate, though valproate causes functional folate depletion, its primary anticonvulsant mechanism is direct GABA/sodium channel modulation.",
+          "Option C describes ethosuximide, which targets T-type calcium channels.",
+          "Option D describes a GABA antagonist, which would induce seizures rather than prevent them."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q3",
+      "discipline": "Microbiology",
+      "system": "Pulmonology",
+      "vignette": "A 65-year-old man presents with a 2-day history of productive cough, high fever, and right-sided pleuritic chest pain. He has a history of severe COPD and a 40-pack-year smoking history. Sputum culture grows a Gram-positive, alpha-hemolytic, optochin-sensitive diplococcus. The predominant virulence factor of this organism facilitates which of the following mechanisms?",
+      "options": [
+        "Inactivation of elongation factor-2 via ADP-riboxylation",
+        "Cleavage of secretory IgA at mucosal surfaces",
+        "Evasion of host phagocytosis via a polysaccharide capsule",
+        "Disruption of host cell membranes through lecithinase production",
+        "Intracellular survival and replication within alveolar macrophages"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify the primary virulence mechanism of Streptococcus pneumoniae.",
+        "correct_rationale": "Option C is correct. The clinical presentation and laboratory profile point to Streptococcus pneumoniae (alpha-hemolytic, optochin-sensitive diplococcus). Its primary virulence factor is its polysaccharide capsule, which physically prevents opsonization and phagocytosis by host immune cells.",
+        "incorrect_rationales": [
+          "Option A describes the mechanism of toxins produced by Corynebacterium diphtheriae and Pseudomonas aeruginosa.",
+          "Option B describes IgA protease, which aids in initial mucosal colonization but is not the primary factor preventing destruction.",
+          "Option D describes the alpha toxin of Clostridium perforitens.",
+          "Option E describes intracellular pathogens like Mycobacterium tuberculosis or Legionella pneumophila."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q4",
+      "discipline": "Pathology",
+      "system": "Cardiovascular",
+      "vignette": "A 65-year-old man is admitted to the hospital with a massive anterior myocardial infarction. On day 4 of admission, he suddenly develops severe dyspnea, acute hypotension, and a loud, new holosystolic murmur heard best at the apex that radiates to the axilla. Pulmonary capillary wedge pressure is acutely elevated. Rupture of which of the following structures is the most likely cause of this patient's deterioration?",
+      "options": [
+        "Ventricular free wall",
+        "Interventricular septum",
+        "Posteromedial papillary muscle",
+        "Anterolateral papillary muscle",
+        "Aortic valve leaflet"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Recognize the mechanical complications of myocardial infarction based on clinical presentation.",
+        "correct_rationale": "Option C is correct. A new holosystolic murmur radiating to the axilla 3–5 days after a myocardial infarction indicates acute mitral regurgitation, typically caused by papillary muscle rupture. The posteromedial papillary muscle is significantly more susceptible to rupture than the anterolateral muscle because its blood supply is derived solely from the posterior descending artery (single supply), whereas the anterolateral has dual supply.",
+        "incorrect_rationales": [
+          "Option A leads to hemopericardium, cardiac tamponade, and pulseless electrical activity, not a mitral regurgitation murmur.",
+          "Option B causes an interventricular septal rupture, which produces a holosystolic murmur heard best at the left lower sternal border, often with a palpable thrill.",
+          "Option D is incorrect due to the dual blood supply (LAD and LCx) making it structurally resilient.",
+          "Option E is a complication associated with infective endocarditis or aortic dissection, not an ischemic infarction."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q5",
+      "discipline": "Physiology",
+      "system": "Renal",
+      "vignette": "A 14-year-old boy is brought to the emergency department with severe abdominal pain, nausea, and deep, rapid breathing. His parents note polyuria and polydipsia over the past two weeks. Laboratory findings reveal a serum glucose of 450 mg/dL, arterial pH of 7.15, and positive serum ketones. Total body potassium stores are significantly depleted, yet the initial laboratory report indicates a serum potassium level of 5.2 mEq/L. Which of the following processes best explains this laboratory finding?",
+      "options": [
+        "Upregulation of renal medullary potassium reabsorption",
+        "Extracellular shift of potassium ions in exchange for hydrogen ions",
+        "Increased insulin-mediated transport into skeletal muscle",
+        "Aldosterone deficiency secondary to metabolic acidosis",
+        "Spurious elevation due to intravascular hemolysis"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Explain the relationship between severe acidemia and extracellular potassium shifts in DKA.",
+        "correct_rationale": "Option B is correct. In diabetic ketoacidosis (DKA), profound extracellular accumulation of hydrogen ions ($H^+$) drives a cellular buffering mechanism: $H^+$ moves into cells, forcing potassium ($K^+$) out into the extracellular fluid. Concurrently, the lack of insulin prevents $K^+$ from being driven into cells via the $Na^+/K^+$ ATPase pump. This creates a paradoxically normal or elevated serum potassium level despite profound total-body potassium depletion from osmotic diuresis.",
+        "incorrect_rationales": [
+          "Option A is incorrect because profound osmotic diuresis caused by glycosuria promotes massive renal excretion, not conservation, of potassium.",
+          "Option C is incorrect because insulin deficiency is the root cause of DKA; active insulin would drive potassium into cells, lowering serum levels.",
+          "Option D is incorrect as aldosterone pathways are highly active in response to volume depletion to retain sodium at the expense of potassium.",
+          "Option E describes pseudohyperkalemia, which is a collection artifact rather than the pathophysiological consequence of systemic acidemia."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    }
+  ]
+}
