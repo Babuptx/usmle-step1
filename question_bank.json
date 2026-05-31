@@ -389,6 +389,386 @@
       },
       "has_exhibit": false,
       "exhibit_url": ""
+    },
+    {
+      "id": "q26",
+      "discipline": "Biostatistics",
+      "system": "Multisystem",
+      "vignette": "A new screening test for a rare type of pancreatic cancer is evaluated in a study of 10,000 individuals. The prevalence of this cancer in the population is 1%. The test has a sensitivity of 90% and a specificity of 95%. A 55-year-old man takes the test and receives a positive result. Which of the following values most closely represents the probability that he actually has the disease?",
+      "options": [
+        "15%",
+        "50%",
+        "85%",
+        "90%",
+        "95%"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Calculate the Positive Predictive Value (PPV) and understand how prevalence affects it.",
+        "correct_rationale": "Option A is correct. The probability that a patient with a positive test actually has the disease is the Positive Predictive Value (PPV) = True Positives (TP) / (True Positives + False Positives (FP)). Out of 10,000 people, 1% have the disease (100 people). With 90% sensitivity, there are 90 TP. Out of the 9,900 healthy people, the test has 95% specificity, meaning a 5% false positive rate (495 FP). PPV = 90 / (90 + 495) = 90 / 585 = ~15.3%. Therefore, despite high sensitivity and specificity, the rarity of the disease makes the PPV very low.",
+        "incorrect_rationales": [
+          "Option B, C, D, and E are mathematically incorrect based on a 2x2 table calculation."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q27",
+      "discipline": "Microbiology",
+      "system": "Hepatic",
+      "vignette": "A 32-year-old medical resident suffers a needle-stick injury while drawing blood from a patient with active Hepatitis B. The resident is evaluated by occupational health. Her serology returns as follows: HBsAg negative, Anti-HBs positive, Anti-HBc (IgG and IgM) negative, HBeAg negative. What is the correct interpretation of these findings?",
+      "options": [
+        "Acute Hepatitis B infection",
+        "Chronic Hepatitis B infection",
+        "Recovery from prior Hepatitis B infection",
+        "Immunity due to Hepatitis B vaccination",
+        "Window period of Hepatitis B infection"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Interpret Hepatitis B serology correctly.",
+        "correct_rationale": "Option D is correct. The patient has isolated Anti-HBs (antibodies to the surface antigen) with negative Anti-HBc (antibodies to the core antigen). This profile indicates immunity strictly acquired through vaccination. The vaccine contains recombinant HBsAg only, so the body never sees the core antigen.",
+        "incorrect_rationales": [
+          "Option A would have positive HBsAg and positive Anti-HBc IgM.",
+          "Option B would have positive HBsAg for >6 months and positive Anti-HBc IgG.",
+          "Option C would have positive Anti-HBs AND positive Anti-HBc IgG, indicating the immune system fought off the entire native virus.",
+          "Option E (window period) would be negative for both HBsAg and Anti-HBs, with only Anti-HBc IgM present."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q28",
+      "discipline": "Pharmacology",
+      "system": "Multisystem",
+      "vignette": "A 45-year-old man with HIV is started on a new highly active antiretroviral therapy (HAART) regimen. Two weeks later, he complains of vivid, disturbing dreams, insomnia, and dizziness. Which of the following antiretroviral medications is most likely responsible for these specific central nervous system side effects?",
+      "options": [
+        "Tenofovir",
+        "Zidovudine",
+        "Efavirenz",
+        "Ritonavir",
+        "Raltegravir"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify the unique adverse effects of specific antiretroviral drugs.",
+        "correct_rationale": "Option C is correct. Efavirenz is a non-nucleoside reverse transcriptase inhibitor (NNRTI) well known for its prominent central nervous system side effects, including dizziness, insomnia, vivid dreams/nightmares, and exacerbation of psychiatric symptoms (depression).",
+        "incorrect_rationales": [
+          "Option A (Tenofovir) is an NRTI known for renal toxicity and decreased bone mineral density.",
+          "Option B (Zidovudine) is an NRTI known for bone marrow suppression (anemia, neutropenia).",
+          "Option D (Ritonavir) is a protease inhibitor/booster known for GI intolerance and metabolic syndrome.",
+          "Option E (Raltegravir) is an integrase inhibitor known for myopathy and elevated creatine kinase."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q29",
+      "discipline": "Psychiatry",
+      "system": "Behavioral",
+      "vignette": "A 22-year-old college student is brought to the psychiatrist by his parents. Over the past 4 months, he has become increasingly isolated, stopped attending classes, and believes the university administration is broadcasting his thoughts over the campus radio. He also reports hearing two voices arguing about him. He has no history of drug use or mood symptoms. What is the most appropriate diagnosis?",
+      "options": [
+        "Schizophrenia",
+        "Schizoaffective disorder",
+        "Schizophreniform disorder",
+        "Brief psychotic disorder",
+        "Delusional disorder"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Differentiate psychotic disorders based on symptom duration.",
+        "correct_rationale": "Option C is correct. The patient exhibits positive symptoms of psychosis (delusions, auditory hallucinations) and negative symptoms (social withdrawal, avolition). The crucial diagnostic key is the timeline. His symptoms have been present for 4 months. Schizophreniform disorder is diagnosed when symptoms last between 1 month and 6 months.",
+        "incorrect_rationales": [
+          "Option A requires symptoms to be present for greater than 6 months.",
+          "Option B requires the presence of a major mood episode (mania or depression) concurrent with the psychosis.",
+          "Option D requires symptoms to last less than 1 month and fully resolve.",
+          "Option E involves non-bizarre delusions without prominent hallucinations or negative symptoms."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q30",
+      "discipline": "Ethics",
+      "system": "Multisystem",
+      "vignette": "A 35-year-old pregnant woman at 34 weeks gestation is involved in a severe motor vehicle collision. She is rushed to the ED with massive internal bleeding and requires an emergent blood transfusion to save her life and the life of her fetus. She is conscious and alert, and explicitly refuses the blood transfusion, stating it violates her religious beliefs as a Jehovah's Witness. Which of the following is the most appropriate action for the physician?",
+      "options": [
+        "Administer the blood transfusion to save the life of the viable fetus.",
+        "Obtain a court order to administer the blood transfusion.",
+        "Respect the patient's autonomy and withhold the blood transfusion.",
+        "Wait until the patient loses consciousness, then transfuse under implied consent.",
+        "Transfuse only the volume absolutely necessary to stabilize maternal vitals."
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Apply the principles of patient autonomy in the context of religious refusal of life-saving care.",
+        "correct_rationale": "Option C is correct. A competent adult has the absolute right to refuse any medical treatment, even if that refusal will directly result in their death (or the death of their fetus). While the physician must fully explain the consequences of refusal, the patient's autonomy overrides the physician's duty of beneficence. In the United States, maternal autonomy generally supersedes fetal rights regarding forced medical interventions on the mother's body.",
+        "incorrect_rationales": [
+          "Option A, Option B, and Option E violate the ethical and legal principle of patient autonomy and constitute battery.",
+          "Option D is unethical; implied consent only applies in emergencies when a patient's prior wishes are *unknown*. Because she explicitly refused while competent, that refusal stands even if she loses consciousness."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q31",
+      "discipline": "Pathology",
+      "system": "Renal",
+      "vignette": "A 40-year-old man presents with hemoptysis and decreasing urine output. Laboratory studies show a BUN of 45 mg/dL and creatinine of 3.2 mg/dL. Urinalysis reveals dysmorphic red blood cells and red blood cell casts. A renal biopsy is performed, and immunofluorescence demonstrates a smooth, linear deposition of IgG along the glomerular basement membrane. Which of the following autoantibodies is most likely responsible for this condition?",
+      "options": [
+        "Anti-neutrophil cytoplasmic antibodies (c-ANCA)",
+        "Anti-nuclear antibodies (ANA)",
+        "Anti-glomerular basement membrane (Anti-GBM) antibodies",
+        "Anti-streptolysin O (ASO) antibodies",
+        "Anti-phospholipase A2 receptor (PLA2R) antibodies"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify the immunofluorescence pattern and antibody involved in Goodpasture syndrome.",
+        "correct_rationale": "Option C is correct. The patient has rapidly progressive glomerulonephritis (RPGN) and alveolar hemorrhage (hemoptysis), a combination known as pulmonary-renal syndrome. The key finding is the smooth, *linear* immunofluorescence pattern of IgG along the basement membrane, which is pathognomonic for Goodpasture syndrome. This is caused by autoantibodies directed against the alpha-3 chain of type IV collagen in the GBM and alveolar basement membrane.",
+        "incorrect_rationales": [
+          "Option A is associated with Granulomatosis with polyangiitis (Wegener's), which causes a 'pauci-immune' (negative) immunofluorescence pattern.",
+          "Option B is associated with Lupus nephritis, which shows a 'lumpy-bumpy' or granular pattern.",
+          "Option D is associated with PSGN, which also shows a granular, 'lumpy-bumpy' pattern.",
+          "Option E is associated with Primary Membranous Nephropathy, which causes nephrotic syndrome, not RPGN."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q32",
+      "discipline": "Physiology",
+      "system": "Endocrine",
+      "vignette": "A 15-year-old girl with Type 1 Diabetes is admitted to the ICU with diabetic ketoacidosis (DKA). Her initial arterial blood gas reveals a pH of 7.12, pCO2 of 22 mmHg, and HCO3- of 8 mEq/L. Her calculated anion gap is 24. She is treated with IV fluids and an insulin infusion. Six hours later, her anion gap has closed (normalized to 10), but her pH remains low at 7.25, and her serum chloride is markedly elevated. Which of the following best explains her current acid-base status?",
+      "options": [
+        "Lactic acidosis secondary to tissue hypoperfusion",
+        "Respiratory fatigue leading to CO2 retention",
+        "Normal anion gap metabolic acidosis from renal bicarbonate loss",
+        "Normal anion gap metabolic acidosis from IV fluid resuscitation",
+        "Incomplete suppression of hepatic ketogenesis"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Understand the transition from high anion gap to normal anion gap acidosis during DKA treatment.",
+        "correct_rationale": "Option D is correct. During the successful treatment of DKA, the anion gap closes as insulin shuts down ketogenesis and the existing ketones are metabolized. However, patients frequently develop a hyperchloremic, normal anion gap metabolic acidosis. This occurs primarily because massive resuscitation with normal saline (0.9% NaCl) delivers a huge load of chloride. The kidneys excrete the excess ketoanions in the urine alongside sodium and potassium, rather than regenerating bicarbonate, leaving the hyperchloremic state.",
+        "incorrect_rationales": [
+          "Option A and Option E would maintain a *high* anion gap.",
+          "Option B would cause a primary respiratory acidosis, characterized by an *elevated* pCO2.",
+          "Option C describes the mechanism of Renal Tubular Acidosis (RTA) or severe diarrhea, not the typical fluid-resuscitation mechanism in treated DKA."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q33",
+      "discipline": "Pathology",
+      "system": "Rheumatology",
+      "vignette": "A 65-year-old man presents with acute, severe pain, swelling, and redness in his right knee. He has a history of osteoarthritis. Arthrocentesis is performed, and synovial fluid analysis reveals a leukocyte count of 45,000/mm3. Polarized light microscopy reveals rhomboid-shaped crystals that are weakly positively birefringent (appear blue when parallel to the compensator axis). Which of the following is the composition of these crystals?",
+      "options": [
+        "Monosodium urate",
+        "Calcium pyrophosphate dihydrate",
+        "Basic calcium phosphate",
+        "Cholesterol",
+        "Hydroxyapatite"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Differentiate pseudogout crystals from gout crystals based on morphology and birefringence.",
+        "correct_rationale": "Option B is correct. The presentation of acute monoarthritis in a large joint (like the knee) in an older adult, combined with synovial fluid showing *rhomboid-shaped, weakly positively birefringent* crystals, is diagnostic of Pseudogout. Pseudogout is caused by the deposition of calcium pyrophosphate dihydrate (CPPD) crystals.",
+        "incorrect_rationales": [
+          "Option A describes Gout crystals, which are needle-shaped and strongly *negatively* birefringent (yellow when parallel).",
+          "Option C and Option E are associated with calcific periarthritis (e.g., Milwaukee shoulder), and their crystals are extremely small, non-birefringent, and require special staining.",
+          "Option D crystals are square with notched corners and can be seen in chronic rheumatoid effusions."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q34",
+      "discipline": "Anatomy",
+      "system": "Neurology",
+      "vignette": "A 55-year-old man presents to the emergency department complaining of sudden-onset, 'worst headache of my life.' Neurological examination reveals that his right eye is deviated 'down and out.' His right pupil is dilated and non-reactive to light, and he has severe ptosis of the right eyelid. Rupture of a berry aneurysm at which of the following vascular junctions is most likely responsible for his presentation?",
+      "options": [
+        "Anterior communicating artery and anterior cerebral artery",
+        "Posterior communicating artery and internal carotid artery",
+        "Middle cerebral artery bifurcation",
+        "Basilar artery and posterior cerebral artery",
+        "Anterior inferior cerebellar artery and basilar artery"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Correlate a Cranial Nerve III palsy with a posterior communicating artery aneurysm.",
+        "correct_rationale": "Option B is correct. The patient has a subarachnoid hemorrhage ('worst headache of his life') combined with a classic right-sided Oculomotor nerve (CN III) palsy (ptosis, 'down and out' gaze, and a blown pupil). The parasympathetic fibers governing pupillary constriction run on the *outside* of CN III, making them highly susceptible to compression. The most common cause of a compressive CN III palsy is an expanding or ruptured berry aneurysm at the junction of the posterior communicating artery (PCoA) and the internal carotid artery.",
+        "incorrect_rationales": [
+          "Option A is the most common site of berry aneurysms overall, but rupture typically causes bitemporal hemianopsia (optic chiasm compression) or leg ischemia, not a CN III palsy.",
+          "Option C rupture causes contralateral face and arm weakness/aphasia.",
+          "Option D and Option E do not classically compress CN III."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q35",
+      "discipline": "Pharmacology",
+      "system": "Reproductive",
+      "vignette": "A 60-year-old postmenopausal woman with a history of deep vein thrombosis is evaluated for osteoporosis. Her DEXA scan shows a T-score of -2.6 in the lumbar spine. Her physician considers prescribing a selective estrogen receptor modulator (SERM) to increase bone density. If raloxifene is chosen over tamoxifen, which of the following adverse outcomes is the patient specifically avoiding?",
+      "options": [
+        "Hot flashes",
+        "Thromboembolic events",
+        "Endometrial hyperplasia and carcinoma",
+        "Ovarian cancer",
+        "Breast cancer"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Distinguish between the tissue-specific effects of raloxifene and tamoxifen.",
+        "correct_rationale": "Option C is correct. Both tamoxifen and raloxifene are SERMs. They act as estrogen antagonists in the breast (protecting against breast cancer) and agonists in the bone (preventing osteoporosis). However, tamoxifen acts as an estrogen *agonist* in the endometrium, increasing the risk of endometrial hyperplasia and cancer. Raloxifene, conversely, acts as an *antagonist* in the endometrium, making it a safer choice for osteoporosis treatment regarding uterine cancer risk.",
+        "incorrect_rationales": [
+          "Option A and Option B: Both tamoxifen and raloxifene *increase* the risk of hot flashes and thromboembolic events (like DVT), so choosing raloxifene does not avoid these risks.",
+          "Option D is not significantly influenced by these drugs.",
+          "Option E: Both drugs are protective against estrogen-receptor-positive breast cancer."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q36",
+      "discipline": "Physiology",
+      "system": "Cardiovascular",
+      "vignette": "A 45-year-old man is brought to the ED after suffering a massive pulmonary embolism. He is hypotensive, tachycardic, and tachypneic. Right heart catheterization is performed. Which of the following sets of hemodynamic parameters would most likely be observed in this patient? (Parameters: Cardiac Output / Systemic Vascular Resistance / Central Venous Pressure)",
+      "options": [
+        "Decreased / Increased / Decreased",
+        "Decreased / Increased / Increased",
+        "Increased / Decreased / Decreased",
+        "Decreased / Decreased / Decreased",
+        "Increased / Increased / Increased"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the hemodynamic profile of obstructive shock.",
+        "correct_rationale": "Option B is correct. A massive pulmonary embolism causes obstructive shock. The clot blocks blood flow from the right ventricle into the lungs, preventing it from reaching the left heart. Therefore, left-sided Cardiac Output (CO) is decreased. In response to hypotension, the sympathetic nervous system kicks in, causing profound vasoconstriction, leading to Increased Systemic Vascular Resistance (SVR). Because blood backs up behind the clot in the right heart and venous system, Central Venous Pressure (CVP/JVP) is significantly Increased.",
+        "incorrect_rationales": [
+          "Option A describes Hypovolemic shock (hemorrhage/dehydration), where CVP is decreased due to empty vessels.",
+          "Option C describes early Distributive shock (sepsis/anaphylaxis), where profound vasodilation lowers SVR, leading to a compensatory increase in CO.",
+          "Option D describes neurogenic shock.",
+          "Option E does not match any standard shock profile."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q37",
+      "discipline": "Pathology",
+      "system": "Pulmonary",
+      "vignette": "A 42-year-old man, who has never smoked, presents with progressively worsening dyspnea on exertion. Physical examination reveals an enlarged, barrel-shaped chest and decreased breath sounds bilaterally. Pulmonary function tests show a decreased FEV1/FVC ratio and an increased total lung capacity. Blood tests reveal mildly elevated liver enzymes. A genetic deficiency is suspected. The emphysematous changes in this patient's lungs are most likely to predominantly involve which portion of the pulmonary acinus?",
+      "options": [
+        "Centriacinar primarily in the upper lobes",
+        "Centriacinar primarily in the lower lobes",
+        "Panacinar primarily in the lower lobes",
+        "Panacinar primarily in the upper lobes",
+        "Paraseptal adjacent to the pleura"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Differentiate the lung pathology of Alpha-1-antitrypsin deficiency from smoking-induced emphysema.",
+        "correct_rationale": "Option C is correct. The patient has severe, early-onset emphysema without a smoking history, accompanied by liver abnormalities. This is the classic presentation of Alpha-1-antitrypsin (AAT) deficiency. Lack of AAT allows uninhibited neutrophil elastase to destroy alveolar walls. The resulting emphysema is *panacinar* (affecting the entire respiratory acinus) and is most severe in the *lower lobes* (due to higher blood perfusion bringing more neutrophils to the bases).",
+        "incorrect_rationales": [
+          "Option A describes smoking-induced emphysema, which is centriacinar (affecting respiratory bronchioles first) and concentrates in the upper lobes (where smoke accumulates).",
+          "Option B and Option D are incorrect anatomical distributions.",
+          "Option E describes paraseptal emphysema, which can lead to spontaneous pneumothorax in young adults."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q38",
+      "discipline": "Immunology",
+      "system": "Multisystem",
+      "vignette": "A 28-year-old healthcare worker receives a tuberculin skin test (PPD) as part of an annual screening. Forty-eight hours later, she develops a 16 mm area of induration at the injection site. The cellular process driving this specific localized reaction requires the interaction of which of the following cell types and signaling molecules?",
+      "options": [
+        "Mast cells and IgE",
+        "B-cells and IgG activating complement",
+        "Neutrophils and Immune Complexes",
+        "Th1 CD4+ cells and Macrophages via IFN-gamma",
+        "Cytotoxic CD8+ cells and MHC-I"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Identify the mechanism of a Type IV (Delayed) Hypersensitivity reaction.",
+        "correct_rationale": "Option D is correct. The tuberculin (PPD) test is a classic example of a Type IV, cell-mediated (delayed) hypersensitivity reaction. It does not involve antibodies. Instead, previously sensitized Th1 CD4+ T-cells recognize the injected antigen presented by antigen-presenting cells. The Th1 cells then secrete Interferon-gamma (IFN-gamma), which recruits and powerfully activates macrophages, leading to the localized induration and erythema seen 48-72 hours later.",
+        "incorrect_rationales": [
+          "Option A describes a Type I (immediate) hypersensitivity reaction (e.g., anaphylaxis, asthma).",
+          "Option B describes a Type II (cytotoxic) hypersensitivity reaction (e.g., autoimmune hemolytic anemia).",
+          "Option C describes a Type III (immune complex) hypersensitivity reaction (e.g., serum sickness, Arthus reaction).",
+          "Option E describes direct CD8+ cytotoxicity, which is involved in viral killing and graft rejection, but not the macrophage-driven induration of a PPD test."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q39",
+      "discipline": "Pharmacology",
+      "system": "Hematology",
+      "vignette": "A 16-year-old African American boy with a history of sickle cell anemia is admitted to the hospital for his third severe vaso-occlusive pain crisis this year. His hematologist recommends starting a daily medication to reduce the frequency of these crises. The prescribed medication exerts its primary therapeutic effect in this disease by which of the following mechanisms?",
+      "options": [
+        "Inhibiting ribonucleotide reductase to increase fetal hemoglobin levels",
+        "Directly preventing the polymerization of deoxygenated Hemoglobin S",
+        "Chelating excess intracellular iron",
+        "Inhibiting cyclooxygenase to reduce platelet aggregation",
+        "Stimulating erythropoietin receptors in the bone marrow"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Understand the mechanism of action of Hydroxyurea in the treatment of Sickle Cell Anemia.",
+        "correct_rationale": "Option A is correct. The drug of choice to reduce vaso-occlusive crises in sickle cell anemia is Hydroxyurea. Hydroxyurea inhibits the enzyme ribonucleotide reductase, which arrests cells in the S-phase. More importantly for sickle cell patients, this stress pathway causes a shift in gene expression, leading to a significant increase in the production of fetal hemoglobin (HbF). Because HbF cannot polymerize with HbS, it physically interrupts the sickling process.",
+        "incorrect_rationales": [
+          "Option B describes the theoretical mechanism of agents like voxelotor, not the primary mechanism of hydroxyurea.",
+          "Option C describes deferoxamine, used for iron overload from chronic transfusions.",
+          "Option D describes aspirin.",
+          "Option E describes exogenous EPO, which would not stop sickling."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q40",
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "vignette": "A 45-year-old man complains of progressive difficulty swallowing both solids and liquids over the past year. He frequently regurgitates undigested food and experiences nighttime coughing. Barium swallow reveals a dilated esophagus tapering to a 'bird's beak' appearance at the lower esophageal sphincter (LES). Esophageal manometry shows absent peristalsis and failure of the LES to relax. This patient's condition is primarily caused by a loss of which of the following?",
+      "options": [
+        "Skeletal muscle in the upper third of the esophagus",
+        "Stratified squamous epithelium in the distal esophagus",
+        "Inhibitory ganglion cells in the myenteric (Auerbach) plexus",
+        "Excitatory vagal input to the muscularis mucosae",
+        "Submucosal (Meissner) plexus innervation"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify the pathophysiology of Achalasia.",
+        "correct_rationale": "Option C is correct. The patient's clinical presentation (dysphagia to solids *and* liquids), barium swallow ('bird's beak'), and manometry findings are diagnostic of Achalasia. Primary achalasia is caused by the idiopathic degeneration and loss of inhibitory ganglion cells (which normally secrete nitric oxide and VIP to relax the sphincter) within the myenteric (Auerbach) plexus of the esophageal wall. Without this inhibition, the LES remains tightly contracted and peristalsis fails.",
+        "incorrect_rationales": [
+          "Option A would affect only the upper portion (e.g., myasthenia gravis or stroke) and doesn't explain the LES failure.",
+          "Option B describes Barrett esophagus, caused by GERD, not achalasia.",
+          "Option D is incorrect; the problem is a loss of *inhibition*, not a loss of excitation.",
+          "Option E (Meissner plexus) controls glandular secretions and blood flow, not the major muscular contractions of peristalsis."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
     }
   ]
 }

@@ -45,11 +45,25 @@ function startTimer() {
 // Render a Question
 function renderQuestion(index) {
     if (!questionData || questionData.length === 0) return;
+    
+    // Define 'q' FIRST so the rest of the code knows what question we are looking at!
     const q = questionData[index];
     
     // Update Header & Text
     document.getElementById('question-number').innerText = `Question ${index + 1}`;
     document.getElementById('vignette-text').innerText = q.vignette;
+    
+    // --- Image Exhibit Logic ---
+    const exhibitContainer = document.getElementById('exhibit-container');
+    const exhibitImage = document.getElementById('exhibit-image');
+    
+    if (q.has_exhibit && q.exhibit_url) {
+        exhibitImage.src = q.exhibit_url;
+        exhibitContainer.classList.remove('hidden');
+    } else {
+        exhibitContainer.classList.add('hidden');
+    }
+    // --------------------------------
     
     // Update Flag Button UI
     const flagBtn = document.getElementById('btn-flag');
@@ -224,3 +238,16 @@ document.getElementById('btn-end-block').addEventListener('click', endBlock);
 
 // Boot up
 window.onload = loadQuestions;
+
+// --- Lab Values Modal Logic ---
+const labModal = document.getElementById('lab-modal');
+const btnLabValues = document.getElementById('btn-lab-values');
+const btnCloseModal = document.getElementById('btn-close-modal');
+
+if (btnLabValues && labModal && btnCloseModal) {
+    btnLabValues.addEventListener('click', () => labModal.classList.remove('hidden'));
+    btnCloseModal.addEventListener('click', () => labModal.classList.add('hidden'));
+    window.addEventListener('click', (event) => {
+        if (event.target === labModal) labModal.classList.add('hidden');
+    });
+}
