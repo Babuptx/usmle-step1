@@ -3,6 +3,7 @@ let questionData = [];
 let currentQuestionIndex = 0;
 let userAnswers = {}; // Stores { questionIndex: selectedOptionIndex }
 let flaggedQuestions = new Set();
+let revealedQuestions = new Set(); // Tracks questions where 'Show Answer' was clicked
 let isReviewMode = false;
 
 // Timer State
@@ -46,8 +47,8 @@ function startTimer() {
 function renderQuestion(index) {
     if (!questionData || questionData.length === 0) return;
     
-    // Define 'q' FIRST so the rest of the code knows what question we are looking at!
     const q = questionData[index];
+    const isRevealed = revealedQuestions.has(index);
     
     // Update Header & Text
     document.getElementById('question-number').innerText = `Question ${index + 1}`;
@@ -84,23 +85,24 @@ function renderQuestion(index) {
         label.className = 'option-label';
         
         const isChecked = userAnswers[index] === i ? 'checked' : '';
-        const isDisabled = isReviewMode ? 'disabled' : '';
+        // Disable option if in review mode OR if the answer was revealed via tutor mode
+        const isDisabled = (isReviewMode || isRevealed) ? 'disabled' : '';
         
         label.innerHTML = `
             <input type="radio" name="q_options" value="${i}" ${isChecked} ${isDisabled}>
             <span class="option-text">${opt}</span>
         `;
 
-        // Listen for selection changes (only if not in review mode)
-        if (!isReviewMode) {
+        // Listen for selection changes (only if not locked by review or reveal)
+        if (!isReviewMode && !isRevealed) {
             label.querySelector('input').addEventListener('change', (e) => {
                 userAnswers[index] = parseInt(e.target.value);
                 updateSidebarGrid();
             });
         }
 
-        // Apply Grading Styles if in Review Mode
-        if (isReviewMode) {
+        // Apply Grading Styles if in Review Mode OR if Answer is Revealed
+        if (isReviewMode || isRevealed) {
             if (i === q.correct_index) {
                 label.classList.add('correct-answer');
             } else if (userAnswers[index] === i && i !== q.correct_index) {
@@ -111,9 +113,9 @@ function renderQuestion(index) {
         optionsContainer.appendChild(label);
     });
     
-    // Render Explanation if in Review Mode
+    // Render Explanation if in Review Mode OR if Revealed
     const expContainer = document.getElementById('explanation-container');
-    if (isReviewMode) {
+    if (isReviewMode || isRevealed) {
         expContainer.classList.remove('hidden');
         let wrongRationalesHTML = q.explanation.incorrect_rationales.map(r => `<li>${r}</li>`).join('');
         
@@ -137,6 +139,27 @@ function renderQuestion(index) {
         nextBtn.innerText = 'Next ►';
         nextBtn.classList.remove('danger');
         if(index === questionData.length - 1 && isReviewMode) nextBtn.disabled = true;
+    }
+
+    // Update Show Answer Button UI
+    const btnShowAnswer = document.getElementById('btn-show-answer');
+    if (btnShowAnswer) {
+        if (isReviewMode) {
+            btnShowAnswer.classList.add('hidden');
+        } else {
+            btnShowAnswer.classList.remove('hidden');
+            if (isRevealed) {
+                btnShowAnswer.innerText = "Answer Revealed";
+                btnShowAnswer.style.opacity = "0.5";
+                btnShowAnswer.disabled = true;
+                btnShowAnswer.style.cursor = "not-allowed";
+            } else {
+                btnShowAnswer.innerText = "👁 Show Answer";
+                btnShowAnswer.style.opacity = "1";
+                btnShowAnswer.disabled = false;
+                btnShowAnswer.style.cursor = "pointer";
+            }
+        }
     }
 }
 
@@ -189,6 +212,19 @@ document.getElementById('btn-flag').addEventListener('click', () => {
     renderQuestion(currentQuestionIndex);
     updateSidebarGrid();
 });
+
+// Show Answer Logic (Tutor Mode)
+const btnShowAnswerEvent = document.getElementById('btn-show-answer');
+if (btnShowAnswerEvent) {
+    btnShowAnswerEvent.addEventListener('click', () => {
+        if (userAnswers[currentQuestionIndex] === undefined) {
+            alert("Please select an answer first to test your knowledge!");
+            return;
+        }
+        revealedQuestions.add(currentQuestionIndex);
+        renderQuestion(currentQuestionIndex);
+    });
+}
 
 // End Block / Grade Test
 function endBlock() {
