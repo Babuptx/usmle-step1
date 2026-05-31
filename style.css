@@ -208,3 +208,27 @@ body {
     padding-left: 20px;
 }
 .rationale-list li { margin-bottom: 10px; }
+/* --- Block Selector Styles --- */
+.block-selector-container {
+    padding: 15px;
+    background-color: #e9ecef;
+    border-bottom: 2px solid #bdc3c7;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.block-select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.block-select:focus {
+    outline: none;
+    border-color: #003366;
+}

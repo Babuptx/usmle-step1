@@ -1,38 +1,81 @@
 // Global State
 let questionData = [];
 let currentQuestionIndex = 0;
-let userAnswers = {}; // Stores { questionIndex: selectedOptionIndex }
+let userAnswers = {}; 
 let flaggedQuestions = new Set();
-let revealedQuestions = new Set(); // Tracks questions where 'Show Answer' was clicked
+let revealedQuestions = new Set(); 
 let isReviewMode = false;
+let currentBlockFile = 'question_bank.json';
 
 // Timer State
-let timeRemaining = 3600; // 60 minutes in seconds
+let timeRemaining = 3600; 
 let timerInterval;
 
-// Initialize Exam
-async function loadQuestions() {
+// Initialize Exam Block
+async function loadBlock(filename) {
     try {
-        const response = await fetch('question_bank.json');
-        const data = await response.json();
-        questionData = data.questions;
+        // 1. Reset all global states for the new block
+        currentQuestionIndex = 0;
+        userAnswers = {};
+        flaggedQuestions.clear();
+        revealedQuestions.clear();
+        isReviewMode = false;
         
-        document.getElementById('block-title').innerText = data.block_title;
-        renderQuestion(currentQuestionIndex);
-        generateNavigationGrid();
-        startTimer();
+        // 2. Reset and restart the timer
+        clearInterval(timerInterval);
+        timeRemaining = 3600; 
+        
+        // 3. Fetch the new JSON file
+        const response = await fetch(filename);
+        const data = await response.json();
+        questionData = data.questions || [];
+        
+        // 4. Update the UI
+        document.getElementById('block-title').innerText = data.block_title || "USMLE Step 1 Mock Exam";
+        
+        // Ensure End Block button is visible again
+        const btnEndBlock = document.getElementById('btn-end-block');
+        if(btnEndBlock) btnEndBlock.classList.remove('hidden');
+
+        // 5. Render questions if the file has data
+        if (questionData.length > 0) {
+            renderQuestion(currentQuestionIndex);
+            generateNavigationGrid();
+            startTimer();
+        } else {
+            document.getElementById('vignette-text').innerText = "This block is currently empty. Add questions to the JSON file!";
+            document.getElementById('options-container').innerHTML = '';
+            document.getElementById('question-grid').innerHTML = '';
+            document.getElementById('question-number').innerText = "No Questions Found";
+        }
     } catch (error) {
         console.error("Error loading question bank:", error);
-        document.getElementById('vignette-text').innerText = "System Error: Failed to load question bank.";
+        document.getElementById('vignette-text').innerText = "System Error: Failed to load block data. Ensure the JSON file is formatted correctly.";
     }
 }
+
+// Listen for Dropdown Changes
+document.getElementById('block-select').addEventListener('change', (e) => {
+    const selectedFile = e.target.value;
+    
+    // Warn the user before wiping their current progress
+    const confirmSwitch = confirm("Are you sure you want to switch blocks? Your current progress and timer will be reset.");
+    
+    if (confirmSwitch) {
+        currentBlockFile = selectedFile;
+        loadBlock(currentBlockFile);
+    } else {
+        // If they cancel, revert the dropdown back to the file they are currently on
+        e.target.value = currentBlockFile; 
+    }
+});
 
 // Timer Logic
 function startTimer() {
     timerInterval = setInterval(() => {
         if (timeRemaining <= 0) {
             clearInterval(timerInterval);
-            endBlock(); // Auto-submit when time is up
+            endBlock(); 
             return;
         }
         timeRemaining--;
@@ -50,11 +93,10 @@ function renderQuestion(index) {
     const q = questionData[index];
     const isRevealed = revealedQuestions.has(index);
     
-    // Update Header & Text
     document.getElementById('question-number').innerText = `Question ${index + 1}`;
     document.getElementById('vignette-text').innerText = q.vignette;
     
-    // --- Image Exhibit Logic ---
+    // Image Exhibit Logic
     const exhibitContainer = document.getElementById('exhibit-container');
     const exhibitImage = document.getElementById('exhibit-image');
     
@@ -64,9 +106,8 @@ function renderQuestion(index) {
     } else {
         exhibitContainer.classList.add('hidden');
     }
-    // --------------------------------
     
-    // Update Flag Button UI
+    // Flag Button UI
     const flagBtn = document.getElementById('btn-flag');
     if (flaggedQuestions.has(index)) {
         flagBtn.innerText = '⚑ Unflag';
@@ -85,7 +126,6 @@ function renderQuestion(index) {
         label.className = 'option-label';
         
         const isChecked = userAnswers[index] === i ? 'checked' : '';
-        // Disable option if in review mode OR if the answer was revealed via tutor mode
         const isDisabled = (isReviewMode || isRevealed) ? 'disabled' : '';
         
         label.innerHTML = `
@@ -93,7 +133,6 @@ function renderQuestion(index) {
             <span class="option-text">${opt}</span>
         `;
 
-        // Listen for selection changes (only if not locked by review or reveal)
         if (!isReviewMode && !isRevealed) {
             label.querySelector('input').addEventListener('change', (e) => {
                 userAnswers[index] = parseInt(e.target.value);
@@ -101,7 +140,6 @@ function renderQuestion(index) {
             });
         }
 
-        // Apply Grading Styles if in Review Mode OR if Answer is Revealed
         if (isReviewMode || isRevealed) {
             if (i === q.correct_index) {
                 label.classList.add('correct-answer');
@@ -109,11 +147,10 @@ function renderQuestion(index) {
                 label.classList.add('incorrect-answer');
             }
         }
-        
         optionsContainer.appendChild(label);
     });
     
-    // Render Explanation if in Review Mode OR if Revealed
+    // Render Explanation
     const expContainer = document.getElementById('explanation-container');
     if (isReviewMode || isRevealed) {
         expContainer.classList.remove('hidden');
@@ -129,7 +166,7 @@ function renderQuestion(index) {
         expContainer.classList.add('hidden');
     }
     
-    // Update Footer Navigation state
+    // Footer Navigation state
     document.getElementById('btn-prev').disabled = index === 0;
     const nextBtn = document.getElementById('btn-next');
     if (index === questionData.length - 1 && !isReviewMode) {
@@ -141,7 +178,7 @@ function renderQuestion(index) {
         if(index === questionData.length - 1 && isReviewMode) nextBtn.disabled = true;
     }
 
-    // Update Show Answer Button UI
+    // Show Answer Button UI
     const btnShowAnswer = document.getElementById('btn-show-answer');
     if (btnShowAnswer) {
         if (isReviewMode) {
@@ -190,10 +227,8 @@ function updateSidebarGrid() {
         const btn = document.getElementById(`grid-btn-${i}`);
         if (!btn) return;
         
-        // Reset classes
         btn.className = 'nav-grid-btn'; 
         
-        // Apply states
         if (i === currentQuestionIndex) btn.classList.add('active');
         if (userAnswers[i] !== undefined) btn.classList.add('answered');
         if (flaggedQuestions.has(i)) btn.classList.add('flagged');
@@ -213,7 +248,7 @@ document.getElementById('btn-flag').addEventListener('click', () => {
     updateSidebarGrid();
 });
 
-// Show Answer Logic (Tutor Mode)
+// Show Answer Logic
 const btnShowAnswerEvent = document.getElementById('btn-show-answer');
 if (btnShowAnswerEvent) {
     btnShowAnswerEvent.addEventListener('click', () => {
@@ -235,9 +270,8 @@ function endBlock() {
 
     clearInterval(timerInterval);
     isReviewMode = true;
-    currentQuestionIndex = 0; // Jump back to Q1 for review
+    currentQuestionIndex = 0; 
     
-    // Calculate basic score
     let score = 0;
     questionData.forEach((q, i) => {
         if (userAnswers[i] === q.correct_index) score++;
@@ -245,7 +279,6 @@ function endBlock() {
     
     alert(`Block Completed! Score: ${score} / ${questionData.length} (${Math.round((score/questionData.length)*100)}%)`);
     
-    // Switch UI to review mode
     document.getElementById('btn-end-block').classList.add('hidden');
     document.getElementById('exam-timer').innerText = "REVIEW MODE";
     renderQuestion(currentQuestionIndex);
@@ -272,10 +305,14 @@ document.getElementById('btn-prev').addEventListener('click', () => {
 
 document.getElementById('btn-end-block').addEventListener('click', endBlock);
 
-// Boot up
-window.onload = loadQuestions;
+// Boot up sequence
+window.onload = () => {
+    const initialBlock = document.getElementById('block-select').value;
+    currentBlockFile = initialBlock;
+    loadBlock(initialBlock);
+};
 
-// --- Lab Values Modal Logic ---
+// Lab Values Modal Logic
 const labModal = document.getElementById('lab-modal');
 const btnLabValues = document.getElementById('btn-lab-values');
 const btnCloseModal = document.getElementById('btn-close-modal');
