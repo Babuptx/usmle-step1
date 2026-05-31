@@ -131,7 +131,7 @@
       },
       "has_exhibit": false,
       "exhibit_url": ""
-    },  
+    },
     {
       "id": "q6",
       "discipline": "Pathology",
@@ -385,6 +385,265 @@
           "Option A is incorrect because CYP450 enzymes actually *create* the toxic metabolite; they are not depleted by it.",
           "Option B and Option E are incorrect because while these conjugation pathways get saturated, their depletion does not directly cause the necrosis; it is the buildup of NAPQI due to lack of glutathione that is fatal.",
           "Option D (N-acetylcysteine or NAC) is the *antidote* administered by physicians. It acts as a glutathione precursor and substitute, but it is not the endogenous substance depleted by the overdose."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q16",
+      "discipline": "Cardiology",
+      "system": "Cardiovascular",
+      "vignette": "A 62-year-old man presents to the emergency department complaining of crushing substernal chest pain, diaphoresis, and shortness of breath that began 45 minutes ago. His blood pressure is 110/70 mmHg, and his pulse is 55/min. An ECG is obtained and is shown in the exhibit. Occlusion of which of the following coronary arteries is most likely responsible for this patient's presentation?",
+      "options": [
+        "Left anterior descending artery",
+        "Left circumflex artery",
+        "Right coronary artery",
+        "Left main coronary artery",
+        "Obtuse marginal artery"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify an inferior STEMI on ECG and correlate it with the corresponding coronary artery occlusion.",
+        "correct_rationale": "Option C is correct. The exhibit (which should show ST-segment elevation in leads II, III, and aVF) demonstrates an acute inferior wall myocardial infarction. In approximately 80% of the population (right-dominant circulation), the inferior wall of the left ventricle is supplied by the posterior descending artery (PDA), which branches from the right coronary artery (RCA). The accompanying bradycardia is also common with RCA infarcts due to ischemia of the SA or AV nodes.",
+        "incorrect_rationales": [
+          "Option A supplies the anterior wall (ST elevations in V1-V4).",
+          "Option B supplies the lateral wall (ST elevations in I, aVL, V5-V6).",
+          "Option D occlusion usually presents with massive anterolateral ischemia, often fatal or presenting with profound cardiogenic shock.",
+          "Option E is a branch of the LCx and supplies the lateral wall."
+        ]
+      },
+      "has_exhibit": true,
+      "exhibit_url": "images/ecg.jpg"
+    },
+    {
+      "id": "q17",
+      "discipline": "Microbiology",
+      "system": "Dermatology",
+      "vignette": "A 24-year-old woman presents to the clinic with fever, fatigue, and a rash on her right thigh. She recently returned from a hiking trip in Connecticut. Physical examination reveals the lesion shown in the exhibit. If left untreated, this patient is at highest risk of developing which of the following late-stage complications?",
+      "options": [
+        "Aortic aneurysm",
+        "Bilateral facial nerve palsy",
+        "Mitral valve prolapse",
+        "Squamous cell carcinoma",
+        "Hepatic cirrhosis"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize erythema migrans and identify the complications of late-stage Lyme disease.",
+        "correct_rationale": "Option B is correct. The exhibit shows 'erythema migrans' (a targetoid or bullseye rash), which is pathognomonic for early localized Lyme disease caused by the spirochete Borrelia burgdorferi, transmitted by the Ixodes tick. If untreated, early disseminated disease can cause bilateral Bell's palsy (facial nerve palsy) and AV nodal block. Late-stage disease presents with asymmetrical arthritis (often in the knee) and subacute encephalopathy.",
+        "incorrect_rationales": [
+          "Option A is a complication of tertiary syphilis (vasa vasorum endarteritis).",
+          "Option C is associated with connective tissue disorders like Marfan syndrome, not Lyme disease.",
+          "Option D is associated with chronic skin inflammation, UV exposure, or HPV, not Lyme.",
+          "Option E is associated with chronic viral hepatitis or alcohol abuse."
+        ]
+      },
+      "has_exhibit": true,
+      "exhibit_url": "images/rash.jpg"
+    },
+    {
+      "id": "q18",
+      "discipline": "Pathology",
+      "system": "Pulmonary",
+      "vignette": "A 45-year-old man presents with a high fever, productive cough with rust-colored sputum, and right-sided pleuritic chest pain. His chest X-ray is shown in the exhibit. Sputum Gram stain reveals Gram-positive diplococci. Which of the following phases of lobar pneumonia typically occurs on days 3-4 and is characterized by a massive exudate containing red blood cells, neutrophils, and fibrin?",
+      "options": [
+        "Congestion",
+        "Red hepatization",
+        "Gray hepatization",
+        "Resolution",
+        "Organization"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the distinct histopathological stages of classic lobar pneumonia.",
+        "correct_rationale": "Option B is correct. The patient has lobar pneumonia (indicated by the consolidated lobe on X-ray and rust-colored sputum), most likely due to Streptococcus pneumoniae. The stages of lobar pneumonia are: Congestion (Days 1-2: exudate with bacteria), Red hepatization (Days 3-4: exudate with RBCs, neutrophils, and fibrin making the lung grossly resemble the liver), Gray hepatization (Days 5-7: RBCs disintegrate, leaving a fibrinosuppurative exudate), and Resolution (Day 8+: macrophages clean up debris).",
+        "incorrect_rationales": [
+          "Option A occurs on days 1-2, featuring vascular engorgement and intra-alveolar fluid but few neutrophils.",
+          "Option C occurs on days 5-7, characterized by the breakdown of red blood cells.",
+          "Option D involves enzymatic digestion of the exudate by macrophages.",
+          "Option E occurs if resolution fails, leading to fibrous scarring, but is not a normal stage."
+        ]
+      },
+      "has_exhibit": true,
+      "exhibit_url": "images/xray.jpg"
+    },
+    {
+      "id": "q19",
+      "discipline": "Biochemistry",
+      "system": "Metabolic",
+      "vignette": "A neonate is found to have a severe metabolic defect resulting in intellectual disability, a musty body odor, and fair skin if left untreated. The patient is placed on a strict diet restricting a specific essential amino acid. The defective enzyme normally requires which of the following as a necessary cofactor?",
+      "options": [
+        "Vitamin B6 (Pyridoxine)",
+        "Vitamin B12 (Cobalamin)",
+        "Tetrahydrobiopterin (BH4)",
+        "Thiamine pyrophosphate (TPP)",
+        "Biotin"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify the cofactor required for Phenylalanine Hydroxylase in the context of PKU.",
+        "correct_rationale": "Option C is correct. The patient has Phenylketonuria (PKU), typically caused by a deficiency in Phenylalanine Hydroxylase (PAH), which normally converts phenylalanine to tyrosine. This reaction requires Tetrahydrobiopterin (BH4) as a cofactor. A rare, malignant variant of PKU is caused by a defect in dihydropteridine reductase, leading to BH4 deficiency, which also impairs the synthesis of neurotransmitters (dopamine, serotonin).",
+        "incorrect_rationales": [
+          "Option A is required for transamination reactions (e.g., AST, ALT) and glycogen phosphorylase.",
+          "Option B is required for methionine synthase and methylmalonyl-CoA mutase.",
+          "Option D is required for Transketolase, Alpha-ketoglutarate dehydrogenase, and Pyruvate dehydrogenase.",
+          "Option E is required for carboxylation reactions (e.g., Pyruvate carboxylase)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q20",
+      "discipline": "Pharmacology",
+      "system": "Renal",
+      "vignette": "A 55-year-old man with a history of recurrent calcium oxalate kidney stones is started on a diuretic to prevent further stone formation. Two weeks later, routine laboratory testing reveals a serum calcium of 10.8 mg/dL, potassium of 3.1 mEq/L, and a mild metabolic alkalosis. The medication prescribed acts primarily at which segment of the nephron?",
+      "options": [
+        "Proximal convoluted tubule",
+        "Thick ascending limb of the loop of Henle",
+        "Early distal convoluted tubule",
+        "Cortical collecting duct",
+        "Medullary collecting duct"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify the site of action and side effects of thiazide diuretics.",
+        "correct_rationale": "Option C is correct. The patient was prescribed a thiazide diuretic (e.g., hydrochlorothiazide) to prevent calcium oxalate stones. Thiazides inhibit the Na+/Cl- cotransporter in the early distal convoluted tubule. Uniquely, they increase the reabsorption of calcium (causing hypocalciuria, which prevents stones, but can cause mild hypercalcemia). Side effects also include hypokalemia and metabolic alkalosis due to increased sodium delivery to the collecting duct.",
+        "incorrect_rationales": [
+          "Option A is the site of action for carbonic anhydrase inhibitors (acetazolamide).",
+          "Option B is the site of action for loop diuretics, which *increase* calcium excretion (hypercalciuria), exacerbating stones.",
+          "Option D is the site of action for potassium-sparing diuretics (spironolactone, amiloride).",
+          "Option E is where ADH acts on aquaporins; diuretics like vaptans act here."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q21",
+      "discipline": "Immunology",
+      "system": "Rheumatology",
+      "vignette": "A 45-year-old woman complains of morning stiffness in her hands that lasts for over an hour. Examination shows symmetric swelling and tenderness of the metacarpophalangeal (MCP) and proximal interphalangeal (PIP) joints bilaterally. Which of the following autoantibodies is the most specific for confirming the diagnosis of her condition?",
+      "options": [
+        "Antinuclear antibody (ANA)",
+        "Rheumatoid factor (RF)",
+        "Anti-cyclic citrullinated peptide (Anti-CCP)",
+        "Anti-dsDNA",
+        "Anti-centromere antibody"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify the most specific serologic marker for Rheumatoid Arthritis.",
+        "correct_rationale": "Option C is correct. The patient has a classic presentation of Rheumatoid Arthritis (RA) - morning stiffness lasting >1 hour, and symmetric involvement of the MCP and PIP joints (sparing the DIP joints). Anti-cyclic citrullinated peptide (Anti-CCP) antibodies are the most highly specific marker for RA. While Rheumatoid Factor (RF) is sensitive, it lacks specificity.",
+        "incorrect_rationales": [
+          "Option A is highly sensitive for Systemic Lupus Erythematosus (SLE) but not specific for RA.",
+          "Option B is sensitive for RA but can be seen in healthy individuals, Hepatitis C, and Sjogren syndrome.",
+          "Option D is highly specific for SLE, associated with lupus nephritis.",
+          "Option E is specific for Limited Scleroderma (CREST syndrome)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q22",
+      "discipline": "Physiology",
+      "system": "Endocrine",
+      "vignette": "A 34-year-old woman presents with weight loss, palpitations, and heat intolerance. Physical examination reveals an enlarged, non-tender thyroid gland and bilateral exophthalmos. Laboratory results show a suppressed TSH and elevated free T4. Which of the following best describes the pathogenesis of her exophthalmos?",
+      "options": [
+        "Direct toxicity of elevated T4 on extraocular muscles",
+        "Fibroblast activation by autoantibodies and T-cells",
+        "Impaired venous drainage from the orbit due to goiter compression",
+        "Deposition of amyloid protein within the retro-orbital space",
+        "Hypertrophy of the lacrimal glands secondary to sympathetic overactivity"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Understand the pathophysiology of ophthalmopathy in Graves' disease.",
+        "correct_rationale": "Option B is correct. The patient has Graves' disease (hyperthyroidism, goiter, exophthalmos). The exophthalmos is not caused directly by thyroid hormones. It is caused by an autoimmune cross-reactivity. The Thyroid-Stimulating Immunoglobulins (TSI) that stimulate the thyroid also activate retro-orbital fibroblasts, alongside T-cells. These fibroblasts secrete hydrophilic glycosaminoglycans (like hyaluronic acid), which draw in water, causing edema and swelling of the extraocular muscles.",
+        "incorrect_rationales": [
+          "Option A is incorrect because thyroid hormones themselves do not cause the eye bulging.",
+          "Option C is incorrect; a goiter in the neck does not compress orbital venous drainage.",
+          "Option D describes amyloidosis, which is not the mechanism of Graves' ophthalmopathy.",
+          "Option E describes sympathetic overactivity, which causes lid lag and stare, but not the true proptosis/exophthalmos seen in Graves."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q23",
+      "discipline": "Anatomy",
+      "system": "Head & Neck",
+      "vignette": "A 42-year-old woman undergoes a total thyroidectomy for papillary thyroid carcinoma. Postoperatively, she is noted to have a raspy, hoarse voice, though her airway is completely patent and her breathing is unlabored. During the surgery, the surgeon most likely inadvertently injured a nerve that runs in close proximity to which of the following vascular structures?",
+      "options": [
+        "Superior thyroid artery",
+        "Inferior thyroid artery",
+        "Internal jugular vein",
+        "External carotid artery",
+        "Thyrocervical trunk"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the anatomical relationship between the recurrent laryngeal nerve and the inferior thyroid artery.",
+        "correct_rationale": "Option B is correct. The patient's postoperative hoarseness is due to unilateral injury to the recurrent laryngeal nerve. This nerve innervates all intrinsic muscles of the larynx except the cricothyroid. Anatomically, the recurrent laryngeal nerve courses upward in the tracheoesophageal groove and passes immediately adjacent to the inferior thyroid artery near the lower pole of the thyroid gland, making it highly susceptible to injury during ligation of this vessel.",
+        "incorrect_rationales": [
+          "Option A is closely associated with the external branch of the superior laryngeal nerve. Injury here causes inability to hit high-pitched notes, but not classic hoarseness.",
+          "Option C and Option D are located laterally in the carotid sheath and are not intimately related to the recurrent laryngeal nerve.",
+          "Option E gives rise to the inferior thyroid artery, but the nerve injury occurs distally near the gland, not at the trunk."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q24",
+      "discipline": "Neurology",
+      "system": "Nervous",
+      "vignette": "A 30-year-old woman presents with an episode of blurry vision and pain with eye movement in her right eye, which resolves over a few weeks. Six months later, she presents to the ED with new-onset weakness in her left leg and urinary incontinence. An MRI of the brain reveals multiple hyperintense periventricular white matter lesions. A lumbar puncture is performed. Cerebrospinal fluid (CSF) analysis is most likely to show which of the following findings?",
+      "options": [
+        "Decreased glucose and elevated neutrophils",
+        "Oligoclonal IgG bands",
+        "Xanthochromia",
+        "Elevated opening pressure with normal protein",
+        "14-3-3 protein"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the diagnostic CSF findings in Multiple Sclerosis.",
+        "correct_rationale": "Option B is correct. The patient's history of neurologic deficits separated in 'time and space' (optic neuritis followed months later by leg weakness) with periventricular plaques is classic for Multiple Sclerosis (MS). The hallmark and most specific CSF finding for MS is the presence of oligoclonal IgG bands, reflecting localized central nervous system inflammation and B-cell activation.",
+        "incorrect_rationales": [
+          "Option A describes the classic CSF profile for bacterial meningitis.",
+          "Option C describes the yellowish discoloration of CSF seen in subarachnoid hemorrhage due to bilirubin from RBC breakdown.",
+          "Option D describes idiopathic intracranial hypertension (pseudotumor cerebri).",
+          "Option E is a biomarker for Creutzfeldt-Jakob disease (a rapid-onset prion disease)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q25",
+      "discipline": "Pharmacology",
+      "system": "Oncology",
+      "vignette": "A 50-year-old woman is being treated for breast cancer with a chemotherapy regimen that includes doxorubicin. Before starting therapy, her oncologist orders a baseline echocardiogram. The dose-limiting toxicity of this medication is mediated by which of the following mechanisms?",
+      "options": [
+        "Inhibition of microtubule polymerization",
+        "Cross-linking of DNA strands",
+        "Generation of free radicals",
+        "Inhibition of thymidylate synthase",
+        "Blockade of estrogen receptors"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Understand the mechanism of doxorubicin-induced cardiotoxicity.",
+        "correct_rationale": "Option C is correct. Doxorubicin (an anthracycline) is used to treat solid tumors and leukemias. It works by intercalating DNA and inhibiting topoisomerase II. However, its major dose-limiting adverse effect is dilated cardiomyopathy. This cardiotoxicity is caused by the generation of reactive oxygen species (free radicals), which damage the myocardium. Dexrazoxane (an iron chelator) can be given to prevent this toxicity.",
+        "incorrect_rationales": [
+          "Option A is the mechanism of vinca alkaloids (vincristine, vinblastine), which cause peripheral neuropathy.",
+          "Option B is the mechanism of alkylating agents like cyclophosphamide (causes hemorrhagic cystitis) or platinum agents.",
+          "Option D is the mechanism of 5-fluorouracil (5-FU).",
+          "Option E is the mechanism of tamoxifen, which increases the risk of endometrial cancer and DVT."
         ]
       },
       "has_exhibit": false,
