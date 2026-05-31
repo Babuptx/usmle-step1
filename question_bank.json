@@ -131,6 +131,264 @@
       },
       "has_exhibit": false,
       "exhibit_url": ""
+    },  
+    {
+      "id": "q6",
+      "discipline": "Pathology",
+      "system": "Pulmonary",
+      "vignette": "A 35-year-old African American woman presents with a persistent dry cough, fatigue, and worsening shortness of breath over the past two months. A chest X-ray reveals bilateral hilar lymphadenopathy. A transbronchial biopsy demonstrates noncaseating granulomas. Routine laboratory testing reveals a serum calcium level of 11.5 mg/dL. Which of the following is the primary mechanism causing this patient's hypercalcemia?",
+      "options": [
+        "Autonomous secretion of parathyroid hormone from a parathyroid adenoma",
+        "Extensive bone metastasis leading to localized osteoclastic activation",
+        "Ectopic secretion of parathyroid hormone-related peptide (PTHrP)",
+        "Excessive 1-alpha-hydroxylase activity within epithelioid macrophages",
+        "Decreased renal excretion of calcium secondary to tubular damage"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Understand the mechanism of hypercalcemia in granulomatous diseases like sarcoidosis.",
+        "correct_rationale": "Option D is correct. This patient has classic presentation of sarcoidosis. The hypercalcemia seen in sarcoidosis (and other granulomatous diseases like tuberculosis) is caused by the epithelioid macrophages within the noncaseating granulomas. These macrophages possess ectopic 1-alpha-hydroxylase activity, which converts 25-hydroxyvitamin D to its active form, 1,25-dihydroxyvitamin D, leading to increased intestinal calcium absorption.",
+        "incorrect_rationales": [
+          "Option A describes primary hyperparathyroidism, which would not explain the hilar lymphadenopathy or granulomas.",
+          "Option B describes hypercalcemia of malignancy (e.g., breast or prostate cancer), which typically presents with lytic or blastic bone lesions.",
+          "Option C describes the mechanism of hypercalcemia in squamous cell carcinomas (especially of the lung), not sarcoidosis.",
+          "Option E describes familial hypocalciuric hypercalcemia or thiazide diuretic use."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q7",
+      "discipline": "Immunology",
+      "system": "Multisystem",
+      "vignette": "A 4-year-old boy is evaluated for recurrent, severe skin and soft tissue infections. Cultures from past abscesses have grown Staphylococcus aureus and Aspergillus species. Laboratory testing utilizing the dihydrorhodamine (DHR) flow cytometry test shows significantly decreased fluorescence compared to a healthy control. This patient's condition is primarily due to a defect in which of the following cellular processes?",
+      "options": [
+        "Fusion of the phagosome with the lysosome",
+        "Generation of reactive oxygen species (ROS)",
+        "Opsonization of encapsulated bacteria via complement",
+        "Chemotaxis of neutrophils to the site of infection",
+        "Intracellular degradation of viral RNA"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the underlying defect and diagnostic test for Chronic Granulomatous Disease (CGD).",
+        "correct_rationale": "Option B is correct. The patient has Chronic Granulomatous Disease (CGD), an X-linked recessive defect in the NADPH oxidase enzyme complex. Neutrophils are unable to generate the superoxide radical (a reactive oxygen species), preventing the respiratory burst. This leaves patients highly susceptible to catalase-positive organisms. An abnormal DHR flow cytometry test (decreased fluorescence) or a negative nitroblue tetrazolium (NBT) dye reduction test confirms the diagnosis.",
+        "incorrect_rationales": [
+          "Option A describes Chediak-Higashi syndrome, which presents with albinism, peripheral neuropathy, and giant granules in neutrophils.",
+          "Option C describes early complement deficiencies (C1-C4), which increase susceptibility to encapsulated organisms but are not diagnosed via DHR.",
+          "Option D describes Leukocyte Adhesion Deficiency (LAD), characterized by delayed umbilical cord separation and absent pus formation.",
+          "Option E describes a defect in interferon signaling or toll-like receptors, leading to viral susceptibility, not bacterial abscesses."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q8",
+      "discipline": "Pharmacology",
+      "system": "Cardiovascular",
+      "vignette": "A 75-year-old woman with a history of heart failure and atrial fibrillation is brought to the clinic due to nausea, vomiting, confusion, and a subjective complaint that her vision has a 'yellowish tint.' An ECG demonstrates profound bradycardia and scooped ST segments. She recently started taking a new medication for her heart failure. Toxicity of this medication is most significantly exacerbated by which of the following electrolyte abnormalities?",
+      "options": [
+        "Hypernatremia",
+        "Hyperkalemia",
+        "Hypokalemia",
+        "Hypercalcemia",
+        "Hypomagnesemia"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Recognize digoxin toxicity and understand its relationship with serum potassium levels.",
+        "correct_rationale": "Option C is correct. The patient is exhibiting classic signs of digoxin toxicity (nausea, confusion, yellow vision/xanthopsia, and scooped ST segments on ECG). Digoxin acts by inhibiting the Na+/K+ ATPase pump in myocardial cells. Digoxin and potassium compete for the exact same binding site on the extracellular aspect of this pump. Therefore, hypokalemia (often induced by concurrent loop diuretic use) leaves more binding sites open for digoxin, severely exacerbating its toxicity.",
+        "incorrect_rationales": [
+          "Option A (Hypernatremia) does not directly exacerbate digoxin binding.",
+          "Option B (Hyperkalemia) is actually a *result* of acute, massive digoxin toxicity (because the Na/K pump is blocked), but it does not *exacerbate* the binding; in fact, it competitively decreases digoxin binding.",
+          "Option D (Hypercalcemia) can increase the risk of delayed afterdepolarizations but is not the primary competitive factor at the pump site.",
+          "Option E (Hypomagnesemia) can increase the risk of arrhythmias but the direct competitive binding issue is with potassium."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q9",
+      "discipline": "Anatomy",
+      "system": "Neurology",
+      "vignette": "A 32-year-old man is involved in a severe motorcycle collision and suffers a traumatic hemisection of the right side of his spinal cord at the T10 vertebral level. Which of the following constellations of neurological deficits will this patient most likely exhibit below the level of the lesion?",
+      "options": [
+        "Right-sided loss of pain and temperature, left-sided spastic paralysis",
+        "Left-sided loss of pain and temperature, right-sided spastic paralysis",
+        "Right-sided flaccid paralysis, bilateral loss of pain and temperature",
+        "Bilateral spastic paralysis, preserved fine touch and proprioception",
+        "Left-sided loss of fine touch and proprioception, left-sided spastic paralysis"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Deduce the neurological deficits associated with Brown-Séquard syndrome (spinal cord hemisection).",
+        "correct_rationale": "Option B is correct. A right-sided hemisection of the spinal cord (Brown-Séquard syndrome) causes 'crossed' signs. It severs the right dorsal columns (causing ipsilateral/right loss of fine touch and proprioception), the right corticospinal tract (causing ipsilateral/right spastic paralysis), and the right spinothalamic tract. Because the spinothalamic tract decussates at the anterior white commissure 1-2 levels *above* where it enters the cord, a right-sided lesion disrupts pain and temperature sensation coming from the *left* side of the body below the lesion.",
+        "incorrect_rationales": [
+          "Option A describes the reverse pattern, which would occur with a left-sided hemisection.",
+          "Option C describes anterior cord syndrome, usually due to anterior spinal artery occlusion, sparing the dorsal columns.",
+          "Option D describes a complete cord transection.",
+          "Option E fails to account for the decussation of the spinothalamic tract, which causes contralateral pain/temperature loss."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q10",
+      "discipline": "Endocrinology",
+      "system": "Reproductive",
+      "vignette": "A 24-year-old nulliparous woman presents to her gynecologist complaining of irregular, infrequent menstrual periods and increasing dark facial hair growth over the last two years. She has a BMI of 32 kg/m2. A pelvic ultrasound reveals bilaterally enlarged ovaries with multiple small subcortical cysts. Which of the following hormonal profiles is most likely to be seen in this patient?",
+      "options": [
+        "Elevated FSH, decreased LH, decreased testosterone",
+        "Decreased FSH, elevated LH, elevated testosterone",
+        "Elevated FSH, elevated LH, decreased testosterone",
+        "Decreased FSH, decreased LH, elevated testosterone",
+        "Normal FSH, normal LH, elevated prolactin"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the hormonal abnormalities associated with Polycystic Ovary Syndrome (PCOS).",
+        "correct_rationale": "Option B is correct. The clinical picture (oligomenorrhea, hirsutism, obesity, and polycystic ovaries) is diagnostic of Polycystic Ovary Syndrome (PCOS). PCOS is characterized by an altered gonadotropin-releasing hormone (GnRH) pulsatility, leading to an abnormally high ratio of Luteinizing Hormone (LH) to Follicle-Stimulating Hormone (FSH), typically >2:1. The elevated LH stimulates thecal cells to produce excess androgens (testosterone). The relatively decreased FSH prevents proper maturation of follicles, leading to anovulation and cyst formation.",
+        "incorrect_rationales": [
+          "Option A describes premature ovarian failure (menopause), where low estrogen leads to loss of feedback inhibition, causing high FSH.",
+          "Option C describes a hypergonadotropic hypogonadism state.",
+          "Option D describes an exogenous androgen use or an adrenal/ovarian androgen-secreting tumor suppressing the HPO axis.",
+          "Option E describes a prolactinoma, which causes amenorrhea and galactorrhea, but not severe hyperandrogenism (hirsutism)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q11",
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "vignette": "A 25-year-old woman presents with chronic diarrhea, crampy abdominal pain, and unexplained weight loss over the past 6 months. She reports occasional low-grade fevers. A colonoscopy reveals multiple 'skip lesions' with a cobblestone appearance, primarily involving the terminal ileum and ascending colon. Biopsies of the affected areas most likely reveal which of the following pathognomonic histological findings?",
+      "options": [
+        "Crypt abscesses and continuous mucosal ulceration",
+        "Noncaseating granulomas and transmural inflammation",
+        "Villous atrophy and profound crypt hyperplasia",
+        "Foamy macrophages containing PAS-positive granules",
+        "Flask-shaped ulcers in the submucosa"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Differentiate the histological features of Crohn's disease from other gastrointestinal pathologies.",
+        "correct_rationale": "Option B is correct. The clinical and endoscopic findings (skip lesions, terminal ileum involvement, cobblestone mucosa) are classic for Crohn's disease. The hallmark histological findings that differentiate Crohn's from Ulcerative Colitis are transmural inflammation (involving all layers of the bowel wall, leading to fistulas and strictures) and the presence of noncaseating granulomas.",
+        "incorrect_rationales": [
+          "Option A describes Ulcerative Colitis, which features continuous involvement starting from the rectum and is limited to the mucosa and submucosa.",
+          "Option C describes Celiac disease, which primarily affects the duodenum.",
+          "Option D describes Whipple disease (Tropheryma whipplei infection), which presents with malabsorption, joint pain, and cardiac/neurologic symptoms.",
+          "Option E describes intestinal amebiasis caused by Entamoeba histolytica."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q12",
+      "discipline": "Genetics",
+      "system": "Multisystem",
+      "vignette": "A 12-year-old boy with a known genetic disorder is admitted to the hospital for an exacerbation of pneumonia. His history is notable for meconium ileus at birth and chronic pancreatic insufficiency. The underlying defect involves the CFTR protein. In the most common mutation causing this disease (ΔF508), what is the primary fate of the mutant CFTR protein?",
+      "options": [
+        "It is degraded by the proteasome within the rough endoplasmic reticulum.",
+        "It successfully reaches the cell membrane but cannot bind intracellular ATP.",
+        "It successfully reaches the cell membrane but the chloride channel pore is physically blocked.",
+        "It is prematurely truncated into a non-functional peptide in the cytosol.",
+        "It is abnormally glycosylated and sequestered in the Golgi apparatus."
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Understand the cellular pathogenesis of the ΔF508 mutation in Cystic Fibrosis.",
+        "correct_rationale": "Option A is correct. The patient has Cystic Fibrosis. The most common mutation is a deletion of phenylalanine at position 508 (ΔF508). This specific mutation causes the CFTR protein to misfold. The cellular quality control machinery in the Rough Endoplasmic Reticulum (RER) recognizes the misfolded protein, ubiquitinates it, and marks it for proteasomal degradation. Consequently, the protein never reaches the apical cell surface.",
+        "incorrect_rationales": [
+          "Option B and Option C describe 'gating' or 'conductance' mutations (e.g., G551D), where the protein reaches the surface but doesn't function correctly. These are targetable by specific drugs like ivacaftor.",
+          "Option D describes a nonsense mutation (stop codon), causing premature termination during translation.",
+          "Option E describes a defect seen in diseases like I-cell disease (failure of Golgi tagging), not the primary fate of ΔF508 CFTR."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q13",
+      "discipline": "Pathology",
+      "system": "Renal",
+      "vignette": "A 9-year-old boy is brought to the clinic with noticeable periorbital edema and 'cola-colored' urine. His mother reports he had a severe, untreated sore throat two weeks ago. His blood pressure is elevated at 140/90 mmHg. Urinalysis is positive for blood and protein, and red blood cell casts are observed on light microscopy. Serum C3 complement levels are abnormally low. Electron microscopy of a renal biopsy would most likely show which of the following?",
+      "options": [
+        "Diffuse effacement of podocyte foot processes",
+        "Subepithelial electron-dense immune complex 'humps'",
+        "Subendothelial immune complex deposits",
+        "Linear deposition of IgG along the glomerular basement membrane",
+        "'Tram-track' splitting of the basement membrane"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the electron microscopy findings of Post-Streptococcal Glomerulonephritis (PSGN).",
+        "correct_rationale": "Option B is correct. The presentation of nephritic syndrome (hematuria, RBC casts, hypertension, edema) occurring 2-4 weeks after a streptococcal pharyngitis infection, along with low C3 levels, is diagnostic of Post-Streptococcal Glomerulonephritis (PSGN). The pathognomonic finding on electron microscopy is the presence of large, subepithelial, electron-dense immune complex deposits, often described as 'lumpy-bumpy' humps.",
+        "incorrect_rationales": [
+          "Option A describes Minimal Change Disease, the most common cause of nephrotic syndrome in children, which does not typically present with RBC casts or hypertension.",
+          "Option C describes Diffuse Proliferative Glomerulonephritis (often seen in SLE) or Membranoproliferative Glomerulonephritis Type I.",
+          "Option D describes Goodpasture syndrome (Anti-GBM disease), which presents with rapidly progressive glomerulonephritis and pulmonary hemorrhage.",
+          "Option E describes Membranoproliferative Glomerulonephritis (MPGN), where mesangial cell ingrowth splits the basement membrane."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q14",
+      "discipline": "Hematology",
+      "system": "Oncology",
+      "vignette": "A 48-year-old man presents with progressive fatigue, early satiety, and a dragging sensation in his left upper quadrant. Physical examination reveals massive splenomegaly extending to the umbilicus. A complete blood count reveals a white blood cell count of 85,000/mm3. The peripheral smear shows a complete spectrum of myeloid cells, from myeloblasts to mature neutrophils, with a notable predominance of myelocytes. The leukocyte alkaline phosphatase (LAP) score is profoundly decreased. Cytogenetic analysis is most likely to reveal a translocation between which two chromosomes?",
+      "options": [
+        "t(8;14)",
+        "t(11;14)",
+        "t(14;18)",
+        "t(15;17)",
+        "t(9;22)"
+      ],
+      "correct_index": 4,
+      "explanation": {
+        "educational_objective": "Correlate Chronic Myelogenous Leukemia (CML) with its specific chromosomal translocation.",
+        "correct_rationale": "Option E is correct. Massive leukocytosis with a full spectrum of granulocytic differentiation, massive splenomegaly, and a very low LAP score (distinguishing it from a leukemoid reaction) is classic for Chronic Myelogenous Leukemia (CML). The defining genetic abnormality of CML is the Philadelphia chromosome, a t(9;22) translocation, which creates the BCR-ABL fusion protein (a constitutively active tyrosine kinase).",
+        "incorrect_rationales": [
+          "Option A t(8;14) is associated with Burkitt lymphoma (c-myc activation).",
+          "Option B t(11;14) is associated with Mantle cell lymphoma (cyclin D1 activation).",
+          "Option C t(14;18) is associated with Follicular lymphoma (BCL-2 activation).",
+          "Option D t(15;17) is associated with Acute Promyelocytic Leukemia (APL), characterized by Auer rods and response to all-trans retinoic acid (ATRA)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q15",
+      "discipline": "Pharmacology",
+      "system": "Hepatic",
+      "vignette": "A 19-year-old female is brought to the emergency department 12 hours after intentionally ingesting an entire bottle of over-the-counter pain relievers in a suicide attempt. She complains of right upper quadrant abdominal pain, nausea, and vomiting. Initial laboratory studies show markedly elevated AST and ALT levels, indicating acute hepatotoxicity. The toxicity of this specific overdose is mediated by a highly reactive intermediate metabolite that overwhelms the liver's supply of which of the following substances?",
+      "options": [
+        "Cytochrome P450 enzymes",
+        "Glucuronic acid",
+        "Glutathione",
+        "N-acetylcysteine",
+        "Sulfate"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Understand the mechanism of acetaminophen toxicity and the role of glutathione.",
+        "correct_rationale": "Option C is correct. The clinical scenario describes an acetaminophen overdose. Normally, acetaminophen is metabolized by glucuronidation and sulfation. However, a small fraction is metabolized by Cytochrome P450 into a toxic intermediate called NAPQI. Normally, NAPQI is rapidly conjugated with hepatic glutathione and safely excreted. In an overdose, sulfation/glucuronidation pathways are saturated, leading to massive production of NAPQI. This depletes the liver's stores of glutathione, allowing NAPQI to bind to hepatic macromolecules, causing severe centrilobular hepatic necrosis.",
+        "incorrect_rationales": [
+          "Option A is incorrect because CYP450 enzymes actually *create* the toxic metabolite; they are not depleted by it.",
+          "Option B and Option E are incorrect because while these conjugation pathways get saturated, their depletion does not directly cause the necrosis; it is the buildup of NAPQI due to lack of glutathione that is fatal.",
+          "Option D (N-acetylcysteine or NAC) is the *antidote* administered by physicians. It acts as a glutathione precursor and substitute, but it is not the endogenous substance depleted by the overdose."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
     }
   ]
 }
