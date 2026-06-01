@@ -9,65 +9,71 @@
 <body>
 
     <div class="exam-container">
-        <aside class="sidebar">
-            <div class="level-selector-container">
-                <span class="level-label">Select Level:</span>
-                <div class="level-buttons">
-                    <button class="lvl-btn active" data-file="question_bank.json">L-1</button>
-                    <button class="lvl-btn" data-file="block2.json">L-2</button>
-                    <button class="lvl-btn" data-file="block3.json">L-3</button>
-                    <button class="lvl-btn" data-file="block4.json">L-4</button>
-                    <button class="lvl-btn" data-file="block5.json">L-5</button>
-                    <button class="lvl-btn" data-file="block6.json">L-6</button>
-                    <button class="lvl-btn" data-file="block7.json">L-7</button>
+        <nav class="top-nav-frame">
+            <div class="nav-row-1">
+                <div class="level-selector-container">
+                    <span class="level-label">Exam Level:</span>
+                    <div class="level-buttons">
+                        <button class="lvl-btn active" data-file="question_bank.json">L-1</button>
+                        <button class="lvl-btn" data-file="block2.json">L-2</button>
+                        <button class="lvl-btn" data-file="block3.json">L-3</button>
+                        <button class="lvl-btn" data-file="block4.json">L-4</button>
+                        <button class="lvl-btn" data-file="block5.json">L-5</button>
+                        <button class="lvl-btn" data-file="block6.json">L-6</button>
+                        <button class="lvl-btn" data-file="block7.json">L-7</button>
+                    </div>
+                </div>
+
+                <div class="header-right-controls">
+                    <div class="legend">
+                        <div><span class="box unanswered"></span> Unanswered</div>
+                        <div><span class="box answered"></span> Answered</div>
+                        <div><span class="box flagged"></span> Flagged</div>
+                    </div>
+                    <div class="timer" id="exam-timer">60:00</div>
+                    <button id="btn-lab-values" class="control-btn lab-btn">Lab Values</button>
                 </div>
             </div>
 
-            <h3>Item Navigation</h3>
-            
-            <div id="question-grid" class="nav-grid"></div>
-            
-            <div class="legend">
-                <div><span class="box unanswered"></span> Unanswered</div>
-                <div><span class="box answered"></span> Answered</div>
-                <div><span class="box flagged"></span> Flagged</div>
+            <div class="nav-row-2">
+                <div id="question-grid" class="question-grid-horizontal"></div>
             </div>
-        </aside>
+        </nav>
 
         <main class="main-content">
-            <header class="exam-header">
-                <div class="header-left">
-                    <h2 id="block-title">USMLE Step 1 Mock Exam</h2>
-                    <h3 id="question-number">Question 1</h3>
-                </div>
-                <div class="header-right">
-                    <div class="timer" id="exam-timer">60:00</div>
-                    <button id="btn-lab-values" class="control-btn">Lab Values</button>
-                    <button id="btn-flag" class="control-btn">⚑ Flag for Review</button>
-                </div>
-            </header>
+            <div class="question-wrapper">
+                <header class="exam-header">
+                    <div class="header-left">
+                        <h2 id="block-title">USMLE Step 1 Mock Exam</h2>
+                        <h3 id="question-number">Question 1</h3>
+                    </div>
+                    <div class="header-right">
+                        <button id="btn-flag" class="control-btn flag-btn">⚑ Flag for Review</button>
+                        <button id="btn-end-block" class="control-btn end-btn hidden">End Block</button>
+                    </div>
+                </header>
 
-            <div class="question-body">
-                <p id="vignette-text" class="vignette"></p>
-                
-                <div id="exhibit-container" class="exhibit hidden">
-                    <img id="exhibit-image" src="" alt="Clinical Exhibit">
+                <div class="question-body">
+                    <p id="vignette-text" class="vignette"></p>
+                    
+                    <div id="exhibit-container" class="exhibit hidden">
+                        <img id="exhibit-image" src="" alt="Clinical Exhibit">
+                    </div>
+                    
+                    <div id="options-container" class="options"></div>
+                    
+                    <div id="explanation-container" class="explanation hidden">
+                        <h4>Explanation</h4>
+                        <div id="explanation-text"></div>
+                    </div>
                 </div>
-                
-                <div id="options-container" class="options"></div>
-                
-                <div id="explanation-container" class="explanation hidden">
-                    <h4>Explanation</h4>
-                    <div id="explanation-text"></div>
-                </div>
+
+                <footer class="exam-footer">
+                    <button id="btn-prev" class="nav-btn" disabled>◄ Previous</button>
+                    <button id="btn-show-answer" class="control-btn tutor-btn">👁 Show Answer</button>
+                    <button id="btn-next" class="nav-btn">Next ►</button>
+                </footer>
             </div>
-
-            <footer class="exam-footer">
-                <button id="btn-prev" class="nav-btn" disabled>◄ Previous</button>
-                <button id="btn-show-answer" class="control-btn" style="background-color: #17a2b8; color: white; border: none; font-size: 16px;">👁 Show Answer</button>
-                <button id="btn-end-block" class="control-btn hidden">End Block</button>
-                <button id="btn-next" class="nav-btn">Next ►</button>
-            </footer>
         </main>
     </div>
 
