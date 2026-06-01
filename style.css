@@ -167,3 +167,21 @@ body, html { margin: 0; padding: 0; height: 100vh; overflow: hidden; background-
 .close-btn { font-size: 28px; cursor: pointer; line-height: 1; }
 .close-btn:hover { color: #ccc; }
 .modal-body { padding: 20px; max-height: 75vh; overflow-y: auto; }
+/* --- QUESTION METADATA TAGS --- */
+.question-tags { 
+    display: flex; 
+    gap: 10px; 
+    margin-bottom: 15px; 
+}
+
+.tag { 
+    background-color: #e8f4f8; 
+    color: #003366; 
+    padding: 5px 12px; 
+    border-radius: 15px; 
+    font-size: 12px; 
+    font-weight: 700; 
+    text-transform: uppercase; 
+    letter-spacing: 0.5px; 
+    border: 1px solid #a9cce3; 
+}
