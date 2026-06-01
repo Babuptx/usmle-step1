@@ -649,6 +649,136 @@
       "exhibit_url": ""
     },
     {
+      "id": "q26",
+      "discipline": "Genetics",
+      "system": "Endocrine",
+      "vignette": "A phenotypic female neonate is evaluated in the NICU for severe lethargy, vomiting, and hyponatremia. Karyotype analysis reveals a 46,XY chromosomal pattern. An abdominal CT demonstrates massively enlarged adrenal glands bilaterally. A biopsy of the adrenal tissue shows cells heavily engorged with cholesterol and lipid droplets. The genetic defect driving this patient's adrenal crisis and complete sex reversal impairs a protein that normally facilitates which of the following intracellular processes?",
+      "options": [
+        "Cleavage of the cholesterol side chain to form pregnenolone",
+        "Transport of free cholesterol from the cytoplasm into the mitochondria",
+        "Hydroxylation of progesterone at the 21 position",
+        "Aromatization of testosterone into estradiol",
+        "Transport of cortisol out of the endoplasmic reticulum"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify Congenital Lipoid Adrenal Hyperplasia and the function of the StAR protein.",
+        "correct_rationale": "Option B is correct. (Fourth-order question). Step 1: A 46,XY infant with female external genitalia, salt-wasting adrenal crisis, and lipid-engorged, enlarged adrenal glands has Congenital Lipoid Adrenal Hyperplasia. Step 2: This is the most severe form of congenital adrenal hyperplasia, caused by a mutation in the StAR (Steroidogenic Acute Regulatory) protein. Step 3: StAR is absolutely required to transport free cholesterol from the cytoplasm into the mitochondria. Step 4: Because cholesterol cannot enter the mitochondria, the very first step of steroidogenesis (cholesterol desmolase) cannot occur. All steroid hormones (mineralocorticoids, glucocorticoids, and sex steroids) are entirely absent, leading to fatal salt wasting and complete failure of male virilization. The trapped cholesterol physically engorges the adrenal cells.",
+        "incorrect_rationales": [
+          "Option A is the function of Cholesterol Desmolase (CYP11A1), which occurs *after* transport.",
+          "Option C is 21-hydroxylase deficiency (causes virilization in females, not sex reversal in males).",
+          "Option D is the function of aromatase.",
+          "Option E is not the rate-limiting step of steroidogenesis."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q27",
+      "discipline": "Immunology",
+      "system": "Infectious Disease",
+      "vignette": "A 14-month-old boy from Eastern Europe develops a severe, disseminated mycobacterial infection shortly after receiving the live-attenuated Bacillus Calmette-Guérin (BCG) vaccine. His medical history is otherwise unremarkable, and he has normal responses to standard childhood viral infections. Flow cytometry reveals normal quantities of B and T lymphocytes. A genetic defect is suspected. The patient's inability to contain this specific intracellular organism is most likely due to a targeted mutation in the receptor for a cytokine primarily secreted by which of the following cells?",
+      "options": [
+        "Macrophage antigen-presenting cells",
+        "CD4+ Th1 lymphocytes",
+        "Natural Killer (NK) cells",
+        "Eosinophils",
+        "CD8+ Cytotoxic T cells"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Recognize IL-12 Receptor deficiency and its role in the Macrophage-Th1 axis.",
+        "correct_rationale": "Option A is correct. (Third-order question). Step 1: Severe, disseminated mycobacterial infection (or Salmonella) following a BCG vaccine in an otherwise healthy child is classic for IL-12 Receptor Deficiency (Mendelian Susceptibility to Mycobacterial Disease). Step 2: The defense against intracellular mycobacteria relies on a positive feedback loop between Macrophages and Th1 cells. Step 3: Macrophages ingest the bacteria and secrete Interleukin-12 (IL-12). IL-12 binds to the IL-12 Receptor on naive T cells, triggering them to become Th1 cells. The Th1 cells then secrete IFN-gamma, which powerfully activates the macrophages to kill the bacteria. Step 4: Because the patient lacks the IL-12 Receptor, the initial signal from the *Macrophage* is ignored, the Th1 cells never form, and the mycobacteria replicate unchecked.",
+        "incorrect_rationales": [
+          "Option B secrete IFN-gamma, but the receptor mutated here is for IL-12 (which comes from macrophages).",
+          "Option C kill virally infected cells, which this patient handles normally.",
+          "Option D defend against parasites (Th2 response).",
+          "Option E kill virally infected cells and tumor cells."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q28",
+      "discipline": "Anatomy",
+      "system": "Neurology",
+      "vignette": "A 32-year-old woman presents with severe retro-orbital headache, a high fever, and swelling around her right eye. She recently popped a large furuncle on her right upper lip. Physical examination reveals proptosis and significant periorbital edema of the right eye. When asked to follow the physician's finger, her right eye is completely unable to abduct past the midline, but all other eye movements are currently intact. The infectious thrombosis causing her symptoms has primarily compressed a cranial nerve that travels through which of the following specific spaces?",
+      "options": [
+        "The lateral wall of the cavernous sinus",
+        "The center of the cavernous sinus alongside the internal carotid artery",
+        "The superior orbital fissure outside the tendinous ring",
+        "The medial wall of the cavernous sinus alongside the pituitary stalk",
+        "The inferior orbital fissure"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the Abducens nerve (CN VI) as the most vulnerable structure in the center of the cavernous sinus.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: Infection from the 'danger triangle' of the face (upper lip) spreading to the eye with proptosis and chemosis defines Cavernous Sinus Thrombosis. Step 2: The patient has an isolated inability to abduct the right eye, indicating a palsy of the Abducens nerve (CN VI). Step 3: CN VI is famously the *first* and most severely affected nerve in cavernous sinus thrombosis. Step 4: This is because, unlike CN III, IV, V1, and V2 (which travel safely embedded within the thick lateral wall of the sinus), CN VI travels completely 'free' through the very *center* of the cavernous sinus, directly alongside the internal carotid artery, making it exquisitely vulnerable to pressure from a surrounding clot.",
+        "incorrect_rationales": [
+          "Option A contains CN III, CN IV, CN V1, and CN V2.",
+          "Option C contains CN IV, frontal and lacrimal nerves (branches of V1).",
+          "Option D is the sphenoid sinus/sella turcica barrier.",
+          "Option E transmits the maxillary nerve (V2) and infraorbital vessels, not CN VI."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q29",
+      "discipline": "Pharmacology",
+      "system": "Renal",
+      "vignette": "A 40-year-old woman with bipolar disorder has been maintained on a stable dose of lithium for five years. She complains of excessive thirst and urinating 6 liters of pale fluid daily. A water deprivation test confirms the diagnosis of nephrogenic diabetes insipidus. Her psychiatrist wishes to keep her on lithium but wants to manage the polyuria pharmacologically. He prescribes a diuretic that specifically acts to prevent the uptake of lithium into the principal cells. The prescribed diuretic achieves this by directly blocking which of the following?",
+      "options": [
+        "Na+/K+/2Cl- cotransporter",
+        "Na+/Cl- cotransporter",
+        "Epithelial sodium channels (ENaC)",
+        "Aldosterone intracellular receptors",
+        "Carbonic anhydrase"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Understand the use of Amiloride for Lithium-induced Nephrogenic Diabetes Insipidus.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: The patient has Lithium-induced Nephrogenic Diabetes Insipidus (NDI). Step 2: Lithium enters the principal cells of the collecting duct through Epithelial Sodium Channels (ENaC). Once inside, it interferes with the cAMP pathway, preventing ADH from inserting aquaporins. Step 3: To treat Lithium-induced NDI, the drug of choice is *Amiloride* (or Triamterene). Step 4: Amiloride is a potassium-sparing diuretic that directly blocks ENaC on the luminal membrane. By blocking ENaC, amiloride physically prevents lithium from entering the principal cell, halting its toxic intracellular effect.",
+        "incorrect_rationales": [
+          "Option A is the target of Loop diuretics.",
+          "Option B is the target of Thiazides (used for *hereditary* NDI, but amiloride is preferred for lithium-induced NDI).",
+          "Option D is the target of Spironolactone, which also works in the principal cell, but does not block the ENaC door that lithium uses.",
+          "Option E is the target of Acetazolamide."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q30",
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "vignette": "A 65-year-old woman with a history of Hashimoto thyroiditis presents with severe fatigue, pallor, and a 'pins and needles' sensation in her feet. Laboratory evaluation reveals a macrocytic anemia with hypersegmented neutrophils. Upper endoscopy is performed, revealing severe mucosal atrophy and complete loss of rugal folds strictly in the body and fundus of the stomach. The gastric antrum is notably spared. Which of the following compensatory laboratory findings is most likely to be massively elevated in this patient's blood?",
+      "options": [
+        "Secretin",
+        "Cholecystokinin (CCK)",
+        "Somatostatin",
+        "Gastrin",
+        "Motilin"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Identify Autoimmune Metaplastic Atrophic Gastritis (AMAG) and its compensatory hypergastrinemia.",
+        "correct_rationale": "Option D is correct. (Third-order question). Step 1: Macrocytic anemia, neuropathy, and another autoimmune disease points to Pernicious Anemia. Step 2: Pernicious anemia is the end-stage of Autoimmune Metaplastic Atrophic Gastritis (AMAG). Step 3: In AMAG, CD4+ T cells and autoantibodies destroy the parietal cells strictly in the *body and fundus* of the stomach. This causes profound achlorhydria (lack of stomach acid). Step 4: The gastric antrum (which is spared from the autoimmune attack) contains G-cells. The G-cells sense the total lack of stomach acid and attempt to compensate by pouring out massive amounts of *Gastrin* (hypergastrinemia). This leads to G-cell hyperplasia, but because the parietal cells are dead, acid is never produced.",
+        "incorrect_rationales": [
+          "Option A is released by the duodenum in response to *high* acid to stimulate pancreatic bicarbonate.",
+          "Option B is released by the I-cells to stimulate gallbladder contraction in response to fatty acids.",
+          "Option C is a universal inhibitor, which would be low in this state.",
+          "Option E stimulates the migrating motor complex during fasting."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
       "id": "q31",
       "discipline": "Biochemistry",
       "system": "Genetics",
