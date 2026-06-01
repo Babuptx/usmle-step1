@@ -60,8 +60,8 @@ body, html { margin: 0; padding: 0; height: 100vh; overflow: hidden; background-
 /* LEGEND */
 .legend { display: flex; gap: 12px; font-size: 13px; font-weight: bold; color: #a9cce3; }
 .box { display: inline-block; width: 14px; height: 14px; border-radius: 3px; vertical-align: middle; margin-right: 4px; }
-.box.unanswered { background: #fff; border: 1px solid #ccc; }
-.box.answered { background: #d4edda; border: 1px solid #28a745; }
+.box.unanswered { background: #e6e6e6; border: 1px solid #ccc; }
+.box.answered { background: #c0c0c0; border: 1px solid #999; }
 .box.flagged { background: #fff3cd; border: 1px solid #ffc107; }
 
 /* TIMER & GLOBAL BUTTONS */
@@ -94,11 +94,11 @@ body, html { margin: 0; padding: 0; height: 100vh; overflow: hidden; background-
 .question-grid-horizontal::-webkit-scrollbar-thumb { background-color: #17a2b8; border-radius: 5px; border: 2px solid #002244; }
 
 .nav-grid-btn { 
-    min-width: 42px; /* Compact width for just numbers */
-    padding: 6px 10px; 
-    background: #fff; 
+    min-width: 48px; /* Slightly wider to fit the emojis nicely */
+    padding: 6px 8px; 
+    background: #e6e6e6; /* 10% Gray Default */
     color: #333; 
-    border: 1px solid #ccc; /* Subtle default border */
+    border: 1px solid #ccc;
     border-radius: 4px; 
     cursor: pointer; 
     font-weight: bold;
@@ -106,9 +106,9 @@ body, html { margin: 0; padding: 0; height: 100vh; overflow: hidden; background-
     text-align: center;
     transition: background 0.2s, border-color 0.2s;
 }
-.nav-grid-btn:hover { border-color: #888; background-color: #f8f9fa; }
-.nav-grid-btn.active { border-color: #ffc107; background: #e8f4f8; border-width: 2px; }
-.nav-grid-btn.answered { background: #d4edda; border-color: #28a745; }
+.nav-grid-btn:hover { border-color: #888; background-color: #d9d9d9; }
+.nav-grid-btn.active { border-color: #ffc107; background: #fff; border-width: 2px; }
+.nav-grid-btn.answered { background: #c0c0c0; border-color: #999; } /* 25% Gray */
 .nav-grid-btn.flagged { background: #fff3cd; border-color: #ffc107; border-width: 2px; }
 
 /* INDEPENDENTLY SCROLLABLE MAIN CONTENT */
