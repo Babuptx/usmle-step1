@@ -253,7 +253,7 @@ function generateNavigationGrid() {
         btn.id = `grid-btn-${i}`;
         
         // This adds the Q-1, Q-2 labeling to the horizontal boxes
-        btn.innerText = `Q-${i + 1}`;
+        btn.innerText = i + 1;
         
         btn.addEventListener('click', () => {
             currentQuestionIndex = i;

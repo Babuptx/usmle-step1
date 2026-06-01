@@ -24,19 +24,36 @@ body, html { margin: 0; padding: 0; height: 100vh; overflow: hidden; background-
 .level-label { font-size: 14px; font-weight: bold; letter-spacing: 1px; color: #a9cce3; }
 .level-buttons { display: flex; gap: 8px; }
 
+/* DIFFICULTY GRADIENT BUTTONS */
 .lvl-btn { 
     padding: 6px 14px; 
     font-size: 14px; 
     font-weight: bold; 
-    background-color: #e9ecef; 
-    color: #333; 
-    border: none; 
+    border: 2px solid transparent; 
     border-radius: 4px; 
     cursor: pointer; 
-    transition: all 0.2s; 
+    transition: all 0.2s ease-in-out; 
+    opacity: 0.65; /* Fades back slightly when inactive */
 }
-.lvl-btn:hover { background-color: #d1d8e0; }
-.lvl-btn.active { background-color: #17a2b8; color: white; box-shadow: 0 0 5px rgba(255,255,255,0.5); }
+
+/* Color Spectrum: Green to Red */
+.lvl-btn:nth-child(1) { background-color: #28a745; color: white; } /* L1: Green */
+.lvl-btn:nth-child(2) { background-color: #8bc34a; color: white; } /* L2: Light Green */
+.lvl-btn:nth-child(3) { background-color: #cddc39; color: #333; }  /* L3: Lime */
+.lvl-btn:nth-child(4) { background-color: #ffc107; color: #333; }  /* L4: Yellow */
+.lvl-btn:nth-child(5) { background-color: #ff9800; color: white; } /* L5: Orange */
+.lvl-btn:nth-child(6) { background-color: #f4511e; color: white; } /* L6: Deep Orange */
+.lvl-btn:nth-child(7) { background-color: #d32f2f; color: white; } /* L7: Red */
+
+.lvl-btn:hover { opacity: 0.85; transform: translateY(-1px); }
+
+/* Active State Pop-out */
+.lvl-btn.active { 
+    opacity: 1; 
+    transform: scale(1.1); 
+    border: 2px solid #fff; 
+    box-shadow: 0 0 8px rgba(0,0,0,0.5); 
+}
 
 .header-right-controls { display: flex; gap: 15px; align-items: center; }
 
@@ -59,10 +76,12 @@ body, html { margin: 0; padding: 0; height: 100vh; overflow: hidden; background-
 .tutor-btn:hover { background-color: #138496; }
 .tutor-btn:disabled { background-color: #ccc; cursor: not-allowed; }
 
-/* BOTTOM ROW: Question Grid */
+/* BOTTOM ROW: 2-Row Question Keypad Grid */
 .nav-row-2 { display: flex; width: 100%; }
 .question-grid-horizontal { 
-    display: flex; 
+    display: grid; 
+    grid-template-rows: repeat(2, 1fr); /* Forces exactly 2 rows */
+    grid-auto-flow: column; /* Flows left to right */
     overflow-x: auto; 
     gap: 8px; 
     padding-bottom: 10px; 
@@ -75,21 +94,22 @@ body, html { margin: 0; padding: 0; height: 100vh; overflow: hidden; background-
 .question-grid-horizontal::-webkit-scrollbar-thumb { background-color: #17a2b8; border-radius: 5px; border: 2px solid #002244; }
 
 .nav-grid-btn { 
-    flex: 0 0 auto; 
-    min-width: 50px;
-    padding: 8px 12px; 
+    min-width: 42px; /* Compact width for just numbers */
+    padding: 6px 10px; 
     background: #fff; 
     color: #333; 
-    border: 2px solid transparent;
+    border: 1px solid #ccc; /* Subtle default border */
     border-radius: 4px; 
     cursor: pointer; 
     font-weight: bold;
+    font-size: 13px;
     text-align: center;
+    transition: background 0.2s, border-color 0.2s;
 }
-.nav-grid-btn:hover { border-color: #ccc; }
-.nav-grid-btn.active { border-color: #ffc107; background: #e8f4f8; }
-.nav-grid-btn.answered { background: #d4edda; }
-.nav-grid-btn.flagged { background: #fff3cd; border-color: #ffc107; }
+.nav-grid-btn:hover { border-color: #888; background-color: #f8f9fa; }
+.nav-grid-btn.active { border-color: #ffc107; background: #e8f4f8; border-width: 2px; }
+.nav-grid-btn.answered { background: #d4edda; border-color: #28a745; }
+.nav-grid-btn.flagged { background: #fff3cd; border-color: #ffc107; border-width: 2px; }
 
 /* INDEPENDENTLY SCROLLABLE MAIN CONTENT */
 .main-content {
@@ -119,7 +139,7 @@ body, html { margin: 0; padding: 0; height: 100vh; overflow: hidden; background-
 
 .question-body { font-size: 17px; line-height: 1.6; color: #333; }
 
-/* --- NEW: QUESTION METADATA TAGS --- */
+/* --- QUESTION METADATA TAGS --- */
 .question-tags { 
     display: flex; 
     gap: 10px; 
@@ -142,17 +162,19 @@ body, html { margin: 0; padding: 0; height: 100vh; overflow: hidden; background-
 .exhibit img { max-width: 100%; max-height: 400px; border: 1px solid #ccc; margin-bottom: 20px; display: block; border-radius: 4px; }
 .hidden { display: none !important; }
 
+/* ENHANCED MULTIPLE CHOICE OPTIONS */
 .options { display: flex; flex-direction: column; gap: 12px; margin-bottom: 20px; }
-.option-label { display: flex; align-items: flex-start; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; cursor: pointer; transition: background 0.2s; }
-.option-label:hover { background: #f8f9fa; }
+.option-label { display: flex; align-items: flex-start; padding: 12px 15px; border: 1px solid #ddd; border-radius: 6px; cursor: pointer; transition: all 0.2s ease; }
+.option-label:hover { background: #f8f9fa; border-color: #b3b3b3; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
 .option-label input { margin-top: 5px; margin-right: 15px; transform: scale(1.2); }
 .correct-answer { background-color: #d4edda !important; border-color: #28a745 !important; }
 .incorrect-answer { background-color: #f8d7da !important; border-color: #dc3545 !important; }
 
-.explanation { background: #f8f9fa; padding: 25px; border-left: 5px solid #17a2b8; border-radius: 4px; margin-top: 25px; }
-.explanation h4 { margin-top: 0; color: #003366; font-size: 18px; }
-.rationale-list { padding-left: 20px; }
-.rationale-list li { margin-bottom: 8px; }
+/* ENHANCED EXPLANATIONS */
+.explanation { background: #f8f9fa; padding: 25px; border-left: 5px solid #17a2b8; border-radius: 4px; margin-top: 25px; line-height: 1.7; }
+.explanation h4 { margin-top: 0; color: #003366; font-size: 18px; margin-bottom: 15px; }
+.rationale-list { padding-left: 20px; color: #444; }
+.rationale-list li { margin-bottom: 10px; }
 
 .exam-footer { display: flex; justify-content: space-between; border-top: 2px solid #eee; padding-top: 25px; margin-top: 10px; }
 .nav-btn { padding: 12px 25px; background: #003366; color: #fff; border: none; border-radius: 4px; font-size: 16px; font-weight: bold; cursor: pointer; transition: 0.2s;}
@@ -167,21 +189,3 @@ body, html { margin: 0; padding: 0; height: 100vh; overflow: hidden; background-
 .close-btn { font-size: 28px; cursor: pointer; line-height: 1; }
 .close-btn:hover { color: #ccc; }
 .modal-body { padding: 20px; max-height: 75vh; overflow-y: auto; }
-/* --- QUESTION METADATA TAGS --- */
-.question-tags { 
-    display: flex; 
-    gap: 10px; 
-    margin-bottom: 15px; 
-}
-
-.tag { 
-    background-color: #e8f4f8; 
-    color: #003366; 
-    padding: 5px 12px; 
-    border-radius: 15px; 
-    font-size: 12px; 
-    font-weight: 700; 
-    text-transform: uppercase; 
-    letter-spacing: 0.5px; 
-    border: 1px solid #a9cce3; 
-}
