@@ -640,6 +640,394 @@
       },
       "has_exhibit": false,
       "exhibit_url": ""
+    },
+    {
+      "id": "q26",
+      "discipline": "Pharmacology",
+      "system": "Infectious Disease",
+      "vignette": "A 35-year-old man with advanced HIV presents with fever, headache, and confusion. An MRI of the brain reveals multiple ring-enhancing lesions. He is diagnosed with toxoplasmosis and initiated on a specific antimicrobial regimen. To prevent severe dose-limiting hematologic toxicity (bone marrow suppression), he is concurrently given a rescue agent. Which of the following best describes the biochemical nature of this rescue agent?",
+      "options": [
+        "A synthetic analog of erythropoietin",
+        "A reduced form of folic acid that does not require dihydrofolate reductase",
+        "A monoclonal antibody against tumor necrosis factor-alpha",
+        "An iron chelator that prevents free radical formation",
+        "A colony-stimulating factor that binds directly to myeloid progenitors"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify leucovorin (folinic acid) and its biochemical rationale when used with pyrimethamine.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: The treatment for CNS toxoplasmosis is pyrimethamine and sulfadiazine. Step 2: Pyrimethamine works by inhibiting parasitic dihydrofolate reductase (DHFR). However, it also inhibits human DHFR, leading to severe megaloblastic anemia and pancytopenia. Step 3: To prevent this, patients are given Leucovorin (folinic acid). Leucovorin is a fully reduced derivative of folic acid that bypasses the DHFR enzyme entirely, allowing human DNA synthesis to continue while the parasite starves.",
+        "incorrect_rationales": [
+          "Option A treats anemia of chronic disease or chronic kidney disease.",
+          "Option C describes infliximab or adalimumab, used for autoimmune diseases.",
+          "Option D describes dexrazoxane, used to prevent doxorubicin-induced cardiotoxicity.",
+          "Option E describes filgrastim (G-CSF), which stimulates neutrophil recovery, but does not address the fundamental DNA synthesis blockade caused by DHFR inhibition."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q27",
+      "discipline": "Biochemistry",
+      "system": "Multisystem",
+      "vignette": "A 7-year-old boy is brought to the clinic due to intellectual disability and sudden, severe pain in his left leg. Physical examination reveals a tall, thin habitus, elongated fingers, and a downward dislocation of the lens in his right eye. Doppler ultrasound of his left leg confirms a deep vein thrombosis. The primary enzyme deficient in this patient requires a specific vitamin cofactor. Which of the following biochemical reactions absolutely requires this same vitamin cofactor?",
+      "options": [
+        "Conversion of methylmalonyl-CoA to succinyl-CoA",
+        "Hydroxylation of proline in collagen synthesis",
+        "Transamination of oxaloacetate to aspartate",
+        "Carboxylation of acetyl-CoA to malonyl-CoA",
+        "Reduction of oxidized glutathione"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify the cofactor for cystathionine beta-synthase and relate it to other B6-dependent reactions.",
+        "correct_rationale": "Option C is correct. (Fourth-order question). Step 1: Marfanoid habitus, intellectual disability, downward lens subluxation, and thrombosis are classic for Homocystinuria. Step 2: The most common cause is a deficiency in cystathionine beta-synthase. Step 3: This enzyme requires Vitamin B6 (Pyridoxine) as a cofactor. Step 4: Vitamin B6 is also the absolute required cofactor for all aminotransferase (transamination) reactions, such as AST converting oxaloacetate to aspartate.",
+        "incorrect_rationales": [
+          "Option A requires Vitamin B12 (Cobalamin).",
+          "Option B requires Vitamin C (Ascorbic acid).",
+          "Option D requires Vitamin B7 (Biotin).",
+          "Option E requires NADPH (from the HMP shunt)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q28",
+      "discipline": "Anatomy",
+      "system": "Neurology",
+      "vignette": "A 62-year-old man with a history of hypertension presents with sudden onset of vertigo, vomiting, and difficulty swallowing. Neurological examination reveals a loss of pain and temperature sensation on the right side of his face and the left side of his body. He also exhibits right-sided ptosis and miosis, and an absent gag reflex. An acute ischemic infarction of the right posterior inferior cerebellar artery (PICA) is diagnosed. Damage to which of the following specific brainstem nuclei is responsible for his dysphagia and absent gag reflex?",
+      "options": [
+        "Nucleus tractus solitarius",
+        "Spinal trigeminal nucleus",
+        "Vestibular nucleus",
+        "Nucleus ambiguus",
+        "Facial motor nucleus"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Localize the symptoms of Lateral Medullary (Wallenberg) Syndrome to specific brainstem nuclei.",
+        "correct_rationale": "Option D is correct. (Third-order question). Step 1: The presentation describes Lateral Medullary (Wallenberg) Syndrome caused by a PICA stroke. Step 2: The symptoms must be mapped to the affected lateral medullary structures. Step 3: Hoarseness, dysphagia, and an absent gag reflex are localized specifically to the Nucleus Ambiguus. This nucleus contains the motor neurons for cranial nerves IX and X, which control the palate, pharynx, and larynx.",
+        "incorrect_rationales": [
+          "Option A receives visceral sensory information (taste, baroreceptors) via CN VII, IX, and X, but does not control motor swallowing.",
+          "Option B is responsible for the ipsilateral loss of pain and temperature on the face.",
+          "Option C is responsible for the vertigo, nystagmus, and vomiting.",
+          "Option E is located in the pons, not the medulla; an infarct here would cause an ipsilateral facial droop."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q29",
+      "discipline": "Genetics",
+      "system": "Gastrointestinal",
+      "vignette": "A 28-year-old man undergoes a screening colonoscopy because his father died of colon cancer at age 40. The endoscopist discovers over 500 adenomatous polyps carpeting the entire colon. A prophylactic total proctocolectomy is recommended. The patient is found to have a germline mutation in a tumor suppressor gene on chromosome 5q22. In a normal, healthy cell, the protein encoded by this gene exerts its tumor-suppressive effect by directly facilitating the degradation of which of the following?",
+      "options": [
+        "p53",
+        "Beta-catenin",
+        "Cyclin-dependent kinase (CDK)",
+        "E2F transcription factor",
+        "Vascular endothelial growth factor (VEGF)"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the molecular function of the APC tumor suppressor gene in the Wnt signaling pathway.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: Hundreds of colonic polyps in a young patient indicate Familial Adenomatous Polyposis (FAP). Step 2: FAP is caused by a germline mutation in the APC (Adenomatous Polyposis Coli) gene. Step 3: APC is a negative regulator of the Wnt signaling pathway. In a normal cell, APC binds to beta-catenin and marks it for ubiquitination and proteasomal degradation. If APC is mutated, beta-catenin accumulates, translocates to the nucleus, and continuously activates transcription of growth-promoting genes (like c-MYC).",
+        "incorrect_rationales": [
+          "Option A is another tumor suppressor, but it is not degraded by APC. Mutations in p53 occur late in the adenoma-carcinoma sequence.",
+          "Option C and Option D are involved in the Retinoblastoma (Rb) pathway governing the G1/S cell cycle checkpoint.",
+          "Option E is an angiogenic factor targeted by drugs like bevacizumab, not the direct target of the APC protein."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q30",
+      "discipline": "Pharmacology",
+      "system": "Psychiatry",
+      "vignette": "A 42-year-old woman with major depressive disorder is maintained on fluoxetine. She is admitted to the hospital with a severe cellulitis and is empirically started on intravenous linezolid. Six hours later, she develops a high fever, profound diaphoresis, muscle rigidity, and bilateral lower extremity myoclonus. The resident on duty quickly administers a medication to reverse this life-threatening drug interaction. The antidote administered acts primarily via which of the following mechanisms?",
+      "options": [
+        "Direct agonism of GABA-A receptors",
+        "Blockade of 5-HT2 serotonin receptors",
+        "Inhibition of the Ryanodine receptor (RyR1)",
+        "Dopamine D2 receptor antagonism",
+        "Irreversible inhibition of monoamine oxidase"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the mechanism of action of cyproheptadine in treating Serotonin Syndrome.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: The patient is on an SSRI (fluoxetine) and received linezolid (which has weak MAOI activity). This combination triggers Serotonin Syndrome (hyperthermia, rigidity, and the distinguishing feature: clonus/hyperreflexia). Step 2: The primary treatment for severe Serotonin Syndrome, after discontinuing the offending agents and providing supportive care, is Cyproheptadine. Step 3: Cyproheptadine is an antihistamine that also acts as a potent 5-HT2 serotonin receptor antagonist, effectively blocking the peripheral and central effects of excess serotonin.",
+        "incorrect_rationales": [
+          "Option A describes benzodiazepines, which are used for supportive care (seizures, agitation) but are not the specific receptor antidote.",
+          "Option C describes dantrolene, the antidote for Malignant Hyperthermia (caused by inhaled anesthetics) or Neuroleptic Malignant Syndrome.",
+          "Option D describes antipsychotics (like haloperidol), which would actually *cause* Neuroleptic Malignant Syndrome, a condition mimicking serotonin syndrome but featuring 'lead-pipe' rigidity without clonus.",
+          "Option E describes the mechanism of MAOIs, which would exponentially worsen the syndrome."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q31",
+      "discipline": "Embryology",
+      "system": "Reproductive",
+      "vignette": "A 16-year-old girl is evaluated for primary amenorrhea. She is at Tanner stage 4 for both breast development and pubic hair. She reports no cyclical pelvic pain. Physical examination reveals normal external female genitalia, but the vagina ends in a blind pouch and the uterus is absent on pelvic ultrasound. Bilateral ovaries are present and normal in appearance. Laboratory testing reveals normal levels of estrogen and testosterone. Which of the following is the most likely karyotype of this patient?",
+      "options": [
+        "45, X",
+        "46, XX",
+        "46, XY",
+        "47, XXY",
+        "47, XXX"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Differentiate Müllerian agenesis (46,XX) from Androgen Insensitivity Syndrome (46,XY).",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: Primary amenorrhea with a blind vaginal pouch and absent uterus can be either Müllerian agenesis (Mayer-Rokitansky-Küster-Hauser syndrome) or Complete Androgen Insensitivity Syndrome (AIS). Step 2: The presence of *normal ovaries* and normal female pubic hair differentiates this as Müllerian agenesis. (AIS patients have cryptorchid testes, male testosterone levels, and absent pubic/axillary hair). Step 3: Because this is an isolated failure of the paramesonephric (Müllerian) ducts to develop in a biological female, her karyotype is normal 46,XX.",
+        "incorrect_rationales": [
+          "Option A is Turner syndrome. They have a uterus, but their ovaries are 'streak' (fibrotic), leading to absent breast development due to lack of estrogen.",
+          "Option C describes AIS, where a genetic male is phenotypically female but lacks pubic hair and has internal testes.",
+          "Option D is Klinefelter syndrome (phenotypic male with gynecomastia and small, firm testes).",
+          "Option E is Triple X syndrome, who generally have normal reproductive anatomy and fertility but may have mild cognitive delays."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q32",
+      "discipline": "Pharmacology",
+      "system": "Renal",
+      "vignette": "A 30-year-old mountain climber is prescribed a medication to prevent acute mountain sickness before attempting to summit a high peak. Two days after starting the medication, he experiences tingling in his fingers and toes. A basic metabolic panel is drawn. Assuming the medication is achieving its intended therapeutic effect, which of the following patterns will be observed regarding his urine pH and serum bicarbonate (HCO3-) levels?",
+      "options": [
+        "Urine pH Increased ; Serum HCO3- Increased",
+        "Urine pH Increased ; Serum HCO3- Decreased",
+        "Urine pH Decreased ; Serum HCO3- Decreased",
+        "Urine pH Decreased ; Serum HCO3- Increased",
+        "Urine pH Normal ; Serum HCO3- Normal"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Deduce the renal and systemic effects of acetazolamide.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: The classic prophylactic drug for altitude sickness is Acetazolamide. Step 2: Acetazolamide is a carbonic anhydrase inhibitor that acts in the proximal convoluted tubule. Step 3: By inhibiting carbonic anhydrase, it prevents the reabsorption of bicarbonate ($HCO_3^-$). Step 4: Because $HCO_3^-$ is dumped into the urine, the *Urine pH Increases* (becomes alkaline). Consequently, because the body is losing base, the *Serum $HCO_3^-$ Decreases*, causing a mild, normal anion gap metabolic acidosis. This acidosis stimulates the respiratory center to hyperventilate, countering the hypoxia of high altitude.",
+        "incorrect_rationales": [
+          "Option A is impossible; if you dump bicarb in the urine, serum levels must fall.",
+          "Option C describes a state of extreme acid excretion, usually seen in compensation for severe metabolic acidosis, not the mechanism of this drug.",
+          "Option D describes the mechanism of a loop or thiazide diuretic (contraction alkalosis with acidic urine)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q33",
+      "discipline": "Pathology",
+      "system": "Renal",
+      "vignette": "A 68-year-old man complains of lower back pain, severe fatigue, and constipation. Laboratory testing reveals a serum calcium of 12.5 mg/dL, a BUN of 45 mg/dL, and a creatinine of 3.8 mg/dL. A peripheral blood smear shows red blood cells stacked like coins. Urinalysis is negative for blood but shows moderate protein. The primary mechanism driving this patient's acute renal failure involves the toxic accumulation of which of the following substances within the renal tubules?",
+      "options": [
+        "Calcium oxalate crystals",
+        "Uric acid crystals",
+        "Monoclonal immunoglobulin light chains",
+        "Myoglobin from necrotic myocytes",
+        "Beta-amyloid protein"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify the pathophysiology of renal failure in Multiple Myeloma (Cast Nephropathy).",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: An older patient with bone pain (back), hypercalcemia (causing constipation), renal failure, and rouleaux formation (stacked RBCs) on a blood smear has Multiple Myeloma. Step 2: While hypercalcemia contributes to renal damage, the primary mechanism of severe, acute renal failure in multiple myeloma is 'Myeloma Cast Nephropathy.' Step 3: The malignant plasma cells overproduce monoclonal immunoglobulin light chains (Bence Jones proteins). These are freely filtered by the glomerulus but are directly toxic to the proximal tubular cells and combine with Tamm-Horsfall proteins in the distal tubule to form massive, obstructing casts.",
+        "incorrect_rationales": [
+          "Option A causes nephrolithiasis, not the primary cast nephropathy of multiple myeloma.",
+          "Option B causes tumor lysis syndrome, typically after treating leukemias or lymphomas.",
+          "Option D describes rhabdomyolysis (e.g., from crush injury or statin toxicity).",
+          "Option E causes Alzheimer's disease; systemic amyloidosis (AL amyloid) can occur in myeloma, but it deposits in the mesangium, whereas the tubular toxicity is directly from the light chains themselves."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q34",
+      "discipline": "Microbiology",
+      "system": "Hematology",
+      "vignette": "A 30-year-old woman who recently immigrated from West Africa presents with cyclical fevers and severe chills occurring every 48 hours. A thick blood smear reveals intraerythrocytic ring forms. She is initially treated with chloroquine, which successfully clears her parasitemia and resolves her symptoms. However, three months later, she experiences a relapse of the exact same symptoms. To achieve a complete functional cure and prevent further relapses, an additional medication must be administered. Before prescribing this new medication, the physician must screen the patient for a deficiency in an enzyme that primarily functions to generate which of the following molecules?",
+      "options": [
+        "Adenosine triphosphate (ATP)",
+        "Reduced Nicotinamide adenine dinucleotide (NADH)",
+        "Reduced Nicotinamide adenine dinucleotide phosphate (NADPH)",
+        "Flavin adenine dinucleotide (FADH2)",
+        "Guanosine triphosphate (GTP)"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Correlate P. vivax/ovale relapse with primaquine treatment and its G6PD contraindication.",
+        "correct_rationale": "Option C is correct. (Fourth-order question). Step 1: Cyclical fevers with a relapse months after chloroquine treatment indicate infection with *Plasmodium vivax* or *Plasmodium ovale*, which form dormant hypnozoites in the liver. Step 2: To clear these hepatic hypnozoites and prevent relapse, the drug Primaquine must be added. Step 3: Primaquine causes severe oxidative stress. It is strictly contraindicated in patients with G6PD deficiency, as it will trigger massive hemolytic anemia. Step 4: G6PD is the rate-limiting enzyme of the HMP shunt, whose primary function is to generate NADPH to keep glutathione in a reduced state.",
+        "incorrect_rationales": [
+          "Option A is generated by glycolysis and oxidative phosphorylation.",
+          "Option B is generated in glycolysis and the TCA cycle, used primarily for the electron transport chain.",
+          "Option D is generated by Succinate Dehydrogenase in the TCA cycle.",
+          "Option E is generated by Succinyl-CoA Synthetase in the TCA cycle."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q35",
+      "discipline": "Pathology",
+      "system": "Pulmonary",
+      "vignette": "A 55-year-old man develops Gram-negative sepsis following a ruptured appendix. Three days later, he requires mechanical ventilation due to profound hypoxemia that is refractory to 100% oxygen therapy. A chest X-ray shows diffuse, bilateral 'white-out' opacities. If a biopsy of this patient's lung tissue were examined under light microscopy, the alveolar spaces would be lined by a thick, pink, amorphous material. This pathognomonic material is primarily composed of which of the following?",
+      "options": [
+        "Fibrin-rich exudate and necrotic epithelial cells",
+        "Transudative fluid driven by increased hydrostatic pressure",
+        "Dense accumulations of collagen and activated fibroblasts",
+        "Purulent exudate consisting of viable and dead neutrophils",
+        "Amyloid deposits from chronic systemic inflammation"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Identify the histologic composition of hyaline membranes in ARDS.",
+        "correct_rationale": "Option A is correct. (Third-order question). Step 1: Refractory hypoxemia, bilateral opacities, and a trigger of severe sepsis strongly indicate Acute Respiratory Distress Syndrome (ARDS). Step 2: The hallmark histologic finding of ARDS is the formation of 'hyaline membranes' lining the alveoli. Step 3: These membranes are formed when massive inflammatory cytokine release damages the alveolar-capillary barrier. Protein-rich fluid leaks into the alveoli, and type I pneumocytes die. The hyaline membranes are essentially a thick paste composed of a fibrin-rich edema fluid mixed with the cellular debris of these necrotic epithelial cells, heavily impairing gas exchange.",
+        "incorrect_rationales": [
+          "Option B describes cardiogenic pulmonary edema (e.g., congestive heart failure), which is transudative, not exudative, and lacks hyaline membranes.",
+          "Option C describes the late, fibrotic phase of ARDS or idiopathic pulmonary fibrosis, not the acute hyaline membranes.",
+          "Option D describes bronchopneumonia, which fills the alveoli with pus, rather than lining them with a waxy membrane.",
+          "Option E is systemic amyloidosis, which does not cause acute respiratory failure post-sepsis."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q36",
+      "discipline": "Anatomy",
+      "system": "Musculoskeletal",
+      "vignette": "A 45-year-old data entry clerk presents with aching pain and a 'pins and needles' sensation in her right thumb, index, and middle fingers. The pain frequently awakens her at night. Tapping lightly over the palmar aspect of her right wrist elicits the tingling sensation. Assuming this nerve entrapment goes untreated, which of the following specific thumb movements will eventually become most severely compromised due to muscular atrophy?",
+      "options": [
+        "Extension",
+        "Adduction",
+        "Opposition",
+        "Abduction away from the palm in the coronal plane",
+        "Flexion of the interphalangeal joint"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify the motor deficits associated with severe Carpal Tunnel Syndrome.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: The patient's presentation (pain/tingling in the first 3.5 digits, positive Tinel sign, worse at night) is classic for Carpal Tunnel Syndrome, caused by compression of the Median Nerve. Step 2: The median nerve supplies motor innervation to the *thenar* eminence (the muscles at the base of the thumb). Step 3: The muscles innervated by the median nerve in the hand follow the mnemonic LOAF: Lumbricals (1st and 2nd), Opponens pollicis, Abductor pollicis brevis, and Flexor pollicis brevis. The Opponens pollicis is uniquely responsible for bringing the thumb across the palm to touch the other fingertips (Opposition), and this movement is profoundly lost with severe thenar atrophy.",
+        "incorrect_rationales": [
+          "Option A is controlled by the Extensor pollicis longus/brevis, innervated by the Radial nerve.",
+          "Option B is controlled by the Adductor pollicis, innervated by the Ulnar nerve.",
+          "Option D describes the action of the Abductor pollicis longus (Radial nerve), whereas the brevis moves it anteriorly.",
+          "Option E is controlled by the Flexor pollicis longus, which is innervated by the median nerve *before* it enters the carpal tunnel (anterior interosseous branch), so it is spared in CTS."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q37",
+      "discipline": "Embryology",
+      "system": "Endocrine",
+      "vignette": "A 35-year-old man is found to have recurrent nephrolithiasis, multiple duodenal ulcers that are refractory to PPI therapy, and bitemporal hemianopsia. A genetic mutation in the MEN1 gene is confirmed. To treat his hypercalcemia, surgery is planned to remove the hyperactive endocrine glands located in his neck. The specific glands targeted for removal share a common embryological origin with which of the following structures?",
+      "options": [
+        "Thyroid follicular cells",
+        "Parafollicular C cells",
+        "Thymus",
+        "Anterior pituitary",
+        "Submandibular glands"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Correlate MEN1 syndrome with the embryological origin of the parathyroid glands.",
+        "correct_rationale": "Option C is correct. (Fourth-order question). Step 1: The classic triad of Pituitary adenoma (bitemporal hemianopsia), Pancreatic tumor (Zollinger-Ellison causing refractory ulcers), and Parathyroid adenoma (hypercalcemia causing kidney stones) is diagnostic of Multiple Endocrine Neoplasia Type 1 (MEN1). Step 2: The surgery to treat his hypercalcemia will target the Parathyroid glands. Step 3: The inferior parathyroid glands derive from the endoderm of the 3rd pharyngeal pouch. Step 4: The other major structure derived from the 3rd pharyngeal pouch is the Thymus.",
+        "incorrect_rationales": [
+          "Option A derives from an endodermal invagination at the base of the tongue (thyroglossal duct).",
+          "Option B derives from neural crest cells via the 4th/5th pharyngeal pouch (ultimobranchial body).",
+          "Option D derives from surface ectoderm (Rathke's pouch).",
+          "Option E derives from neural crest cells."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q38",
+      "discipline": "Pharmacology",
+      "system": "Cardiovascular",
+      "vignette": "A 45-year-old man is diagnosed with Familial Hypercholesterolemia Type IIa and presents with large, nodular lipid deposits on his Achilles tendons. He is started on atorvastatin. By inhibiting the rate-limiting enzyme of de novo cholesterol synthesis, this medication triggers a compensatory cellular response that is primarily responsible for lowering his serum LDL levels. This compensatory response involves the direct upregulation of which of the following?",
+      "options": [
+        "Lipoprotein lipase on vascular endothelial surfaces",
+        "HMG-CoA reductase transcription",
+        "Hepatic synthesis of apolipoprotein B-100",
+        "Expression of hepatic LDL receptors",
+        "Biliary excretion of bile acids"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Understand the indirect mechanism by which statins lower serum LDL cholesterol.",
+        "correct_rationale": "Option D is correct. (Third-order question). Step 1: Statins directly inhibit HMG-CoA reductase, which stops the liver from synthesizing its own cholesterol. Step 2: Because the hepatocyte is now starved for intracellular cholesterol, it activates the transcription factor SREBP. Step 3: SREBP travels to the nucleus and massively upregulates the transcription and expression of LDL receptors on the surface of the hepatocyte. Step 4: These new LDL receptors pull massive amounts of circulating LDL out of the bloodstream to satisfy the liver's cholesterol need, which is the ultimate mechanism by which statins lower *serum* LDL levels.",
+        "incorrect_rationales": [
+          "Option A is the mechanism of action of fibrates (like gemfibrozil), which primarily lower triglycerides, not LDL.",
+          "Option B does occur as a weak compensatory attempt, but it doesn't lower serum LDL; the LDL receptor upregulation is the therapeutic driver.",
+          "Option C would actually *increase* VLDL and LDL production.",
+          "Option E is the mechanism of action of bile acid resins (like cholestyramine)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q39",
+      "discipline": "Immunology",
+      "system": "Hematology",
+      "vignette": "A 19-year-old college student presents to the student health clinic with a stiff neck, fever, and a petechial rash. Cerebrospinal fluid analysis confirms the presence of an intracellular Gram-negative diplococcus. Her medical records show she has been hospitalized three times in the past five years for similar infections. A functional deficiency in the terminal complement cascade (C5-C9) is identified. The primary mechanism of immune failure in this patient is an inability to perform which of the following processes?",
+      "options": [
+        "Opsonization of encapsulated bacteria for splenic macrophages",
+        "Formation of a transmembrane pore to induce osmotic cell lysis",
+        "Chemotactic recruitment of neutrophils to the site of infection",
+        "Neutralization of bacterial exotoxins",
+        "Presentation of bacterial antigens to CD4+ T cells"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the function of the Membrane Attack Complex (MAC) and the clinical consequence of its deficiency.",
+        "correct_rationale": "Option B is correct. (Second-order question). Step 1: Recurrent infections with *Neisseria meningitidis* (Gram-negative diplococcus causing meningitis and petechial rash) strongly point to a specific immune defect. Step 2: The terminal complement cascade (C5b, C6, C7, C8, and C9) assembles to form the Membrane Attack Complex (MAC). Step 3: The sole function of the MAC is to punch a hole (transmembrane pore) in the lipid bilayer of target cells, leading to massive influx of water and osmotic lysis. *Neisseria* species have thin cell walls and are uniquely susceptible to (and reliant upon) MAC-mediated destruction.",
+        "incorrect_rationales": [
+          "Option A is primarily performed by C3b (an early complement protein) and IgG antibodies. Deficiency here causes recurrent infections with ALL encapsulated organisms (Strep pneumo, H. flu), not just Neisseria.",
+          "Option C is primarily mediated by C5a, LTB4, and IL-8.",
+          "Option D is performed by neutralizing antibodies (IgG and IgA).",
+          "Option E is performed by Antigen Presenting Cells (APCs) via MHC Class II molecules."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q40",
+      "discipline": "Physiology",
+      "system": "Cardiovascular",
+      "vignette": "A 65-year-old man undergoes a cardiac catheterization to evaluate a murmur. A left ventricular pressure-volume (PV) loop is generated. The loop demonstrates a rectangular shape, tracing the phases of the cardiac cycle counterclockwise. Which of the following mechanical events directly corresponds to the bottom-left corner of this normal pressure-volume loop?",
+      "options": [
+        "Closure of the mitral valve",
+        "Opening of the aortic valve",
+        "Closure of the aortic valve",
+        "Opening of the mitral valve",
+        "Peak systolic ventricular pressure"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Map the physiological events of the cardiac cycle to the corners of a Pressure-Volume loop.",
+        "correct_rationale": "Option D is correct. (Third-order conceptual). Step 1: Visualize a standard left ventricular PV loop (Volume on the X-axis, Pressure on the Y-axis). The cycle goes counterclockwise. Step 2: The bottom-left corner represents the point of lowest volume (End-Systolic Volume) and lowest pressure, immediately following isovolumetric relaxation. Step 3: At this precise moment, the pressure in the left ventricle drops below the pressure in the left atrium, causing the *Mitral valve to open*. This initiates the filling phase (moving to the right along the bottom of the loop).",
+        "incorrect_rationales": [
+          "Option A occurs at the bottom-right corner (End-Diastolic Volume), initiating isovolumetric contraction.",
+          "Option B occurs at the top-right corner, when ventricular pressure exceeds aortic pressure, initiating ejection.",
+          "Option C occurs at the top-left corner, when ventricular pressure falls below aortic pressure, initiating isovolumetric relaxation.",
+          "Option E occurs along the top curve of the loop, during the active ejection phase, not at a corner."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
     }
   ]
 }
