@@ -43,7 +43,7 @@ async function loadBlock(filename) {
             generateNavigationGrid();
             startTimer();
         } else {
-            // Failsafe for empty JSON files (like block3.json)
+            // Failsafe for empty JSON files
             document.getElementById('vignette-text').innerText = "This level is currently empty. Add questions to the JSON file!";
             document.getElementById('options-container').innerHTML = '';
             document.getElementById('question-grid').innerHTML = '';
@@ -105,8 +105,32 @@ function renderQuestion(index) {
     const q = questionData[index];
     const isRevealed = revealedQuestions.has(index);
     
-    // Update Header & Text
+    // Update Header
     document.getElementById('question-number').innerText = `Question ${index + 1}`;
+    
+    // --- BULLETPROOF TAG INJECTION ---
+    // Safely creates the container via JavaScript if needed
+    let tagsContainer = document.getElementById('question-tags');
+    if (!tagsContainer) {
+        tagsContainer = document.createElement('div');
+        tagsContainer.id = 'question-tags';
+        tagsContainer.className = 'question-tags';
+        const vignette = document.getElementById('vignette-text');
+        vignette.parentNode.insertBefore(tagsContainer, vignette);
+    }
+    
+    // Only display tags if the JSON file actually has them
+    if (q.discipline && q.system) {
+        tagsContainer.innerHTML = `
+            <span class="tag">Discipline: ${q.discipline}</span>
+            <span class="tag">System: ${q.system}</span>
+        `;
+        tagsContainer.style.display = 'flex';
+    } else {
+        tagsContainer.style.display = 'none';
+    }
+    
+    // Update Vignette Text
     document.getElementById('vignette-text').innerText = q.vignette;
     
     // --- Image Exhibit Logic ---
