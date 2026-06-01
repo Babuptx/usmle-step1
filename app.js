@@ -56,7 +56,6 @@ function setupLevelButtons() {
         btn.addEventListener('click', (e) => {
             const targetFile = e.target.getAttribute('data-file');
             
-            // Do nothing if they click the level they are already on
             if (targetFile === currentBlockFile) return;
 
             const confirmSwitch = confirm("Are you sure you want to switch levels? Your current progress and timer will be reset.");
@@ -64,7 +63,6 @@ function setupLevelButtons() {
             if (confirmSwitch) {
                 currentBlockFile = targetFile;
                 
-                // Remove active class from all buttons, add to the clicked one
                 levelButtons.forEach(b => b.classList.remove('active'));
                 e.target.classList.add('active');
                 
@@ -200,6 +198,7 @@ function renderQuestion(index) {
 
 function generateNavigationGrid() {
     const grid = document.getElementById('question-grid');
+    if (!grid) return; // Safety check
     grid.innerHTML = '';
     
     questionData.forEach((_, i) => {
