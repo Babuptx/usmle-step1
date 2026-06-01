@@ -3,89 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>USMLE Step 1 - Block Simulation</title>
+    <title>USMLE Step 1 Mock Exam</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="exam-header">
-        <div class="header-left">
-            <span id="block-title">Loading Block...</span>
-        </div>
-        <div class="header-center">
-            <span class="timer-icon">⏱</span>
-            <span id="exam-timer">60:00</span>
-        </div>
-        <div class="header-right">
-            <button id="btn-lab-values" class="control-btn">Lab Values</button>
-            <button id="btn-end-block" class="control-btn danger">End Block</button>
-        </div>
-    </header>
 
     <div class="exam-container">
-        
-       <aside class="sidebar">
-        <div class="level-selector-container">
-            <span class="level-label">Select Level:</span>
-            <div class="level-buttons">
-                <button class="lvl-btn active" data-file="question_bank.json">L-1</button>
-                <button class="lvl-btn" data-file="block2.json">L-2</button>
-                <button class="lvl-btn" data-file="block3.json">L-3</button>
-                <button class="lvl-btn" data-file="block4.json">L-4</button>
-                <button class="lvl-btn" data-file="block5.json">L-5</button>
-                <button class="lvl-btn" data-file="block6.json">L-6</button>
-                <button class="lvl-btn" data-file="block7.json">L-7</button>
-            </div>
-        </div>
-
-        <h3>Item Navigation</h3>
-
-        <h3>Item Navigation</h3>
-            <div id="question-grid" class="grid-container">
+        <aside class="sidebar">
+            <div class="level-selector-container">
+                <span class="level-label">Select Level:</span>
+                <div class="level-buttons">
+                    <button class="lvl-btn active" data-file="question_bank.json">L-1</button>
+                    <button class="lvl-btn" data-file="block2.json">L-2</button>
+                    <button class="lvl-btn" data-file="block3.json">L-3</button>
+                    <button class="lvl-btn" data-file="block4.json">L-4</button>
+                    <button class="lvl-btn" data-file="block5.json">L-5</button>
+                    <button class="lvl-btn" data-file="block6.json">L-6</button>
+                    <button class="lvl-btn" data-file="block7.json">L-7</button>
                 </div>
+            </div>
+
+            <h3>Item Navigation</h3>
+            
+            <div id="question-grid" class="nav-grid"></div>
             
             <div class="legend">
-                <div class="legend-item"><span class="box unanswered"></span> Unanswered</div>
-                <div class="legend-item"><span class="box answered"></span> Answered</div>
-                <div class="legend-item"><span class="box flagged"></span> Flagged</div>
+                <div><span class="box unanswered"></span> Unanswered</div>
+                <div><span class="box answered"></span> Answered</div>
+                <div><span class="box flagged"></span> Flagged</div>
             </div>
         </aside>
 
-        <main class="question-stage">
-            <div class="question-header">
-                <h2 id="question-number">Question 1</h2>
-                <button id="btn-flag" class="control-btn flag-btn">⚑ Flag for Review</button>
-            </div>
-            
-            <div class="vignette-container">
-                <p id="vignette-text">Loading question data...</p>
-                <div id="exhibit-container" class="hidden">
+        <main class="main-content">
+            <header class="exam-header">
+                <div class="header-left">
+                    <h2 id="block-title">USMLE Step 1 Mock Exam</h2>
+                    <h3 id="question-number">Question 1</h3>
+                </div>
+                <div class="header-right">
+                    <div class="timer" id="exam-timer">60:00</div>
+                    <button id="btn-lab-values" class="control-btn">Lab Values</button>
+                    <button id="btn-flag" class="control-btn">⚑ Flag for Review</button>
+                </div>
+            </header>
+
+            <div class="question-body">
+                <p id="vignette-text" class="vignette"></p>
+                
+                <div id="exhibit-container" class="exhibit hidden">
                     <img id="exhibit-image" src="" alt="Clinical Exhibit">
                 </div>
-            </div>
-
-            <div class="options-container" id="options-container">
+                
+                <div id="options-container" class="options"></div>
+                
+                <div id="explanation-container" class="explanation hidden">
+                    <h4>Explanation</h4>
+                    <div id="explanation-text"></div>
                 </div>
-
-            <div id="explanation-container" class="hidden">
-                <h3>Explanation</h3>
-                <div id="explanation-text"></div>
             </div>
+
+            <footer class="exam-footer">
+                <button id="btn-prev" class="nav-btn" disabled>◄ Previous</button>
+                <button id="btn-show-answer" class="control-btn" style="background-color: #17a2b8; color: white; border: none; font-size: 16px;">👁 Show Answer</button>
+                <button id="btn-end-block" class="control-btn hidden">End Block</button>
+                <button id="btn-next" class="nav-btn">Next ►</button>
+            </footer>
         </main>
     </div>
-
-    <footer class="exam-footer">
-        <button id="btn-prev" class="nav-btn" disabled>◄ Previous</button>
-        <button id="btn-show-answer" class="control-btn" style="background-color: #17a2b8; color: white; border: none; font-size: 16px;">👁 Show Answer</button>
-        <button id="btn-next" class="nav-btn">Next ►</button>
-    </footer>
 
     <div id="lab-modal" class="modal hidden">
         <div class="modal-content">
             <div class="modal-header">
                 <h2>Standard Laboratory Values</h2>
-                <button id="btn-close-modal" class="close-btn">✖</button>
+                <span id="btn-close-modal" class="close-btn">&times;</span>
             </div>
-<div class="modal-body" id="lab-values-content">
+            <div class="modal-body" id="lab-values-content">
                 <table style="width: 100%; border-collapse: collapse; text-align: left;">
                     <thead>
                         <tr style="background-color: #ecf0f1; border-bottom: 2px solid #bdc3c7;">
