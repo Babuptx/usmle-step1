@@ -256,6 +256,390 @@
       },
       "has_exhibit": false,
       "exhibit_url": ""
+    },
+    {
+      "id": "q11",
+      "discipline": "Pharmacology",
+      "system": "Neurology",
+      "vignette": "A 34-year-old woman is diagnosed with myasthenia gravis and is started on pyridostigmine. Several days later, she presents to the clinic complaining of severe abdominal cramping, diarrhea, sweating, and excessive salivation. Her physician prescribes a medication to specifically manage these side effects without compromising the therapeutic efficacy of her myasthenia treatment. Which of the following best describes the properties of the newly prescribed medication?",
+      "options": [
+        "A muscarinic antagonist that freely crosses the blood-brain barrier",
+        "A muscarinic antagonist that contains a quaternary ammonium structure",
+        "A direct-acting nicotinic receptor agonist",
+        "An acetylcholinesterase reactivator (oxime)",
+        "A beta-2 adrenergic agonist"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Select appropriate pharmacologic therapy to counter muscarinic overstimulation while preserving nicotinic function.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: Pyridostigmine inhibits AChE, increasing ACh everywhere. The patient's weakness improves (nicotinic effect), but she develops muscarinic overstimulation (DUMBELS symptoms: diarrhea, urination, miosis, bronchospasm, emesis, lacrimation, salivation). Step 2: To fix this, you must block muscarinic receptors without blocking nicotinic receptors (which would cause weakness again). Step 3: You want an anti-muscarinic that acts peripherally in the gut but does NOT cross the blood-brain barrier to cause CNS toxicity (delirium). Drugs with a charged quaternary ammonium structure (like glycopyrrolate or hyoscyamine) cannot cross the BBB, making them perfect for controlling peripheral muscarinic side effects.",
+        "incorrect_rationales": [
+          "Option A describes scopolamine or atropine (tertiary amines). They cross the BBB and would cause CNS side effects like confusion.",
+          "Option C would worsen muscle fasciculations or cause depolarizing blockade.",
+          "Option D describes pralidoxime, used for organophosphate poisoning, not symptom management of MG therapy.",
+          "Option E would not relieve the profound parasympathetic overstimulation."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q12",
+      "discipline": "Biochemistry",
+      "system": "Metabolic",
+      "vignette": "A 1-year-old boy presents with severe developmental delay, coarse facial features, clouded corneas, and restricted joint movement. Laboratory analysis reveals exceptionally high levels of lysosomal enzymes in his plasma. Further molecular analysis shows these enzymes lack a specific targeting residue. The formation of this targeting residue normally occurs within which of the following cellular organelles?",
+      "options": [
+        "Rough Endoplasmic Reticulum",
+        "Smooth Endoplasmic Reticulum",
+        "Golgi Apparatus",
+        "Mitochondrial Matrix",
+        "Peroxisome"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify the cellular site of mannose-6-phosphate tagging in I-cell disease.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: The clinical picture (coarse facies, clouded corneas) and the presence of high lysosomal enzymes in the plasma are diagnostic of I-cell disease (inclusion cell disease). Step 2: This disease is caused by a failure of the Golgi apparatus to phosphorylate mannose residues (deficiency of N-acetylglucosaminyl-1-phosphotransferase). Step 3: Without the mannose-6-phosphate 'tag', proteins destined for the lysosome are mistakenly secreted extracellularly into the plasma.",
+        "incorrect_rationales": [
+          "Option A is where initial translation and N-linked glycosylation occur, but the specific phosphorylation of mannose to create the lysosomal targeting signal happens later in the Golgi.",
+          "Option B is responsible for lipid synthesis and detoxification.",
+          "Option D and Option E are incorrect localizations."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q13",
+      "discipline": "Microbiology",
+      "system": "Neurology",
+      "vignette": "A 45-year-old construction worker presents to the ED with severe muscle spasms in his jaw and face, making it difficult to open his mouth. He stepped on a rusty nail at a worksite 10 days ago and has not had a booster vaccination in 15 years. The toxin responsible for his condition reaches the central nervous system via retrograde axonal transport. Once in the spinal cord, the toxin exerts its primary pathogenic effect by cleaving which of the following?",
+      "options": [
+        "SNARE proteins, preventing the release of acetylcholine",
+        "SNARE proteins, preventing the release of GABA and glycine",
+        "Elongation factor 2 (EF-2), halting protein synthesis",
+        "Adenylate cyclase regulatory proteins (Gi), increasing cAMP",
+        "Ribosomal RNA, preventing amino acid chain elongation"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Understand the molecular mechanism of Tetanus toxin.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: The patient has tetanus (trismus/lockjaw after a puncture wound). Step 2: The tetanospasmin toxin travels via retrograde axonal transport using the motor protein dynein to the spinal cord. Step 3: Once there, it enters Renshaw cells (inhibitory interneurons) and acts as a protease. It cleaves SNARE proteins (specifically synaptobrevin), which permanently prevents the exocytosis of inhibitory neurotransmitters (GABA and glycine). This results in unchecked, continuous excitatory firing of motor neurons (spastic paralysis).",
+        "incorrect_rationales": [
+          "Option A describes the mechanism of Botulinum toxin, which cleaves SNARE proteins at the peripheral neuromuscular junction to prevent acetylcholine release, causing flaccid paralysis.",
+          "Option C describes Diphtheria toxin and Exotoxin A of Pseudomonas.",
+          "Option D describes Pertussis toxin.",
+          "Option E describes Shiga toxin and Shiga-like toxin."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q14",
+      "discipline": "Endocrinology",
+      "system": "Reproductive",
+      "vignette": "A phenotypically female newborn is evaluated in the NICU for severe hypotension, hyponatremia, and hyperkalemia. Genetic testing reveals a 46,XX karyotype. Physical examination shows significant virilization and ambiguous genitalia. A deficiency in an adrenal enzyme is suspected. Which of the following precursor molecules is most likely to be markedly elevated in this patient's serum?",
+      "options": [
+        "11-deoxycorticosterone",
+        "Pregnenolone",
+        "17-hydroxyprogesterone",
+        "Dehydroepiandrosterone (DHEA)",
+        "Aldosterone"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify the accumulating precursor in 21-hydroxylase deficiency.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: A 46,XX infant with virilization (excess androgens) and salt-wasting (hypotension, hyponatremia, hyperkalemia indicating deficient aldosterone) has Congenital Adrenal Hyperplasia (CAH). Step 2: The specific presentation indicates a 21-hydroxylase deficiency, the most common form of CAH. Step 3: 21-hydroxylase normally converts 17-hydroxyprogesterone to 11-deoxycortisol (on the way to cortisol), and progesterone to 11-deoxycorticosterone (on the way to aldosterone). Because the enzyme is missing, the immediate precursor, 17-hydroxyprogesterone, backs up massively and is shunted down the androgen pathway, causing virilization.",
+        "incorrect_rationales": [
+          "Option A accumulates in 11-beta-hydroxylase deficiency, which causes hypertension (because 11-DOC is a weak mineralocorticoid), not hypotension.",
+          "Option B and Option D accumulate in 17-alpha-hydroxylase deficiency, which presents with hypertension and XY undervirilization (phenotypic female), not XX virilization.",
+          "Option E is profoundly decreased, causing the salt-wasting crisis."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q15",
+      "discipline": "Biostatistics",
+      "system": "Multisystem",
+      "vignette": "A randomized, double-blind, placebo-controlled trial evaluates a new antiplatelet drug for the prevention of secondary strokes. Over a 5-year period, 20% of patients in the placebo group suffer a recurrent stroke, compared to 15% of patients in the experimental drug group. Based on these results, how many patients would need to be treated with the experimental drug for 5 years to prevent one additional stroke?",
+      "options": [
+        "5",
+        "10",
+        "20",
+        "25",
+        "50"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Calculate the Number Needed to Treat (NNT) from raw event rates.",
+        "correct_rationale": "Option C is correct. (Second-order calculation). Step 1: Calculate the Absolute Risk Reduction (ARR). The risk in the control group is 20% (0.20) and the risk in the experimental group is 15% (0.15). ARR = Control Event Rate - Experimental Event Rate = 0.20 - 0.15 = 0.05 (or 5%). Step 2: Calculate the Number Needed to Treat (NNT). NNT = 1 / ARR. Therefore, 1 / 0.05 = 20. You must treat 20 people to prevent one event.",
+        "incorrect_rationales": [
+          "Option A represents the raw percentage point difference (5%), not the NNT.",
+          "Option B, Option D, and Option E are incorrect calculations based on erroneous use of Relative Risk Reduction."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q16",
+      "discipline": "Anatomy",
+      "system": "Gastrointestinal",
+      "vignette": "A 22-year-old woman with a history of severe anorexia nervosa presents with severe postprandial abdominal pain, nausea, and bilious vomiting. An upper GI series with barium reveals a sharply delineated, vertical, linear cutoff of barium flow in the third portion of the duodenum. The structure most likely compressing the duodenum in this patient is a branch of which of the following larger vessels?",
+      "options": [
+        "Celiac trunk",
+        "Abdominal aorta",
+        "Inferior mesenteric artery",
+        "Hepatic portal vein",
+        "Superior mesenteric vein"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the vascular anatomy underlying Superior Mesenteric Artery (SMA) syndrome.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: Severe weight loss (anorexia) followed by postprandial bilious vomiting and a cutoff at the third (transverse) portion of the duodenum is diagnostic of Superior Mesenteric Artery (SMA) syndrome. Step 2: The transverse duodenum passes between the aorta and the SMA. The mesenteric fat pad normally acts as a cushion to keep the SMA angle wide. Severe weight loss depletes this fat pad, causing the SMA to acutely compress the duodenum against the aorta. Step 3: The SMA is a direct, unpaired anterior branch of the abdominal aorta (originating at L1).",
+        "incorrect_rationales": [
+          "Option A supplies the foregut. It exits the aorta at T12, above the SMA.",
+          "Option C supplies the hindgut. It exits the aorta at L3, below the duodenum.",
+          "Option D and Option E are venous structures that do not classically cause this acute mechanical compression."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q17",
+      "discipline": "Pharmacology",
+      "system": "Cardiovascular",
+      "vignette": "A 60-year-old man with a history of ischemic cardiomyopathy and frequent ventricular arrhythmias is started on an antiarrhythmic drug. Three months later, he presents with progressive dyspnea on exertion and a non-productive cough. Chest X-ray reveals diffuse bilateral interstitial infiltrates. Pulmonary function tests show a restrictive pattern. Which of the following is an additional well-documented side effect of the medication this patient is taking?",
+      "options": [
+        "Cinchonism (tinnitus, headache, dizziness)",
+        "Drug-induced lupus erythematosus",
+        "Hyperthyroidism or hypothyroidism",
+        "Gingival hyperplasia",
+        "Cyanide toxicity"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Recognize Amiodarone toxicity and its diverse side effect profile.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: The patient was given an antiarrhythmic and developed severe pulmonary fibrosis (interstitial infiltrates, restrictive PFTs). This is the hallmark fatal toxicity of Amiodarone (a Class III antiarrhythmic). Step 2: Amiodarone contains iodine (constituting ~39% of its molecular weight) and structurally resembles thyroid hormone. Step 3: Due to this iodine load and direct follicular cell toxicity, Amiodarone famously causes severe thyroid dysfunction (it can cause either hyperthyroidism or hypothyroidism). Other side effects include blue-gray skin discoloration, corneal microdeposits, and hepatotoxicity.",
+        "incorrect_rationales": [
+          "Option A is a side effect of Quinidine (Class IA).",
+          "Option B is a side effect of Procainamide (Class IA) or Hydralazine.",
+          "Option D is a side effect of Phenytoin, Cyclosporine, or Calcium Channel Blockers.",
+          "Option E is a side effect of prolonged Nitroprusside infusion."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q18",
+      "discipline": "Biochemistry",
+      "system": "Metabolic",
+      "vignette": "A 4-year-old boy is brought to the physician due to severe self-mutilating behavior, specifically biting his own lips and fingers. He also exhibits choreoathetoid movements and intellectual disability. Laboratory tests reveal hyperuricemia. The defective enzyme in this patient normally utilizes which of the following as a primary substrate to salvage purine bases?",
+      "options": [
+        "Phosphoribosyl pyrophosphate (PRPP)",
+        "Inosine monophosphate (IMP)",
+        "Ribose-5-phosphate",
+        "Xanthine oxidase",
+        "Adenosine triphosphate (ATP)"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Identify the substrates of HGPRT in the context of Lesch-Nyhan syndrome.",
+        "correct_rationale": "Option A is correct. (Third-order question). Step 1: Self-mutilation, choreoathetosis, and hyperuricemia in a young boy is diagnostic of Lesch-Nyhan syndrome. Step 2: This is an X-linked recessive disorder caused by a complete absence of Hypoxanthine-Guanine Phosphoribosyltransferase (HGPRT). Step 3: HGPRT is part of the purine salvage pathway. It converts hypoxanthine to IMP, and guanine to GMP. To do this, it fundamentally requires Phosphoribosyl pyrophosphate (PRPP) as the activated ribose-phosphate donor. Without HGPRT, PRPP accumulates, leading to massive de novo purine synthesis and subsequent hyperuricemia.",
+        "incorrect_rationales": [
+          "Option B is the *product* of the HGPRT reaction with hypoxanthine, not the substrate.",
+          "Option C is the precursor to PRPP, converted by PRPP synthetase.",
+          "Option D is an enzyme involved in purine degradation (creating uric acid), which is overactive in this disease, but not the substrate for HGPRT.",
+          "Option E provides the energy to create PRPP, but PRPP is the actual substrate utilized by HGPRT."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q19",
+      "discipline": "Physiology",
+      "system": "Renal",
+      "vignette": "A 32-year-old woman with bipolar disorder managed with lithium presents with extreme thirst and excessive urination. A water deprivation test is performed. Following fluid restriction, her urine osmolality remains at 150 mOsm/kg. Subsequent administration of exogenous desmopressin (ADH analog) results in a urine osmolality of 160 mOsm/kg. The primary receptor that is failing to respond in this patient's kidneys is coupled to which of the following intracellular second messenger systems?",
+      "options": [
+        "Inhibition of adenylyl cyclase (Gi)",
+        "Activation of adenylyl cyclase (Gs)",
+        "Activation of phospholipase C (Gq)",
+        "Intrinsic tyrosine kinase activity",
+        "Cytosolic steroid receptor activation"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Determine the second messenger system of the V2 ADH receptor in Lithium-induced NDI.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: The patient has Nephrogenic Diabetes Insipidus (NDI) caused by chronic Lithium toxicity (urine fails to concentrate during fluid restriction, AND fails to concentrate after exogenous ADH is given, proving the kidneys are ignoring the hormone). Step 2: ADH normally binds to V2 receptors on the basolateral membrane of the collecting duct principal cells. Step 3: The V2 receptor is a Gs-coupled GPCR. Activation of Gs stimulates adenylyl cyclase, increasing intracellular cAMP, which directs the insertion of Aquaporin-2 channels into the apical membrane.",
+        "incorrect_rationales": [
+          "Option A (Gi) typically inhibits adenylyl cyclase (e.g., Alpha-2, M2, D2 receptors).",
+          "Option C (Gq) activates PLC, increasing IP3 and DAG. This is the pathway for the V1 ADH receptor (found on vascular smooth muscle to cause vasoconstriction), NOT the renal V2 receptor.",
+          "Option D is the pathway for insulin and growth factors.",
+          "Option E is the pathway for aldosterone and cortisol."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q20",
+      "discipline": "Pathology",
+      "system": "Neurology",
+      "vignette": "A 50-year-old man presents with progressive choreiform movements, unpredictable mood swings, and early-stage dementia. His father died of a similar condition at age 55, and his grandfather died of it at age 62. An MRI of the brain is most likely to show profound atrophy of which of the following structures?",
+      "options": [
+        "Substantia nigra",
+        "Caudate nucleus",
+        "Hippocampus",
+        "Cerebellar vermis",
+        "Subthalamic nucleus"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the gross pathological changes in the brain associated with Huntington Disease.",
+        "correct_rationale": "Option B is correct. (Second-order question). Step 1: The classic triad of chorea, psychiatric symptoms (mood swings), and dementia, coupled with a family history demonstrating genetic anticipation (disease presenting earlier in subsequent generations), is strongly diagnostic of Huntington Disease. Step 2: Huntington Disease (caused by a CAG trinucleotide repeat expansion) pathologically results in the profound loss of GABAergic inhibitory neurons in the striatum. On gross pathology or MRI, this manifests as massive atrophy of the Caudate nucleus (and putamen), leading to ex vacuo ventriculomegaly (enlargement of the lateral ventricles).",
+        "incorrect_rationales": [
+          "Option A is the site of dopaminergic neuronal loss in Parkinson Disease.",
+          "Option C is the primary site of early atrophy in Alzheimer Disease.",
+          "Option D is the site of atrophy in chronic alcohol abuse (manifesting as truncal ataxia).",
+          "Option E lesions cause hemiballismus (flailing of one arm/leg), usually due to an acute lacunar stroke, not a progressive genetic dementia."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q21",
+      "discipline": "Anatomy",
+      "system": "Reproductive",
+      "vignette": "A 28-year-old man presents with a painless, heavy sensation in his right scrotum. Ultrasound confirms a solid intratesticular mass, and a radical inguinal orchiectomy is scheduled. In the absence of hematogenous spread, the first site of metastasis for this primary malignancy is most likely to be which of the following lymph node clusters?",
+      "options": [
+        "Superficial inguinal nodes",
+        "Deep inguinal nodes",
+        "External iliac nodes",
+        "Para-aortic (lumbar) nodes",
+        "Internal iliac nodes"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Deduce the primary lymphatic drainage of the testes.",
+        "correct_rationale": "Option D is correct. (Second-order question). Step 1: The patient has testicular cancer. Step 2: The lymphatic drainage of an organ directly follows its embryological blood supply. Because the testes originate embryologically in the posterior abdominal wall (near the kidneys) and descend into the scrotum later, their blood supply (gonadal arteries) and their lymphatic drainage remain high up in the abdomen. Therefore, the testes drain directly into the Para-aortic (lumbar) lymph nodes.",
+        "incorrect_rationales": [
+          "Option A drains the skin of the scrotum, not the testes themselves. It also drains the vulva and the distal vagina.",
+          "Option B drains the glans penis and the clitoris.",
+          "Option C and Option E generally drain the lower pelvic organs (bladder, prostate, cervix, uterus)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q22",
+      "discipline": "Pharmacology",
+      "system": "Infectious Disease",
+      "vignette": "A 19-year-old college student is prescribed azithromycin for community-acquired atypical pneumonia caused by Mycoplasma pneumoniae. The primary mechanism of action of this medication involves binding to the 50S ribosomal subunit. Which of the following specific steps of bacterial protein synthesis is directly inhibited by this drug?",
+      "options": [
+        "Formation of the 30S initiation complex",
+        "Binding of the aminoacyl-tRNA to the A site",
+        "Formation of peptide bonds via peptidyltransferase",
+        "Translocation of the ribosome along the mRNA",
+        "Release of the completed polypeptide chain"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Identify the precise mechanism of action of macrolide antibiotics at the ribosome.",
+        "correct_rationale": "Option D is correct. (Second-order question). Azithromycin is a macrolide antibiotic. Macrolides (along with clindamycin) bind reversibly to the 23S rRNA of the 50S ribosomal subunit. Their physical presence specifically blocks the *translocation* step of protein synthesis—the movement of the growing peptidyl-tRNA from the A (aminoacyl) site to the P (peptidyl) site. By jamming the tunnel, the ribosome cannot move forward along the mRNA.",
+        "incorrect_rationales": [
+          "Option A is inhibited by Aminoglycosides (e.g., Gentamicin), which bind the 30S subunit and interfere with initiation.",
+          "Option B is inhibited by Tetracyclines (e.g., Doxycycline), which bind the 30S subunit and physically block the A site.",
+          "Option C is inhibited by Chloramphenicol (which acts at the 50S subunit but specifically targets the peptidyltransferase enzyme).",
+          "Option E is not the primary target of major antibiotic classes."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q23",
+      "discipline": "Immunology",
+      "system": "Cardiovascular",
+      "vignette": "A 10-year-old girl is evaluated for new-onset chorea, a migratory polyarthritis, and a new holosystolic murmur at the apex. She had a severe, untreated sore throat one month ago. Her condition is the result of an autoimmune reaction. The autoantibodies causing this patient's cardiac pathology were originally generated against a bacterial virulence factor that shares profound structural homology with which of the following host proteins?",
+      "options": [
+        "Cardiac myosin",
+        "Type IV collagen",
+        "Synovial hyaluronic acid",
+        "Acetylcholine receptors",
+        "Myelin basic protein"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Identify the target of molecular mimicry in Acute Rheumatic Fever.",
+        "correct_rationale": "Option A is correct. (Third-order question). Step 1: The patient has Acute Rheumatic Fever (Sydenham chorea, migratory polyarthritis, mitral regurgitation) following an untreated Group A Streptococcal (S. pyogenes) pharyngitis. Step 2: The mechanism of ARF is a Type II hypersensitivity reaction via *molecular mimicry*. Step 3: Antibodies generated against the bacterial M-protein (the primary anti-phagocytic virulence factor of S. pyogenes) cross-react with human tissues. The M-protein's alpha-helical coiled-coil structure bears striking molecular homology to human cardiac myosin (and tropomyosin), leading to the autoimmune destruction of the heart valves.",
+        "incorrect_rationales": [
+          "Option B is targeted by antibodies in Goodpasture syndrome.",
+          "Option C is incorrect. While the capsule of S. pyogenes is made of hyaluronic acid (preventing phagocytosis), it is non-immunogenic precisely because it mirrors human connective tissue; it does not trigger the antibody response.",
+          "Option D is targeted in Myasthenia Gravis.",
+          "Option E is targeted in Multiple Sclerosis."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q24",
+      "discipline": "Pathology",
+      "system": "Hematology",
+      "vignette": "A 35-year-old woman presents to the clinic with episodes of dark, cola-colored urine occurring predominantly in the morning. Laboratory testing reveals a profound hemolytic anemia, pancytopenia, and a positive urine hemosiderin test. Flow cytometry of her peripheral red blood cells indicates an absence of CD55 and CD59. The underlying genetic defect in this patient results in the inability to synthesize which of the following?",
+      "options": [
+        "Spectrin cytoskeleton network",
+        "Glycosylphosphatidylinositol (GPI) anchors",
+        "Beta-globin chains",
+        "Glutathione reductase",
+        "Heme porphyrin rings"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize the molecular defect underlying Paroxysmal Nocturnal Hemoglobinuria (PNH).",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: Hemolytic anemia with morning hemoglobinuria and missing CD55/CD59 is diagnostic of Paroxysmal Nocturnal Hemoglobinuria (PNH). Step 2: PNH is an acquired, somatic mutation in hematopoietic stem cells involving the PIGA gene. Step 3: The PIGA gene is required for the synthesis of Glycosylphosphatidylinositol (GPI) anchors. These lipid anchors normally attach protective proteins (like CD55/Decay Accelerating Factor and CD59/MAC Inhibitory Protein) to the surface of RBCs. Without the GPI anchor, the cells lack these proteins and are destroyed by the body's own complement system, particularly at night when mild respiratory acidosis activates complement.",
+        "incorrect_rationales": [
+          "Option A is defective in Hereditary Spherocytosis.",
+          "Option C is defective in Beta-Thalassemia.",
+          "Option D is related to G6PD deficiency (which affects the generation of NADPH needed to reduce glutathione).",
+          "Option E is defective in porphyrias or sideroblastic anemias."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q25",
+      "discipline": "Biochemistry",
+      "system": "Metabolic",
+      "vignette": "During a prolonged fast, the liver heavily upregulates beta-oxidation to generate ATP and ketone bodies from free fatty acids. For this to occur, long-chain fatty acids must be transported from the cytosol into the mitochondrial matrix via the carnitine shuttle. The rate-limiting enzyme of this shuttle, Carnitine Palmitoyltransferase I (CPT-1), is directly and allosterically inhibited by high cytosolic concentrations of which of the following metabolites?",
+      "options": [
+        "Citrate",
+        "Malonyl-CoA",
+        "Acetyl-CoA",
+        "Acetoacetate",
+        "Fructose-2,6-bisphosphate"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the regulatory feedback mechanism preventing simultaneous fatty acid synthesis and breakdown.",
+        "correct_rationale": "Option B is correct. (Second-order question). The cell cannot efficiently perform beta-oxidation (breaking down fats) and lipogenesis (building fats) at the same time. Malonyl-CoA is the primary intermediate of *fatty acid synthesis* (created from Acetyl-CoA by Acetyl-CoA Carboxylase). To prevent a futile cycle, high levels of Malonyl-CoA allosterically inhibit Carnitine Palmitoyltransferase I (CPT-1). This physically stops newly synthesized fatty acids from being immediately transported into the mitochondria for breakdown.",
+        "incorrect_rationales": [
+          "Option A allosterically activates Acetyl-CoA Carboxylase (promoting fat synthesis) and inhibits PFK-1 (inhibiting glycolysis).",
+          "Option C is a product of beta-oxidation and activates Pyruvate Carboxylase (gluconeogenesis), but does not directly inhibit CPT-1.",
+          "Option D is a ketone body.",
+          "Option E is the most potent activator of PFK-1, driving glycolysis."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
     }
   ]
 }
