@@ -1023,7 +1023,7 @@
           "Option A occurs at the bottom-right corner (End-Diastolic Volume), initiating isovolumetric contraction.",
           "Option B occurs at the top-right corner, when ventricular pressure exceeds aortic pressure, initiating ejection.",
           "Option C occurs at the top-left corner, when ventricular pressure falls below aortic pressure, initiating isovolumetric relaxation.",
-          "Option E occurs along the top curve of the loop, during the active ejection phase, not at a corner."
+          "Option E occurs  along the top curve of the loop, during the active ejection phase, not at a corner."
         ]
       },
       "has_exhibit": false,
