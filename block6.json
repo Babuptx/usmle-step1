@@ -1,6 +1,1036 @@
-JSON
 {
   "block_id": 6,
-  "block_title": "USMLE Step 1 Mock Exam - Block 6",
-  "questions": []
+  "block_title": "USMLE Step 1 Mock Exam - Block 6 (Board Examiner)",
+  "questions": [
+    {
+      "id": "q1",
+      "discipline": "Biochemistry",
+      "system": "Neurology",
+      "vignette": "A 3-week-old male infant is brought to the emergency department after a witnessed seizure. Physical examination reveals profound hypotonia, poor feeding, hepatomegaly, and distinctive craniofacial abnormalities including a high forehead, flattened midface, and widely separated eyes. An MRI of the brain shows severe hypomyelination. Laboratory analysis reveals a massive accumulation of very-long-chain fatty acids (VLCFAs) and phytanic acid in the plasma. The genetic defect in this patient most directly impairs the biogenesis of an organelle whose primary function includes which of the following?",
+      "options": [
+        "Degradation of ubiquitinated intracellular proteins",
+        "Synthesis of core oligosaccharides for N-linked glycosylation",
+        "Beta-oxidation of fatty acids with carbon chains longer than 22",
+        "Generation of ATP via the electron transport chain",
+        "Hydrolysis of sphingolipids and mucopolysaccharides"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Recognize Zellweger syndrome and the physiological role of peroxisomes.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: An infant with profound hypotonia, seizures, hepatomegaly, classic craniofacial abnormalities, and an accumulation of VLCFAs has Zellweger Syndrome. Step 2: Zellweger syndrome is an autosomal recessive disorder caused by a mutated PEX gene, leading to a complete failure of Peroxisome biogenesis. Step 3: While standard beta-oxidation occurs in the mitochondria, the mitochondria cannot handle carbon chains longer than 22. The *primary* function of the peroxisome is the initial beta-oxidation of these Very-Long-Chain Fatty Acids (VLCFAs) and the alpha-oxidation of branched-chain fatty acids (phytanic acid) before sending the shorter fragments to the mitochondria.",
+        "incorrect_rationales": [
+          "Option A describes the function of the proteasome.",
+          "Option B describes the function of the rough endoplasmic reticulum.",
+          "Option D describes the function of the mitochondria.",
+          "Option E describes the function of the lysosome."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q2",
+      "discipline": "Pharmacology",
+      "system": "Cardiovascular",
+      "vignette": "A 35-year-old woman is brought to the ED with palpitations and lightheadedness. Her ECG shows a narrow-complex tachycardia at 180 bpm. Vagal maneuvers fail to convert the rhythm. The physician administers a rapid intravenous push of a medication with a half-life of less than 10 seconds. The patient experiences a brief period of chest flushing and a sense of impending doom before her rhythm successfully converts to normal sinus rhythm. The therapeutic effect of the administered drug is mediated by the direct opening of which of the following ion channels?",
+      "options": [
+        "Inward rectifier potassium channels",
+        "L-type voltage-gated calcium channels",
+        "Fast voltage-gated sodium channels",
+        "Transient outward potassium channels",
+        "Hyperpolarization-activated cyclic nucleotide-gated (HCN) channels"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Identify the cellular mechanism of Adenosine in terminating SVT.",
+        "correct_rationale": "Option A is correct. (Third-order question). Step 1: The patient has a Supraventricular Tachycardia (SVT). Step 2: The drug of choice for SVT termination, which has an extremely short half-life (<10 sec) and causes flushing/chest pressure, is Adenosine. Step 3: Adenosine binds to A1 receptors on the AV node. This G-protein coupled receptor directly opens *inward rectifier potassium channels*. Step 4: The massive efflux of potassium hyperpolarizes the AV node cell, while concurrently decreasing cAMP to close calcium channels. This temporarily halts AV node conduction, breaking the re-entrant circuit.",
+        "incorrect_rationales": [
+          "Option B are blocked by verapamil/diltiazem, they are not opened by adenosine.",
+          "Option C are blocked by Class I antiarrhythmics.",
+          "Option D are responsible for phase 1 of the ventricular action potential.",
+          "Option E are the 'funny' channels responsible for spontaneous pacemaker depolarization, blocked by Ivabradine."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q3",
+      "discipline": "Immunology",
+      "system": "Endocrine",
+      "vignette": "A 4-month-old male infant is evaluated in the pediatric ICU for failure to thrive, severe watery diarrhea, and a diffuse, scaling eczematous rash. During the workup, his blood glucose is found to be 450 mg/dL, and he is diagnosed with neonatal type 1 diabetes mellitus. A mutation in the FOXP3 gene is identified. This genetic defect severely disrupts the development and function of a specific subset of immune cells. To survive and maintain their suppressive function, this absent cell population exhibits an absolute, continuous dependence on which of the following cytokines?",
+      "options": [
+        "Interferon-gamma (IFN-y)",
+        "Interleukin-2 (IL-2)",
+        "Interleukin-4 (IL-4)",
+        "Tumor Necrosis Factor-alpha (TNF-a)",
+        "Interleukin-12 (IL-12)"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Connect IPEX syndrome (FOXP3) to Regulatory T cells and their reliance on IL-2.",
+        "correct_rationale": "Option B is correct. (Fourth-order question). Step 1: A male infant with Immune dysregulation, Polyendocrinopathy (type 1 diabetes), Enteropathy (diarrhea), and X-linked inheritance (FOXP3 mutation) has IPEX Syndrome. Step 2: The FOXP3 gene is the master transcription factor required for the development of Regulatory T cells (Tregs). Step 3: Without Tregs, peripheral tolerance is lost, leading to massive, fatal autoimmunity. Step 4: To survive and function, Tregs continuously express CD25, which is the high-affinity receptor for *Interleukin-2 (IL-2)*. Tregs act as an 'IL-2 sink,' starving effector T cells of IL-2 while heavily relying on it for their own survival.",
+        "incorrect_rationales": [
+          "Option A activates macrophages and is secreted by Th1 cells.",
+          "Option C drives Th2 differentiation and B cell isotype switching to IgE.",
+          "Option D mediates acute inflammation and granuloma maintenance.",
+          "Option E drives naive T cells to become Th1 cells."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q4",
+      "discipline": "Anatomy",
+      "system": "Neurology",
+      "vignette": "A 10-year-old boy is brought to the neurologist because he frequently drops objects and complains of a headache that is worse in the morning. Upon examination, his pupils constrict normally when focusing on a near object, but they do not constrict when a light is shone into them. Furthermore, he is completely unable to track the physician's finger when asked to look upwards. A brain MRI reveals a solid mass. This mass is most likely compressing which of the following specific anatomical structures?",
+      "options": [
+        "Optic chiasm",
+        "Superior colliculus and pretectal area",
+        "Medial longitudinal fasciculus (MLF)",
+        "Pons and abducens nucleus",
+        "Cerebellar vermis"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Localize Parinaud syndrome to the dorsal midbrain (superior colliculus) due to a pinealoma.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: A young boy with signs of elevated ICP (morning headaches) and a classic triad of vertical gaze palsy, light-near dissociation (pupils constrict to accommodation but not to light), and lid retraction has Parinaud Syndrome (Dorsal Midbrain Syndrome). Step 2: This is almost universally caused by a Pinealoma (a tumor of the pineal gland). Step 3: The pineal gland sits directly dorsal to the midbrain. As it grows, it pushes down and compresses the *Superior colliculus* (mediating upward gaze) and the *Pretectal area* (mediating the pupillary light reflex).",
+        "incorrect_rationales": [
+          "Option A compression causes bitemporal hemianopsia (e.g., pituitary adenoma or craniopharyngioma).",
+          "Option C compression causes Internuclear Ophthalmoplegia (INO).",
+          "Option D compression would cause a lateral (horizontal) gaze palsy and potentially an ipsilateral facial droop.",
+          "Option E compression causes truncal ataxia (e.g., medulloblastoma), but not specifically the vertical gaze palsy and pupillary findings."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q5",
+      "discipline": "Pharmacology",
+      "system": "Microbiology",
+      "vignette": "A 45-year-old hospitalized patient develops a severe, multi-drug resistant Pseudomonas aeruginosa infection. The infectious disease team prescribes imipenem, a broad-spectrum carbapenem antibiotic. To ensure the antibiotic reaches therapeutic concentrations in the urinary tract and to prevent potentially severe localized nephrotoxicity, a secondary medication is co-administered intravenously. This secondary medication achieves its effect by inhibiting an enzyme located in which of the following anatomical structures?",
+      "options": [
+        "Hepatic smooth endoplasmic reticulum",
+        "Bacterial cell wall periplasmic space",
+        "Renal proximal convoluted tubule brush border",
+        "Renal thick ascending limb of the loop of Henle",
+        "Plasma compartment of the bloodstream"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Understand the rationale for co-administering cilastatin with imipenem.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: Imipenem is a highly effective, broad-spectrum beta-lactam antibiotic. Step 2: However, if given alone, imipenem is rapidly cleaved and inactivated into a highly nephrotoxic metabolite. Step 3: This cleavage is performed by Dehydropeptidase-I, an enzyme uniquely located on the *brush border of the Renal proximal convoluted tubule*. Step 4: To prevent this, imipenem is ALWAYS co-administered with Cilastatin, a specific inhibitor of Dehydropeptidase-I. (Mnemonic: 'With imipenem, the kill is lastin' with cilastatin').",
+        "incorrect_rationales": [
+          "Option A is where CYP450 enzymes reside, but imipenem is renally degraded, not hepatically.",
+          "Option B is where beta-lactamases are found, which are inhibited by drugs like clavulanic acid or tazobactam, not cilastatin.",
+          "Option D is the site of loop diuretics.",
+          "Option E is where esterases (which degrade drugs like succinylcholine) reside."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q6",
+      "discipline": "Physiology",
+      "system": "Respiratory",
+      "vignette": "A 19-year-old woman is brought to the emergency department by her roommates after they found her highly agitated and complaining of a loud, continuous ringing in her ears. An empty, extra-large bottle of aspirin is found on her desk. She is hyperventilating. An arterial blood gas (ABG) drawn 12 hours after the ingestion reveals a pH of 7.40, a PaCO2 of 20 mmHg (Normal: 35-45), and a serum HCO3- of 12 mEq/L (Normal: 22-28). The seemingly normal blood pH in this patient is best explained by which of the following physiological principles?",
+      "options": [
+        "Maximum physiological renal compensation for a primary respiratory alkalosis",
+        "Maximum physiological respiratory compensation for a primary metabolic acidosis",
+        "The presence of two concurrent, independent primary acid-base disorders",
+        "Intracellular shifting of hydrogen ions in exchange for potassium",
+        "The buffering capacity of hemoglobin binding excess carbon dioxide"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Recognize the mixed acid-base disorder in late salicylate toxicity.",
+        "correct_rationale": "Option C is correct. (Third-order conceptual). Step 1: Salicylate (aspirin) toxicity classically presents with tinnitus and hyperventilation. Step 2: Aspirin causes *two distinct primary acid-base disorders* depending on the timeline. Early on, it directly stimulates the medullary respiratory center, causing a Primary Respiratory Alkalosis (driving CO2 down). Later, the accumulation of salicylic acid and lactic acid (uncoupled oxidative phosphorylation) causes a Primary High Anion Gap Metabolic Acidosis (driving HCO3- down). Step 3: In this 12-hour delayed ABG, BOTH processes are actively occurring simultaneously. Because the alkalosis is pulling the pH up, and the acidosis is pulling the pH down, they mathematically cancel each other out, resulting in a deceptively 'normal' pH of 7.40 despite life-threatening toxicity.",
+        "incorrect_rationales": [
+          "Option A and Option B are incorrect because physiological compensation (either renal or respiratory) *never* fully normalizes the pH. If the pH is exactly 7.40 with abnormal CO2 and HCO3, it must be a mixed primary disorder.",
+          "Option D occurs in DKA or severe acidosis but does not normalize the systemic plasma pH.",
+          "Option E is a normal physiologic buffer but does not account for the massive, concurrent shifts in HCO3 and CO2 seen here."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q7",
+      "discipline": "Embryology",
+      "system": "Gastrointestinal",
+      "vignette": "A 4-day-old neonate who previously tolerated feedings begins vomiting dark, bilious fluid. An abdominal X-ray reveals a 'double bubble' sign with a paucity of distal bowel gas. An upper GI series with contrast confirms the cecum is abnormally located in the right upper quadrant. The infant is rushed to surgery to untwist a compromised segment of bowel. The underlying embryologic failure that predisposed this infant to this catastrophic event occurred during which specific phase of gut development?",
+      "options": [
+        "Failure of the neural crest cells to migrate into the distal colon",
+        "Failure of the midgut to undergo a 270-degree counterclockwise rotation",
+        "Failure of the endoderm to recanalize the duodenal lumen",
+        "Failure of the lateral body folds to fuse at the umbilicus",
+        "Failure of the vitelline duct to completely obliterate"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify midgut malrotation and volvulus due to failed 270-degree rotation.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: Bilious vomiting in a neonate with a cecum in the RUQ indicates Midgut Malrotation. Step 2: The acute presentation is due to a Midgut Volvulus (the bowel twisting on its narrow mesenteric pedicle, cutting off blood supply). Step 3: During normal embryogenesis (week 6 to 10), the midgut rapidly elongates, herniates through the umbilicus, and must undergo a total *270-degree counterclockwise rotation* around the Superior Mesenteric Artery (SMA) as it returns to the abdominal cavity. Failure of this rotation leaves the cecum in the RUQ, anchored by fibrous Ladd bands that cross over and compress the duodenum.",
+        "incorrect_rationales": [
+          "Option A describes Hirschsprung disease (failure to pass meconium, dilated colon).",
+          "Option C describes Duodenal Atresia (seen in Down syndrome, 'double bubble' but cecum is normally placed).",
+          "Option D describes Gastroschisis or Omphalocele.",
+          "Option E describes a Meckel Diverticulum (painless bleeding or intussusception)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q8",
+      "discipline": "Pathology",
+      "system": "Pulmonary",
+      "vignette": "A 45-year-old previously healthy man presents with progressive shortness of breath over the past six months. He denies smoking, fever, or weight loss. A high-resolution CT scan of the chest reveals a diffuse, bilateral 'crazy paving' pattern. A bronchoalveolar lavage (BAL) is performed, yielding copious amounts of a milky, opaque fluid. Cytologic examination of the fluid shows it is acellular but stains strongly positive with Periodic acid-Schiff (PAS). The massive accumulation of this material within the alveolar spaces is primarily due to a functional defect in which of the following cell types?",
+      "options": [
+        "Type I pneumocytes",
+        "Type II pneumocytes",
+        "Alveolar macrophages",
+        "Bronchial goblet cells",
+        "Pulmonary capillary endothelial cells"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Diagnose Pulmonary Alveolar Proteinosis (PAP) and identify the macrophage defect.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: Slowly progressive dyspnea, 'crazy paving' on CT, and milky BAL fluid that is PAS-positive is pathognomonic for Pulmonary Alveolar Proteinosis (PAP). Step 2: The PAS-positive material accumulating in the alveoli is surfactant. Step 3: While surfactant is *produced* by Type II pneumocytes, it is normally *cleared* by Alveolar Macrophages. Step 4: The acquired form of PAP is an autoimmune disease where autoantibodies neutralize Granulocyte-Macrophage Colony-Stimulating Factor (GM-CSF). Without GM-CSF signaling, the alveolar macrophages become defective and paralyzed, completely failing to clear the surfactant, allowing it to build up and suffocate the patient.",
+        "incorrect_rationales": [
+          "Option A line the alveoli for gas exchange but do not clear surfactant.",
+          "Option B secrete the surfactant, but their function is normal here; the defect is strictly in the clearance mechanism.",
+          "Option D produce mucus in the upper airways, not surfactant in the alveoli.",
+          "Option E are not involved in surfactant clearance."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q9",
+      "discipline": "Pharmacology",
+      "system": "Endocrine",
+      "vignette": "A 52-year-old woman with end-stage renal disease secondary to poorly controlled diabetes mellitus is evaluated for profound bone pain and severe pruritus. Laboratory studies reveal a serum calcium of 10.8 mg/dL, a serum phosphate of 9.2 mg/dL, and a parathyroid hormone (PTH) level of 1,200 pg/mL. She is prescribed a medication that directly increases the sensitivity of the chief cells in her parathyroid gland to circulating calcium. The receptor targeted by this medication belongs to which of the following structural classes?",
+      "options": [
+        "Ligand-gated ion channel",
+        "Intracellular nuclear receptor",
+        "Receptor tyrosine kinase",
+        "G-protein coupled receptor",
+        "Voltage-gated calcium channel"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Identify the mechanism of Cinacalcet and the structural class of the Calcium-Sensing Receptor (CaSR).",
+        "correct_rationale": "Option D is correct. (Third-order question). Step 1: A dialysis patient with extremely high PTH, calcium, and phosphate has Refractory Secondary (or Tertiary) Hyperparathyroidism. Step 2: The drug prescribed to increase the sensitivity of the parathyroid chief cells to calcium is Cinacalcet (a calcimimetic). Step 3: Cinacalcet works by acting as an allosteric activator of the Calcium-Sensing Receptor (CaSR). By making the receptor hypersensitive, it tricks the parathyroid into thinking there is plenty of calcium, forcefully shutting down PTH release. Step 4: The CaSR is a classic *G-protein coupled receptor (GPCR)* that specifically couples to Gq (activating phospholipase C).",
+        "incorrect_rationales": [
+          "Option A describes the nicotinic ACh receptor or GABA-A receptor.",
+          "Option B describes receptors for steroid hormones (estrogen, cortisol, Vitamin D).",
+          "Option C describes receptors for insulin, IGF-1, and most growth factors.",
+          "Option E describes the L-type and T-type channels in the heart/neurons, which are not the primary calcium-sensing mechanism of the parathyroid gland."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q10",
+      "discipline": "Genetics",
+      "system": "Multisystem",
+      "vignette": "A 6-year-old boy is brought to the pediatrician due to an unsteady, staggering gait that has progressively worsened since he learned to walk. Physical examination reveals prominent, blanching nests of dilated capillaries over his sclerae and the bridge of his nose. His medical history is significant for repeated, severe sinus and pulmonary infections. The underlying genetic mutation in this syndrome renders his cells exquisitely sensitive to ionizing radiation. The normal, unmutated version of this protein is primarily required for which of the following cellular processes?",
+      "options": [
+        "Detection and repair of DNA double-strand breaks",
+        "Nucleotide excision repair of pyrimidine dimers",
+        "Mismatch repair during DNA replication",
+        "Lysosomal degradation of complex sphingolipids",
+        "Transport of copper across the Golgi membrane"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Identify Ataxia-Telangiectasia and the function of the ATM gene (DNA double-strand break repair).",
+        "correct_rationale": "Option A is correct. (Third-order question). Step 1: The clinical triad of cerebellar ataxia, spider angiomas (telangiectasias on eyes/skin), and severe recurrent sinopulmonary infections (due to IgA deficiency) definitively diagnoses Ataxia-Telangiectasia. Step 2: This is an autosomal recessive disorder caused by a mutation in the ATM gene. Step 3: The normal ATM protein is a master kinase that detects *DNA double-strand breaks* (often caused by ionizing radiation like X-rays) and halts the cell cycle via p53 to allow for repair via non-homologous end joining. Without ATM, radiation causes massive, unrepairable DNA damage, leading to heavy cellular death (especially in the cerebellum) and a massive risk of lymphomas/leukemias.",
+        "incorrect_rationales": [
+          "Option B is the defect in Xeroderma Pigmentosum (extreme UV light sensitivity).",
+          "Option C is the defect in Lynch Syndrome (HNPCC).",
+          "Option D describes lysosomal storage diseases (e.g., Niemann-Pick, Tay-Sachs).",
+          "Option E is the defect in Menkes disease (kinky hair, cerebral degeneration)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q11",
+      "discipline": "Microbiology",
+      "system": "Neurology",
+      "vignette": "A 28-year-old man presents to the emergency department with a rapid-onset, symmetric weakness in his legs that has now progressed to his arms. He complains of a 'crawling' sensation in his toes. Reflexes are absent in all four extremities. He reports an episode of bloody diarrhea and abdominal cramping three weeks prior, which resolved spontaneously. The organism responsible for his preceding diarrheal illness triggered this neurological condition via molecular mimicry. The host autoantibodies currently attacking his peripheral nerves cross-react with a bacterial surface structure composed primarily of which of the following?",
+      "options": [
+        "Hyaluronic acid capsule",
+        "Lipooligosaccharide (LOS)",
+        "M protein coiled-coil alpha helices",
+        "Peptidoglycan pentapeptides",
+        "Lipoteichoic acid"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize Guillain-Barré syndrome post-Campylobacter and the cross-reaction with LOS.",
+        "correct_rationale": "Option B is correct. (Fourth-order question). Step 1: Rapid-onset ascending flaccid paralysis and areflexia following a bloody diarrheal illness is classic for Guillain-Barré Syndrome (GBS). Step 2: The preceding bloody diarrhea was almost certainly caused by *Campylobacter jejuni*. Step 3: GBS is caused by molecular mimicry. The human peripheral nerve myelin sheaths (specifically Schwann cells) are rich in gangliosides. Step 4: The outer membrane of *Campylobacter jejuni* contains *Lipooligosaccharide (LOS)*, which structurally mimics human gangliosides. Antibodies generated to fight the bacterial LOS accidentally attack the host's own peripheral nerves, stripping the myelin and causing paralysis.",
+        "incorrect_rationales": [
+          "Option A is the anti-phagocytic capsule of *Streptococcus pyogenes*, which mimics human connective tissue, preventing an immune response.",
+          "Option C is the virulence factor of *S. pyogenes* that cross-reacts with cardiac myosin, causing Acute Rheumatic Fever.",
+          "Option D and Option E are standard Gram-positive cell wall components, not the specific mimetic target in *Campylobacter*-induced GBS."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q12",
+      "discipline": "Anatomy",
+      "system": "Musculoskeletal",
+      "vignette": "A 34-year-old avid cyclist presents to a sports medicine clinic complaining of severe numbness and a 'pins and needles' sensation isolated strictly to the palmar aspect of his right ring and little fingers. He reports the symptoms began after a rigorous 100-mile race. Upon examination, he exhibits mild weakness when trying to abduct his fingers, but the flexion of his wrist and the flexion of the distal interphalangeal (DIP) joints of his 4th and 5th digits are completely full and powerful. The nerve responsible for his symptoms is most likely compressed between the pisiform and which of the following carpal bones?",
+      "options": [
+        "Scaphoid",
+        "Lunate",
+        "Hook of the hamate",
+        "Trapezium",
+        "Capitate"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Localize Ulnar nerve entrapment to Guyon's canal at the wrist.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: Numbness in the 4th/5th digits and weakness of finger abduction (dorsal interossei) defines an Ulnar Nerve lesion. Step 2: The ulnar nerve can be compressed at the elbow (cubital tunnel) or at the wrist (Guyon's canal). Step 3: The prompt specifically notes that wrist flexion and DIP flexion of the 4th/5th digits are *completely spared*. This means the Flexor Carpi Ulnaris and the medial half of the Flexor Digitorum Profundus are perfectly intact. Therefore, the lesion *must* be distal to the elbow, specifically at the wrist. Step 4: Ulnar entrapment at the wrist (common in cyclists) occurs in Guyon's canal, which is a fibrous tunnel formed between the pisiform and the *Hook of the hamate*.",
+        "incorrect_rationales": [
+          "Option A and Option D form the floor of the anatomical snuffbox and the radial border of the carpal tunnel (median nerve).",
+          "Option B is frequently dislocated, but primarily compresses the Median nerve within the carpal tunnel.",
+          "Option E is the central carpal bone, not involved in Guyon's canal."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q13",
+      "discipline": "Biochemistry",
+      "system": "Hematology",
+      "vignette": "A 4-year-old boy living in a home built in 1960 is brought to the pediatrician for severe abdominal pain, chronic constipation, and recent developmental regression. A complete blood count reveals a microcytic anemia, and a peripheral blood smear demonstrates prominent basophilic stippling of the erythrocytes. The physician suspects a heavy metal intoxication. In addition to a marked elevation in delta-aminolevulinic acid (ALA), which of the following substrates will be found massively accumulated within this patient's erythrocytes?",
+      "options": [
+        "Porphobilinogen",
+        "Uroporphyrinogen III",
+        "Coproporphyrinogen III",
+        "Protoporphyrin IX",
+        "Hydroxymethylbilane"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Identify the two enzymes inhibited by lead poisoning and their accumulating substrates.",
+        "correct_rationale": "Option D is correct. (Third-order question). Step 1: A child in an older home with abdominal colic, encephalopathy, microcytic anemia, and basophilic stippling has severe Lead Poisoning. Step 2: Lead toxicity disrupts heme synthesis by potently inhibiting two specific enzymes: ALA Dehydratase (ALAD) and Ferrochelatase. Step 3: Inhibiting ALAD causes the accumulation of delta-aminolevulinic acid (ALA). Step 4: Ferrochelatase is the final enzyme in the pathway, responsible for inserting the iron (Fe2+) molecule into *Protoporphyrin IX* to create functional heme. Because lead poisons ferrochelatase, Protoporphyrin IX cannot be converted to heme, leading to its massive, diagnostic accumulation within the red blood cells.",
+        "incorrect_rationales": [
+          "Option A accumulates in Acute Intermittent Porphyria (AIP) due to PBG deaminase deficiency.",
+          "Option B accumulates in Congenital Erythropoietic Porphyria.",
+          "Option C is an intermediate, but protoporphyrin IX is the direct substrate blocked by ferrochelatase.",
+          "Option E accumulates in AIP if the subsequent enzyme is defective, but is not the classic target of lead."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q14",
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "vignette": "A 48-year-old woman presents to her gynecologist complaining of vague, progressive pelvic pain and unintentional weight loss over the past 4 months. She also reports early satiety after eating small meals. A pelvic ultrasound reveals large, bilateral, solid ovarian masses. She undergoes surgical resection of the ovaries. Histologic examination of the tissue reveals abundant mucin-secreting cells with large, peripherally displaced nuclei. The primary malignancy in this patient most likely originated from a mucosal lesion characterized by the loss of which of the following cell adhesion molecules?",
+      "options": [
+        "Integrin alpha-5",
+        "E-cadherin",
+        "Fibronectin",
+        "N-CAM (Neural cell adhesion molecule)",
+        "Selectin L"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Connect a Krukenberg tumor to diffuse gastric carcinoma and the loss of E-cadherin.",
+        "correct_rationale": "Option B is correct. (Fourth-order question). Step 1: Bilateral, solid ovarian masses in a patient with weight loss and early satiety (stomach involvement) heavily suggests metastatic disease. Step 2: The histology (mucin-secreting cells with nuclei pushed to the periphery) definitively identifies *Signet Ring Cells*. An ovarian metastasis of signet ring cells is called a Krukenberg Tumor. Step 3: Krukenberg tumors most commonly metastasize from a primary Diffuse Gastric Carcinoma (stomach cancer). Step 4: The classic molecular pathogenesis of diffuse gastric carcinoma is an acquired or inherited mutation in the CDH1 gene, which results in the profound loss of *E-cadherin*. Without E-cadherin holding the stomach epithelial cells together, the cells detach, round up (forming signet ring cells), and heavily infiltrate the stomach wall (linitis plastica) and metastasize to the ovaries.",
+        "incorrect_rationales": [
+          "Option A, Option C, Option D, and Option E are various adhesion/matrix molecules, but the specific, targetable mutation driving signet ring diffuse gastric cancer is exclusively the loss of E-cadherin."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q15",
+      "discipline": "Biostatistics",
+      "system": "Multisystem",
+      "vignette": "A double-blind, randomized controlled trial evaluates the efficacy of a new non-steroidal anti-inflammatory drug (NSAID) versus placebo in treating osteoarthritis. The trial follows 1,000 patients in the NSAID group and 1,000 patients in the placebo group over one year. At the end of the study, 120 patients in the NSAID group developed a bleeding gastric ulcer, compared to only 20 patients in the placebo group. The researchers also note that exactly 15 patients suffered a fatal myocardial infarction in the NSAID group, and 15 patients suffered a fatal myocardial infarction in the placebo group. Based strictly on this data, what is the Number Needed to Harm (NNH) for a patient to develop a gastric ulcer by taking this new NSAID?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "50",
+        "100"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Calculate the Number Needed to Harm (NNH) using absolute risk increase.",
+        "correct_rationale": "Option B is correct. (Third-order calculation). Step 1: The question asks for the Number Needed to Harm (NNH) specifically for *gastric ulcers*. The data regarding fatal myocardial infarctions is a distractor (since the rates were identical, the absolute risk increase for MI is 0). Step 2: NNH is calculated as 1 / Absolute Risk Increase (ARI). Step 3: Calculate the risk in the exposed (NSAID) group: 120 / 1,000 = 0.12 (12%). Step 4: Calculate the risk in the unexposed (placebo) group: 20 / 1,000 = 0.02 (2%). Step 5: Calculate the Absolute Risk Increase: 0.12 - 0.02 = 0.10 (10%). Step 6: NNH = 1 / 0.10 = 10. You would need to treat 10 patients with the new NSAID to cause one additional gastric ulcer.",
+        "incorrect_rationales": [
+          "Option A is the calculation if the absolute risk increase was 12.5%.",
+          "Option C uses only the NSAID group rate (1 / 0.12), failing to subtract the baseline placebo risk.",
+          "Option D is 1 / 0.02 (the baseline risk).",
+          "Option E is the absolute raw difference (120 - 20 = 100), not the statistical NNH."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q16",
+      "discipline": "Immunology",
+      "system": "Oncology",
+      "vignette": "A 55-year-old man with follicular lymphoma is treated with a combination chemotherapy regimen that includes a specific monoclonal antibody. Six months later, his lymphoma is in remission, but he presents to the emergency department with severe jaundice, right upper quadrant pain, and fulminant hepatic failure. His medical history is significant for a hepatitis B infection 10 years ago that completely resolved. The monoclonal antibody that triggered this fatal viral reactivation directly induces apoptosis in cells that express which of the following surface markers?",
+      "options": [
+        "CD3",
+        "CD19",
+        "CD20",
+        "CD34",
+        "CD56"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Recognize the risk of Hepatitis B reactivation with CD20 inhibitors (Rituximab).",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: The patient has follicular lymphoma treated with a monoclonal antibody that caused fulminant Hepatitis B reactivation. Step 2: The standard monoclonal antibody used for B-cell non-Hodgkin lymphomas is Rituximab. Step 3: Rituximab is a chimeric monoclonal antibody directed against the CD20 surface antigen. Step 4: Depleting CD20+ B lymphocytes causes a profound loss of humoral immunity and circulating antibodies. In patients with prior (resolved) Hepatitis B, the virus often lies dormant in the liver, kept in check by neutralizing antibodies. The massive B-cell depletion removes this control, allowing the virus to rapidly reactivate and cause fatal acute liver failure.",
+        "incorrect_rationales": [
+          "Option A is a pan-T cell marker.",
+          "Option B is a pan-B cell marker, but Rituximab specifically targets CD20. (CD19 is targeted by CAR-T therapies or blinatumomab).",
+          "Option D is a marker for hematopoietic stem cells.",
+          "Option E is a marker for Natural Killer (NK) cells."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q17",
+      "discipline": "Physiology",
+      "system": "Renal",
+      "vignette": "A 45-year-old woman with a history of Sjögren's syndrome presents with severe, generalized muscle weakness and recurrent flank pain. Laboratory studies reveal a serum potassium of 2.2 mEq/L, a serum bicarbonate of 14 mEq/L, and a normal anion gap. Urinalysis demonstrates a pH of 6.5 and numerous calcium phosphate crystals. The primary pathophysiological defect causing this patient's condition involves the failure of a specific transport protein located on the apical membrane of which of the following cell types?",
+      "options": [
+        "Proximal convoluted tubule cells",
+        "Principal cells of the collecting duct",
+        "Alpha-intercalated cells of the collecting duct",
+        "Beta-intercalated cells of the collecting duct",
+        "Thick ascending limb epithelial cells"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify the cellular defect in Type 1 (Distal) Renal Tubular Acidosis.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: Hypokalemia, non-anion gap metabolic acidosis, and calcium phosphate kidney stones with an inappropriately high urine pH (>5.5) in the setting of an autoimmune disease diagnoses Type 1 (Distal) Renal Tubular Acidosis. Step 2: Type 1 RTA is caused by the inability of the distal nephron to secrete hydrogen ions (H+) into the urine. Step 3: This specific defect occurs in the Alpha-intercalated cells of the collecting duct. Normally, these cells use an apical H+-ATPase and an H+/K+-ATPase to pump protons into the urine. When they fail, acid builds up in the blood, potassium is wasted in the urine, and the highly alkaline urine promotes calcium phosphate precipitation.",
+        "incorrect_rationales": [
+          "Option A failure causes Type 2 (Proximal) RTA, where the kidney cannot reabsorb bicarbonate. It does not typically cause calcium stones.",
+          "Option B are responsible for sodium reabsorption and potassium secretion (via ENaC/ROMK, influenced by aldosterone).",
+          "Option D secrete bicarbonate into the urine in states of alkalosis.",
+          "Option E are the site of the Na/K/2Cl cotransporter (Bartter syndrome/Loop diuretics)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q18",
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "vignette": "A 52-year-old man presents with progressive weight loss, upper abdominal pain, and severe peripheral edema. Laboratory testing reveals profound hypoalbuminemia without proteinuria or liver failure. Upper endoscopy reveals massively enlarged, tortuous gastric folds in the body and fundus of the stomach that resemble the gyri of the brain. A biopsy of the mucosa shows massive foveolar hyperplasia and cystic dilation, but marked atrophy of the parietal and chief cells. The profound hypertrophy of this patient's gastric mucosa is driven by the localized overproduction of a growth factor that normally binds to which of the following receptors?",
+      "options": [
+        "Vascular endothelial growth factor receptor (VEGFR)",
+        "Epidermal growth factor receptor (EGFR)",
+        "Fibroblast growth factor receptor (FGFR)",
+        "Platelet-derived growth factor receptor (PDGFR)",
+        "Transforming growth factor-beta receptor (TGF-beta R)"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize Ménétrier disease and its association with TGF-alpha and the EGFR receptor.",
+        "correct_rationale": "Option B is correct. (Fourth-order question). Step 1: Giant gastric folds (resembling brain gyri), protein-losing enteropathy (causing severe edema), and parietal cell atrophy (achlorhydria) is the classic triad of Ménétrier disease. Step 2: The exact etiology of Ménétrier disease involves the massive overproduction of Transforming Growth Factor-alpha (TGF-alpha) in the gastric mucosa. Step 3: TGF-alpha is a potent mitogen that exerts its cellular effects by binding directly to the Epidermal Growth Factor Receptor (EGFR). This relentless EGFR activation forces the mucous-secreting foveolar cells to massively hyperproliferate while crowding out the acid-secreting parietal cells.",
+        "incorrect_rationales": [
+          "Option A drives angiogenesis in tumors (targeted by Bevacizumab).",
+          "Option C mutations cause achondroplasia (dwarfism).",
+          "Option D is involved in wound healing and fibrotic diseases.",
+          "Option E drives fibrosis and inhibits immune responses, and its loss is implicated in pancreatic/colon cancers (SMAD mutations)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q19",
+      "discipline": "Pharmacology",
+      "system": "Endocrine",
+      "vignette": "A 58-year-old man with type 2 diabetes mellitus is started on a new oral hypoglycemic medication to improve his insulin sensitivity. Four months later, his HbA1c has improved, but he complains of gaining 12 pounds and swelling in both of his ankles. Echocardiography shows a worsening of his previously stable heart failure. The medication responsible for these side effects exerts its primary mechanism of action by binding to an intracellular receptor. Once activated, this receptor must form a heterodimer with which of the following proteins before it can effectively alter gene transcription?",
+      "options": [
+        "Steroid receptor coactivator-1 (SRC-1)",
+        "Retinoid X receptor (RXR)",
+        "c-Fos transcription factor",
+        "Heat shock protein 90 (Hsp90)",
+        "Janus kinase 2 (JAK2)"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the mechanism of Thiazolidinediones (TZDs) binding to PPAR-gamma and heterodimerizing with RXR.",
+        "correct_rationale": "Option B is correct. (Fourth-order question). Step 1: A diabetic medication that improves insulin sensitivity but causes weight gain, fluid retention, and exacerbates heart failure belongs to the Thiazolidinedione (TZD) class (e.g., pioglitazone, rosiglitazone). Step 2: TZDs work by entering the nucleus and binding to the Peroxisome Proliferator-Activated Receptor-gamma (PPAR-gamma). Step 3: However, PPAR-gamma cannot act alone. Once the drug binds to it, the PPAR-gamma receptor must form a heterodimer with the Retinoid X Receptor (RXR). Step 4: Only this PPAR-gamma/RXR complex can bind to specific DNA response elements to alter the transcription of genes regulating glucose and lipid metabolism (like upregulating adiponectin).",
+        "incorrect_rationales": [
+          "Option A enhances transcription but is not the obligate heterodimer partner required for DNA binding.",
+          "Option C heterodimerizes with c-Jun to form the AP-1 transcription factor.",
+          "Option D holds steroid receptors (like the glucocorticoid receptor) in the cytoplasm to keep them inactive until the hormone binds.",
+          "Option E is a cytoplasmic tyrosine kinase used by non-receptor tyrosine kinase pathways (prolactin, growth hormone), not a nuclear receptor."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q20",
+      "discipline": "Anatomy",
+      "system": "Reproductive",
+      "vignette": "A 45-year-old woman undergoes a radical abdominal hysterectomy for severe, treatment-resistant fibroids. During the procedure, the surgeon identifies the cardinal ligament and carefully ligates the uterine artery within it. Three days post-operatively, the patient develops right-sided flank pain, fever, and a right-sided hydronephrosis on ultrasound. During the surgical ligation of the uterine artery, the surgeon inadvertently damaged an anatomical structure that crosses in close proximity. The injured structure normally passes immediately inferior to which of the following specific vessels?",
+      "options": [
+        "Internal iliac artery",
+        "Ovarian artery",
+        "External iliac artery",
+        "Uterine artery",
+        "Inferior epigastric artery"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Recall the anatomical relationship of the ureter crossing under the uterine artery.",
+        "correct_rationale": "Option D is correct. (Second-order question). Step 1: Hydronephrosis and flank pain following a hysterectomy is the classic presentation for an inadvertently severed or ligated Ureter. Step 2: The ureter is extremely vulnerable during pelvic surgery because of its close proximity to major vessels. Step 3: Specifically, as the ureter descends toward the bladder, it passes directly *under* the Uterine artery within the cardinal ligament. This relationship is famously remembered by the medical mnemonic 'Water (ureter) flows under the bridge (uterine artery).' Therefore, the injured structure (the ureter) passes immediately inferior to the uterine artery.",
+        "incorrect_rationales": [
+          "Option A and Option B: The ureter crosses *over* the common/external iliac vessels at the pelvic brim, and the ovarian vessels cross *over* the ureter higher up in the abdomen.",
+          "Option C: The ureter crosses anterior (superior) to the external iliacs, not inferior.",
+          "Option E is located in the anterior abdominal wall."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q21",
+      "discipline": "Biochemistry",
+      "system": "Hematology",
+      "vignette": "A full-term male neonate presents on day 2 of life with severe jaundice, pallor, and splenomegaly. Laboratory studies reveal a profound normocytic, normochromic anemia with an elevated reticulocyte count. A peripheral blood smear shows numerous echinocytes (burr cells), but no spherocytes or Heinz bodies are observed. The Coombs test is negative. An assay of the infant's red blood cells reveals a severe depletion of ATP. The genetic deficiency in this patient impairs an enzyme that normally catalyzes the conversion of which of the following substrates?",
+      "options": [
+        "Glucose-6-phosphate to 6-phosphoglucono-delta-lactone",
+        "Phosphoenolpyruvate to pyruvate",
+        "Fructose-6-phosphate to fructose-1,6-bisphosphate",
+        "1,3-bisphosphoglycerate to 3-phosphoglycerate",
+        "Pyruvate to lactate"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize Pyruvate Kinase deficiency and its role in RBC glycolysis.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: Extravascular hemolytic anemia (jaundice, splenomegaly) in a neonate with a negative Coombs test and burr cells (echinocytes) points to a congenital RBC defect. Step 2: The lack of spherocytes rules out hereditary spherocytosis, and the lack of Heinz bodies rules out G6PD deficiency. The profound lack of ATP isolates the diagnosis to Pyruvate Kinase Deficiency. Step 3: Red blood cells lack mitochondria and rely 100% on anaerobic glycolysis for ATP. Step 4: Pyruvate kinase is the final enzyme in glycolysis, catalyzing the conversion of Phosphoenolpyruvate (PEP) into Pyruvate, generating ATP in the process. Without this ATP, the RBC cannot maintain its Na+/K+ ATPase, loses its biconcave shape (forming burr cells), and is destroyed by the spleen.",
+        "incorrect_rationales": [
+          "Option A is the reaction catalyzed by G6PD.",
+          "Option C is the rate-limiting step of glycolysis catalyzed by PFK-1.",
+          "Option D is the reaction catalyzed by phosphoglycerate kinase (which generates the other 2 ATP in glycolysis, but is rarely deficient).",
+          "Option E is catalyzed by lactate dehydrogenase (regenerating NAD+)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q22",
+      "discipline": "Genetics",
+      "system": "Neurology",
+      "vignette": "A 26-year-old man presents to the clinic complaining of progressive weakness in his hands and difficulty releasing his grip on a doorknob. Physical examination reveals frontal balding, bilateral cataracts, and significant atrophy of his temporalis and masseter muscles. He also reports recent difficulties with sexual function, and examination confirms testicular atrophy. The abnormal expansion of trinucleotide repeats in this patient's affected gene primarily disrupts cellular function via which of the following molecular mechanisms?",
+      "options": [
+        "Hypermethylation and epigenetic silencing of the promoter region",
+        "Formation of toxic polyglutamine aggregates in the nucleus",
+        "Impaired transport of an essential metal across the mitochondrial membrane",
+        "Sequestration of splicing proteins by massive mutant mRNA transcripts",
+        "Loss of a functional tumor suppressor protein regulating the cell cycle"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Identify Myotonic Dystrophy and the RNA sequestration mechanism of the DMPK mutation.",
+        "correct_rationale": "Option D is correct. (Fourth-order question). Step 1: Myotonia (inability to relax grip), frontal balding, cataracts, and testicular atrophy in a young adult is the classic presentation of Myotonic Dystrophy Type 1. Step 2: It is an autosomal dominant disorder caused by a CTG trinucleotide repeat expansion in the DMPK gene. Step 3: Unlike Huntington's (which makes a toxic protein) or Fragile X (which methylates DNA), the mutation in Myotonic Dystrophy occurs in the 3' untranslated region of the gene. Step 4: The mutant DMPK gene is transcribed into a massive, heavily repeated mRNA transcript. This mutant mRNA physically traps and sequesters RNA-binding proteins (specifically Muscleblind-like proteins) inside the nucleus. Without these proteins, alternative splicing of dozens of other vital genes fails, causing the widespread multi-system symptoms.",
+        "incorrect_rationales": [
+          "Option A is the mechanism of Fragile X Syndrome (CGG repeats).",
+          "Option B is the mechanism of Huntington Disease (CAG repeats).",
+          "Option C describes Friedreich Ataxia (GAA repeats affecting frataxin/iron).",
+          "Option E describes Retinoblastoma or p53 mutations, not trinucleotide repeat disorders."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q23",
+      "discipline": "Microbiology",
+      "system": "Hematology",
+      "vignette": "A 7-year-old girl with known hereditary spherocytosis is brought to the pediatrician due to a high fever, severe fatigue, and pallor. Her mother mentions she had a distinctive 'slapped-cheek' rash a few days prior. Laboratory testing reveals a profound worsening of her anemia, with a hemoglobin of 4.5 g/dL and a reticulocyte count of 0.1% (Normal: 0.5-2.5%). The non-enveloped, single-stranded DNA virus responsible for this aplastic crisis gains entry into the host's erythroid progenitor cells by directly binding to which of the following surface antigens?",
+      "options": [
+        "CD4 and CXCR4 coreceptor",
+        "CR2 (CD21) complement receptor",
+        "P antigen (Globoside)",
+        "Integrin alpha-V beta-3",
+        "Nicotinic acetylcholine receptor"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Recognize Parvovirus B19 and its cellular entry receptor (P antigen/Globoside).",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: A child with a chronic hemolytic anemia (hereditary spherocytosis) who suddenly develops a severe worsening of anemia with a completely absent reticulocyte count (aplastic crisis) following a 'slapped-cheek' rash (Erythema infectiosum) is infected with Parvovirus B19. Step 2: Parvovirus B19 specifically targets and destroys rapidly dividing erythroid progenitor cells in the bone marrow. Step 3: The virus is able to strictly target these red blood cell precursors because it gains entry into the cell by binding specifically to the *P antigen (also known as Globoside)*, which is highly expressed on the surface of erythroid progenitors.",
+        "incorrect_rationales": [
+          "Option A are the receptors for HIV.",
+          "Option B is the receptor for Epstein-Barr Virus (EBV) entry into B cells.",
+          "Option D is the receptor for Adenovirus, Cytomegalovirus, and Hantavirus.",
+          "Option E is the receptor for the Rabies virus."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q24",
+      "discipline": "Pathology",
+      "system": "Respiratory",
+      "vignette": "A 28-year-old woman, who is previously healthy and takes no medications, presents with a 4-month history of progressive shortness of breath on exertion and occasional syncopal episodes. Echocardiography reveals right ventricular hypertrophy and a significantly elevated pulmonary artery pressure. Left ventricular function and pulmonary capillary wedge pressure are entirely normal. An autopsy performed on a family member with a similar presentation revealed characteristic 'plexiform' lesions in the small pulmonary arterioles. The genetic mutation driving this patient's disease directly impairs a cellular pathway that normally functions to perform which of the following?",
+      "options": [
+        "Inhibit vascular smooth muscle proliferation",
+        "Stimulate angiogenesis via vascular endothelial growth factor (VEGF)",
+        "Promote apoptosis of alveolar macrophages",
+        "Downregulate the production of endothelin-1",
+        "Increase the synthesis of nitric oxide in the endothelium"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Identify the function of the BMPR2 gene in Primary Pulmonary Arterial Hypertension.",
+        "correct_rationale": "Option A is correct. (Third-order question). Step 1: A young, healthy female with isolated pulmonary hypertension (normal left heart function), right heart strain, and characteristic plexiform lesions has Primary Pulmonary Arterial Hypertension. Step 2: The familial form of this disease is caused by an inactivating mutation in the BMPR2 (Bone Morphogenetic Protein Receptor Type 2) gene. Step 3: BMPR2 is a receptor in the TGF-beta signaling family. In the pulmonary vasculature, its normal physiological role is to firmly *inhibit vascular smooth muscle proliferation* and promote apoptosis. Step 4: When BMPR2 is mutated, the smooth muscle cells proliferate uncontrollably, massively thickening the intimal and medial layers of the pulmonary arteries and narrowing the lumen, causing severe hypertension.",
+        "incorrect_rationales": [
+          "Option B is targeted by anti-VEGF drugs in cancer or macular degeneration, not the driver of primary PAH.",
+          "Option C is not the function of BMPR2.",
+          "Option D is incorrect; while Endothelin-1 (a potent vasoconstrictor) *is* upregulated in this disease, the BMPR2 mutation doesn't directly downregulate it; Bosentan is used to block endothelin receptors as a treatment.",
+          "Option E is the mechanism by which PDE-5 inhibitors (Sildenafil) help treat the disease, but it is not the defect caused by the BMPR2 mutation."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q25",
+      "discipline": "Pharmacology",
+      "system": "Toxicology",
+      "vignette": "A 45-year-old man presents to the emergency department with severe, colicky abdominal pain, watery diarrhea, and a noticeable 'garlic' odor to his breath. An ECG reveals significant prolongation of the QT interval. He works in an agricultural setting heavily handling pesticides and wood preservatives. A specific chelating agent is administered to treat his toxicity. The toxic heavy metal responsible for his symptoms profoundly impairs cellular respiration by physically binding to lipoic acid, directly inhibiting which of the following enzymes?",
+      "options": [
+        "Cytochrome c oxidase (Complex IV)",
+        "Succinate dehydrogenase (Complex II)",
+        "Pyruvate dehydrogenase",
+        "Enolase",
+        "Hexokinase"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Recognize Arsenic poisoning and its inhibition of Pyruvate Dehydrogenase via lipoic acid binding.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: Severe GI distress, a garlic odor on the breath, QT prolongation, and occupational exposure to pesticides/wood preservatives is pathognomonic for Arsenic Poisoning. Step 2: Arsenic exerts its severe toxicity by binding tightly to *lipoic acid*. Step 3: Lipoic acid is an absolutely required cofactor for the *Pyruvate Dehydrogenase* complex (and the Alpha-ketoglutarate dehydrogenase complex). By binding lipoic acid, arsenic completely halts the conversion of pyruvate to acetyl-CoA, crashing the TCA cycle, forcing the cell into anaerobic glycolysis, and causing severe lactic acidosis. (Treatment is Dimercaprol).",
+        "incorrect_rationales": [
+          "Option A is directly inhibited by Cyanide and Carbon Monoxide, completely uncoupling the electron transport chain.",
+          "Option B is not the primary target of arsenic.",
+          "Option D is inhibited by Fluoride (which is why fluoride is added to blood collection tubes to stop RBCs from continuing glycolysis and falsely lowering glucose).",
+          "Option E is the first enzyme of glycolysis, not inhibited by arsenic."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q26",
+      "discipline": "Embryology",
+      "system": "Gastrointestinal",
+      "vignette": "A 2-day-old neonate presents with copious bilious vomiting after his first feeding. An abdominal radiograph displays the classic 'double bubble' sign, indicating duodenal obstruction. Physical examination notes upward-slanting palpebral fissures, a single palmar crease, and a prominent epicanthal fold. Surgical exploration reveals a band of glandular tissue completely encircling and constricting the second part of the duodenum. This constricting glandular tissue arose due to the abnormal migration of an embryological structure that normally gives rise to which of the following in a healthy adult?",
+      "options": [
+        "The tail of the pancreas and the accessory pancreatic duct",
+        "The body of the pancreas and the common bile duct",
+        "The uncinate process and the main pancreatic duct",
+        "The gallbladder and the cystic duct",
+        "The entire pancreatic parenchyma"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Correlate Annular Pancreas with the embryological derivatives of the ventral pancreatic bud.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: Bilious vomiting, 'double bubble' sign on X-ray, and a Down Syndrome phenotype definitively diagnose Duodenal Atresia/Stenosis. Step 2: The surgical finding of glandular tissue wrapped around the duodenum identifies the specific cause as an Annular Pancreas. Step 3: An annular pancreas forms when the *Ventral pancreatic bud* abnormally splits and encircles the duodenum as it attempts to migrate posteriorly to fuse with the dorsal bud. Step 4: The ventral pancreatic bud normally gives rise strictly to the *Uncinate process and the main pancreatic duct* (Wirsung).",
+        "incorrect_rationales": [
+          "Option A and Option B describe derivatives of the *Dorsal pancreatic bud*, which forms the vast majority of the pancreas (the body, the tail, the isthmus, and the accessory duct of Santorini).",
+          "Option D arises from the separate cystic diverticulum off the hepatic cylinder.",
+          "Option E is incorrect because the dorsal bud forms the majority of the tissue; the ventral bud only forms the uncinate/main duct."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q27",
+      "discipline": "Physiology",
+      "system": "Cardiovascular",
+      "vignette": "A 60-year-old man presents to the emergency department with sudden, crushing substernal chest pain. A 12-lead ECG demonstrates profound ST-segment elevations in leads V2 through V4. At the cellular level within the ischemic myocardium, the profound lack of oxygen rapidly depletes intracellular ATP. This massive drop in ATP triggers the opening of specific ion channels on the sarcolemma. The resulting efflux of ions through these channels is directly responsible for causing which of the following electrophysiological changes?",
+      "options": [
+        "Hyperpolarization of the resting membrane potential",
+        "A prolonged plateau phase (Phase 2) of the action potential",
+        "Depolarization of the resting membrane potential toward zero",
+        "Increased steepness of the Phase 0 upstroke",
+        "Inhibition of delayed afterdepolarizations (DADs)"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Understand the mechanism of ATP-sensitive K+ channels and ischemic resting membrane depolarization.",
+        "correct_rationale": "Option C is correct. (Fourth-order conceptual). Step 1: Severe myocardial ischemia massively depletes intracellular ATP. Step 2: The cardiac sarcolemma contains *ATP-sensitive Potassium (K+) channels*. Normally, ATP keeps these channels closed. When ATP falls, these channels swing wide open. Step 3: Potassium floods *out* of the ischemic myocytes, creating a localized zone of profound extracellular hyperkalemia. Step 4: By the Nernst equation, increasing extracellular potassium makes the resting membrane potential (Phase 4) less negative. Therefore, the resting membrane potential *depolarizes toward zero* (e.g., from -90mV up to -60mV). This voltage difference between the normal and ischemic tissue creates the 'injury current' that causes the ST-segment elevation on the ECG.",
+        "incorrect_rationales": [
+          "Option A would occur if extracellular potassium *decreased* (hypokalemia).",
+          "Option B is false; the opening of the K+ channels causes rapid repolarization, significantly *shortening* the action potential duration in ischemic tissue.",
+          "Option D is false; the partially depolarized resting potential inactivates fast sodium channels, causing a very sluggish, blunted Phase 0 upstroke.",
+          "Option E is false; ischemia strongly provokes arrhythmias."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q28",
+      "discipline": "Immunology",
+      "system": "Infectious Disease",
+      "vignette": "A 12-year-old boy is evaluated by an immunologist due to a lifelong history of persistent, severe Candida albicans infections involving his oral mucosa, nails, and skin. He has not experienced any invasive systemic fungal infections, and his response to viral and bacterial pathogens is perfectly normal. Genetic sequencing reveals a loss-of-function mutation in the STAT3 gene. This mutation directly prevents the differentiation of a specific subset of helper T cells. These missing T cells normally provide mucosal defense by secreting a cytokine that heavily recruits which of the following cells?",
+      "options": [
+        "Eosinophils",
+        "Cytotoxic CD8+ T cells",
+        "Neutrophils",
+        "Mast cells",
+        "B lymphocytes"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Link Chronic Mucocutaneous Candidiasis to Th17 deficiency and neutrophil recruitment.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: Lifelong, localized *Candida* infections of the skin and mucous membranes (without systemic blood involvement) combined with a STAT3 mutation is the definitive presentation of Chronic Mucocutaneous Candidiasis. Step 2: The STAT3 mutation specifically prevents naive CD4+ T cells from differentiating into *Th17 cells*. Step 3: Th17 cells secrete Interleukin-17 (IL-17). Step 4: The primary function of IL-17 at the mucosal barriers is to powerfully attract and recruit *Neutrophils* to clear fungal and extracellular bacterial pathogens. Without Th17 cells, neutrophils never get the signal to defend the mucosa against *Candida*.",
+        "incorrect_rationales": [
+          "Option A are recruited by IL-5 from Th2 cells.",
+          "Option B are activated by IL-2 and IFN-gamma from Th1 cells.",
+          "Option D are coated with IgE from Th2 responses.",
+          "Option E are stimulated to class-switch by IL-4 and IL-5 from Th2 cells, or CD40L."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q29",
+      "discipline": "Biostatistics",
+      "system": "Multisystem",
+      "vignette": "A national screening program is established to detect a new, highly virulent strain of tuberculosis. The initial screening test utilizes a biological marker with a cutoff threshold set at >50 ng/mL. To capture as many early-stage infections as possible and prevent community spread, the health ministry deliberately lowers the threshold for a positive test to >20 ng/mL. Which of the following changes to the test's operating characteristics is mathematically guaranteed to occur as a direct result of lowering this threshold?",
+      "options": [
+        "Sensitivity decreases; Specificity increases",
+        "Positive Predictive Value (PPV) increases",
+        "Negative Predictive Value (NPV) increases",
+        "The number of False Negatives increases",
+        "The area under the Receiver Operating Characteristic (ROC) curve increases"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Analyze the effect of lowering a diagnostic test cutoff on sensitivity, specificity, PPV, and NPV.",
+        "correct_rationale": "Option C is correct. (Third-order conceptual). Step 1: The cutoff for a positive test is *lowered* (from 50 down to 20). This makes it much easier to test 'positive'. Step 2: Because it is easier to test positive, the test will catch more true sick people (Sensitivity Increases, False Negatives decrease). However, it will also incorrectly flag more healthy people (Specificity Decreases, False Positives increase). Step 3: Because the number of False Positives skyrockets, a positive result is less trustworthy, meaning Positive Predictive Value (PPV) *decreases*. Step 4: Conversely, because the test is catching almost everyone, if you actually manage to score a 'negative' (below the new ultra-low threshold), you can be highly certain you don't have the disease. Therefore, Negative Predictive Value (NPV) *increases*.",
+        "incorrect_rationales": [
+          "Option A is backwards. Sensitivity increases and Specificity decreases.",
+          "Option B is false; PPV decreases because the lower threshold catches many healthy people (False Positives).",
+          "Option D is false; False Negatives decrease (which is why Sensitivity increases).",
+          "Option E is false; the ROC curve is an inherent property of the test's accuracy; moving the threshold merely slides you along the existing curve, it does not change the area under it."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q30",
+      "discipline": "Pathology",
+      "system": "Neurology",
+      "vignette": "A 45-year-old man with a 20-year history of severe alcohol use disorder is brought to the ED by his neighbors. He exhibits profound confusion, horizontal nystagmus, and a staggering, wide-based gait. The emergency physician orders an immediate intravenous infusion. However, an inexperienced nurse mistakenly administers an intravenous bolus of 50% Dextrose before giving any other medications. The patient rapidly slips into a coma. The profound exacerbation of this patient's neurologic state was triggered by forcing the metabolic activation of an enzyme that normally resides within which of the following cellular compartments?",
+      "options": [
+        "Lysosome",
+        "Cytosol",
+        "Mitochondrial matrix",
+        "Smooth endoplasmic reticulum",
+        "Peroxisome"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify the thiamine-dependent enzymes triggered by a glucose load in Wernicke Encephalopathy.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: An alcoholic with the triad of confusion, nystagmus/ophthalmoplegia, and ataxia has Wernicke Encephalopathy, caused by severe Thiamine (Vitamin B1) deficiency. Step 2: Administering glucose *before* thiamine is famously lethal. Glucose forces the brain to run glycolysis, producing massive amounts of pyruvate. Step 3: The enzyme required to metabolize this pyruvate is Pyruvate Dehydrogenase, which strictly requires Thiamine. Because the patient has no thiamine, the forced activation completely drains whatever microscopic thiamine reserves were left, crashing the brain's energy production and causing coma/hemorrhage in the mammillary bodies. Step 4: Pyruvate Dehydrogenase (along with the other major thiamine-dependent TCA enzyme, Alpha-ketoglutarate dehydrogenase) resides strictly within the *Mitochondrial matrix*.",
+        "incorrect_rationales": [
+          "Option A is for waste degradation.",
+          "Option B is the site of Transketolase (the HMP shunt enzyme). While transketolase also uses thiamine, it is the massive forcing of the Pyruvate Dehydrogenase step (linking the cytosol to the mitochondria for ATP production) by the glucose bolus that crashes the system.",
+          "Option D is for lipid synthesis and detoxification.",
+          "Option E is for VLCFA breakdown."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q31",
+      "discipline": "Genetics",
+      "system": "Endocrine",
+      "vignette": "A 5-year-old boy with profound, bilateral sensorineural hearing loss presents to the clinic with an enlarging mass in his anterior neck. His mother reports that the neck mass has been growing slowly over the past year. Laboratory testing reveals a slightly low serum free T4 and an elevated TSH. A radioactive iodine uptake scan demonstrates normal trapping of iodine into the thyroid follicular cells, but rapid washout following the administration of perchlorate. The genetic mutation causing this patient's syndrome most directly impairs which of the following cellular transport mechanisms?",
+      "options": [
+        "Basolateral sodium-iodide symport",
+        "Apical chloride-iodide exchange",
+        "Oxidation of iodide by thyroid peroxidase",
+        "Lysosomal cleavage of thyroglobulin",
+        "Peripheral deiodination of T4 to T3"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize Pendred Syndrome and the role of pendrin as an apical chloride-iodide exchanger.",
+        "correct_rationale": "Option B is correct. (Fourth-order question). Step 1: A child with early-onset sensorineural hearing loss, a goiter (anterior neck mass), and hypothyroidism has Pendred Syndrome. Step 2: The positive perchlorate discharge test indicates that while the thyroid can pull iodine out of the blood into the cell, it cannot push it out into the colloid lumen to be organified. Step 3: Pendred syndrome is caused by a mutation in the SLC26A4 gene, which encodes the protein *pendrin*. Step 4: Pendrin is a critical *apical chloride-iodide exchanger*. It sits on the apical membrane of the thyroid follicular cell and pumps iodine into the colloid. It is also required for normal inner ear fluid balance, explaining the profound deafness.",
+        "incorrect_rationales": [
+          "Option A is the NIS (sodium-iodide symporter). If this were defective, the thyroid would not take up radioactive iodine from the blood in the first place.",
+          "Option C is the role of Thyroid Peroxidase (TPO); while a defect here causes congenital hypothyroidism, it does not cause sensorineural deafness.",
+          "Option D releases T3/T4 into the blood after colloid endocytosis.",
+          "Option E is the function of 5'-deiodinase."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q32",
+      "discipline": "Pathology",
+      "system": "Rheumatology",
+      "vignette": "A 45-year-old woman presents to her rheumatologist with progressively worsening shortness of breath and tightening of the skin over her chest and abdomen. Physical examination reveals taut, thickened skin lacking wrinkles, tightly drawn over her face, and significant non-pitting edema of her fingers. Pulmonary function tests demonstrate a severe restrictive pattern. Laboratory testing reveals a highly specific antinuclear autoantibody. The molecular target of this patient's specific autoantibody normally functions to perform which of the following cellular tasks?",
+      "options": [
+        "Synthesize the RNA primers required for Okazaki fragments",
+        "Relieve torsional supercoiling ahead of the DNA replication fork",
+        "Splice out intronic sequences from pre-mRNA transcripts",
+        "Bind the centromere of chromosomes during mitotic spindle formation",
+        "Proofread and repair mismatched base pairs during S phase"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Connect Diffuse Systemic Sclerosis to Anti-Scl-70 antibodies and their target (DNA topoisomerase I).",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: Widespread, diffuse skin thickening (scleroderma) involving the trunk and face, combined with visceral organ involvement (pulmonary fibrosis/restrictive lung disease) definitively diagnoses Diffuse Systemic Sclerosis. Step 2: The highly specific autoantibody for the *diffuse* form of this disease is the Anti-Scl-70 antibody. Step 3: The actual molecular target of the Anti-Scl-70 antibody is *DNA topoisomerase I*. Step 4: The normal function of DNA topoisomerase I is to create single-strand breaks in DNA to relieve the torsional strain and supercoiling generated ahead of the advancing replication fork.",
+        "incorrect_rationales": [
+          "Option A describes DNA primase.",
+          "Option C is the target of Anti-Smith and Anti-U1 RNP antibodies (targeting the spliceosome/snRNPs), seen in SLE and Mixed Connective Tissue Disease.",
+          "Option D is the target of Anti-Centromere antibodies, which are highly specific for *Limited* Systemic Sclerosis (CREST syndrome). CREST involves only the face/fingers, not the diffuse trunk involvement seen here.",
+          "Option E describes the mismatch repair enzymes (mutated in Lynch syndrome)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q33",
+      "discipline": "Pharmacology",
+      "system": "Neurology",
+      "vignette": "A 68-year-old man with Parkinson's disease is experiencing severe 'wearing-off' periods where his rigidity and bradykinesia return before his next dose of levodopa/carbidopa. His neurologist adds a new medication to prolong the half-life of levodopa. Two weeks later, the patient’s motor symptoms have improved, but routine laboratory monitoring reveals a severe, asymptomatic elevation in AST and ALT liver enzymes. The medication added by the neurologist prolongs levodopa's half-life by inhibiting an enzyme that relies on which of the following molecules as its primary methyl group donor?",
+      "options": [
+        "Tetrahydrofolate (THF)",
+        "S-adenosylmethionine (SAM)",
+        "Methylcobalamin",
+        "Biotin",
+        "N5,N10-methylenetetrahydrofolate"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify Tolcapone as a COMT inhibitor causing hepatotoxicity, and SAM as the universal methyl donor.",
+        "correct_rationale": "Option B is correct. (Fourth-order question). Step 1: The patient is experiencing 'wearing-off' of levodopa. To prevent levodopa degradation in the periphery and centrally, a COMT (Catechol-O-methyltransferase) inhibitor is added. Step 2: The classic COMT inhibitors are Entacapone and Tolcapone. Step 3: The prompt mentions a severe elevation in liver enzymes. *Tolcapone* is notoriously hepatotoxic and requires strict LFT monitoring (unlike entacapone). Step 4: COMT degrades catecholamines by methylating them. The universal methyl donor utilized by COMT (and nearly all other methyltransferases in the body) is S-adenosylmethionine (SAM).",
+        "incorrect_rationales": [
+          "Option A carries 1-carbon units but is not the direct methyl donor for COMT.",
+          "Option C transfers a methyl group to homocysteine to regenerate methionine, but SAM is the active methyl donor for neurotransmitter degradation.",
+          "Option D is used for carboxylation (adding CO2), not methylation.",
+          "Option E is the specific methyl donor used by thymidylate synthase to convert dUMP to dTMP."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q34",
+      "discipline": "Microbiology",
+      "system": "Hematology",
+      "vignette": "A 55-year-old man presents with a high fever, headache, and severe muscle aches one week after hiking in the heavily wooded areas of Arkansas. He reports finding and removing a tick from his thigh three days ago. He has no rash. Laboratory testing reveals leukopenia, thrombocytopenia, and elevated liver enzymes. Examination of a peripheral blood smear demonstrates dark, mulberry-like clusters of organisms residing entirely within the cytoplasm of monocytes. The vector responsible for transmitting this specific pathogen is also the primary vector for which of the following diseases?",
+      "options": [
+        "Lyme disease",
+        "Babesiosis",
+        "Southern tick-associated rash illness (STARI)",
+        "Rocky Mountain spotted fever",
+        "Epidemic typhus"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Recognize Ehrlichiosis, its morulae in monocytes, and its vector (Amblyomma americanum).",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: Fever, leukopenia, thrombocytopenia, lack of a rash, and the pathognomonic 'mulberry-like' inclusions (morulae) inside *monocytes* following a tick bite identifies *Ehrlichia chaffeensis* (Human Monocytic Ehrlichiosis). Step 2: *Ehrlichia* is transmitted by the Lone Star tick (*Amblyomma americanum*), found heavily in the southeastern and south-central US (like Arkansas). Step 3: The Lone Star tick is also the primary vector for Southern tick-associated rash illness (STARI) and is notorious for causing an alpha-gal (red meat) allergy.",
+        "incorrect_rationales": [
+          "Option A and Option B are transmitted by the *Ixodes* tick. Additionally, *Anaplasma phagocytophilum* (which forms morulae in *granulocytes*) is transmitted by the *Ixodes* tick.",
+          "Option D is transmitted by the *Dermacentor* (dog/wood) tick.",
+          "Option E is transmitted by the human body louse (*Pediculus humanus humanus*)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q35",
+      "discipline": "Embryology",
+      "system": "Neurology",
+      "vignette": "A research team is studying the embryological development of the central nervous system. They trace the lineage of a specific population of highly ramified, motile cells within the adult brain parenchyma that uniquely express CD40 and act as the primary antigen-presenting cells during neuroinflammation. Unlike the astrocytes and oligodendrocytes surrounding them, this specific population of cells migrated into the neural tube during embryonic development. These highly motile phagocytic cells are ultimately derived from which of the following primordial germ layers?",
+      "options": [
+        "Neuroectoderm",
+        "Surface ectoderm",
+        "Neural crest",
+        "Mesoderm",
+        "Endoderm"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Identify the unique mesodermal origin of microglial cells in the central nervous system.",
+        "correct_rationale": "Option D is correct. (Second-order question). Step 1: The cells described in the prompt are highly ramified, act as phagocytes/antigen-presenting cells in the brain, and migrate into the neural tissue. These are *Microglia*. Step 2: The central nervous system is almost entirely derived from the neuroectoderm. However, microglia are the lone, major exception. Because they are essentially the 'macrophages of the brain,' they share a lineage with the rest of the hematopoietic/immune system. Step 3: All hematopoietic cells, including the precursors that migrate into the developing brain to become microglia, are derived from the *Mesoderm*.",
+        "incorrect_rationales": [
+          "Option A forms the vast majority of the CNS, including neurons, astrocytes, ependymal cells, and oligodendrocytes.",
+          "Option B forms the anterior pituitary, lens of the eye, and skin epidermis.",
+          "Option C forms the peripheral nervous system (Schwann cells, dorsal root ganglia), melanocytes, and adrenal medulla.",
+          "Option E forms the gut tube lining and respiratory epithelium."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q36",
+      "discipline": "Physiology",
+      "system": "Cardiovascular",
+      "vignette": "A 65-year-old man presents to the clinic with episodes of sudden syncope occurring whenever he tightly buttons his dress shirt collar. The physician reproduces the patient's symptoms by applying firm, continuous digital pressure to the patient's right neck, just inferior to the angle of the mandible. This maneuver rapidly induces profound sinus bradycardia. The efferent limb of this specific reflex arc terminates by releasing a neurotransmitter that directly activates which of the following cellular targets on the cardiac pacemaker cells?",
+      "options": [
+        "Adenylyl cyclase via a Gs-coupled receptor",
+        "Phospholipase C via a Gq-coupled receptor",
+        "G-protein gated inward rectifying potassium channels",
+        "L-type voltage-gated calcium channels",
+        "Fast voltage-gated sodium channels"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Trace the carotid sinus reflex and identify the mechanism of M2 muscarinic receptors.",
+        "correct_rationale": "Option C is correct. (Fourth-order question). Step 1: The patient has Carotid Sinus Hypersensitivity. Firm pressure mimics high blood pressure, triggering the baroreceptor reflex. Step 2: The afferent limb travels via the Glossopharyngeal nerve (CN IX) to the medullary solitary nucleus. Step 3: The efferent limb travels via the Vagus nerve (CN X), releasing Acetylcholine onto the SA and AV nodes. Step 4: The acetylcholine binds to *M2 muscarinic receptors*. Step 5: M2 receptors are Gi-coupled. While they do inhibit adenylyl cyclase (decreasing cAMP), their most rapid and direct effect in pacing cells is the activation of G-protein coupled inward-rectifying potassium channels (GIRKs). The massive efflux of K+ hyperpolarizes the pacemaker cell, drastically slowing the heart rate.",
+        "incorrect_rationales": [
+          "Option A describes the mechanism of Beta-1 adrenergic receptors (sympathetic activation, increasing heart rate).",
+          "Option B describes M1 or M3 muscarinic receptors, or Alpha-1 adrenergic receptors, not the M2 receptor of the heart.",
+          "Option D are inhibited (not activated) downstream of the M2 receptor.",
+          "Option E are not present in SA/AV node pacemaker cells."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q37",
+      "discipline": "Anatomy",
+      "system": "Gastrointestinal",
+      "vignette": "A 40-year-old man is brought to the trauma center following a severe motor vehicle collision. A focused assessment with sonography for trauma (FAST) scan reveals a massive amount of free fluid in the peritoneal cavity. Emergent exploratory laparotomy reveals an actively bleeding, jagged laceration in the right upper quadrant. The trauma surgeon immediately reaches his index finger into the omental foramen (of Winslow) and uses his thumb to forcefully clamp the hepatoduodenal ligament. Despite 10 minutes of complete occlusion of this ligament, the massive, dark-red hemorrhage continues unabated. The source of this persistent bleeding is most likely located in which of the following structures?",
+      "options": [
+        "Proper hepatic artery",
+        "Common hepatic artery",
+        "Hepatic portal vein",
+        "Inferior vena cava",
+        "Gastroduodenal artery"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Understand the Pringle maneuver and the structures within the hepatoduodenal ligament.",
+        "correct_rationale": "Option D is correct. (Third-order question). Step 1: The trauma surgeon performs the Pringle maneuver (clamping the hepatoduodenal ligament) to control massive liver bleeding. Step 2: The hepatoduodenal ligament contains the 'portal triad': the Proper Hepatic Artery, the Hepatic Portal Vein, and the Common Bile Duct. Clamping this cuts off 100% of the blood *inflow* to the liver. Step 3: If massive bleeding continues despite totally occluding the inflow, the laceration must involve a structure *behind* or downstream of the liver. The two major vessels that bypass this clamp are the Hepatic Veins (the outflow tracts of the liver) and the *Inferior Vena Cava* (which runs directly posterior to the liver).",
+        "incorrect_rationales": [
+          "Option A and Option C are physically located *inside* the hepatoduodenal ligament. If they were the source of the bleeding, the surgeon's clamp would have immediately stopped it.",
+          "Option B branches into the proper hepatic and gastroduodenal before the ligament, but the blood flowing from it would still be trapped by the clamp downstream.",
+          "Option E supplies the pylorus/pancreas and runs inferiorly, entirely independent of the right upper quadrant hepatic laceration."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q38",
+      "discipline": "Biostatistics",
+      "system": "Multisystem",
+      "vignette": "A clinical trial evaluates the efficacy of a novel chemotherapeutic agent compared to standard-of-care for prolonging survival in glioblastoma. The researchers set the alpha level at 0.05 and calculate the study to have 80% power. Upon conclusion of the trial, the hazard ratio for mortality in the treatment group compared to the control group is reported as 0.85, with a 95% Confidence Interval of [0.72 - 1.15]. Based on this result, the researchers conclude there is no statistically significant difference in survival between the two treatments. Assuming that the new drug actually *is* superior to the standard-of-care in reality, the failure of this study to detect that difference represents a specific statistical error. The probability of having committed this specific error in this trial was originally set at which of the following values?",
+      "options": [
+        "0.05",
+        "0.15",
+        "0.20",
+        "0.80",
+        "0.95"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Relate Power to the probability of committing a Type II error (Beta).",
+        "correct_rationale": "Option C is correct. (Third-order calculation/concept). Step 1: The confidence interval for the hazard ratio [0.72 - 1.15] crosses 1.0, meaning the result is not statistically significant (p > 0.05). Step 2: The prompt states that in reality, the drug *is* superior. The study failed to detect a true difference. This is the definition of a False Negative, or a *Type II Error*. Step 3: The probability of committing a Type II error is denoted by the variable Beta (β). Step 4: Power is defined mathematically as 1 - β (the probability of *avoiding* a Type II error). Since the researchers set the Power of the study at 80% (0.80), the probability of committing a Type II error (β) must be 1 - 0.80 = 0.20.",
+        "incorrect_rationales": [
+          "Option A (0.05) is the alpha level, which is the probability of committing a Type I Error (False Positive - rejecting the null when it is actually true).",
+          "Option B is the point estimate of the risk reduction (1 - 0.85).",
+          "Option D (0.80) is the Power of the study (1 - β).",
+          "Option E (0.95) is the confidence level (1 - alpha)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q39",
+      "discipline": "Genetics",
+      "system": "Hematology",
+      "vignette": "A 7-year-old boy presents with profound fatigue, easy bruising, and persistent epistaxis. Physical examination reveals short stature, a lack of thumbs bilaterally, and scattered café-au-lait spots. A bone marrow biopsy demonstrates severe, global hypocellularity with fatty replacement. Cytogenetic testing of his peripheral lymphocytes reveals massive chromosomal fragmentation and breakage when exposed to DNA-crosslinking agents like mitomycin C. The genetic mutation driving this patient's severe syndrome impairs the cellular ability to perform which of the following specific tasks?",
+      "options": [
+        "Nucleotide excision repair of UV-induced pyrimidine dimers",
+        "Repair of DNA interstrand crosslinks via homologous recombination",
+        "Non-homologous end joining of double-strand DNA breaks",
+        "Mismatch repair during the S phase of the cell cycle",
+        "Telomerase-mediated elongation of chromosomal ends"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize Fanconi Anemia and its defect in DNA interstrand crosslink repair.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: A child with short stature, absent thumbs, café-au-lait spots, and aplastic anemia (fatty bone marrow/pancytopenia) definitively diagnoses Fanconi Anemia. Step 2: Fanconi anemia is an autosomal recessive disorder caused by a mutation in the FANC gene complex. Step 3: The normal function of this massive protein complex is to repair DNA interstrand crosslinks using *homologous recombination*. Because the cells cannot repair crosslinks, they are exquisitely sensitive to cross-linking agents (like mitomycin C or nitrogen mustards), leading to massive chromosomal breakage and a very high risk of acute myeloid leukemia (AML).",
+        "incorrect_rationales": [
+          "Option A describes Xeroderma Pigmentosum.",
+          "Option C describes Ataxia-Telangiectasia (mutated ATM gene) or Severe Combined Immunodeficiency (SCID).",
+          "Option D describes Lynch Syndrome.",
+          "Option E describes Dyskeratosis Congenita (which also causes aplastic anemia but features abnormal nails, skin pigmentation, and oral leukoplakia, not absent thumbs)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q40",
+      "discipline": "Pharmacology",
+      "system": "Infectious Disease",
+      "vignette": "A 28-year-old woman is prescribed a short course of oral metronidazole for a mild case of bacterial vaginosis. Later that evening, she attends a dinner party and consumes two glasses of wine. Within 15 minutes, she develops intense facial flushing, a pounding headache, tachycardia, and severe nausea. The accumulation of a toxic metabolite caused this adverse reaction. In a healthy, untreated individual, the specific enzyme responsible for clearing this toxic metabolite requires which of the following cofactors to function?",
+      "options": [
+        "FAD (Flavin adenine dinucleotide)",
+        "PLP (Pyridoxal phosphate)",
+        "NAD+ (Nicotinamide adenine dinucleotide)",
+        "NADP+ (Nicotinamide adenine dinucleotide phosphate)",
+        "TPP (Thiamine pyrophosphate)"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify the disulfiram-like reaction of metronidazole and the NAD+ requirement of Acetaldehyde Dehydrogenase.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: A patient taking metronidazole who consumes alcohol and develops severe flushing, tachycardia, and nausea is experiencing a Disulfiram-like reaction. Step 2: Metronidazole (like disulfiram, certain cephalosporins, and procarbazine) inhibits the enzyme *Acetaldehyde Dehydrogenase*. Step 3: Normally, ethanol is converted to acetaldehyde, and Acetaldehyde Dehydrogenase converts the toxic acetaldehyde into harmless acetic acid (acetate). Inhibition causes massive buildup of acetaldehyde, causing the 'hangover-from-hell' symptoms. Step 4: Acetaldehyde Dehydrogenase is an oxidoreductase enzyme that strips hydrogen from acetaldehyde and transfers it strictly to *NAD+* (converting it to NADH).",
+        "incorrect_rationales": [
+          "Option A is used by Succinate Dehydrogenase in the TCA cycle.",
+          "Option B is used by transaminase enzymes (AST/ALT).",
+          "Option D is the electron acceptor for the HMP shunt (G6PD) to create NADPH for anabolic reactions and glutathione reduction.",
+          "Option E is used by Pyruvate Dehydrogenase, Alpha-ketoglutarate Dehydrogenase, and Transketolase."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    }
+  ]
 }

@@ -1,6 +1,911 @@
-JSON
 {
   "block_id": 7,
-  "block_title": "USMLE Step 1 Mock Exam - Block 7",
-  "questions": []
-}
+  "block_title": "USMLE Step 1 Mock Exam - Block 7 (Grandmaster Level)",
+  "questions": [
+    {
+      "id": "q1",
+      "discipline": "Biochemistry",
+      "system": "Genetics",
+      "vignette": "A 4-year-old girl is evaluated for profound intellectual disability, self-mutilating behavior involving severe biting of her lips and fingers, and a history of orange 'sand' in her diapers. A deficiency of hypoxanthine-guanine phosphoribosyltransferase (HGPRT) is confirmed. To compensate for the loss of this salvage pathway enzyme, her body massively upregulates the *de novo* synthesis of purines. The rate-limiting enzyme of this hyperactive *de novo* pathway is normally subject to strong allosteric inhibition by which of the following downstream molecules?",
+      "options": [
+        "Inosine monophosphate (IMP)",
+        "Ribose-5-phosphate",
+        "Phosphoribosyl pyrophosphate (PRPP)",
+        "Uridine monophosphate (UMP)",
+        "Guanosine triphosphate (GTP)"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Identify the rate-limiting enzyme of de novo purine synthesis (PRPP amidotransferase) and its feedback inhibitors.",
+        "correct_rationale": "Option A is correct. (Fourth-order question). Step 1: Self-mutilation, hyperuricemia (orange sand), and HGPRT deficiency definitively diagnose Lesch-Nyhan Syndrome. Step 2: Because the purine salvage pathway (HGPRT) is dead, the body must rely entirely on the *de novo* purine synthesis pathway, which goes into overdrive, churning out massive amounts of uric acid. Step 3: The rate-limiting enzyme of *de novo* purine synthesis is Glutamine-PRPP amidotransferase. Step 4: This enzyme is normally inhibited by the end-products of the pathway: AMP, GMP, and their immediate precursor, *Inosine monophosphate (IMP)*.",
+        "incorrect_rationales": [
+          "Option B is the starting substrate produced by the HMP shunt, not an inhibitor.",
+          "Option C is the required substrate that *activates* PRPP amidotransferase, driving the pathway forward.",
+          "Option D is an end-product of *pyrimidine* synthesis, which inhibits Carbamoyl Phosphate Synthetase II (CPS II).",
+          "Option E provides the energy for AMP synthesis, but AMP/GMP/IMP are the specific allosteric inhibitors of the initial committed step."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q2",
+      "discipline": "Pharmacology",
+      "system": "Oncology",
+      "vignette": "A 62-year-old man with advanced multiple myeloma is treated with a targeted proteasome inhibitor. Two months into therapy, his serum M-protein spike has decreased significantly, but he presents to the clinic complaining of severe, painful paresthesias in his hands and feet. The medication responsible for this classic dose-limiting toxicity exerts its antineoplastic effect by preventing the degradation of which of the following specific intracellular proteins?",
+      "options": [
+        "Nuclear factor kappa B (NF-kB)",
+        "Inhibitor of kappa B (IkB)",
+        "Vascular endothelial growth factor (VEGF)",
+        "Tumor necrosis factor-alpha (TNF-a)",
+        "B-cell lymphoma 2 (BCL-2) protein"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Understand the mechanism of Bortezomib (proteasome inhibitor) and its effect on the IkB/NF-kB pathway.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: A proteasome inhibitor used for multiple myeloma that causes severe peripheral neuropathy is Bortezomib. Step 2: The proteasome acts as the cell's garbage disposal, degrading proteins tagged with ubiquitin. Step 3: In multiple myeloma cells, the transcription factor NF-kB is highly active, driving survival and proliferation. NF-kB is normally held in check (inactivated) in the cytoplasm by binding to *Inhibitor of kappa B (IkB)*. Step 4: For NF-kB to enter the nucleus, the cell must tag IkB with ubiquitin and destroy it in the proteasome. Bortezomib blocks the proteasome, preventing the destruction of IkB. Therefore, IkB remains bound to NF-kB, trapping it in the cytoplasm and triggering apoptosis of the myeloma cell.",
+        "incorrect_rationales": [
+          "Option A is the transcription factor itself, but Bortezomib prevents the degradation of its *inhibitor* (IkB).",
+          "Option C is targeted by Bevacizumab.",
+          "Option D is targeted by Infliximab or Adalimumab.",
+          "Option E is an anti-apoptotic protein targeted by Venetoclax (used in CLL)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q3",
+      "discipline": "Pathology",
+      "system": "Respiratory",
+      "vignette": "A 40-year-old woman is admitted to the ICU with severe acute respiratory distress syndrome (ARDS) following acute pancreatitis. Despite mechanical ventilation with high PEEP and 100% FiO2, her oxygenation continues to deteriorate. A biopsy of her lung tissue would most likely reveal extensive formation of hyaline membranes lining the alveolar ducts. These glassy, eosinophilic membranes are composed primarily of which of the following substances?",
+      "options": [
+        "Polymerized collagen type I and III",
+        "Fibrin and necrotic epithelial cell debris",
+        "Precipitated pulmonary surfactant proteins",
+        "Amyloid light-chain fibrils",
+        "Aggregated immunoglobulin and complement complexes"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the histologic composition of hyaline membranes in ARDS.",
+        "correct_rationale": "Option B is correct. (Second-order question). Step 1: The patient has ARDS secondary to severe systemic inflammation (pancreatitis). Step 2: The histopathologic hallmark of the acute/exudative phase of ARDS is the formation of *hyaline membranes* lining the alveoli, creating a massive barrier to gas exchange. Step 3: These membranes form because the inflammatory cytokine storm damages the pulmonary capillary endothelium and the alveolar pneumocytes. Protein-rich fluid leaks into the alveoli. The hyaline membranes are composed specifically of *fibrin exudate mixed with the lipid and protein debris of the dead (necrotic) Type I pneumocytes*.",
+        "incorrect_rationales": [
+          "Option A occurs weeks later during the fibrotic (organizing) phase of ARDS or in chronic interstitial lung diseases, not the acute exudative hyaline membranes.",
+          "Option C is what makes up the PAS-positive material in Pulmonary Alveolar Proteinosis (PAP).",
+          "Option D is found in primary amyloidosis (Congo red positive).",
+          "Option E describes Goodpasture syndrome (linear IgG) or Type III hypersensitivity reactions."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q4",
+      "discipline": "Genetics",
+      "system": "Renal",
+      "vignette": "A 22-year-old man presents with a sudden onset of right flank pain and gross hematuria. An abdominal ultrasound reveals bilateral, massively enlarged kidneys containing innumerable cysts of varying sizes, as well as a small, simple cyst in the liver. His father died of a ruptured intracranial aneurysm at age 45. The patient's genetic mutation involves a gene located on chromosome 16. The protein encoded by this mutated gene normally resides in which of the following specific cellular structures?",
+      "options": [
+        "The primary apical cilium of tubular epithelial cells",
+        "The slit diaphragm bridging podocyte foot processes",
+        "The gap junctions connecting mesangial cells",
+        "The basement membrane of the glomerular capillaries",
+        "The lysosomes of the proximal convoluted tubule"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Correlate ADPKD (PKD1 mutation) with the location and function of polycystin-1 in the primary cilium.",
+        "correct_rationale": "Option A is correct. (Third-order question). Step 1: Bilateral massive cystic kidneys in an adult, associated with liver cysts and a family history of berry aneurysms (subarachnoid hemorrhage), defines Autosomal Dominant Polycystic Kidney Disease (ADPKD). Step 2: ADPKD is most commonly caused by a mutation in the PKD1 gene on chromosome 16 (or PKD2 on chromosome 4). Step 3: The PKD1 gene encodes the protein *polycystin-1*. Step 4: Polycystin-1 is a mechanoreceptor located strictly on the *primary apical cilium* of the renal tubular epithelial cells. It senses fluid flow through the tubule. When mutated, the cilium fails to signal properly, leading to unchecked tubular cell proliferation and massive cyst formation.",
+        "incorrect_rationales": [
+          "Option B is where Nephrin is located (mutated in congenital nephrotic syndrome).",
+          "Option C are not the site of the polycystin complex.",
+          "Option D is the location of Type IV collagen (mutated in Alport syndrome and targeted in Goodpasture syndrome).",
+          "Option E is where Fabry disease (alpha-galactosidase A deficiency) causes substrate accumulation."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q5",
+      "discipline": "Embryology",
+      "system": "Neurology",
+      "vignette": "A 2-day-old female neonate is noted to have a large, hairless, fluid-filled sac protruding from the occipital region of her skull. An MRI of the brain confirms a diagnosis of an occipital encephalocele. This severe malformation occurred due to a failure of a specific embryological process during the fourth week of gestation. In a normal embryo, the completion of this specific fusion process is immediately dependent on the correct functioning of which of the following maternal nutritional derivatives?",
+      "options": [
+        "Retinoic acid (Vitamin A)",
+        "Ascorbic acid (Vitamin C)",
+        "Tetrahydrofolate (Vitamin B9)",
+        "Pyridoxal phosphate (Vitamin B6)",
+        "Cobalamin (Vitamin B12)"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Link an encephalocele to a neural tube defect caused by folate deficiency.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: An occipital encephalocele (herniation of brain tissue and meninges through a skull defect) is a severe Neural Tube Defect. Step 2: Neural tube defects occur when the neural folds fail to fuse (either at the anterior or posterior neuropore) during week 4 of development. Step 3: The fusion of the neural tube requires massive amounts of rapid DNA synthesis. Step 4: *Tetrahydrofolate (Vitamin B9 / Folic Acid)* is the absolutely critical 1-carbon donor required for the synthesis of purines and thymidylate (dTMP). Maternal deficiency of folate starves the rapidly dividing cells of nucleotides, halting neural tube closure.",
+        "incorrect_rationales": [
+          "Option A is a potent teratogen in high doses (causing cleft lip, cardiac defects, and microcephaly), but it does not drive neural tube closure.",
+          "Option B is required for collagen synthesis (scurvy).",
+          "Option D is required for transamination and neurotransmitter synthesis.",
+          "Option E is required alongside folate, but maternal B12 deficiency alone is a much rarer cause of NTDs compared to the direct requirement for B9."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q6",
+      "discipline": "Pharmacology",
+      "system": "Psychiatry",
+      "vignette": "A 32-year-old man with a history of severe, treatment-resistant schizophrenia is started on clozapine. Three months later, he presents to the emergency department with a 3-day history of increasing shortness of breath, orthopnea, and severe fatigue. Physical examination reveals an S3 gallop, elevated jugular venous pressure, and bilateral basilar crackles. An echocardiogram demonstrates a globally dilated left ventricle with an ejection fraction of 25%. A biopsy of his myocardium would most likely reveal an inflammatory infiltrate predominantly composed of which of the following?",
+      "options": [
+        "Eosinophils",
+        "Neutrophils",
+        "Multinucleated giant cells",
+        "Plasma cells",
+        "CD8+ Cytotoxic T cells"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Recognize Clozapine-induced acute hypersensitivity myocarditis and its eosinophilic infiltrate.",
+        "correct_rationale": "Option A is correct. (Fourth-order question). Step 1: The patient is taking Clozapine. Step 2: He develops acute, severe dilated cardiomyopathy and congestive heart failure. Step 3: While clozapine is famous for causing agranulocytosis and seizures, its most lethal (and often overlooked) black-box warning is *Acute Myocarditis*. Step 4: Clozapine-induced myocarditis is a classic hypersensitivity (allergic) reaction to the drug. Like most drug-induced hypersensitivity myocarditis, a biopsy of the heart muscle will reveal a dense infiltrate of *Eosinophils*.",
+        "incorrect_rationales": [
+          "Option B would be seen in acute myocardial infarction (days 1-3) or bacterial endocarditis.",
+          "Option C is seen in giant cell myocarditis, a rare and rapidly fatal autoimmune disease, or cardiac sarcoidosis.",
+          "Option D and Option E are seen in viral myocarditis (Coxsackievirus B), which features a mononuclear (lymphocyte) infiltrate, not the drug-induced eosinophilic response."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q7",
+      "discipline": "Anatomy",
+      "system": "Gastrointestinal",
+      "vignette": "A 55-year-old woman with a history of severe cirrhosis and portal hypertension presents with massive hematemesis. Upper endoscopy reveals actively bleeding varices located strictly in the fundus of the stomach. Notably, there are no varices present in the lower esophagus. A CT scan of her abdomen reveals an isolated, severe thrombosis of a specific vein. The selective formation of isolated gastric varices in this patient is due to the thrombosis of which of the following vessels?",
+      "options": [
+        "Left gastric vein",
+        "Splenic vein",
+        "Superior mesenteric vein",
+        "Inferior mesenteric vein",
+        "Right gastric vein"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the Splenic vein as the cause of isolated gastric varices.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: The patient has *isolated gastric varices* in the fundus of the stomach, WITHOUT esophageal varices. Step 2: The short gastric veins exclusively drain the fundus of the stomach. Step 3: The short gastric veins drain directly into the *Splenic vein*. Step 4: If the splenic vein thromboses (classically due to chronic pancreatitis or pancreatic cancer, but also hypercoagulable states in cirrhosis), blood backs up entirely into the short gastric veins, causing isolated varices in the fundus. The left gastric vein (which causes esophageal varices) bypasses this blockage by draining directly into the portal vein.",
+        "incorrect_rationales": [
+          "Option A drains the lesser curvature of the stomach and the lower esophagus. Thrombosis or hypertension here causes classic *esophageal* varices.",
+          "Option C drains the midgut and merges with the splenic vein to form the portal vein.",
+          "Option D drains the hindgut into the splenic vein (forming hemorrhoids).",
+          "Option E drains the lesser curvature and does not cause fundal varices."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q8",
+      "discipline": "Immunology",
+      "system": "Infectious Disease",
+      "vignette": "A 6-year-old girl is brought to the clinic for evaluation of a highly pruritic, papular rash on her wrists and between her fingers. Her brother has a similar rash. Skin scrapings viewed under a microscope reveal the presence of Sarcoptes scabiei mites and their ova. To mount an effective defense against these multicellular parasites, the child's immune system requires the activation of a specific subset of helper T cells. The differentiation of naive CD4+ T cells into this required subset is primarily driven by which of the following cytokines?",
+      "options": [
+        "Interferon-gamma (IFN-y)",
+        "Interleukin-12 (IL-12)",
+        "Interleukin-4 (IL-4)",
+        "Transforming growth factor-beta (TGF-beta)",
+        "Interleukin-2 (IL-2)"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Recognize the requirement for a Th2 immune response against parasites and the driving role of IL-4.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: The patient is infected with Scabies (a multicellular parasite/mite). Step 2: Defense against parasites (and helminths) requires the activation of *Th2* helper T cells. Th2 cells secrete IL-4 (promotes IgE class switching), IL-5 (recruits eosinophils), and IL-13. Step 3: The question asks what cytokine *drives the differentiation* of naive CD4+ T cells into the Th2 subset in the first place. The primary driver of Th2 differentiation is *Interleukin-4 (IL-4)*, creating a positive feedback loop.",
+        "incorrect_rationales": [
+          "Option A and Option B drive the differentiation of naive T cells into Th1 cells (for defense against intracellular bacteria and viruses).",
+          "Option D (often with IL-6) drives differentiation into Th17 cells (defense against mucosal fungi/extracellular bacteria) or Tregs (suppression).",
+          "Option E stimulates the proliferation of all activated T cells, but does not dictate their specific Th1/Th2 lineage choice."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q9",
+      "discipline": "Physiology",
+      "system": "Renal",
+      "vignette": "A 35-year-old man receives a rapid intravenous infusion of 1 liter of 0.9% normal saline to treat mild dehydration. Assuming normal physiological responses and intact renal function, within 30 minutes of completing the infusion, the release of a specific peptide from the cardiac atria heavily influences renal hemodynamics. Which of the following best describes the direct effect of this peptide on the glomerular arterioles?",
+      "options": [
+        "Constriction of the afferent arteriole; Constriction of the efferent arteriole",
+        "Dilation of the afferent arteriole; Dilation of the efferent arteriole",
+        "Dilation of the afferent arteriole; Constriction of the efferent arteriole",
+        "Constriction of the afferent arteriole; Dilation of the efferent arteriole",
+        "No direct effect on arteriolar tone; relies entirely on suppressing renin"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Understand the hemodynamic mechanism of Atrial Natriuretic Peptide (ANP) on the glomerulus.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: The IV fluid bolus expands the blood volume, stretching the cardiac atria. Step 2: The atria release Atrial Natriuretic Peptide (ANP). Step 3: The primary goal of ANP is to dump sodium and water to lower blood volume. To do this, it must heavily increase the Glomerular Filtration Rate (GFR). Step 4: ANP increases GFR via a unique dual mechanism: it *dilates the afferent arteriole* (letting more blood into the glomerulus) AND it *constricts the efferent arteriole* (trapping the blood in the glomerulus to build high hydrostatic pressure). This massive pressure spike forces sodium and water out into the urine.",
+        "incorrect_rationales": [
+          "Option A is the action of severe sympathetic nervous system activation or high-dose Angiotensin II (which drops GFR).",
+          "Option B increases renal blood flow but does not effectively raise the glomerular hydrostatic pressure needed for natriuresis.",
+          "Option D is the action of NSAIDs (constrict afferent) combined with ACE inhibitors (dilate efferent), which completely crashes the GFR.",
+          "Option E is incorrect; ANP has direct, powerful vasoactive effects."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q10",
+      "discipline": "Pharmacology",
+      "system": "Hematology",
+      "vignette": "A 68-year-old man with a mechanical aortic valve is stabilized on a daily dose of warfarin. His INR has been therapeutic at 2.8 for six months. He develops a severe urinary tract infection and is prescribed a 7-day course of trimethoprim-sulfamethoxazole (TMP-SMX). Five days later, he presents to the emergency department with massive gastrointestinal bleeding, and his INR is now measured at 7.5. The profound elevation in his INR was caused by the antibiotic inhibiting a specific hepatic enzyme. Which of the following cytochrome P450 isoenzymes was inhibited?",
+      "options": [
+        "CYP3A4",
+        "CYP2D6",
+        "CYP2C9",
+        "CYP1A2",
+        "CYP2E1"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify CYP2C9 as the primary metabolizer of active S-warfarin, inhibited by TMP-SMX.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: The patient is on Warfarin. Warfarin is a racemic mixture of R-warfarin and S-warfarin. S-warfarin is 3-5 times more potent than the R-enantiomer. Step 2: He was given TMP-SMX, which triggered a massive, life-threatening supratherapeutic INR (bleeding). Step 3: TMP-SMX (like amiodarone and metronidazole) is a potent inhibitor of *CYP2C9*. Step 4: CYP2C9 is the specific hepatic enzyme responsible for metabolizing the highly active *S-warfarin*. Inhibiting CYP2C9 causes S-warfarin to accumulate rapidly, crashing the coagulation cascade.",
+        "incorrect_rationales": [
+          "Option A metabolizes R-warfarin (and 50% of all other drugs). While inhibiting it (e.g., with grapefruit juice) mildly increases INR, the massive bleeding risk comes from blocking the highly potent S-enantiomer via CYP2C9.",
+          "Option B metabolizes psychiatric and cardiovascular drugs (e.g., converting codeine to morphine).",
+          "Option D metabolizes theophylline and acetaminophen.",
+          "Option E metabolizes ethanol."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q11",
+      "discipline": "Pathology",
+      "system": "Musculoskeletal",
+      "vignette": "A 15-year-old boy presents to his pediatrician with a hard, painful mass just below his right knee. He notes the pain is worse at night and wakes him from sleep. An X-ray of the right knee demonstrates a sunburst pattern of bone destruction in the metaphysis of the proximal tibia, along with an elevation of the periosteum (Codman triangle). A biopsy of the mass confirms a highly malignant sarcoma. The genetic pathogenesis of this specific tumor frequently involves an inherited or acquired loss-of-function mutation in a gene that normally regulates which of the following cellular processes?",
+      "options": [
+        "Inhibition of the G1 to S phase cell cycle transition",
+        "Activation of the Wnt/beta-catenin signaling pathway",
+        "Suppression of the sonic hedgehog (SHH) morphogen",
+        "DNA mismatch repair during replication",
+        "Hypermethylation of CGG trinucleotide repeats"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Identify Osteosarcoma and its association with Rb (G1 to S phase transition) and p53 mutations.",
+        "correct_rationale": "Option A is correct. (Third-order question). Step 1: A teenager with a painful metaphyseal mass, a 'sunburst' X-ray pattern, and a Codman triangle has an Osteosarcoma. Step 2: The pathogenesis of osteosarcoma is heavily linked to the loss of two critical tumor suppressor genes: Rb (Retinoblastoma) and TP53 (Li-Fraumeni syndrome). Step 3: The *Rb gene* (and p53 via p21) functions to strictly *inhibit the transition from the G1 phase to the S phase* of the cell cycle. When Rb is mutated or lost, the E2F transcription factor is set free, allowing the bone cells to replicate uncontrollably.",
+        "incorrect_rationales": [
+          "Option B describes the APC mutation (Familial Adenomatous Polyposis).",
+          "Option C describes the PTCH1 mutation (Basal Cell Nevus/Gorlin Syndrome).",
+          "Option D describes Lynch Syndrome (HNPCC).",
+          "Option E describes the mechanism of silencing the FMR1 gene in Fragile X Syndrome."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q12",
+      "discipline": "Biochemistry",
+      "system": "Metabolic",
+      "vignette": "A 40-year-old woman is evaluated for a 1-year history of severe, episodic hypoglycemia, particularly when she misses a meal. During a 72-hour fasting test, she develops diaphoresis and confusion, and her blood glucose falls to 35 mg/dL. Her serum insulin levels and C-peptide levels are found to be markedly elevated. Further testing reveals that her blood is completely negative for sulfonylurea drugs. The benign neoplasm causing her symptoms originates from cells that rely on which of the following mechanisms to couple systemic blood glucose levels to hormone secretion?",
+      "options": [
+        "Binding of glucose to an extracellular G-protein coupled receptor",
+        "Entry of glucose via GLUT2 leading to increased intracellular ATP",
+        "Phosphorylation of glucose by hexokinase to trap it in the cytoplasm",
+        "Sodium-dependent cotransport of glucose across the apical membrane",
+        "Activation of a tyrosine kinase cascade by circulating glucagon"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Understand the mechanism of insulin secretion by pancreatic beta cells (Insulinoma).",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: Fasting hypoglycemia with high insulin and high C-peptide (and negative drug screen) definitively diagnoses an Insulinoma (a benign tumor of the pancreatic beta cells). Step 2: The question asks how beta cells normally couple glucose levels to insulin secretion. Step 3: Beta cells take up glucose via the low-affinity, high-capacity *GLUT2* transporter. Step 4: Inside the cell, glucose is metabolized by glucokinase, producing *ATP*. Step 5: This rise in intracellular ATP closes ATP-sensitive potassium channels, depolarizing the cell, opening calcium channels, and triggering the exocytosis of insulin.",
+        "incorrect_rationales": [
+          "Option A is incorrect; glucose enters the cell, it does not bind to an external GPCR.",
+          "Option C is incorrect; beta cells uniquely use *glucokinase* (which has a high Km, acting as a glucose sensor), not hexokinase (which is easily saturated at low glucose levels).",
+          "Option D describes SGLT-2 in the kidney or SGLT-1 in the gut.",
+          "Option E is incorrect; glucagon opposes insulin and binds a GPCR (cAMP), not a tyrosine kinase."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q13",
+      "discipline": "Microbiology",
+      "system": "Gastrointestinal",
+      "vignette": "A 25-year-old pregnant woman in her third trimester presents with a sudden onset of profound jaundice, severe right upper quadrant abdominal pain, and lethargy. Laboratory studies reveal a skyrocketing AST and ALT (both > 2,000 U/L) and a prolonged prothrombin time (PT), indicating fulminant hepatic failure. Her history reveals she recently returned from a trip to India where she consumed untreated well water. The virus responsible for this catastrophic clinical presentation possesses a genome composed of which of the following?",
+      "options": [
+        "Enveloped, double-stranded circular DNA",
+        "Non-enveloped, single-stranded positive-sense RNA",
+        "Enveloped, single-stranded positive-sense RNA",
+        "Non-enveloped, double-stranded linear DNA",
+        "Enveloped, single-stranded negative-sense circular RNA"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify Hepatitis E virus and its devastating effect on pregnant women.",
+        "correct_rationale": "Option B is correct. (Fourth-order question). Step 1: A pregnant woman (specifically 3rd trimester) who contracts a water-borne hepatitis (travel to India, untreated water) and develops fulminant hepatic failure (massive AST/ALT, high mortality in pregnancy) is the hallmark presentation of *Hepatitis E Virus (HEV)*. Step 2: HEV is transmitted via the fecal-oral route. Step 3: Fecal-oral viruses (like Hep A and Hep E, as well as Norovirus/Polio) are virtually all 'naked' (*Non-enveloped*) because they must survive the harsh acid of the stomach and bile of the gut. Step 4: The genome of the Hepatitis E virus (a Hepevirus) is a *single-stranded, positive-sense RNA* molecule.",
+        "incorrect_rationales": [
+          "Option A describes Hepatitis B Virus (which is blood-borne/sexual).",
+          "Option C describes Hepatitis C Virus (which is enveloped, blood-borne).",
+          "Option D describes Adenovirus.",
+          "Option E describes Hepatitis D Virus (which requires Hep B envelope)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q14",
+      "discipline": "Anatomy",
+      "system": "Neurology",
+      "vignette": "A 45-year-old woman presents to the clinic complaining of severe, sharp, shooting pain radiating down her right leg. The pain starts in her right buttock and travels down the back of her thigh, wrapping around to the lateral aspect of her calf and the dorsum of her right foot. Physical examination reveals weakness when she attempts to dorsiflex her right foot, and her physician notes a decreased sensation over the web space between her first and second toes. However, her Achilles tendon reflex and patellar reflex are completely intact and symmetric. The patient's symptoms are caused by the herniation of an intervertebral disc that is compressing which of the following specific spinal nerve roots?",
+      "options": [
+        "L3",
+        "L4",
+        "L5",
+        "S1",
+        "S2"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Localize an L5 radiculopathy based on foot drop, specific sensory loss, and spared reflexes.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: The patient has a severe radiculopathy (sciatica) radiating to the foot. Step 2: She has weakness in foot *dorsiflexion* (foot drop, innervated by the deep fibular nerve). Step 3: She has sensory loss over the lateral calf and the *dorsum of the foot/web space between 1st and 2nd toes*. Step 4: Crucially, both the patellar reflex (L4) and the Achilles reflex (S1) are *completely intact*. This definitively rules out an L4 or S1 lesion. The clinical picture perfectly isolates a lesion of the *L5 nerve root* (usually caused by an L4-L5 disc herniation). (Note: L5 does not have a primary reliable deep tendon reflex, which is why it is spared here).",
+        "incorrect_rationales": [
+          "Option A would cause weakness in hip flexion and pain in the anterior thigh.",
+          "Option B would cause weakness in knee extension and an *absent patellar reflex*.",
+          "Option D would cause weakness in foot plantarflexion, sensory loss on the lateral foot/pinky toe, and an *absent Achilles reflex*.",
+          "Option E would cause perineal pain and bowel/bladder dysfunction."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q15",
+      "discipline": "Pharmacology",
+      "system": "Immunology",
+      "vignette": "A 35-year-old man receives a renal allograft and is maintained on an immunosuppressive regimen containing mycophenolate mofetil. He tolerates the medication well and maintains excellent graft function. Mycophenolate mofetil protects his graft by depriving activated T and B lymphocytes of the purines necessary for massive clonal expansion. It achieves this by directly, selectively, and reversibly inhibiting an enzyme that catalyzes which of the following reactions?",
+      "options": [
+        "Conversion of ribose-5-phosphate to phosphoribosyl pyrophosphate (PRPP)",
+        "Conversion of inosine monophosphate (IMP) to xanthosine monophosphate (XMP)",
+        "Conversion of carbamoyl phosphate and aspartate to orotic acid",
+        "Conversion of deoxyuridine monophosphate (dUMP) to deoxythymidine monophosphate (dTMP)",
+        "Conversion of hypoxanthine to inosine monophosphate (IMP)"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the mechanism of action of Mycophenolate Mofetil (inhibition of IMP dehydrogenase).",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: The patient is taking Mycophenolate Mofetil (MMF) to prevent organ rejection. Step 2: MMF specifically targets T and B lymphocytes because they completely lack a purine salvage pathway; they rely 100% on the *de novo* synthesis of purines to proliferate. Step 3: MMF exerts its effect by reversibly inhibiting *Inosine monophosphate dehydrogenase (IMP dehydrogenase)*. Step 4: IMP dehydrogenase is the crucial enzyme that converts IMP into Xanthosine monophosphate (XMP), which is the direct precursor required to synthesize Guanosine monophosphate (GMP). Without GMP, the lymphocytes cannot synthesize DNA.",
+        "incorrect_rationales": [
+          "Option A is catalyzed by PRPP synthetase (the very first step of purine synthesis).",
+          "Option C is the pyrimidine synthesis pathway, inhibited by Leflunomide (inhibits dihydroorotate dehydrogenase).",
+          "Option D is the reaction catalyzed by Thymidylate Synthase, which is inhibited by 5-Fluorouracil (5-FU).",
+          "Option E is the purine salvage pathway catalyzed by HGPRT (defective in Lesch-Nyhan syndrome)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q16",
+      "discipline": "Biochemistry",
+      "system": "Neurology",
+      "vignette": "A 24-year-old man presents with progressive night blindness, a staggering gait, and a noticeable scaly, ichthyosis-like rash on his extremities. Physical examination reveals an absence of deep tendon reflexes and a striking bilateral shortening of his fourth toes. An ophthalmologic exam demonstrates retinitis pigmentosa. Laboratory analysis reveals a massive accumulation of a specific branched-chain fatty acid in his plasma and tissues. The genetic defect responsible for this patient's condition completely halts which of the following intracellular metabolic processes?",
+      "options": [
+        "Beta-oxidation of very-long-chain fatty acids",
+        "Alpha-oxidation of phytanic acid",
+        "Omega-oxidation of medium-chain fatty acids",
+        "Lysosomal hydrolysis of sphingomyelin",
+        "Mitochondrial transport of long-chain fatty acids via carnitine"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize Adult Refsum Disease and the defect in peroxisomal alpha-oxidation of phytanic acid.",
+        "correct_rationale": "Option B is correct. (Fourth-order question). Step 1: A young adult with retinitis pigmentosa, ataxia, ichthyosis, polyneuropathy, and the highly specific skeletal anomaly of shortened 4th toes has Adult Refsum Disease. Step 2: Refsum disease is caused by an autosomal recessive defect in the peroxisomal enzyme phytanoyl-CoA hydroxylase. Step 3: Because phytanic acid (a dietary branched-chain fatty acid found in dairy and ruminant meat) has a methyl group on its beta-carbon, it cannot undergo standard beta-oxidation. It must first undergo *alpha-oxidation* in the peroxisome to remove the methyl group. When this fails, phytanic acid accumulates to toxic levels in the brain, blood, and tissues.",
+        "incorrect_rationales": [
+          "Option A is defective in X-linked Adrenoleukodystrophy (X-ALD) and Zellweger syndrome.",
+          "Option C is a minor rescue pathway in the endoplasmic reticulum that is upregulated (not halted) when beta-oxidation fails.",
+          "Option D describes Niemann-Pick disease.",
+          "Option E describes Primary Carnitine Deficiency, leading to hypoketotic hypoglycemia."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q17",
+      "discipline": "Genetics",
+      "system": "Dermatology",
+      "vignette": "A 2-week-old female neonate develops a linear, blistering rash on her trunk and extremities that precisely follows the lines of Blaschko. Her mother reports having a history of miscarriages, all of which were determined to be male fetuses. Over the next several months, the infant's blistering rash progresses to verrucous plaques, and eventually leaves swirled patterns of hyperpigmentation. The mutated gene responsible for this syndrome typically regulates the activation of which of the following crucial transcription factors?",
+      "options": [
+        "Nuclear factor kappa B (NF-kB)",
+        "Hypoxia-inducible factor 1-alpha (HIF-1a)",
+        "MYC proto-oncogene",
+        "Beta-catenin",
+        "SMAD4"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Identify Incontinentia Pigmenti, its X-linked dominant inheritance (lethal in males), and the IKBKG (NEMO) gene defect.",
+        "correct_rationale": "Option A is correct. (Fourth-order question). Step 1: A female infant with a distinct, progressing rash (vesicles -> verrucous -> hyperpigmented swirls) along Blaschko lines, paired with a maternal history of exclusively male miscarriages, definitively diagnoses Incontinentia Pigmenti. Step 2: This is a rare X-linked Dominant disorder. Because it is dominant, females survive due to X-inactivation (lyonization), which creates the swirled mosaic rash pattern. Males with the mutated X chromosome have no backup and die in utero. Step 3: The disease is caused by a mutation in the IKBKG (NEMO) gene. Step 4: The NEMO protein is absolutely essential for the activation of *Nuclear factor kappa B (NF-kB)*, a master regulator of cell survival and inflammation. Without it, cells undergo massive apoptosis.",
+        "incorrect_rationales": [
+          "Option B is dysregulated in Von Hippel-Lindau (VHL) disease.",
+          "Option C is translocated in Burkitt Lymphoma.",
+          "Option D is dysregulated in Familial Adenomatous Polyposis (APC mutation).",
+          "Option E is mutated in Juvenile Polyposis Syndrome and some pancreatic/colon cancers."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q18",
+      "discipline": "Pharmacology",
+      "system": "Infectious Disease",
+      "vignette": "A 40-year-old man from Eastern Europe is treated for extensively drug-resistant tuberculosis (XDR-TB). Due to the failure of standard regimens, a novel, highly specific diarylquinoline antibiotic is added to his regimen. During the second month of therapy, he requires frequent ECG monitoring due to a known risk of severe QT prolongation associated with this new drug. The drug exerts its uniquely potent bactericidal effect against dormant and replicating mycobacteria by directly targeting which of the following cellular processes?",
+      "options": [
+        "Inhibition of the arabinosyltransferase enzyme in the cell wall",
+        "Covalent binding to the beta subunit of DNA-dependent RNA polymerase",
+        "Inhibition of the proton pump of mycobacterial ATP synthase",
+        "Blockade of mycolic acid synthesis via the FAS-II complex",
+        "Interference with the 30S ribosomal subunit to cause misreading of mRNA"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify the mechanism of action of Bedaquiline.",
+        "correct_rationale": "Option C is correct. (Fourth-order question). Step 1: A novel drug used exclusively for MDR/XDR-TB that causes significant QT prolongation is Bedaquiline. Step 2: Bedaquiline represents a completely new class of antibiotics (diarylquinolines). Step 3: Its mechanism of action is the direct, highly specific inhibition of the *mycobacterial ATP synthase proton pump* (specifically the c-subunit). By preventing the bacteria from generating ATP, it kills both actively replicating and dormant bacilli.",
+        "incorrect_rationales": [
+          "Option A describes Ethambutol (causes optic neuropathy).",
+          "Option B describes Rifampin (induces CYP450, red-orange fluids).",
+          "Option D describes Isoniazid (causes neuropathy, hepatotoxicity, lupus-like syndrome).",
+          "Option E describes Aminoglycosides like Streptomycin (causes ototoxicity, nephrotoxicity)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q19",
+      "discipline": "Embryology",
+      "system": "Anatomy",
+      "vignette": "A 28-year-old woman is evaluated for a constant, pulsatile ringing in her right ear. Otoscopic examination reveals a reddish, pulsatile mass visible behind an intact, translucent tympanic membrane. An MR angiogram demonstrates an aberrant vascular loop passing directly through the crura of the stapes bone. This extremely rare, anomalous artery represents a failure of regression of an embryological structure. The un-regressed structure in this patient is derived from which of the following embryonic arches?",
+      "options": [
+        "First aortic arch",
+        "Second aortic arch",
+        "Third aortic arch",
+        "Fourth aortic arch",
+        "Sixth aortic arch"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize a Persistent Stapedial Artery and its derivation from the 2nd Aortic Arch.",
+        "correct_rationale": "Option B is correct. (Fourth-order question). Step 1: A pulsatile red mass behind the eardrum passing through the stapes bone is a Persistent Stapedial Artery (a rare anomaly that can mimic a glomus tumor). Step 2: Normally, the stapedial artery provides blood to the developing face and brain but regresses by week 10 of gestation. Step 3: The stapedial artery, along with the hyoid artery, is uniquely derived from the *Second Aortic Arch*. (Mnemonic: Second = Stapedial).",
+        "incorrect_rationales": [
+          "Option A primarily regresses, but a small remnant forms the Maxillary artery.",
+          "Option C forms the Common Carotid and proximal Internal Carotid arteries.",
+          "Option D forms the true aortic arch (on the left) and the proximal right subclavian artery (on the right).",
+          "Option E forms the pulmonary arteries and the ductus arteriosus."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q20",
+      "discipline": "Immunology",
+      "system": "Rheumatology",
+      "vignette": "A 45-year-old man presents with a sudden onset of extremely painful, swollen, and beefy-red ears. Sparing of the earlobes is prominently noted. Over the next month, he develops severe hoarseness, inspiratory stridor, and a noticeable collapse of the bridge of his nose, creating a 'saddle-nose' deformity. The autoimmune condition driving this rapid cartilaginous destruction is most strongly associated with the presence of autoantibodies directed against which of the following molecular targets?",
+      "options": [
+        "Type I collagen",
+        "Type II collagen",
+        "Type IV collagen",
+        "Proteinase 3 (PR3-ANCA)",
+        "Myeloperoxidase (MPO-ANCA)"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify Relapsing Polychondritis and its highly specific target: Type II Collagen.",
+        "correct_rationale": "Option B is correct. (Fourth-order question). Step 1: Painful, red inflammation of the ear cartilage that strictly *spares the fleshy earlobe* (which lacks cartilage), combined with a saddle-nose deformity and tracheal collapse (stridor), definitively diagnoses Relapsing Polychondritis. Step 2: Relapsing polychondritis is a severe, episodic autoimmune disease that specifically targets hyaline and elastic cartilage throughout the body. Step 3: The primary structural protein making up hyaline cartilage (found in the ears, nose, and trachea) is *Type II collagen* (Mnemonic: Car-two-lage). The disease is driven by circulating autoantibodies attacking this specific collagen type.",
+        "incorrect_rationales": [
+          "Option A is the primary collagen in bone, skin, and tendons (defective in Osteogenesis Imperfecta).",
+          "Option C is the primary collagen in basement membranes (targeted in Goodpasture Syndrome).",
+          "Option D is the autoantibody in Granulomatosis with Polyangiitis (Wegener's), which can cause a saddle nose but usually presents with profound renal and upper/lower respiratory granulomatous necrotizing vasculitis, not isolated, relapsing ear/trachea chondritis.",
+          "Option E is the autoantibody in Microscopic Polyangiitis and Eosinophilic Granulomatosis with Polyangiitis (Churg-Strauss)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q21",
+      "discipline": "Genetics",
+      "system": "Endocrine",
+      "vignette": "A 10-year-old girl is evaluated for short stature, obesity, and a round face. Physical examination reveals an unusual shortening of her 4th and 5th metacarpals, causing her knuckles to appear as dimples when she makes a fist. Laboratory testing reveals hypocalcemia, hyperphosphatemia, and a markedly elevated parathyroid hormone (PTH) level. Genetic testing reveals a mutation in the GNAS1 gene. To exhibit this specific clinical and biochemical phenotype, the mutated allele must have been inherited in which of the following specific manners?",
+      "options": [
+        "Inherited from the father with maternal imprinting",
+        "Inherited from the mother with paternal imprinting",
+        "Inherited via an X-linked recessive pattern from a carrier mother",
+        "Inherited via a somatic mosaic mutation post-fertilization",
+        "Inherited via a mitochondrial deletion from the mother"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize Pseudohypoparathyroidism Type 1A and the requirement for maternal inheritance due to tissue-specific imprinting of GNAS1.",
+        "correct_rationale": "Option B is correct. (Fourth-order question). Step 1: Short stature, round face, obesity, and shortened 4th/5th digits (Albright Hereditary Osteodystrophy - AHO), combined with end-organ resistance to PTH (low calcium, high phosphate, high PTH), diagnoses Pseudohypoparathyroidism Type 1A. Step 2: The disease is caused by a mutation in the GNAS1 gene (encoding the Gs-alpha protein). Step 3: The GNAS1 gene undergoes highly tissue-specific *imprinting*. In the kidney (where PTH acts to reabsorb calcium), the *paternal* allele is normally silenced (imprinted). Therefore, the kidney relies entirely on the maternal allele to respond to PTH. Step 4: To have the biochemical resistance to PTH (hypocalcemia), the patient MUST inherit the defective GNAS1 allele from her *mother*. (If she inherits it from her father, she gets the physical AHO features, but her kidneys work fine—a condition called Pseudopseudohypoparathyroidism).",
+        "incorrect_rationales": [
+          "Option A describes Pseudopseudohypoparathyroidism (normal calcium/PTH, but abnormal physical features).",
+          "Option C, Option D, and Option E do not apply to the specific epigenetic imprinting mechanism of the GNAS1 gene. (Note: Somatic mosaicism of GNAS1 causes McCune-Albright syndrome, a completely different hyper-functioning disease)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q22",
+      "discipline": "Pharmacology",
+      "system": "Neurology",
+      "vignette": "A 45-year-old woman with chronic insomnia is prescribed a newly approved sleep medication after failing trials of zolpidem and melatonin agonists. The new drug successfully improves her sleep latency and maintenance without causing significant next-day grogginess or rebound insomnia. The primary mechanism of action of this specific medication is the direct blockade of a neuropeptide receptor. The endogenous ligand that normally binds to this blocked receptor is synthesized exclusively in which of the following areas of the brain?",
+      "options": [
+        "Locus coeruleus",
+        "Raphe nuclei",
+        "Tuberomammillary nucleus",
+        "Lateral hypothalamus",
+        "Pineal gland"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Identify Suvorexant as an orexin receptor antagonist and the lateral hypothalamus as the source of orexin.",
+        "correct_rationale": "Option D is correct. (Fourth-order question). Step 1: A novel insomnia medication that blocks a neuropeptide receptor is a Dual Orexin Receptor Antagonist (DORA), such as Suvorexant or Lemborexant. Step 2: These drugs work by blocking the binding of Orexin A and B (also called Hypocretins). Step 3: Orexins are the master wakefulness-promoting neuropeptides. A total lack of them causes Narcolepsy Type 1. Step 4: The neurons that synthesize and secrete orexin are located exclusively within the *Lateral Hypothalamus*.",
+        "incorrect_rationales": [
+          "Option A is the primary source of norepinephrine in the brain.",
+          "Option B is the primary source of serotonin.",
+          "Option C is the primary source of histamine (which also promotes wakefulness, targeted by diphenhydramine).",
+          "Option E synthesizes melatonin (targeted by ramelteon)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q23",
+      "discipline": "Pathology",
+      "system": "Renal",
+      "vignette": "A 24-year-old man is evaluated for severe, treatment-resistant hypertension. His blood pressure is consistently 175/105 mmHg. Laboratory evaluation reveals a serum potassium of 5.8 mEq/L, a serum bicarbonate of 18 mEq/L, and a normal estimated glomerular filtration rate. Plasma renin activity and serum aldosterone are both completely suppressed. Genetic testing reveals a gain-of-function mutation in the WNK1 kinase gene. The physiological consequence of this specific mutation is the massive, unchecked overactivity of a transport protein located in which of the following nephron segments?",
+      "options": [
+        "Proximal convoluted tubule",
+        "Thick ascending limb of the loop of Henle",
+        "Distal convoluted tubule",
+        "Principal cells of the cortical collecting duct",
+        "Alpha-intercalated cells of the medullary collecting duct"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Recognize Gordon Syndrome (Pseudohypoaldosteronism Type II) and the overactivity of the Na-Cl cotransporter in the DCT.",
+        "correct_rationale": "Option C is correct. (Fourth-order question). Step 1: Hypertension, *hyperkalemia*, and metabolic acidosis with suppressed renin/aldosterone diagnoses Gordon Syndrome (Pseudohypoaldosteronism Type II). (Note: This is the exact opposite of Liddle syndrome, which causes HYPOkalemia/alkalosis). Step 2: Gordon syndrome is caused by mutations in the WNK1 or WNK4 kinases. Step 3: These kinases normally regulate the Na+/Cl- cotransporter (NCCT) in the kidney. When mutated, they cause massive, constitutive overactivation of the NCCT. Step 4: The NCCT is located exclusively in the *Distal Convoluted Tubule (DCT)*. The massive sodium reabsorption causes hypertension, while the lack of downstream sodium delivery to the collecting duct prevents the secretion of potassium and protons (causing hyperkalemia and acidosis). The specific treatment is a thiazide diuretic.",
+        "incorrect_rationales": [
+          "Option A is the site of sodium/glucose transport (SGLT2).",
+          "Option B is the site of the Na/K/2Cl transporter (NKCC2). Overactivity here would waste potassium.",
+          "Option D is the site of ENaC (mutated in Liddle syndrome, causing severe hypokalemia, not hyperkalemia).",
+          "Option E secrete acid; failure causes Type 1 RTA."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q24",
+      "discipline": "Genetics",
+      "system": "Reproductive",
+      "vignette": "A neonate born at 38 weeks gestation rapidly develops severe respiratory distress requiring immediate intubation. Physical examination reveals a very small, recessed jaw (micrognathia) and profound anterior bowing of the femurs and tibiae. The external genitalia are distinctly female. However, karyotype analysis reveals a 46,XY chromosomal pattern. The genetic mutation causing this severe skeletal dysplasia and concurrent complete sex reversal directly prevents the expression of which of the following transcription factors, which normally acts immediately downstream of the SRY gene?",
+      "options": [
+        "SF-1 (Steroidogenic factor 1)",
+        "WT1 (Wilms tumor 1)",
+        "SOX9 (SRY-box 9)",
+        "DAX1",
+        "AMH (Anti-Mullerian Hormone)"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify Campomelic Dysplasia and the role of the SOX9 gene in chondrogenesis and testis determination.",
+        "correct_rationale": "Option C is correct. (Fourth-order question). Step 1: A neonate with severe skeletal bowing (campomelia), Pierre Robin sequence (micrognathia/cleft palate causing respiratory distress), and 46,XY complete sex reversal (phenotypic female) has Campomelic Dysplasia. Step 2: Campomelic dysplasia is an autosomal dominant disorder caused by a loss-of-function mutation in the *SOX9* gene on chromosome 17. Step 3: SOX9 is a master transcription factor with two crucial roles: it is absolutely required for normal chondrogenesis (cartilage/bone formation, explaining the skeletal defects), and it acts immediately downstream of the SRY gene to drive the differentiation of the bipotential gonad into a testis. Without SOX9, the 46,XY gonad defaults to an ovary, leading to female external genitalia.",
+        "incorrect_rationales": [
+          "Option A is required for adrenal and gonadal development; mutation causes adrenal insufficiency and sex reversal, but not the bowing bone dysplasia.",
+          "Option B mutation causes Denys-Drash or Frasier syndrome (renal failure, Wilms tumor, sex reversal).",
+          "Option D is a repressor of male development; a duplication of DAX1 causes XY sex reversal, but again, no skeletal dysplasia.",
+          "Option E is a hormone, not a transcription factor, and its absence causes retained Mullerian structures in a phenotypic male, not complete external sex reversal."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q25",
+      "discipline": "Microbiology",
+      "system": "Infectious Disease",
+      "vignette": "A 52-year-old man with a history of a remote splenectomy following a motor vehicle collision is brought to the emergency department in septic shock. He is hypotensive, tachycardic, and covered in diffuse purpura indicating disseminated intravascular coagulation (DIC). His wife reports that three days ago, he sustained a minor, superficial bite on his hand while playing with their family dog. Blood cultures rapidly grow a thin, fusiform, fastidious Gram-negative rod that is strictly capnophilic (requires carbon dioxide to grow). Which of the following is the most likely causative organism?",
+      "options": [
+        "Pasteurella multocida",
+        "Bartonella henselae",
+        "Capnocytophaga canimorsus",
+        "Eikenella corrodens",
+        "Streptobacillus moniliformis"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Recognize Capnocytophaga canimorsus as a cause of fulminant sepsis after dog bites in asplenic patients.",
+        "correct_rationale": "Option C is correct. (Fourth-order question). Step 1: An asplenic patient who suffers a dog bite and rapidly develops fulminant sepsis and DIC is classically infected by *Capnocytophaga canimorsus*. Step 2: While *Pasteurella* is a more common cause of localized dog/cat bite cellulitis, *Capnocytophaga* is notorious for causing catastrophic, life-threatening sepsis specifically in patients lacking a spleen or those with severe alcohol use disorder. Step 3: Microbiologically, it is exactly as described: a fastidious, fusiform Gram-negative rod that is capnophilic (the name literally means 'smoke/CO2 eating').",
+        "incorrect_rationales": [
+          "Option A is a common pathogen in dog/cat bites, but it is a facultative anaerobe (not strictly capnophilic), appears as a small coccobacillus, and usually causes rapid-onset localized cellulitis, though it can cause systemic disease.",
+          "Option B causes Cat Scratch Disease (regional lymphadenopathy) or bacillary angiomatosis.",
+          "Option D causes infection following *human* bites ('clenched-fist' injuries).",
+          "Option E causes Rat-Bite Fever."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q31",
+      "discipline": "Biochemistry",
+      "system": "Genetics",
+      "vignette": "A 10-month-old boy is evaluated for severe developmental delay, coarse facial features, and restricted joint mobility. Physical examination reveals gingival hyperplasia and clouded corneas. Laboratory testing demonstrates astronomically high levels of various lysosomal enzymes in the patient's blood plasma. A fibroblast culture shows dense, intracellular inclusions. The genetic defect responsible for this patient's severe phenotype directly prevents the addition of which of the following specific molecular tags to newly synthesized proteins?",
+      "options": [
+        "Farnesyl pyrophosphate",
+        "Mannose-6-phosphate",
+        "Ubiquitin",
+        "Glycosylphosphatidylinositol (GPI)",
+        "S-adenosylmethionine (SAM)"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize I-cell disease (Mucolipidosis II) and the failure of mannose-6-phosphate tagging.",
+        "correct_rationale": "Option B is correct. (Fourth-order question). Step 1: Coarse facial features, clouded corneas, restricted joints, and high *plasma* lysosomal enzymes in an infant defines I-cell disease (Mucolipidosis II). Step 2: I-cell disease is caused by a defect in N-acetylglucosaminyl-1-phosphotransferase in the Golgi apparatus. Step 3: This enzyme normally phosphorylates mannose residues on glycoproteins. Step 4: The *Mannose-6-phosphate* tag is the absolute required signal that tells the Golgi to traffic these enzymes into the Lysosome. Without the tag, the enzymes are blindly secreted extracellularly into the blood, leaving the lysosomes empty to accumulate dense 'inclusion' bodies of undigested waste.",
+        "incorrect_rationales": [
+          "Option A is a lipid anchor used to attach proteins (like Ras) to the inner cell membrane.",
+          "Option C targets cytosolic proteins for destruction in the proteasome.",
+          "Option D anchors surface proteins (like CD55/CD59) to the cell membrane (defective in PNH).",
+          "Option E is the universal methyl donor for epigenetic silencing and neurotransmitter synthesis."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q32",
+      "discipline": "Immunology",
+      "system": "Hematology",
+      "vignette": "A 35-year-old man presents to the emergency department with severe, sudden-onset abdominal pain and dark, cola-colored urine. His medical history is significant for a recent episode of deep vein thrombosis in his left leg. Laboratory evaluation reveals a profound normocytic anemia with an elevated reticulocyte count, elevated LDH, and low haptoglobin. Flow cytometry of his peripheral red blood cells demonstrates a near-total absence of CD55 and CD59 surface markers. The acquired genetic mutation driving this patient's disease directly impairs the synthesis of which of the following?",
+      "options": [
+        "A transmembrane tyrosine kinase",
+        "A glycolipid cell membrane anchor",
+        "A spectrin-ankyrin cytoskeletal complex",
+        "A complement cascade protease",
+        "A beta-globin mRNA transcript"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify Paroxysmal Nocturnal Hemoglobinuria (PNH) and the loss of the GPI anchor.",
+        "correct_rationale": "Option B is correct. (Fourth-order question). Step 1: Intravascular hemolysis (dark urine, low haptoglobin) presenting with atypical venous thrombosis (Budd-Chiari or DVT) is highly suspicious for Paroxysmal Nocturnal Hemoglobinuria (PNH). Step 2: Flow cytometry lacking CD55 (Decay Accelerating Factor) and CD59 (MAC inhibitory protein) is the gold standard diagnostic test for PNH. Step 3: PNH is caused by an acquired, somatic mutation in the PIGA gene of a hematopoietic stem cell. Step 4: The PIGA gene normally synthesizes the *Glycosylphosphatidylinositol (GPI) anchor*. CD55 and CD59 require this glycolipid anchor to attach to the red blood cell surface. Without the anchor, the protective proteins wash away, leaving the RBC highly susceptible to complement-mediated lysis (especially at night when mild respiratory acidosis activates complement).",
+        "incorrect_rationales": [
+          "Option A describes the JAK2 mutation (Polycythemia Vera) or BCR-ABL (CML).",
+          "Option C is defective in Hereditary Spherocytosis, which is extravascular (splenic) hemolysis, not complement-mediated.",
+          "Option D describes an inherent complement defect (e.g., C3 deficiency), not the acquired RBC surface defect of PNH.",
+          "Option E describes Beta-thalassemia."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q33",
+      "discipline": "Pathology",
+      "system": "Cardiovascular",
+      "vignette": "A 58-year-old woman is evaluated for right-sided heart failure. She reports episodes of severe facial flushing, chronic diarrhea, and wheezing. An echocardiogram reveals profound thickening and retraction of the tricuspid valve leaflets, resulting in severe tricuspid regurgitation, as well as pulmonic valve stenosis. Notably, the mitral and aortic valves are completely normal. A CT scan confirms a mass in the terminal ileum with multiple hepatic metastases. The specific preservation of the left-sided heart valves in this patient's syndrome is directly due to the enzymatic activity of which of the following located within the pulmonary vasculature?",
+      "options": [
+        "Angiotensin-converting enzyme (ACE)",
+        "Monoamine oxidase (MAO)",
+        "Cytochrome P450 3A4",
+        "Alpha-1 antitrypsin",
+        "Carbonic anhydrase"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Understand why Carcinoid Heart Disease spares the left heart (pulmonary MAO degradation).",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: Flushing, diarrhea, wheezing, and a metastatic ileal tumor definitively diagnose Carcinoid Syndrome. Step 2: Carcinoid tumors secrete massive amounts of serotonin (5-HT). Step 3: This systemic serotonin bathes the right side of the heart, causing profound fibrotic plaque formation on the tricuspid and pulmonic valves (Carcinoid Heart Disease). Step 4: The left heart (mitral/aortic valves) is famously spared. This occurs because as the serotonin-rich blood passes through the lungs, the enzyme *Monoamine oxidase (MAO)*, which is highly expressed in the pulmonary vascular endothelium, rapidly and completely degrades the serotonin into 5-HIAA before it can reach the left atrium.",
+        "incorrect_rationales": [
+          "Option A converts Angiotensin I to II and degrades bradykinin in the lungs, but does not degrade serotonin.",
+          "Option C is a hepatic enzyme, not the pulmonary protector against systemic serotonin.",
+          "Option D protects the lungs from neutrophil elastase.",
+          "Option E regulates acid-base balance and carbon dioxide transport in RBCs."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q34",
+      "discipline": "Pharmacology",
+      "system": "Immunology",
+      "vignette": "A 32-year-old man with HIV is started on an antiretroviral regimen containing a nucleoside reverse transcriptase inhibitor (NRTI). Ten days later, he develops a widespread, worsening maculopapular rash, a fever of 102°F (38.9°C), and severe fatigue. Laboratory testing reveals elevated liver transaminases. The physician immediately discontinues the drug, recognizing a life-threatening hypersensitivity reaction. The patient is informed he must never take this specific medication again. This severe adverse reaction is almost exclusively mediated by the presence of which of the following host genetic markers?",
+      "options": [
+        "HLA-B27",
+        "HLA-DQ2",
+        "HLA-DR4",
+        "HLA-B*57:01",
+        "HLA-DR2"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Correlate Abacavir hypersensitivity strictly with the HLA-B*57:01 allele.",
+        "correct_rationale": "Option D is correct. (Third-order question). Step 1: A patient taking an NRTI for HIV who rapidly develops a severe hypersensitivity reaction (rash, fever, GI/liver symptoms) is taking Abacavir. Step 2: Abacavir hypersensitivity is a life-threatening Type IV hypersensitivity reaction. Step 3: This reaction is notoriously and almost exclusively linked to the *HLA-B*57:01* allele. Because the reaction can be fatal upon re-challenge, standard of care dictates that all patients must be genetically screened for HLA-B*57:01 prior to ever starting abacavir.",
+        "incorrect_rationales": [
+          "Option A is associated with the seronegative spondyloarthropathies (Psoriatic arthritis, Ankylosing spondylitis, IBD-arthritis, Reactive arthritis).",
+          "Option B is associated with Celiac disease.",
+          "Option C is associated with Rheumatoid arthritis and Type 1 Diabetes.",
+          "Option E is associated with Multiple Sclerosis, Hay fever, and Goodpasture syndrome."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q35",
+      "discipline": "Anatomy",
+      "system": "Neurology",
+      "vignette": "A 60-year-old man presents with a sudden onset of hoarseness, difficulty swallowing, and right-sided neck pain. Physical examination reveals a loss of the gag reflex on the right side. When the patient is asked to open his mouth and say 'Ah', his uvula deviates sharply to the left. Furthermore, he is unable to shrug his right shoulder against resistance. An MRI reveals a large tumor at the base of the skull. This tumor is most likely compressing cranial nerves as they exit the cranium through which of the following anatomical foramina?",
+      "options": [
+        "Internal acoustic meatus",
+        "Foramen ovale",
+        "Jugular foramen",
+        "Hypoglossal canal",
+        "Foramen rotundum"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify Vernet (Jugular Foramen) Syndrome and the involved cranial nerves (IX, X, XI).",
+        "correct_rationale": "Option C is correct. (Fourth-order question). Step 1: The patient has loss of gag reflex (CN IX sensory, CN X motor), hoarseness/dysphagia with uvular deviation away from the lesion (CN X motor lesion on the right), and inability to shrug the right shoulder (CN XI motor to the trapezius). Step 2: The combined, simultaneous failure of Cranial Nerves IX, X, and XI localizes the lesion precisely to the *Jugular Foramen* (Vernet Syndrome), which is the shared exit point for these three nerves from the posterior cranial fossa. Step 3: Tumors at this location are often Glomus Jugulare tumors.",
+        "incorrect_rationales": [
+          "Option A is the exit for CN VII and CN VIII (compression causes facial palsy and deafness - acoustic neuroma).",
+          "Option B is the exit for the Mandibular branch (V3) of the Trigeminal nerve.",
+          "Option D is the exit for CN XII. A lesion here causes the tongue to deviate *toward* the side of the lesion, but does not affect the uvula, swallowing, or shoulder shrug.",
+          "Option E is the exit for the Maxillary branch (V2) of the Trigeminal nerve."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q36",
+      "discipline": "Physiology",
+      "system": "Cardiovascular",
+      "vignette": "A 72-year-old man is evaluated for progressive dyspnea on exertion. Cardiac auscultation reveals a harsh, late-peaking systolic ejection murmur at the right second intercostal space that radiates to the carotids. During a careful analysis of his heart sounds, the physician notes a splitting of the second heart sound (S2) during expiration, but the two components of S2 merge into a single sound during inspiration. This paradoxical splitting phenomenon is best explained by the severe delay in the closure of which of the following cardiac valves?",
+      "options": [
+        "Mitral valve",
+        "Tricuspid valve",
+        "Pulmonic valve",
+        "Aortic valve",
+        "Eustachian valve"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Understand the hemodynamic basis of Paradoxical Splitting of S2 in severe Aortic Stenosis.",
+        "correct_rationale": "Option D is correct. (Third-order conceptual). Step 1: A harsh, late-peaking systolic murmur radiating to the carotids is classic severe Aortic Stenosis. Step 2: Normal physiological splitting of S2 occurs during *inspiration* (the negative intrathoracic pressure pulls more blood into the right heart, delaying pulmonic valve closure, causing A2 then P2). Step 3: This patient has *Paradoxical Splitting* (split on expiration, unified on inspiration). Step 4: Paradoxical splitting occurs when the closure of the *Aortic Valve (A2)* is so severely delayed (due to the massive resistance of the stenotic valve, or a Left Bundle Branch Block) that A2 actually occurs *after* P2. Therefore, during expiration, you hear P2 then A2 (split). During inspiration, P2 is delayed (moves closer to the already late A2), causing the sounds to merge together.",
+        "incorrect_rationales": [
+          "Option A and Option B closure creates the first heart sound (S1).",
+          "Option C delay causes *wide* splitting (e.g., in pulmonic stenosis or RBBB) or *fixed* splitting (in ASD), but not paradoxical splitting.",
+          "Option E is an embryological remnant in the right atrium directing fetal blood flow toward the foramen ovale, not a functional mechanical valve in the adult."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q37",
+      "discipline": "Embryology",
+      "system": "Reproductive",
+      "vignette": "A male neonate is evaluated in the nursery for a visible genital anomaly. Examination reveals an abnormal opening of the urethra on the dorsal (superior) surface of the penile shaft. The physician immediately orders an ultrasound of the infant's abdomen and pelvis to screen for an associated, severe developmental defect of the lower urinary tract. The specific location of this patient's urethral meatus is embryologically caused by which of the following errors?",
+      "options": [
+        "Failure of the urethral folds to fuse ventrally",
+        "Faulty positioning of the genital tubercle",
+        "Failure of the labioscrotal swellings to fuse",
+        "Incomplete recanalization of the urogenital sinus",
+        "Failure of the processus vaginalis to obliterate"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Differentiate Epispadias (genital tubercle defect) from Hypospadias (urethral fold defect).",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: The urethral opening is on the *dorsal* (upper/superior) surface of the penis. This defines Epispadias. (Mnemonic: Epispadias = Eye/Top). Step 2: Epispadias is caused by the *faulty positioning of the genital tubercle* during early embryogenesis. Step 3: Because the genital tubercle fails to migrate ventrally, the urethra opens dorsally, and there is a massive risk of an associated failure of the anterior abdominal wall to close, leading to Exstrophy of the Bladder (which is what the physician is screening for).",
+        "incorrect_rationales": [
+          "Option A is the embryologic cause of *Hypospadias* (urethra opens on the ventral/under surface of the penis).",
+          "Option C causes a bifid scrotum.",
+          "Option D would cause urethral atresia or stenosis, not a dorsal displacement.",
+          "Option E causes a congenital indirect inguinal hernia or a communicating hydrocele."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q38",
+      "discipline": "Microbiology",
+      "system": "Oncology",
+      "vignette": "A 35-year-old male immigrant from Egypt presents with painless gross hematuria. He reports no flank pain or dysuria. An ultrasound of the bladder reveals a large, solid mass originating from the bladder wall. Cystoscopy and biopsy of the mass confirm the presence of squamous cell carcinoma of the bladder. A meticulous travel and exposure history is taken. The patient's risk of developing this specific malignancy was massively increased due to a previous, chronic infection by a parasite that relies on which of the following as its required intermediate host?",
+      "options": [
+        "Anopheles mosquito",
+        "Freshwater snail",
+        "Tsetse fly",
+        "Sandfly",
+        "Reduviid bug"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify Schistosoma haematobium as the cause of bladder SCC and its snail intermediate host.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: Painless hematuria and *Squamous Cell Carcinoma* (SCC) of the bladder in a Middle Eastern/African immigrant is the classic presentation of chronic *Schistosoma haematobium* infection. (Note: Most bladder cancer in the US is transitional/urothelial cell carcinoma; SCC implies chronic irritation/parasites). Step 2: *S. haematobium* is a trematode (blood fluke). Step 3: Humans contract the parasite by swimming or bathing in contaminated freshwater. The required intermediate host for all *Schistosoma* species is the *Freshwater snail*. The parasite matures in the snail, releases cercariae into the water, and the cercariae directly penetrate the intact skin of the human.",
+        "incorrect_rationales": [
+          "Option A is the vector for Plasmodium (malaria).",
+          "Option C is the vector for Trypanosoma brucei (African sleeping sickness).",
+          "Option D is the vector for Leishmania.",
+          "Option E is the vector for Trypanosoma cruzi (Chagas disease)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q39",
+      "discipline": "Biostatistics",
+      "system": "Multisystem",
+      "vignette": "An epidemiological study investigates the association between a novel oral contraceptive pill (OCP) and the development of deep vein thrombosis (DVT). The initial crude Relative Risk (RR) is calculated to be 3.5, suggesting a strong association. However, the researchers decide to stratify the data based on the patients' smoking status. Upon stratification, the RR among non-smokers is found to be 1.2, while the RR among heavy smokers is found to be 8.0. The difference in these stratified relative risks indicates that smoking acts as which of the following in this specific study?",
+      "options": [
+        "A confounding variable",
+        "An effect modifier",
+        "A selection bias",
+        "A recall bias",
+        "A dependent variable"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Differentiate Effect Modification from Confounding based on stratified data results.",
+        "correct_rationale": "Option B is correct. (Third-order conceptual). Step 1: The study looks at the effect of an OCP on DVT risk. Step 2: The researchers stratify the data by a third variable (smoking). Step 3: The crucial finding is that the Relative Risk (RR) *differs significantly* between the two strata (RR = 1.2 in non-smokers vs. RR = 8.0 in smokers). Step 4: When stratification reveals different risks across subgroups, the third variable is an *Effect Modifier*. This is not a flaw in the study; it is a biological reality. The drug truly affects smokers differently than it affects non-smokers. If smoking had been a *Confounder* (a statistical illusion), stratifying by smoking would have yielded the *exact same* RR in both groups (e.g., RR = 1.0 in non-smokers AND RR = 1.0 in smokers, wiping out the crude 3.5 RR).",
+        "incorrect_rationales": [
+          "Option A (Confounding) occurs when the stratified RRs are equal to each other but different from the crude RR.",
+          "Option C is a flaw in how patients were chosen for the study.",
+          "Option D is a flaw in how patients remember past exposures.",
+          "Option E is the outcome of interest (the DVT), not the variable altering the relationship."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q40",
+      "discipline": "Genetics",
+      "system": "Neurology",
+      "vignette": "A 3-year-old girl is evaluated for severe intellectual disability, frequent spontaneous bouts of inappropriate laughter, an unsteady ataxic gait, and new-onset seizures. Genetic microarray analysis reveals that she has two completely intact, structurally normal copies of chromosome 15. However, methylation analysis indicates that both copies of chromosome 15 exhibit an identical methylation pattern that is characteristic of male gametogenesis. The genetic mechanism responsible for this patient's syndrome is best described as which of the following?",
+      "options": [
+        "Maternal uniparental disomy",
+        "Paternal uniparental disomy",
+        "Microdeletion of the maternal 15q11-q13 region",
+        "Microdeletion of the paternal 15q11-q13 region",
+        "Trinucleotide repeat expansion in the UBE3A gene"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify Paternal Uniparental Disomy as a cause of Angelman Syndrome.",
+        "correct_rationale": "Option B is correct. (Fourth-order question). Step 1: Severe intellectual disability, ataxia, seizures, and inappropriate laughter ('happy puppet') definitively diagnoses Angelman Syndrome. Step 2: Angelman syndrome requires the loss of the *Maternal* UBE3A gene on chromosome 15 (because the paternal copy is normally silenced/imprinted). Step 3: The prompt states she has two physically intact chromosomes, ruling out a microdeletion. Step 4: The prompt states BOTH chromosomes have a methylation pattern characteristic of *male gametogenesis*. This means she inherited TWO copies of chromosome 15 from her father, and ZERO from her mother. This is *Paternal Uniparental Disomy*. Because both chromosomes are from the father, the UBE3A gene is silenced on both, leading to Angelman syndrome.",
+        "incorrect_rationales": [
+          "Option A (Maternal UPD) means inheriting two maternal chromosomes (and zero paternal). This causes Prader-Willi Syndrome (hyperphagia, obesity) because the paternal genes are missing.",
+          "Option C is the most common cause of Angelman syndrome, but the prompt explicitly ruled this out by stating the chromosomes were physically intact.",
+          "Option D is the most common cause of Prader-Willi syndrome.",
+          "Option E is not the mechanism for Angelman; the UBE3A gene is lost via deletion or UPD, not expanded."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    }
+  ]
+} 
