@@ -1,43 +1,49 @@
 // Global State
 let questionData = [];
 let currentQuestionIndex = 0;
-let userAnswers = {}; 
+let userAnswers = {}; // Stores { questionIndex: selectedOptionIndex }
 let flaggedQuestions = new Set();
-let revealedQuestions = new Set(); 
+let revealedQuestions = new Set(); // Tracks questions where 'Show Answer' was clicked
 let isReviewMode = false;
 let currentBlockFile = 'question_bank.json';
 
 // Timer State
-let timeRemaining = 3600; 
+let timeRemaining = 3600; // 60 minutes in seconds
 let timerInterval;
 
 // Initialize Exam Block
 async function loadBlock(filename) {
     try {
+        // 1. Reset all global states for the new block
         currentQuestionIndex = 0;
         userAnswers = {};
         flaggedQuestions.clear();
         revealedQuestions.clear();
         isReviewMode = false;
         
+        // 2. Reset and restart the timer
         clearInterval(timerInterval);
         timeRemaining = 3600; 
         
-        // Append a timestamp query parameter to force the browser to bypass the cache
+        // 3. Fetch the new JSON file (with a cache-busting timestamp)
         const response = await fetch(`${filename}?t=${new Date().getTime()}`);
         const data = await response.json();
         questionData = data.questions || [];
         
+        // 4. Update the UI Title
         document.getElementById('block-title').innerText = data.block_title || `USMLE Step 1 - ${filename}`;
         
+        // Ensure End Block button is visible again
         const btnEndBlock = document.getElementById('btn-end-block');
         if(btnEndBlock) btnEndBlock.classList.remove('hidden');
 
+        // 5. Render questions if the file has data
         if (questionData.length > 0) {
             renderQuestion(currentQuestionIndex);
             generateNavigationGrid();
             startTimer();
         } else {
+            // Failsafe for empty JSON files (like block3.json)
             document.getElementById('vignette-text').innerText = "This level is currently empty. Add questions to the JSON file!";
             document.getElementById('options-container').innerHTML = '';
             document.getElementById('question-grid').innerHTML = '';
@@ -49,23 +55,27 @@ async function loadBlock(filename) {
     }
 }
 
-// Setup Level Buttons
+// Setup Level Buttons (L-1 through L-7)
 function setupLevelButtons() {
     const levelButtons = document.querySelectorAll('.lvl-btn');
     levelButtons.forEach(btn => {
         btn.addEventListener('click', (e) => {
             const targetFile = e.target.getAttribute('data-file');
             
+            // Do nothing if they click the level they are already on
             if (targetFile === currentBlockFile) return;
 
+            // Warn the user before wiping their current progress
             const confirmSwitch = confirm("Are you sure you want to switch levels? Your current progress and timer will be reset.");
             
             if (confirmSwitch) {
                 currentBlockFile = targetFile;
                 
+                // Remove active class from all buttons, add to the clicked one
                 levelButtons.forEach(b => b.classList.remove('active'));
                 e.target.classList.add('active');
                 
+                // Load the newly selected block
                 loadBlock(currentBlockFile);
             }
         });
@@ -77,7 +87,7 @@ function startTimer() {
     timerInterval = setInterval(() => {
         if (timeRemaining <= 0) {
             clearInterval(timerInterval);
-            endBlock(); 
+            endBlock(); // Auto-submit when time is up
             return;
         }
         timeRemaining--;
@@ -95,9 +105,11 @@ function renderQuestion(index) {
     const q = questionData[index];
     const isRevealed = revealedQuestions.has(index);
     
+    // Update Header & Text
     document.getElementById('question-number').innerText = `Question ${index + 1}`;
     document.getElementById('vignette-text').innerText = q.vignette;
     
+    // --- Image Exhibit Logic ---
     const exhibitContainer = document.getElementById('exhibit-container');
     const exhibitImage = document.getElementById('exhibit-image');
     
@@ -108,6 +120,7 @@ function renderQuestion(index) {
         exhibitContainer.classList.add('hidden');
     }
     
+    // Update Flag Button UI
     const flagBtn = document.getElementById('btn-flag');
     if (flaggedQuestions.has(index)) {
         flagBtn.innerText = '⚑ Unflag';
@@ -117,6 +130,7 @@ function renderQuestion(index) {
         flagBtn.style.backgroundColor = '';
     }
     
+    // Render Multiple Choice Options
     const optionsContainer = document.getElementById('options-container');
     optionsContainer.innerHTML = ''; 
     
@@ -132,6 +146,7 @@ function renderQuestion(index) {
             <span class="option-text">${opt}</span>
         `;
 
+        // Listen for selection changes (only if not locked by review or reveal)
         if (!isReviewMode && !isRevealed) {
             label.querySelector('input').addEventListener('change', (e) => {
                 userAnswers[index] = parseInt(e.target.value);
@@ -139,6 +154,7 @@ function renderQuestion(index) {
             });
         }
 
+        // Apply Grading Styles if in Review Mode OR if Answer is Revealed
         if (isReviewMode || isRevealed) {
             if (i === q.correct_index) {
                 label.classList.add('correct-answer');
@@ -146,9 +162,11 @@ function renderQuestion(index) {
                 label.classList.add('incorrect-answer');
             }
         }
+        
         optionsContainer.appendChild(label);
     });
     
+    // Render Explanation if in Review Mode OR if Revealed
     const expContainer = document.getElementById('explanation-container');
     if (isReviewMode || isRevealed) {
         expContainer.classList.remove('hidden');
@@ -164,8 +182,10 @@ function renderQuestion(index) {
         expContainer.classList.add('hidden');
     }
     
+    // Update Footer Navigation Button States
     document.getElementById('btn-prev').disabled = index === 0;
     const nextBtn = document.getElementById('btn-next');
+    
     if (index === questionData.length - 1 && !isReviewMode) {
         nextBtn.innerText = 'End & Review Block';
         nextBtn.classList.add('danger');
@@ -175,6 +195,7 @@ function renderQuestion(index) {
         if(index === questionData.length - 1 && isReviewMode) nextBtn.disabled = true;
     }
 
+    // Update Show Answer (Tutor Mode) Button UI
     const btnShowAnswer = document.getElementById('btn-show-answer');
     if (btnShowAnswer) {
         if (isReviewMode) {
@@ -196,6 +217,7 @@ function renderQuestion(index) {
     }
 }
 
+// Horizontal Navigation Grid (with Q- prefixes)
 function generateNavigationGrid() {
     const grid = document.getElementById('question-grid');
     if (!grid) return; // Safety check
@@ -205,7 +227,9 @@ function generateNavigationGrid() {
         const btn = document.createElement('div');
         btn.className = 'nav-grid-btn';
         btn.id = `grid-btn-${i}`;
-        btn.innerText = i + 1;
+        
+        // This adds the Q-1, Q-2 labeling to the horizontal boxes
+        btn.innerText = `Q-${i + 1}`;
         
         btn.addEventListener('click', () => {
             currentQuestionIndex = i;
@@ -217,19 +241,23 @@ function generateNavigationGrid() {
     updateSidebarGrid();
 }
 
+// Update Grid Visual States (Active, Answered, Flagged)
 function updateSidebarGrid() {
     questionData.forEach((_, i) => {
         const btn = document.getElementById(`grid-btn-${i}`);
         if (!btn) return;
         
+        // Reset classes
         btn.className = 'nav-grid-btn'; 
         
+        // Apply states
         if (i === currentQuestionIndex) btn.classList.add('active');
         if (userAnswers[i] !== undefined) btn.classList.add('answered');
         if (flaggedQuestions.has(i)) btn.classList.add('flagged');
     });
 }
 
+// Flagging Logic
 document.getElementById('btn-flag').addEventListener('click', () => {
     if (isReviewMode) return;
     
@@ -242,6 +270,7 @@ document.getElementById('btn-flag').addEventListener('click', () => {
     updateSidebarGrid();
 });
 
+// Show Answer Logic (Tutor Mode)
 const btnShowAnswerEvent = document.getElementById('btn-show-answer');
 if (btnShowAnswerEvent) {
     btnShowAnswerEvent.addEventListener('click', () => {
@@ -250,10 +279,11 @@ if (btnShowAnswerEvent) {
             return;
         }
         revealedQuestions.add(currentQuestionIndex);
-        renderQuestion(currentQuestionIndex);
+        renderQuestion(currentQuestionIndex); // Re-render to show explanation and lock choices
     });
 }
 
+// End Block / Grade Test
 function endBlock() {
     if (isReviewMode) return;
     
@@ -262,8 +292,9 @@ function endBlock() {
 
     clearInterval(timerInterval);
     isReviewMode = true;
-    currentQuestionIndex = 0; 
+    currentQuestionIndex = 0; // Jump back to Q1 for review
     
+    // Calculate basic score
     let score = 0;
     questionData.forEach((q, i) => {
         if (userAnswers[i] === q.correct_index) score++;
@@ -271,11 +302,13 @@ function endBlock() {
     
     alert(`Block Completed! Score: ${score} / ${questionData.length} (${Math.round((score/questionData.length)*100)}%)`);
     
+    // Switch UI to review mode
     document.getElementById('btn-end-block').classList.add('hidden');
     document.getElementById('exam-timer').innerText = "REVIEW MODE";
     renderQuestion(currentQuestionIndex);
 }
 
+// Event Listeners for Standard Navigation
 document.getElementById('btn-next').addEventListener('click', () => {
     if (currentQuestionIndex < questionData.length - 1) {
         currentQuestionIndex++;
@@ -296,13 +329,14 @@ document.getElementById('btn-prev').addEventListener('click', () => {
 
 document.getElementById('btn-end-block').addEventListener('click', endBlock);
 
-// Boot up sequence
+// Boot Up Sequence
 window.onload = () => {
-    setupLevelButtons(); // Initialize button listeners
-    currentBlockFile = 'question_bank.json'; // Default load
+    setupLevelButtons(); // Initialize the L-1 to L-7 listeners
+    currentBlockFile = 'question_bank.json'; // Set the default load file
     loadBlock(currentBlockFile);
 };
 
+// --- Lab Values Modal Logic ---
 const labModal = document.getElementById('lab-modal');
 const btnLabValues = document.getElementById('btn-lab-values');
 const btnCloseModal = document.getElementById('btn-close-modal');
@@ -310,6 +344,7 @@ const btnCloseModal = document.getElementById('btn-close-modal');
 if (btnLabValues && labModal && btnCloseModal) {
     btnLabValues.addEventListener('click', () => labModal.classList.remove('hidden'));
     btnCloseModal.addEventListener('click', () => labModal.classList.add('hidden'));
+    // Close modal if user clicks anywhere outside of the modal content window
     window.addEventListener('click', (event) => {
         if (event.target === labModal) labModal.classList.add('hidden');
     });
