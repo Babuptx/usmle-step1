@@ -1,0 +1,1036 @@
+{
+  "block_id": 10,
+  "block_title": "USMLE Step 1 Mock Exam - Block 10 (Advanced Clinical Integration)",
+  "questions": [
+    {
+      "id": "q1",
+      "discipline": "Pathology",
+      "system": "Cardiovascular",
+      "vignette": "A 62-year-old man with a history of poorly controlled hypertension presents to the emergency department with sudden, excruciating chest pain that he describes as 'tearing' and radiating to his back between his shoulder blades. His blood pressure is 210/110 mmHg in his right arm and 140/80 mmHg in his left arm. A chest radiograph reveals a widened mediastinum. The initial pathological event that precipitated this patient's life-threatening condition occurred in which of the following layers of the affected vessel?",
+      "options": [
+        "Tunica adventitia",
+        "Tunica media",
+        "Tunica intima",
+        "Internal elastic lamina",
+        "Vasa vasorum"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify the primary pathophysiological event in an aortic dissection.",
+        "correct_rationale": "Option C is correct. (Second-order question). Step 1: The classic presentation of sudden, tearing chest pain radiating to the back, asymmetric blood pressures in the arms, and a widened mediastinum indicates an Aortic Dissection. Step 2: The absolute prerequisite and initial event for an aortic dissection is a tear in the *Tunica intima*. Step 3: Once the intima is torn, high-pressure arterial blood surges through the defect, tracking into the tunica media and aggressively dissecting (splitting) the layers of the aortic wall apart, creating a false lumen.",
+        "incorrect_rationales": [
+          "Option A is the outermost layer of the vessel; blood does not originate here, though a dissection can rupture through it causing fatal hemorrhage.",
+          "Option B is where the blood ultimately tracks and pools (the false lumen), but the initial defect that allows the blood to enter is the intimal tear.",
+          "Option D separates the intima from the media, but the initiating tear must happen at the luminal surface (the intima).",
+          "Option E are the small blood vessels supplying the outer aorta; while their occlusion can cause medial degeneration (seen in syphilis), the dissection itself starts at the intima."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q2",
+      "discipline": "Pharmacology",
+      "system": "Renal",
+      "vignette": "A 24-year-old man is brought to the emergency department after a high-speed motorcycle collision. He is comatose. A CT scan of the head shows severe cerebral edema and an impending uncal herniation. The trauma team immediately administers an intravenous bolus of a specific diuretic to rapidly decrease his intracranial pressure. By which of the following mechanisms does this medication exert its therapeutic effect in the kidney?",
+      "options": [
+        "Inhibition of the Na+/K+/2Cl- cotransporter in the thick ascending limb",
+        "Inhibition of carbonic anhydrase in the proximal tubule",
+        "Blockade of aldosterone receptors in the collecting duct",
+        "Increasing the osmolarity of the tubular fluid",
+        "Inhibition of the Na+/Cl- cotransporter in the distal convoluted tubule"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Recognize the mechanism of action of mannitol as an osmotic diuretic.",
+        "correct_rationale": "Option D is correct. (Second-order question). Step 1: A trauma patient with severe cerebral edema and impending herniation requires rapid reduction of intracranial pressure. The drug of choice is intravenous Mannitol. Step 2: Mannitol is an osmotic diuretic. It is freely filtered at the glomerulus but is not reabsorbed by the renal tubules. Step 3: Because it remains trapped in the tubular lumen, it dramatically *increases the osmolarity of the tubular fluid*. This osmotic force holds water in the tubule (preventing its reabsorption) and pulls water out of the intracellular spaces (including the brain), effectively reducing cerebral edema.",
+        "incorrect_rationales": [
+          "Option A describes loop diuretics (furosemide), which are used for pulmonary edema and heart failure, not primary cerebral edema.",
+          "Option B describes acetazolamide, which decreases aqueous humor and CSF production, but is not used for acute trauma-induced cerebral herniation.",
+          "Option C describes potassium-sparing diuretics (spironolactone).",
+          "Option E describes thiazide diuretics."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q3",
+      "discipline": "Biochemistry",
+      "system": "Metabolic",
+      "vignette": "A 10-day-old infant is brought to the pediatrician due to persistent vomiting, lethargy, and a yellowish discoloration of the skin and eyes. The mother notes the symptoms began shortly after transitioning from a specialized formula to cow's milk-based formula. Physical examination reveals hepatomegaly and bilateral cataracts. Laboratory studies show severe hypoglycemia and a positive blood culture for Escherichia coli. This infant most likely has a deficiency in which of the following enzymes?",
+      "options": [
+        "Galactokinase",
+        "Fructokinase",
+        "Aldolase B",
+        "Galactose-1-phosphate uridyltransferase",
+        "Lactase"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Identify Classic Galactosemia and the GALT enzyme deficiency.",
+        "correct_rationale": "Option D is correct. (Third-order question). Step 1: The infant develops vomiting, jaundice, hepatomegaly, and infantile cataracts shortly after consuming lactose (cow's milk, which breaks down into glucose and galactose). Step 2: The specific, highly lethal association with *E. coli sepsis* in a neonate with cataracts and liver failure is the hallmark of Classic Galactosemia. Step 3: Classic galactosemia is an autosomal recessive deficiency of Galactose-1-phosphate uridyltransferase (GALT). Without it, galactose-1-phosphate accumulates and traps inorganic phosphate, severely damaging the liver, brain, and eyes.",
+        "incorrect_rationales": [
+          "Option A causes Galactokinase deficiency, a mild condition presenting *only* with infantile cataracts (due to galactitol buildup), lacking the severe liver failure and E. coli sepsis seen here.",
+          "Option B causes Essential Fructosuria, a benign, asymptomatic condition.",
+          "Option C causes Hereditary Fructose Intolerance, which presents with liver failure and hypoglycemia after eating fruit/juice, but does *not* cause cataracts.",
+          "Option E causes lactose intolerance, presenting with bloating and osmotic diarrhea, not cataracts and systemic liver failure."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q4",
+      "discipline": "Microbiology",
+      "system": "Pulmonary",
+      "vignette": "A 55-year-old man with a 30-pack-year smoking history presents to the emergency department with a high fever, severe non-productive cough, and watery diarrhea. He recently returned from a hotel convention. Laboratory testing is notable for a serum sodium of 128 mEq/L (Normal: 135-145). A chest X-ray shows a unilateral lobar infiltrate. Sputum Gram stain reveals numerous neutrophils but no visible organisms. The pathogen responsible for this patient's illness requires which of the following specific supplements to grow on culture media?",
+      "options": [
+        "Factor X (hematin) and Factor V (NAD+)",
+        "Cholesterol and purines",
+        "L-cysteine and iron",
+        "Nicotinic acid",
+        "Urea"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Recognize Legionnaires' disease and the culture requirements of Legionella pneumophila.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: A smoker attending a hotel convention who develops severe atypical pneumonia, GI symptoms (watery diarrhea), and prominent hyponatremia has Legionnaires' disease. Step 2: The causative organism, *Legionella pneumophila*, is an intracellular Gram-negative rod, but it stains very poorly on a standard Gram stain (hence 'no visible organisms' despite high neutrophils). Step 3: To successfully culture *Legionella*, it must be plated on Buffered Charcoal Yeast Extract (BCYE) agar, which is heavily supplemented with *L-cysteine and iron*.",
+        "incorrect_rationales": [
+          "Option A are required to grow Haemophilus influenzae on chocolate agar.",
+          "Option B are required for the growth of Mycoplasma pneumoniae (Eaton agar requires cholesterol).",
+          "Option D is required for organisms like Corynebacterium.",
+          "Option E is metabolized by H. pylori or Ureaplasma, but is not a primary specific growth requirement like cysteine is for Legionella."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q5",
+      "discipline": "Anatomy",
+      "system": "Neurology",
+      "vignette": "A 38-year-old obese man who works as a carpenter complains of a tingling, burning sensation over the anterolateral aspect of his right thigh. He notes the pain worsens after wearing his heavy, tight-fitting tool belt for several hours at work. Physical examination reveals a patch of decreased pinprick sensation on the lateral thigh. Motor strength, deep tendon reflexes, and pulses in the lower extremities are completely normal and symmetric. The nerve responsible for this patient's symptoms passes under which of the following anatomical structures?",
+      "options": [
+        "Inguinal ligament",
+        "Piriformis muscle",
+        "Flexor retinaculum",
+        "Fibular head",
+        "Psoas major muscle"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Identify Meralgia Paresthetica and the pathway of the lateral femoral cutaneous nerve.",
+        "correct_rationale": "Option A is correct. (Third-order question). Step 1: Numbness, burning, and tingling isolated strictly to the anterolateral thigh in an obese individual wearing tight belts/clothing is diagnostic of Meralgia Paresthetica. Step 2: Meralgia paresthetica is caused by the entrapment and compression of the Lateral Femoral Cutaneous Nerve. Step 3: This nerve is a pure sensory nerve (hence the perfectly normal motor strength and reflexes). Step 4: It anatomically exits the pelvis and enters the thigh by passing immediately under the *Inguinal ligament*, near the anterior superior iliac spine (ASIS), making it exquisitely vulnerable to compression from tight belts, obesity, or pregnancy.",
+        "incorrect_rationales": [
+          "Option B compresses the Sciatic nerve (Piriformis syndrome), causing pain down the posterior thigh and leg.",
+          "Option C covers the carpal tunnel in the wrist.",
+          "Option D compresses the Common Fibular (Peroneal) nerve, causing foot drop (motor weakness).",
+          "Option E relates to the femoral nerve, but compression here would cause profound quadriceps weakness and loss of the patellar reflex."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q6",
+      "discipline": "Pathology",
+      "system": "Pulmonary",
+      "vignette": "A 65-year-old man presents to the pulmonologist with a 1-year history of progressive, worsening shortness of breath and a dry, hacking cough. He has no history of smoking or occupational dust exposure. Physical examination reveals digital clubbing and fine, 'Velcro-like' inspiratory crackles at the lung bases. A high-resolution chest CT shows subpleural cystic airspaces with thick fibrotic walls, giving a 'honeycomb' appearance. The pathogenesis of this patient's disease is primarily driven by the excessive, uninhibited release of which of the following growth factors from injured pneumocytes?",
+      "options": [
+        "Vascular Endothelial Growth Factor (VEGF)",
+        "Fibroblast Growth Factor (FGF)",
+        "Epidermal Growth Factor (EGF)",
+        "Transforming Growth Factor-beta (TGF-beta)",
+        "Platelet-Derived Growth Factor (PDGF)"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Recognize Idiopathic Pulmonary Fibrosis and the fibrogenic role of TGF-beta.",
+        "correct_rationale": "Option D is correct. (Third-order question). Step 1: Progressive dyspnea in an older adult, Velcro-like crackles, and 'honeycombing' on CT without any obvious exposure history is the hallmark presentation of Idiopathic Pulmonary Fibrosis (IPF). Step 2: IPF is believed to be caused by repeated, cyclical cycles of lung injury and defective repair. Step 3: When the alveolar epithelium (Type I and II pneumocytes) is repeatedly injured, it mistakenly secretes massive amounts of *Transforming Growth Factor-beta (TGF-beta)*. Step 4: TGF-beta is a master pro-fibrotic cytokine. It forcefully stimulates fibroblasts to proliferate and lay down thick layers of collagen, progressively turning the delicate lung tissue into a stiff, useless scar.",
+        "incorrect_rationales": [
+          "Option A promotes angiogenesis (new blood vessels), not massive collagen deposition.",
+          "Option B is involved in angiogenesis and skeletal development (achondroplasia).",
+          "Option C drives epithelial cell proliferation and is overactive in many cancers.",
+          "Option E is a mitogen for smooth muscle and fibroblasts, but TGF-beta is the primary, defining driver of the massive fibrosis seen in IPF."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q7",
+      "discipline": "Immunology",
+      "system": "Rheumatology",
+      "vignette": "A 45-year-old woman presents to her primary care physician complaining of a persistent 'gritty' feeling in both of her eyes and extreme difficulty swallowing dry foods, such as crackers, without drinking copious amounts of water. Her dentist recently noted an unusual and rapid increase in dental caries. Physical examination reveals bilateral, firm enlargement of her parotid glands. This patient is at a significantly increased statistical risk of developing which of the following malignancies?",
+      "options": [
+        "Squamous cell carcinoma of the parotid gland",
+        "Papillary thyroid carcinoma",
+        "B-cell marginal zone lymphoma",
+        "Multiple myeloma",
+        "Hepatocellular carcinoma"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify Sjögren syndrome and its association with B-cell lymphomas.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: The clinical presentation of dry eyes (keratoconjunctivitis sicca - 'gritty' feeling), dry mouth (xerostomia - difficulty eating dry foods, rampant dental caries), and bilateral parotid gland enlargement defines Sjögren Syndrome. Step 2: Sjögren syndrome is an autoimmune disorder characterized by lymphocytic infiltration and destruction of the exocrine glands (lacrimal and salivary). Step 3: Because the salivary glands are subjected to relentless, chronic B-cell and T-cell activation, these patients have a 40-fold increased risk of developing a *B-cell lymphoma*, most classically a Marginal Zone Lymphoma (MALToma) presenting as a unilateral, rapidly enlarging parotid mass.",
+        "incorrect_rationales": [
+          "Option A is a malignancy of the epithelial tissue, which is not the primary cell type driven to replicate by this autoimmune lymphocytic disease.",
+          "Option B is the most common thyroid cancer, associated with radiation exposure.",
+          "Option D is a plasma cell malignancy associated with bone pain and renal failure.",
+          "Option E is associated with chronic Hepatitis B/C and cirrhosis."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q8",
+      "discipline": "Embryology",
+      "system": "Reproductive",
+      "vignette": "A 29-year-old woman presents to the obstetrics clinic after suffering her second second-trimester miscarriage. A 3D pelvic ultrasound reveals a single, unified cervix and lower uterine segment, but the superior portion (fundus) of the uterus exhibits a deep, wide indentation, splitting the upper uterine cavity into two distinct, horn-like horns. The anatomical abnormality predisposing this patient to recurrent pregnancy loss is the direct result of which of the following embryological events?",
+      "options": [
+        "Complete failure of the mesonephric ducts to develop",
+        "Incomplete fusion of the paramesonephric ducts",
+        "Failure of the urogenital sinus to recanalize",
+        "Failure of the septum primum to resorb",
+        "Hyperplasia of the genital tubercle"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize a Bicornuate Uterus and its embryological origin from the paramesonephric ducts.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: A uterus with a deep indentation in the fundus creating two 'horns' is a Bicornuate Uterus. This structural anomaly limits the space a fetus can grow, causing a high rate of recurrent miscarriages. Step 2: The female internal reproductive organs (fallopian tubes, uterus, and upper third of the vagina) are formed from the paired Paramesonephric (Müllerian) ducts. Step 3: Normally, the lower portions of the two paramesonephric ducts physically fuse together in the midline to form a single, unified uterine cavity. A bicornuate uterus occurs specifically due to the *incomplete fusion* of these two ducts at their superior aspect.",
+        "incorrect_rationales": [
+          "Option A would affect the male internal genitalia (epididymis, vas deferens). The mesonephric (Wolffian) ducts naturally regress in normal females.",
+          "Option C would cause an imperforate hymen or vaginal atresia.",
+          "Option D describes an atrial septal defect in the heart.",
+          "Option E describes the formation of ambiguous genitalia or clitoromegaly in conditions like Congenital Adrenal Hyperplasia."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q9",
+      "discipline": "Physiology",
+      "system": "Endocrine",
+      "vignette": "A 55-year-old woman presents with severe bone pain, frequent urination, and a history of recurrent kidney stones. Laboratory studies confirm a diagnosis of primary hyperparathyroidism secondary to a parathyroid adenoma. A DEXA scan reveals profound osteoporosis. In the pathogenesis of her bone disease, the excessively elevated parathyroid hormone (PTH) primarily achieves bone resorption by physically binding to receptors located on the surface of which of the following cells?",
+      "options": [
+        "Mature osteoclasts",
+        "Osteoblast precursors",
+        "Parafollicular C cells",
+        "Chondrocytes",
+        "Osteocytes within lacunae"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Understand that PTH stimulates bone resorption indirectly by binding to osteoblasts.",
+        "correct_rationale": "Option B is correct. (Third-order conceptual). Step 1: The patient has primary hyperparathyroidism, leading to excessive bone resorption (osteoporosis/osteitis fibrosa cystica). Step 2: The cells that actually resorb (chew up) the bone are the Osteoclasts. Step 3: However, surprisingly, mature osteoclasts *do not have receptors for PTH*. Step 4: Instead, PTH physically binds to receptors on the surface of *Osteoblasts (and osteoblast precursors)*. Once activated by PTH, the osteoblast dramatically increases its expression of RANK-L (Receptor Activator of Nuclear factor Kappa-B Ligand). RANK-L then binds to the RANK receptor on the osteoclast, forcing the osteoclast to activate and destroy the bone.",
+        "incorrect_rationales": [
+          "Option A is the cell that does the destroying, but it relies entirely on the signal (RANK-L) from the osteoblast, as it lacks its own PTH receptors.",
+          "Option C secrete calcitonin (which tones down bone resorption), but are not the target of PTH.",
+          "Option D form cartilage, not the primary targets for PTH bone remodeling.",
+          "Option E are mechanosensor cells embedded in the bone matrix, not the primary managers of the massive PTH-induced calcium release."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q10",
+      "discipline": "Pharmacology",
+      "system": "Musculoskeletal",
+      "vignette": "A healthy 25-year-old man undergoes an emergency appendectomy under general anesthesia utilizing inhaled halothane and intravenous succinylcholine. Ten minutes into the procedure, the anesthesiologist notes a sudden, sharp rise in end-tidal CO2, severe muscle rigidity, and a rapidly climbing core body temperature of 104.5°F (40.3°C). The surgical team immediately discontinues the anesthetics and administers the definitive rescue medication. This specific rescue medication acts by directly blocking the release of an ion from which of the following structures?",
+      "options": [
+        "Mitochondrial matrix",
+        "Transverse (T) tubules",
+        "Sarcoplasmic reticulum",
+        "Extracellular fluid via L-type channels",
+        "Synaptic vesicles in the motor neuron"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify the mechanism of Dantrolene in treating Malignant Hyperthermia.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: Sudden hypercarbia (high CO2), massive muscle rigidity, and severe hyperthermia immediately following exposure to a halogenated volatile anesthetic (halothane) and a depolarizing paralytic (succinylcholine) is the absolute textbook presentation of Malignant Hyperthermia. Step 2: Malignant hyperthermia is caused by a genetic mutation in the Ryanodine receptor (RyR1), leading to an uncontrolled, massive release of Calcium into the muscle cytoplasm. Step 3: The lifesaving antidote is *Dantrolene*. Step 4: Dantrolene physically binds to the Ryanodine receptor on the surface of the *Sarcoplasmic Reticulum*, slamming the door shut and stopping the lethal release of calcium.",
+        "incorrect_rationales": [
+          "Option A generates ATP and heat during the crisis but is not the source of the calcium trigger.",
+          "Option B transmit the action potential deep into the muscle fiber to reach the SR, but do not store the calcium.",
+          "Option D describes smooth muscle and cardiac muscle calcium channels, but skeletal muscle relies almost entirely on internal SR calcium release.",
+          "Option E is the source of acetylcholine (blocked by botulinum toxin), not the calcium mediating this intracellular crisis."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q11",
+      "discipline": "Genetics",
+      "system": "Hematology",
+      "vignette": "A 25-year-old woman with no significant past medical history presents to the emergency department with a swollen, painful, and red left calf. A Doppler ultrasound confirms a deep vein thrombosis (DVT). She does not smoke, takes no oral contraceptives, and has not traveled recently. Laboratory testing reveals normal PT and aPTT times. An advanced coagulation panel demonstrates that the addition of Activated Protein C (APC) to her plasma fails to significantly prolong her aPTT. The genetic mutation driving this patient's hypercoagulable state is characterized by which of the following specific amino acid substitutions?",
+      "options": [
+        "Valine for Glutamic acid",
+        "Glutamine for Arginine",
+        "Lysine for Isoleucine",
+        "Serine for Proline",
+        "Methionine for Valine"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize Factor V Leiden and its specific Arg506Gln mutation.",
+        "correct_rationale": "Option B is correct. (Fourth-order question). Step 1: An unprovoked DVT in a young, healthy patient indicates an inherited thrombophilia. Step 2: The classic diagnostic finding is that adding Activated Protein C (APC) fails to prolong the clotting time (APC Resistance). Step 3: The most common cause of APC resistance, and the most common inherited thrombophilia in Caucasian populations, is *Factor V Leiden*. Step 4: Factor V Leiden is caused by a highly specific, single-point missense mutation in the F5 gene. This mutation causes the substitution of *Glutamine for Arginine* near the cleavage site (Arg506Gln). Because the arginine is missing, Activated Protein C cannot physically cut and deactivate Factor V, leaving the coagulation cascade permanently turned 'on'.",
+        "incorrect_rationales": [
+          "Option A describes the mutation in Sickle Cell Anemia (Valine replaces Glutamic acid on the beta-globin chain).",
+          "Option C describes the mutation in Hemoglobin C disease.",
+          "Option D and Option E are incorrect amino acid substitutions for this disease."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q12",
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "vignette": "A 30-year-old man with a known history of ulcerative colitis presents with worsening fatigue and right upper quadrant abdominal pain. Laboratory studies reveal a total bilirubin of 2.5 mg/dL, an alkaline phosphatase of 450 U/L (Normal: 40-120), and positive p-ANCA antibodies. Magnetic resonance cholangiopancreatography (MRCP) reveals stricturing and dilation of both the intrahepatic and extrahepatic bile ducts, giving them a distinct 'beaded' appearance. A liver biopsy is performed. Which of the following histopathologic findings is most characteristic of this patient's underlying disease?",
+      "options": [
+        "Granulomatous destruction of intralobular bile ducts",
+        "Concentric, 'onion-skin' fibrosis surrounding the bile ducts",
+        "Massive deposition of copper in hepatocytes",
+        "Accumulation of PAS-positive globules in the endoplasmic reticulum",
+        "Lymphoplasmacytic infiltrate with prominent interface hepatitis"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify Primary Sclerosing Cholangitis (PSC) and its 'onion-skin' fibrosis.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: A young male with a history of Ulcerative Colitis presenting with cholestatic liver enzymes (high alk phos) and p-ANCA positivity is highly suspicious for Primary Sclerosing Cholangitis (PSC). Step 2: The MRCP showing 'beading' (alternating strictures and dilations) of both intra- and extrahepatic bile ducts definitively diagnoses PSC. Step 3: The classic, pathognomonic histologic feature of PSC on a liver biopsy is *concentric, 'onion-skin' fibrosis* wrapping tightly around the medium and large bile ducts, eventually obliterating them completely.",
+        "incorrect_rationales": [
+          "Option A describes Primary Biliary Cholangitis (PBC), which typically affects middle-aged women, features AMA autoantibodies, and only affects *intrahepatic* ducts without the 'beading' seen on imaging.",
+          "Option C describes Wilson disease.",
+          "Option D describes Alpha-1 Antitrypsin deficiency.",
+          "Option E describes Autoimmune Hepatitis (associated with anti-smooth muscle antibodies)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q13",
+      "discipline": "Microbiology",
+      "system": "Genitourinary",
+      "vignette": "A 22-year-old woman presents to the gynecology clinic complaining of a foul-smelling, yellow-green vaginal discharge and severe vulvar itching. Physical examination reveals an erythematous vagina and a cervix covered in punctate, macular hemorrhages ('strawberry cervix'). The vaginal pH is 6.0. A wet mount preparation of the discharge is examined under a light microscope. The physician immediately prescribes a course of oral metronidazole. In addition to treating the patient, which of the following is the most critical next step in the management of this infection?",
+      "options": [
+        "Simultaneously treating the patient's sexual partners with metronidazole",
+        "Prescribing a concurrent course of oral fluconazole",
+        "Applying topical hydrocortisone to relieve the vulvar pruritus",
+        "Screening the patient for an underlying primary immunodeficiency",
+        "Reassuring the patient that the infection is part of normal flora overgrowth"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Diagnose Trichomonas vaginalis and recognize the necessity of treating sexual partners.",
+        "correct_rationale": "Option A is correct. (Third-order question). Step 1: A yellow-green, frothy, foul-smelling discharge, elevated pH, and the pathognomonic 'strawberry cervix' (colpitis macularis) definitively diagnose an infection by *Trichomonas vaginalis*. Step 2: A wet mount would reveal motile, flagellated, pear-shaped trophozoites. Step 3: The treatment of choice is Metronidazole. Step 4: *Trichomonas* is a sexually transmitted infection (STI). Because men are frequently asymptomatic carriers, it is absolutely critical to *treat all sexual partners simultaneously*. Failure to do so will result in immediate re-infection ('ping-pong' infection) of the female patient.",
+        "incorrect_rationales": [
+          "Option B is the treatment for Candida vaginitis (yeast infection), which presents with a thick, white, 'cottage-cheese' discharge and normal pH (<4.5).",
+          "Option C is a symptomatic band-aid that does not address the underlying pathogen or transmission cycle.",
+          "Option D is unnecessary; Trichomonas is a highly common STI and does not imply an immunodeficiency.",
+          "Option E describes Bacterial Vaginosis (Gardnerella) or Candida, but Trichomonas is always a true pathogen, never normal flora."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q14",
+      "discipline": "Biostatistics",
+      "system": "Multisystem",
+      "vignette": "A research team conducts a study to determine the average resting heart rate of healthy adults in a large metropolitan city. They sample 100 randomly selected adults. The mean heart rate of the sample is found to be 72 beats per minute (bpm), with a standard deviation (SD) of 10 bpm. The researchers wish to report the 95% Confidence Interval (CI) for the true population mean. Using the standard approximation for a normal distribution, which of the following mathematical expressions correctly calculates this 95% Confidence Interval?",
+      "options": [
+        "72 +/- (1.96 x 10)",
+        "72 +/- (2.58 x 10)",
+        "72 +/- (1.96 x (10 / 100))",
+        "72 +/- (1.96 x (10 / 10))",
+        "72 +/- (1.96 x (100 / 10))"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Calculate the 95% Confidence Interval for a mean using the Standard Error of the Mean (SEM).",
+        "correct_rationale": "Option D is correct. (Third-order calculation). Step 1: The formula for the 95% Confidence Interval of a mean is: Mean +/- [ Z-score * Standard Error of the Mean (SEM) ]. Step 2: The Z-score for a 95% confidence interval is approximately 1.96. Step 3: The SEM is calculated as the Standard Deviation (SD) divided by the square root of the sample size (n). SEM = SD / sqrt(n). Step 4: Plug in the values: Mean = 72, Z = 1.96, SD = 10, n = 100. Step 5: SEM = 10 / sqrt(100) = 10 / 10 = 1. Therefore, the formula is 72 +/- (1.96 x (10 / 10)).",
+        "incorrect_rationales": [
+          "Option A incorrectly uses the Standard Deviation instead of the Standard Error of the Mean. This would give the range for 95% of the *individuals* in the sample, not the confidence interval for the *population mean*.",
+          "Option B incorrectly uses the Z-score for a 99% confidence interval (2.58) and fails to divide by sqrt(n).",
+          "Option C incorrectly divides by the raw sample size (100) instead of the square root of the sample size (sqrt(100) = 10).",
+          "Option E inverts the SEM formula (n / SD)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q15",
+      "discipline": "Pathology",
+      "system": "Endocrine",
+      "vignette": "A 35-year-old man presents to the clinic with severe, episodic headaches, profuse sweating, and a racing heart. His blood pressure during these episodes spikes to 220/120 mmHg. A 24-hour urine collection confirms astronomically elevated levels of metanephrines and vanillylmandelic acid (VMA). An abdominal CT reveals a 4 cm mass in his left adrenal gland. A detailed family history reveals that his father died of a malignant brain tumor, and his sister was recently diagnosed with bilateral renal cysts. Based on this constellation of findings, the patient carries a germline mutation that puts him at incredibly high risk for developing which of the following specific malignancies?",
+      "options": [
+        "Medullary thyroid carcinoma",
+        "Clear cell renal cell carcinoma",
+        "Squamous cell carcinoma of the lung",
+        "Hepatocellular carcinoma",
+        "Papillary thyroid carcinoma"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify von Hippel-Lindau (VHL) disease and its association with clear cell renal cell carcinoma.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: Episodic headaches, sweating, tachycardia, and high urinary metanephrines/VMA definitively diagnose a Pheochromocytoma. Step 2: The presence of a pheochromocytoma combined with a family history of brain tumors (hemangioblastomas of the cerebellum/retina) and renal cysts diagnoses von Hippel-Lindau (VHL) disease. Step 3: VHL is an autosomal dominant disorder caused by a mutation in the VHL tumor suppressor gene on chromosome 3. Step 4: The hallmark malignancy and leading cause of death in patients with VHL disease is bilateral, multiple *Clear Cell Renal Cell Carcinomas*.",
+        "incorrect_rationales": [
+          "Option A is associated with MEN 2A and MEN 2B (RET mutation), which also feature pheochromocytomas, but do not feature brain hemangioblastomas or renal cysts.",
+          "Option C is associated with smoking and asbestos exposure.",
+          "Option D is associated with chronic Hepatitis B/C, alcoholism, and hemochromatosis.",
+          "Option E is the most common thyroid cancer, associated with childhood radiation exposure, not VHL."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q16",
+      "discipline": "Pathology",
+      "system": "Renal",
+      "vignette": "A 52-year-old Caucasian man presents with progressive lower extremity edema and frothy urine. His blood pressure is 135/85 mmHg. Laboratory testing reveals a serum albumin of 2.1 g/dL, massive hyperlipidemia, and a 24-hour urine protein of 8.5 grams. He tests negative for hepatitis B, hepatitis C, and HIV. A renal biopsy reveals thickened glomerular basement membranes on light microscopy without hypercellularity. Immunofluorescence shows granular deposition of IgG and C3. Furthermore, his serum tests positive for antibodies directed against the M-type phospholipase A2 receptor (PLA2R). The subepithelial immune complex deposits seen in this patient's disease are classically described by which of the following terms?",
+      "options": [
+        "Lumpy-bumpy humps",
+        "Spike and dome appearance",
+        "Tram-track splitting",
+        "Wire-loop lesions",
+        "Apple-green birefringence"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Diagnose Membranous Nephropathy and identify its classic EM finding ('spike and dome').",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: Nephrotic syndrome (edema, severe proteinuria, hypoalbuminemia, hyperlipidemia) in a Caucasian adult with thickened basement membranes and granular IF diagnoses Membranous Nephropathy. Step 2: The presence of anti-PLA2R antibodies is highly specific for primary (idiopathic) Membranous Nephropathy. Step 3: On electron microscopy, the subepithelial immune complex deposits cause the glomerular basement membrane to grow up and around them, creating the pathognomonic 'spike and dome' appearance.",
+        "incorrect_rationales": [
+          "Option A describes the subepithelial deposits seen in Post-Streptococcal Glomerulonephritis (PSGN), a nephritic syndrome.",
+          "Option C describes Membranoproliferative Glomerulonephritis (MPGN), due to mesangial ingrowth splitting the GBM.",
+          "Option D describes Diffuse Proliferative Glomerulonephritis (DPGN), the most common and severe form of lupus nephritis.",
+          "Option E describes renal amyloidosis when stained with Congo red."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q17",
+      "discipline": "Pharmacology",
+      "system": "Neurology",
+      "vignette": "A 7-year-old boy is brought to the pediatrician by his teacher, who reports that the child frequently 'zones out' in class. During these episodes, which last 10 to 15 seconds, he stares blankly and exhibits subtle lip-smacking, but does not lose his posture or fall. An EEG shows a classic 3-Hz spike-and-wave discharge pattern. The first-line medication prescribed for this specific seizure disorder halts the abnormal electrical activity by blocking a specific ion channel in the thalamic neurons. Which of the following is the target of this drug?",
+      "options": [
+        "T-type voltage-gated calcium channels",
+        "Fast voltage-gated sodium channels",
+        "L-type voltage-gated calcium channels",
+        "GABA-A chloride channels",
+        "NMDA glutamate receptors"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Identify the mechanism of action of Ethosuximide in Absence seizures.",
+        "correct_rationale": "Option A is correct. (Second-order question). Step 1: A child with brief staring spells, subtle automatisms (lip-smacking), and a 3-Hz spike-and-wave EEG pattern has Absence seizures. Step 2: The first-line treatment for isolated absence seizures is Ethosuximide. Step 3: Ethosuximide works specifically by blocking *T-type voltage-gated calcium channels* in the thalamic reticular neurons, preventing the rhythmic pacemaker discharges that drive the absence seizure. (Mnemonic: Sux to have Silent Seizures).",
+        "incorrect_rationales": [
+          "Option B is the target of Phenytoin, Carbamazepine, and Lamotrigine (used for focal and tonic-clonic seizures).",
+          "Option C is targeted by standard cardiovascular Calcium Channel Blockers (verapamil, diltiazem, amlodipine), which are not used as antiepileptics.",
+          "Option D is the target of Benzodiazepines and Barbiturates.",
+          "Option E is targeted by Felbamate or Ketamine, not first-line for absence seizures."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q18",
+      "discipline": "Biochemistry",
+      "system": "Musculoskeletal",
+      "vignette": "A 16-year-old boy presents to the clinic complaining of severe muscle cramps and extreme fatigue shortly after he begins lifting weights or sprinting. He notes that if he pushes through the initial pain and slows his pace for about 10 minutes, the pain subsides and he can continue exercising (a 'second wind'). A forearm ischemic exercise test reveals a complete failure of blood lactate levels to rise. A muscle biopsy shows accumulation of normal-appearing glycogen under the sarcolemma. This patient's disease is caused by a deficiency in an enzyme that normally requires which of the following vitamins as a coenzyme?",
+      "options": [
+        "Thiamine (Vitamin B1)",
+        "Riboflavin (Vitamin B2)",
+        "Niacin (Vitamin B3)",
+        "Pyridoxine (Vitamin B6)",
+        "Cobalamin (Vitamin B12)"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Diagnose McArdle Disease and identify Vitamin B6 as the cofactor for glycogen phosphorylase.",
+        "correct_rationale": "Option D is correct. (Third-order question). Step 1: Exercise intolerance, muscle cramps, myoglobinuria, the 'second wind' phenomenon, and a flat venous lactate curve during ischemic exercise definitively diagnose McArdle Disease (Glycogen Storage Disease Type V). Step 2: McArdle disease is caused by a deficiency of Myophosphorylase (the skeletal muscle isoform of glycogen phosphorylase). Because the muscle cannot break down glycogen into glucose-1-phosphate, it cannot run glycolysis, meaning it cannot produce lactate. Step 3: Glycogen phosphorylase absolutely requires *Pyridoxine (Vitamin B6)* as a covalently bound coenzyme to function.",
+        "incorrect_rationales": [
+          "Option A is required for Transketolase, Pyruvate Dehydrogenase, and Alpha-KG dehydrogenase.",
+          "Option B is required for FAD (e.g., Succinate dehydrogenase).",
+          "Option C is required for NAD/NADP (dehydrogenase reactions).",
+          "Option E is required for Methionine synthase and Methylmalonyl-CoA mutase."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q19",
+      "discipline": "Anatomy",
+      "system": "Cardiovascular",
+      "vignette": "A 65-year-old man survives an acute myocardial infarction complicated by cardiogenic shock. An ECG performed upon admission demonstrated significant ST-segment elevations strictly in leads II, III, and aVF. On day 4 of his hospitalization, he suddenly develops severe shortness of breath, hypotension, and a loud, blowing, holosystolic murmur heard best at the cardiac apex that radiates to the axilla. An emergent echocardiogram reveals the flail leaflet of a heart valve. The mechanical structure that ruptured, leading to this catastrophe, receives its blood supply exclusively from which of the following vessels?",
+      "options": [
+        "Left anterior descending artery",
+        "Left circumflex artery",
+        "Right marginal artery",
+        "Posterior descending artery",
+        "Obtuse marginal artery"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Localize posteromedial papillary muscle rupture to the PDA (Right Coronary Artery) territory.",
+        "correct_rationale": "Option D is correct. (Third-order question). Step 1: ST elevations in II, III, and aVF indicate an Inferior Wall MI, primarily supplied by the Right Coronary Artery (RCA). Step 2: On day 4, he develops acute mitral regurgitation (holosystolic murmur at apex radiating to axilla) due to a ruptured papillary muscle. Step 3: The mitral valve is tethered by two papillary muscles: the anterolateral and the posteromedial. The anterolateral muscle has a robust dual blood supply (LAD and LCx). However, the *posteromedial papillary muscle* relies solely on a single blood supply: the *Posterior Descending Artery (PDA)*, which branches off the RCA in 85% of people. Therefore, an inferior MI uniquely risks posteromedial papillary muscle rupture.",
+        "incorrect_rationales": [
+          "Option A and Option B provide dual blood supply to the anterolateral papillary muscle, making it highly resistant to rupture.",
+          "Option C supplies the right ventricle but does not descend to supply the LV papillary muscles.",
+          "Option E is a branch of the LCx that supplies the lateral wall of the left ventricle."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q20",
+      "discipline": "Embryology",
+      "system": "Gastrointestinal",
+      "vignette": "A 2-year-old boy presents to the emergency department with painless, massive, dark red rectal bleeding. He is tachycardic and pale. A technetium-99m pertechnetate scan reveals a focal area of intense radiotracer uptake in the right lower quadrant of the abdomen, completely distinct from the stomach. The bleeding in this patient is caused by ulceration of the ileal mucosa. The embryological remnant responsible for this condition most commonly contains ectopic tissue that is histologically identical to which of the following?",
+      "options": [
+        "Pancreatic acinar cells",
+        "Gastric parietal cells",
+        "Hepatic sinusoids",
+        "Colonic crypts of Lieberkühn",
+        "Esophageal squamous epithelium"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify Meckel diverticulum and its ectopic gastric mucosa causing bleeding.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: Painless, massive lower GI bleeding in a toddler with a positive technetium-99m (Meckel's) scan definitively diagnoses a Meckel Diverticulum. Step 2: A Meckel diverticulum is a true diverticulum formed by the failure of the vitelline (omphalomesenteric) duct to obliterate. Step 3: The condition bleeds because the diverticulum frequently contains *ectopic functional gastric mucosa* (specifically parietal cells). These ectopic cells secrete hydrochloric acid directly into the unprotected ileum, causing severe, painless mucosal ulceration and massive hemorrhage.",
+        "incorrect_rationales": [
+          "Option A is the second most common type of ectopic tissue found in a Meckel diverticulum, but it is the acid-secreting *gastric* tissue that directly causes the bleeding and absorbs the radiotracer.",
+          "Option C, Option D, and Option E are not classically found as ectopic rests within a Meckel diverticulum."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q21",
+      "discipline": "Genetics",
+      "system": "Neurology",
+      "vignette": "A 22-year-old man presents to the clinic with progressive hearing loss and tinnitus in both ears. He also notes a recent onset of clumsiness and poor balance. An MRI of the brain with gadolinium contrast reveals bilateral, enhancing masses situated at the cerebellopontine angles. His father died of a brain tumor at age 35. The patient's genetic syndrome is caused by an inactivating mutation in a tumor suppressor gene located on chromosome 22. The normal protein encoded by this gene physically connects the actin cytoskeleton to transmembrane proteins and is known as which of the following?",
+      "options": [
+        "Neurofibromin",
+        "Merlin (Schwannomin)",
+        "Hamartin",
+        "Tuberin",
+        "Menin"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize Neurofibromatosis Type 2 (NF2) and the function of the Merlin protein.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: Bilateral acoustic neuromas (vestibular schwannomas at the cerebellopontine angle) causing deafness and vertigo are pathognomonic for Neurofibromatosis Type 2 (NF2). Step 2: NF2 is an autosomal dominant disorder caused by a mutation on Chromosome 22 (Mnemonic: Type 2 = Chromosome 22 = 2 ears). Step 3: The gene involved is the NF2 gene, which encodes the protein *Merlin* (also known as Schwannomin). Merlin is a structural protein that links the actin cytoskeleton to cell membrane proteins, acting as a critical tumor suppressor by managing contact inhibition.",
+        "incorrect_rationales": [
+          "Option A is mutated in NF1 (Chromosome 17), presenting with café-au-lait spots, neurofibromas, and Lisch nodules. It is a RAS-GAP.",
+          "Option C and Option D are mutated in Tuberous Sclerosis Complex (causing seizures, ash-leaf spots, and cortical tubers).",
+          "Option E is mutated in MEN1 (causing Pituitary, Parathyroid, and Pancreatic tumors)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q22",
+      "discipline": "Microbiology",
+      "system": "Infectious Disease",
+      "vignette": "A 30-year-old man who recently spent six months working as an engineer in rural Brazil presents with spiking fevers, profound weight loss, and darkening of his skin. Physical examination reveals massive hepatosplenomegaly. Laboratory testing shows severe pancytopenia. A bone marrow biopsy is performed. Under light microscopy, the pathologist observes numerous macrophages stuffed with small, non-flagellated intracellular organisms containing a distinctive rod-shaped kinetoplast. The vector responsible for transmitting this fatal pathogen is which of the following?",
+      "options": [
+        "Anopheles mosquito",
+        "Ixodes tick",
+        "Sandfly",
+        "Reduviid bug",
+        "Tsetse fly"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify Visceral Leishmaniasis (Kala-azar) and its Sandfly vector.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: Spiking fevers, massive hepatosplenomegaly, pancytopenia, and hyperpigmentation (Kala-azar means 'black fever') in a patient returning from an endemic tropical region is classic for Visceral Leishmaniasis. Step 2: The disease is caused by *Leishmania donovani*. Step 3: The pathognomonic biopsy finding is macrophages packed with intracellular amastigotes (non-flagellated forms) containing a kinetoplast. Step 4: *Leishmania* is transmitted exclusively by the bite of the infected female *Sandfly*.",
+        "incorrect_rationales": [
+          "Option A transmits Plasmodium (Malaria), which causes fever and splenomegaly but infects RBCs, not bone marrow macrophages.",
+          "Option B transmits Babesia, Borrelia, and Anaplasma.",
+          "Option D transmits Trypanosoma cruzi (Chagas disease - megacolon, dilated cardiomyopathy).",
+          "Option E transmits Trypanosoma brucei (African Sleeping Sickness - extreme lethargy, cervical lymphadenopathy)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q23",
+      "discipline": "Endocrinology",
+      "system": "Reproductive",
+      "vignette": "A 16-year-old phenotypic female presents to the clinic with primary amenorrhea. During the evaluation, her blood pressure is found to be 170/105 mmHg, and serum potassium is 2.9 mEq/L. Physical examination reveals mild clitoromegaly and deepening of the voice. Pelvic ultrasound confirms the presence of bilateral ovaries and a normal uterus. A defect in adrenal steroidogenesis is suspected. The accumulation of which of the following steroids directly accounts for this patient's hypertensive and virilized presentation?",
+      "options": [
+        "17-hydroxyprogesterone",
+        "11-deoxycorticosterone (11-DOC)",
+        "Dehydroepiandrosterone (DHEA)",
+        "Aldosterone",
+        "Cortisol"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize 11-beta-hydroxylase deficiency and the mineralocorticoid activity of 11-DOC.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: A female with virilization (clitoromegaly/deep voice) and hypertension with hypokalemia has Congenital Adrenal Hyperplasia (CAH). Step 2: The specific combination of virilization AND hypertension defines *11-beta-hydroxylase deficiency*. Step 3: 11-beta-hydroxylase normally converts 11-deoxycorticosterone (11-DOC) to corticosterone, and 11-deoxycortisol to cortisol. Because the enzyme is blocked, massive amounts of precursors are shunted to the androgen pathway (causing virilization). Step 4: Crucially, the accumulating *11-deoxycorticosterone (11-DOC)* is a weak but functional mineralocorticoid. At massive concentrations, it acts like aldosterone, causing severe salt retention, hypertension, and potassium wasting.",
+        "incorrect_rationales": [
+          "Option A accumulates heavily in 21-hydroxylase deficiency, which presents with virilization and *hypotension* (salt wasting), not hypertension.",
+          "Option C drives the virilization, but does not cause the hypertension.",
+          "Option D is severely deficient in this condition because the pathway to create it is blocked. The hypertension is driven entirely by 11-DOC.",
+          "Option E is severely deficient, leading to the massive ACTH drive that fuels the hyperplasia."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q24",
+      "discipline": "Pharmacology",
+      "system": "Oncology",
+      "vignette": "A 45-year-old woman with a newly diagnosed, highly aggressive breast cancer undergoes molecular profiling of her tumor. The biopsy reveals marked overexpression of the HER2/neu receptor. She is initiated on a targeted monoclonal antibody therapy in combination with systemic chemotherapy. Before starting the targeted monoclonal antibody, her oncologist mandates a baseline echocardiogram. The cardiotoxicity associated with this specific targeted therapy differs from that of doxorubicin because it is primarily characterized by which of the following?",
+      "options": [
+        "It involves the generation of highly reactive oxygen free radicals.",
+        "It causes irreversible, dose-dependent myocardial fibrosis.",
+        "It usually manifests as a reversible decline in left ventricular ejection fraction.",
+        "It results from cross-linking of mitochondrial DNA.",
+        "It is effectively prevented by the administration of dexrazoxane."
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Differentiate Trastuzumab cardiotoxicity (reversible) from Anthracycline cardiotoxicity (irreversible).",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: A breast cancer patient with HER2/neu overexpression is treated with Trastuzumab (Herceptin), a monoclonal antibody against the HER2 tyrosine kinase receptor. Step 2: Trastuzumab has a famous black-box warning for Cardiotoxicity, often presenting as heart failure or a drop in Left Ventricular Ejection Fraction (LVEF). Step 3: Unlike the classic anthracyclines (like doxorubicin), Trastuzumab cardiotoxicity does *not* cause myocardial cell death or fibrosis. It is generally considered a 'Type II' cardiotoxicity that is not dose-dependent and is typically *fully reversible* upon discontinuation of the drug.",
+        "incorrect_rationales": [
+          "Option A, Option B, and Option E specifically describe the irreversible, dose-dependent cardiotoxicity of Anthracyclines (Doxorubicin, Daunorubicin).",
+          "Option D is the mechanism of platinum alkylating agents (cisplatin), which cause nephrotoxicity and ototoxicity, not primary cardiotoxicity."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q25",
+      "discipline": "Pathology",
+      "system": "Neurology",
+      "vignette": "A 25-year-old woman is brought to the clinic by her husband, who notes she has developed a resting tremor, slowed movements, and increasingly slurred speech over the past six months. Recently, she has also become highly irritable and paranoid. Physical examination reveals rigidity in her arms and a distinct, golden-brown ring encircling the periphery of her cornea bilaterally on slit-lamp examination. Laboratory testing demonstrates a very low serum ceruloplasmin level. The genetic mutation driving this patient's severe multisystem disease impairs an ATP-mediated transporter located in the membrane of which of the following cellular compartments?",
+      "options": [
+        "Hepatocyte lysosomes",
+        "Hepatocyte Golgi apparatus",
+        "Proximal tubule brush border",
+        "Erythrocyte cell membrane",
+        "Basal ganglia mitochondria"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify Wilson Disease and the localization of the ATP7B transporter in the hepatocyte.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: Parkinsonism (tremor, rigidity) combined with psychiatric symptoms and Kayser-Fleischer rings (golden-brown corneal rings) in a young adult definitively diagnoses Wilson Disease. Step 2: Wilson disease is caused by an autosomal recessive mutation in the ATP7B gene. Step 3: The ATP7B protein is an ATPase transporter located primarily in the *Hepatocyte Golgi network*. Its normal function is to load copper onto apoceruloplasmin (creating functional ceruloplasmin) and to excrete excess copper into the bile. When it fails, copper accumulates massively in the liver, spills into the blood, and deposits aggressively into the basal ganglia (putamen) and cornea.",
+        "incorrect_rationales": [
+          "Option A handles generalized cellular waste, but copper loading happens in the trans-Golgi network.",
+          "Option C is affected later as copper toxicity causes Fanconi syndrome, but the primary transporter defect is strictly hepatic.",
+          "Option D describes the site of the defect in Hereditary Spherocytosis.",
+          "Option E are destroyed by the copper toxicity, but the primary transport defect is in the liver."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q26",
+      "discipline": "Pharmacology",
+      "system": "Pulmonary",
+      "vignette": "A 45-year-old man with severe, poorly controlled asthma is admitted to the hospital with a severe exacerbation. His physician initiates an intravenous infusion of a methylxanthine derivative to provide sustained bronchodilation. A few days later, the patient develops profound tachycardia, arrhythmias, and experiences a generalized tonic-clonic seizure. The narrow therapeutic index of this medication makes it dangerous. It achieves its primary therapeutic effect by directly inhibiting an enzyme, leading to the intracellular accumulation of which of the following molecules?",
+      "options": [
+        "Inositol triphosphate (IP3)",
+        "Arachidonic acid",
+        "Cyclic adenosine monophosphate (cAMP)",
+        "Calcium",
+        "Nitric oxide (NO)"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify the mechanism of action of Theophylline (phosphodiesterase inhibition).",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: A methylxanthine derivative used for asthma with a famously narrow therapeutic index causing lethal arrhythmias and seizures is Theophylline. Step 2: Theophylline exerts its bronchodilatory effect by directly inhibiting the enzyme Phosphodiesterase (PDE). Step 3: Phosphodiesterase normally breaks down *cAMP*. By blocking this enzyme, theophylline causes a massive intracellular accumulation of *cAMP*. High cAMP in bronchial smooth muscle leads to relaxation and bronchodilation. (It also acts as an adenosine receptor antagonist).",
+        "incorrect_rationales": [
+          "Option A causes smooth muscle *contraction* (bronchoconstriction) downstream of Gq receptors.",
+          "Option B is the precursor to leukotrienes and prostaglandins, targeted by Zileuton and NSAIDs.",
+          "Option D causes muscle contraction; cAMP actually lowers intracellular calcium in smooth muscle.",
+          "Option E is the mechanism of nitroglycerin and PDE-5 inhibitors, acting via cGMP, not primarily the mechanism of theophylline."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q27",
+      "discipline": "Anatomy",
+      "system": "Musculoskeletal",
+      "vignette": "A 45-year-old woman undergoes a modified radical mastectomy with complete axillary lymph node dissection for breast cancer. Three weeks after surgery, she presents to the clinic complaining of difficulty reaching high shelves in her kitchen. Physical examination reveals that when the patient is asked to push forward against a wall with both hands, her right scapula protrudes markedly posteriorly, detaching from the thoracic cage. The nerve injured during her surgery provides motor innervation to a muscle that primarily originates from which of the following structures?",
+      "options": [
+        "Spinous processes of C7-T5",
+        "Lateral surfaces of the upper 8 ribs",
+        "Coracoid process of the scapula",
+        "Medial border of the scapula",
+        "Occipital bone and nuchal ligament"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the Serratus Anterior, its innervation (Long Thoracic Nerve), and its anatomical origin.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: A 'winged scapula' (protruding when pushing against a wall) following axillary lymph node dissection is the pathognomonic presentation of injury to the Long Thoracic Nerve (roots C5, C6, C7). Step 2: The Long Thoracic nerve provides exclusive motor innervation to the *Serratus Anterior* muscle, which functions to pull the scapula tightly against the rib cage and assist in abducting the arm above 90 degrees. Step 3: The Serratus Anterior anatomically originates from the *lateral surfaces of the upper 8 (or 9) ribs* and inserts onto the medial border of the scapula.",
+        "incorrect_rationales": [
+          "Option A describes the origin of the Rhomboid major/minor muscles (dorsal scapular nerve).",
+          "Option C describes the origin of the Coracobrachialis and the short head of the Biceps Brachii, and the insertion of the Pectoralis minor.",
+          "Option D is the *insertion* point of the Serratus Anterior, not its origin.",
+          "Option E describes the origin of the Trapezius muscle (spinal accessory nerve - CN XI)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q28",
+      "discipline": "Biostatistics",
+      "system": "Multisystem",
+      "vignette": "A new screening program using low-dose CT scans is implemented to detect lung cancer in chronic smokers. After five years, public health officials note that the 5-year survival rate for patients diagnosed with lung cancer via the CT screening program is 65%, compared to only 20% for patients diagnosed via traditional chest X-ray after they develop symptoms. However, a deep review of mortality records reveals that the actual age at death and the overall mortality rate for lung cancer in the screened population are identical to those in the unscreened population. The apparent, false improvement in the 5-year survival rate is best explained by which of the following statistical phenomena?",
+      "options": [
+        "Length-time bias",
+        "Lead-time bias",
+        "Selection bias",
+        "Recall bias",
+        "Measurement bias"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize Lead-Time Bias in cancer screening trials.",
+        "correct_rationale": "Option B is correct. (Second-order conceptual). Step 1: The screening test detects the cancer earlier. This dramatically improves the '5-year survival rate' (the time from diagnosis to death). Step 2: However, detecting it earlier did absolutely nothing to prolong the patient's actual life (the age at death was identical). Step 3: This statistical illusion—where survival *time* appears to increase simply because the 'clock' started earlier due to early detection—is the exact definition of *Lead-time bias*. It is the most common pitfall when evaluating new cancer screening protocols.",
+        "incorrect_rationales": [
+          "Option A occurs when a screening test preferentially catches slow-growing, benign tumors (because they stay in the body longer), while missing highly aggressive, rapidly fatal tumors, falsely making the screened disease look less lethal.",
+          "Option C occurs if healthier patients were deliberately chosen for the CT scan group.",
+          "Option D applies to retrospective case-control studies where sick patients remember exposures differently than healthy ones.",
+          "Option E involves faulty equipment or sloppy data collection."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q29",
+      "discipline": "Microbiology",
+      "system": "Gastrointestinal",
+      "vignette": "A 6-year-old girl is brought to the emergency department with severe, crampy abdominal pain and bloody diarrhea. Her mother states she attended a neighborhood barbecue three days ago and ate a rare hamburger. Laboratory testing reveals a profound drop in platelets, a significant elevation in BUN and creatinine, and numerous schistocytes on a peripheral blood smear. The pathogen responsible for this patient's condition produces a toxin that profoundly damages the vascular endothelium. This toxin exerts its effect by specifically inactivating which of the following cellular structures?",
+      "options": [
+        "The 60S ribosomal subunit",
+        "The 40S ribosomal subunit",
+        "Elongation factor 2 (EF-2)",
+        "Adenylyl cyclase",
+        "RNA polymerase II"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Identify Hemolytic Uremic Syndrome (HUS) and the mechanism of Shiga-like toxin on the 60S ribosome.",
+        "correct_rationale": "Option A is correct. (Third-order question). Step 1: A child with bloody diarrhea after eating undercooked beef who develops Hemolytic Uremic Syndrome (HUS: microangiopathic hemolytic anemia, thrombocytopenia, and acute kidney injury) is infected with Enterohemorrhagic E. coli (EHEC), specifically O157:H7. Step 2: EHEC produces Shiga-like toxin (Verotoxin). Step 3: Shiga-like toxin causes endothelial damage by permanently halting host cell protein synthesis. It does this by specifically cleaving an adenine base from the 28S rRNA of the *60S ribosomal subunit*, completely destroying the ribosome's ability to bind tRNA.",
+        "incorrect_rationales": [
+          "Option B is targeted by aminoglycoside antibiotics (30S subunit in bacteria), but eukaryotic ribosomes are 60S/40S, and the toxin hits the heavy 60S subunit.",
+          "Option C is the target of Diphtheria toxin and Pseudomonas Exotoxin A.",
+          "Option D is the target of Cholera toxin and Pertussis toxin.",
+          "Option E is inhibited by alpha-amanitin (from the death cap mushroom, Amanita phalloides), causing fatal hepatotoxicity."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q30",
+      "discipline": "Biochemistry",
+      "system": "Hematology",
+      "vignette": "A 65-year-old man presents with worsening fatigue, paresthesias in his hands and feet, and a remarkably smooth, red tongue. A complete blood count reveals a macrocytic anemia. His physician suspects a deficiency that impairs the synthesis of methionine from homocysteine. To definitively differentiate this specific vitamin deficiency from a closely related vitamin deficiency that causes an identical anemia, the physician should order a serum test to check for the abnormal accumulation of which of the following specific metabolites?",
+      "options": [
+        "Homocysteine",
+        "Folic acid",
+        "Methylmalonic acid",
+        "Delta-aminolevulinic acid",
+        "Protoporphyrin IX"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Differentiate B12 deficiency from Folate deficiency using Methylmalonic acid.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: Macrocytic anemia, glossitis (smooth tongue), and neurological symptoms (paresthesias) diagnose a Vitamin B12 (Cobalamin) deficiency. Step 2: Both Folate (B9) and B12 deficiency cause identical macrocytic, megaloblastic anemias. Both deficiencies also cause elevated Homocysteine (since both are required to convert homocysteine to methionine). Step 3: To differentiate between the two, you must measure *Methylmalonic acid (MMA)*. Vitamin B12 is the strict, sole cofactor for the enzyme Methylmalonyl-CoA mutase. Therefore, in B12 deficiency, MMA accumulates massively. In Folate deficiency, MMA levels are perfectly normal.",
+        "incorrect_rationales": [
+          "Option A is elevated in *both* B12 and Folate deficiency, so it cannot be used to differentiate between them.",
+          "Option B levels would be low in a folate deficiency, but measuring the functional downstream metabolites (MMA) is the gold standard for separating the two.",
+          "Option D and Option E accumulate in lead poisoning or porphyrias, which cause microcytic, not macrocytic, anemias."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q31",
+      "discipline": "Biochemistry",
+      "system": "Genetics",
+      "vignette": "A 3-day-old male infant presents with progressive lethargy, vomiting, and seizures. Laboratory testing shows severe hyperammonemia and respiratory alkalosis. Urinalysis reveals markedly elevated levels of orotic acid. A deficiency in a specific urea cycle enzyme is suspected. Which of the following is the subcellular location of the enzyme that is most likely deficient in this patient?",
+      "options": [
+        "Cytosol",
+        "Mitochondrial matrix",
+        "Lysosome",
+        "Peroxisome",
+        "Smooth endoplasmic reticulum"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify Ornithine Transcarbamylase (OTC) deficiency and its mitochondrial localization.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: An infant with hyperammonemia and high urinary orotic acid has Ornithine Transcarbamylase (OTC) deficiency. Step 2: OTC deficiency is the most common urea cycle disorder and the only one that is X-linked recessive. Because OTC is blocked, carbamoyl phosphate accumulates and leaks into the cytoplasm, where it is shunted into the pyrimidine synthesis pathway, producing massive amounts of orotic acid. Step 3: The first two enzymes of the urea cycle (Carbamoyl phosphate synthetase I and OTC) are located strictly within the *Mitochondrial matrix*.",
+        "incorrect_rationales": [
+          "Option A is where the remaining enzymes of the urea cycle (argininosuccinate synthetase, argininosuccinate lyase, arginase) are located.",
+          "Option C handles degradation of macromolecules (defective in Tay-Sachs, Gaucher, etc.).",
+          "Option D handles VLCFA oxidation (defective in Zellweger syndrome).",
+          "Option E handles lipid synthesis and drug detoxification."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q32",
+      "discipline": "Pharmacology",
+      "system": "Endocrine",
+      "vignette": "A 52-year-old obese man with type 2 diabetes mellitus is started on a new subcutaneous medication to improve glycemic control and promote weight loss. Two months later, he presents to the emergency department with severe, constant, radiating epigastric pain and elevated serum lipase. The medication most likely responsible for this adverse effect exerts its primary therapeutic action by which of the following mechanisms?",
+      "options": [
+        "Agonism at the glucagon-like peptide-1 (GLP-1) receptor",
+        "Inhibition of dipeptidyl peptidase-4 (DPP-4)",
+        "Inhibition of sodium-glucose cotransporter 2 (SGLT2)",
+        "Closing of ATP-sensitive potassium channels in beta cells",
+        "Activation of peroxisome proliferator-activated receptor gamma (PPAR-gamma)"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Recognize GLP-1 agonists and their association with acute pancreatitis.",
+        "correct_rationale": "Option A is correct. (Third-order question). Step 1: A diabetic patient on a subcutaneous medication for weight loss who develops acute pancreatitis (radiating epigastric pain, high lipase) is taking a GLP-1 agonist (e.g., Exenatide, Liraglutide, Semaglutide). Step 2: These drugs mimic the incretin hormone GLP-1, acting as direct *agonists at the GLP-1 receptor*. They increase glucose-dependent insulin secretion, decrease glucagon secretion, and drastically slow gastric emptying (promoting satiety and weight loss). Step 3: A rare but well-documented and severe side effect of GLP-1 agonists is acute pancreatitis.",
+        "incorrect_rationales": [
+          "Option B describes oral gliptins (sitagliptin), which also carry a mild pancreatitis risk but are not injectable and do not cause significant weight loss.",
+          "Option C describes gliflozins (canagliflozin), oral pills causing urinary tract infections and euglycemic DKA.",
+          "Option D describes sulfonylureas (glipizide), oral pills causing hypoglycemia and weight *gain*.",
+          "Option E describes TZDs (pioglitazone), oral pills causing fluid retention and weight *gain*."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q33",
+      "discipline": "Pathology",
+      "system": "Neurology",
+      "vignette": "A 28-year-old man presents with a history of recurrent, unacknowledged burn injuries on his hands. Neurological examination reveals a bilateral loss of pain and temperature sensation across his shoulders, arms, and upper chest in a 'cape-like' distribution. Fine touch, vibration, and proprioception are completely preserved in these areas. An MRI of the cervical spine is most likely to reveal a lesion that initially damages which of the following anatomical structures?",
+      "options": [
+        "Dorsal columns",
+        "Anterior white commissure",
+        "Lateral corticospinal tract",
+        "Spinothalamic tract",
+        "Ventral horn motor neurons"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify Syringomyelia and the early destruction of the anterior white commissure.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: Bilateral loss of pain and temperature in a 'cape-like' distribution over the shoulders and arms, with preserved dorsal column function (fine touch/vibration), is the pathognomonic presentation of Syringomyelia. Step 2: Syringomyelia is a cystic cavity (syrinx) within the central canal of the spinal cord, most often in the lower cervical region. Step 3: As the syrinx expands, it destroys the tissue immediately adjacent to the central canal first. The very first structure it hits is the *Anterior white commissure*, which is where the spinothalamic tracts (carrying pain and temperature) cross over to the contralateral side. Cutting these crossing fibers creates the bilateral, isolated sensory loss.",
+        "incorrect_rationales": [
+          "Option A carries fine touch and vibration, which is expressly preserved in this patient.",
+          "Option C carries motor fibers; while a massive, late-stage syrinx can eventually compress these tracts causing spastic paresis, it is not the initial lesion.",
+          "Option D is the tract itself in the lateral white matter; the syrinx cuts the fibers *before* they reach the tract, as they are crossing.",
+          "Option E can be compressed later, causing flaccid paralysis and atrophy of the hand muscles."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q34",
+      "discipline": "Immunology",
+      "system": "Infectious Disease",
+      "vignette": "A 6-month-old boy is evaluated for severe, recurrent episodes of oral thrush, chronic diarrhea, and a recent hospitalization for Pneumocystis jirovecii pneumonia. Flow cytometry of his peripheral blood reveals a near-total absence of T lymphocytes and Natural Killer (NK) cells, but his B lymphocyte count is normal or elevated. The underlying genetic mutation in this patient involves a defective receptor component that is normally shared by multiple interleukins. Which of the following interleukins relies heavily on this mutated receptor component for T-cell proliferation?",
+      "options": [
+        "Interleukin-1 (IL-1)",
+        "Interleukin-2 (IL-2)",
+        "Interleukin-4 (IL-4)",
+        "Interleukin-6 (IL-6)",
+        "Interleukin-10 (IL-10)"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize X-linked SCID and the common gamma chain defect affecting IL-2 signaling.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: An infant with severe opportunistic viral, fungal, and bacterial infections, missing T and NK cells but possessing B cells, has Severe Combined Immunodeficiency (SCID). Step 2: The specific T(-), B(+), NK(-) profile identifies the most common form of SCID: X-linked SCID. Step 3: X-linked SCID is caused by a mutation in the *common gamma chain (IL-2Rγ)*. Step 4: This gamma chain is a critical structural component of the receptors for IL-2, IL-4, IL-7, IL-9, IL-15, and IL-21. *Interleukin-2 (IL-2)* specifically requires this chain to stimulate T-cell proliferation and survival. Without it, T cells and NK cells fail to develop entirely.",
+        "incorrect_rationales": [
+          "Option A mediates fever and acute inflammation; its receptor does not use the common gamma chain.",
+          "Option C uses the common gamma chain, but its primary role is driving Th2 differentiation and B-cell class switching to IgE, not primary T-cell proliferation/survival.",
+          "Option D stimulates acute phase reactants in the liver.",
+          "Option E is an anti-inflammatory cytokine that inhibits Th1 cells and macrophages."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q35",
+      "discipline": "Anatomy",
+      "system": "Gastrointestinal",
+      "vignette": "A 3-day-old full-term male infant has not yet passed meconium. He develops abdominal distension and bilious vomiting. A barium enema demonstrates a narrowed rectum and sigmoid colon with massive dilation of the descending colon proximally. A rectal suction biopsy is performed. The pathogenesis of this infant's condition is directly caused by the failure of which of the following processes during embryogenesis?",
+      "options": [
+        "Failure of the midgut to complete a 270-degree rotation",
+        "Failure of endodermal recanalization of the colon",
+        "Failure of neural crest cells to migrate caudally",
+        "Failure of the vitelline duct to obliterate",
+        "Failure of the urorectal septum to partition the cloaca"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify Hirschsprung disease and the failure of neural crest cell migration.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: Failure to pass meconium in the first 48 hours, abdominal distension, and a 'transition zone' on barium enema (narrow rectum, dilated proximal colon) is the classic presentation of Hirschsprung Disease. Step 2: Hirschsprung disease is caused by an aganglionic segment of the colon (lacking both the submucosal Meissner and myenteric Auerbach plexuses). Without these nerves, the segment cannot relax, creating a functional obstruction. Step 3: The enteric nervous system is derived entirely from *Neural crest cells*. During embryogenesis, these cells must migrate caudally down the entire length of the GI tract. If they stop prematurely, the distal colon is left permanently aganglionic.",
+        "incorrect_rationales": [
+          "Option A causes midgut malrotation and volvulus, usually presenting with a normal rectum but a malpositioned cecum.",
+          "Option B causes duodenal or colonic atresia (complete physical blockage, not functional aganglionosis).",
+          "Option D causes a Meckel diverticulum (painless bleeding).",
+          "Option E causes imperforate anus or anorectal malformations."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q36",
+      "discipline": "Physiology",
+      "system": "Renal",
+      "vignette": "A 45-year-old woman is found to have a benign adrenal adenoma secreting excessive amounts of aldosterone (Conn syndrome). She presents with hypertension, hypokalemia, and metabolic alkalosis. However, despite the massive and continuous sodium reabsorption driven by the excess aldosterone, the patient does not exhibit any clinically detectable peripheral edema or hypernatremia. This phenomenon, known as 'aldosterone escape,' is primarily mediated by the compensatory secretion of which of the following?",
+      "options": [
+        "Renin",
+        "Antidiuretic hormone (ADH)",
+        "Atrial natriuretic peptide (ANP)",
+        "Angiotensin II",
+        "Bradykinin"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Understand the mechanism of 'aldosterone escape' via ANP secretion.",
+        "correct_rationale": "Option C is correct. (Second-order conceptual). Step 1: The patient has Primary Hyperaldosteronism. Aldosterone drives massive sodium and water retention. Step 2: Initially, this retention expands the extracellular fluid volume and raises blood pressure. Step 3: However, this volume expansion mechanically stretches the atria of the heart. The stretched atria respond by secreting *Atrial Natriuretic Peptide (ANP)*. Step 4: ANP forces the kidneys to excrete the excess sodium and water (pressure natriuresis). This 'aldosterone escape' mechanism perfectly balances the volume state, preventing hypernatremia and peripheral edema, while the hypertension and hypokalemia persist.",
+        "incorrect_rationales": [
+          "Option A and Option D are completely suppressed by the high blood pressure and high volume state.",
+          "Option B retains pure water. It does not help excrete the excess sodium burden.",
+          "Option E is a vasodilator and pro-inflammatory mediator, but it does not drive the massive renal sodium dumping required for aldosterone escape."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q37",
+      "discipline": "Embryology",
+      "system": "Cardiovascular",
+      "vignette": "A neonate born at 39 weeks gestation rapidly develops profound cyanosis. An echocardiogram reveals a single, large arterial vessel arising from the heart that gives rise to both the systemic and pulmonary circulations. A large ventricular septal defect is also present. The mother has a history of poorly controlled type 1 diabetes mellitus. The embryological structure that completely failed to form in this patient is normally derived from which of the following cell populations?",
+      "options": [
+        "Endocardial cushion cells",
+        "Neural crest cells",
+        "Splanchnic mesoderm",
+        "First pharyngeal arch mesenchyme",
+        "Septum primum cells"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize Persistent Truncus Arteriosus and its origin from failed neural crest cell migration.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: A neonate with a single massive vessel leaving the heart that supplies both the aorta and pulmonary arteries has Persistent Truncus Arteriosus. This is always accompanied by a VSD. Step 2: The normal truncus arteriosus is supposed to be divided into the aorta and pulmonary trunk by the aorticopulmonary (conotruncal) septum. Step 3: The formation of the aorticopulmonary septum relies entirely on the precise migration of *Neural crest cells*. A complete failure of these cells to migrate results in the absence of the septum, leaving the truncus intact.",
+        "incorrect_rationales": [
+          "Option A form the AV valves and the atrial/ventricular septa, but do not divide the outflow tracts.",
+          "Option C forms the myocardium and early heart tube.",
+          "Option D forms the muscles of mastication and jaw bones.",
+          "Option E forms the interatrial septum to close the foramen ovale."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q38",
+      "discipline": "Microbiology",
+      "system": "Oncology",
+      "vignette": "A 35-year-old woman undergoes a routine Pap smear, which reveals high-grade squamous intraepithelial lesions (HSIL). Subsequent PCR testing confirms infection with Human Papillomavirus (HPV) type 16. The oncogenic potential of this specific viral strain is primarily driven by the production of the viral protein E6. The E6 protein facilitates malignant transformation by directly binding to and mediating the rapid degradation of which of the following host cell proteins?",
+      "options": [
+        "Retinoblastoma (Rb) protein",
+        "p53 tumor suppressor protein",
+        "E2F transcription factor",
+        "BRCA1 protein",
+        "BCL-2 anti-apoptotic protein"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the molecular targets of HPV oncoproteins E6 and E7.",
+        "correct_rationale": "Option B is correct. (Second-order question). Step 1: High-risk HPV strains (16, 18, 31, 33) drive cervical dysplasia and carcinoma through the expression of two potent viral oncoproteins: E6 and E7. Step 2: The *E6* viral protein binds to and ubiquitinates the *p53 tumor suppressor protein*, leading to its rapid degradation in the proteasome. Without p53, the cell loses its primary G1-to-S phase DNA damage checkpoint, allowing mutated cells to replicate freely. Step 3: (For completeness, the E7 viral protein binds and degrades the Retinoblastoma (Rb) protein).",
+        "incorrect_rationales": [
+          "Option A is the target of the HPV E7 viral protein, not E6.",
+          "Option C is set free when Rb is destroyed by E7, but is not the direct target of E6.",
+          "Option D is a DNA repair protein mutated in familial breast/ovarian cancer, not targeted by HPV.",
+          "Option E is an anti-apoptotic protein overexpressed in Follicular Lymphoma t(14;18)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q39",
+      "discipline": "Biostatistics",
+      "system": "Multisystem",
+      "vignette": "An occupational health study investigates the relationship between prolonged exposure to a specific industrial solvent and the development of peripheral neuropathy. The researchers follow 5,000 exposed workers and 5,000 unexposed workers over 10 years. At the conclusion of the study, 10% of the exposed workers and 2% of the unexposed workers have developed peripheral neuropathy. Based on these findings, what is the Attributable Risk (AR) of developing peripheral neuropathy due to exposure to this solvent?",
+      "options": [
+        "2%",
+        "5%",
+        "8%",
+        "12%",
+        "80%"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Calculate the Attributable Risk (AR) from incidence data.",
+        "correct_rationale": "Option C is correct. (Second-order calculation). Step 1: The question asks for the Attributable Risk (AR), which represents the excess risk of disease directly attributable to the exposure. Step 2: The formula for AR is simply: Incidence in Exposed - Incidence in Unexposed. Step 3: Plug in the values from the prompt: 10% (0.10) - 2% (0.02) = 8% (0.08). This means that 8 out of every 100 workers develop the disease specifically because of the solvent exposure (while the other 2 would have developed it anyway due to baseline risk).",
+        "incorrect_rationales": [
+          "Option A is the baseline risk (incidence in the unexposed).",
+          "Option B is the Relative Risk (10% / 2% = 5).",
+          "Option D is the sum of the two risks, which holds no statistical value.",
+          "Option E is the Attributable Risk *Percent* (ARP), calculated as (10 - 2) / 10 = 80%. This means 80% of the cases in the exposed group were caused by the exposure, but the absolute Attributable Risk is 8%."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q40",
+      "discipline": "Pathology",
+      "system": "Hematology",
+      "vignette": "A 28-year-old woman is admitted to the intensive care unit with Gram-negative sepsis following a severe urinary tract infection. On hospital day 2, she develops widespread petechiae, purpura, and persistent bleeding from her intravenous catheter sites. Laboratory testing reveals a platelet count of 35,000/mm3, prolonged PT, prolonged aPTT, significantly elevated D-dimer, and decreased serum fibrinogen. A peripheral blood smear demonstrates numerous schistocytes. The primary pathophysiological event initiating this catastrophic consumptive coagulopathy is the widespread release and exposure of which of the following?",
+      "options": [
+        "Tissue factor (Thromboplastin)",
+        "von Willebrand factor (vWF)",
+        "Plasminogen activator inhibitor",
+        "Factor VIII",
+        "ADAMTS13"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Identify the trigger for Disseminated Intravascular Coagulation (DIC) in Gram-negative sepsis.",
+        "correct_rationale": "Option A is correct. (Third-order question). Step 1: Sepsis accompanied by bleeding, schistocytes (microangiopathic hemolytic anemia), low platelets, prolonged PT/aPTT, and high D-dimer is the absolute textbook definition of Disseminated Intravascular Coagulation (DIC). Step 2: In Gram-negative sepsis, bacterial endotoxins (LPS) trigger a massive systemic inflammatory response. Step 3: This cytokine storm (TNF-alpha, IL-1) causes widespread endothelial damage and activates monocytes, leading to the massive exposure and release of *Tissue Factor (Thromboplastin)* into the blood. Tissue factor powerfully activates the extrinsic coagulation cascade, creating thousands of microthrombi everywhere, which simultaneously consumes all platelets and clotting factors, leading to the fatal bleeding.",
+        "incorrect_rationales": [
+          "Option B and Option E are involved in TTP (deficiency of ADAMTS13 causes ultra-large vWF multimers). TTP causes low platelets and schistocytes, but crucially, PT and aPTT are normal.",
+          "Option C inhibits fibrinolysis. While it may be upregulated, the *initiating* event of DIC is the tissue factor triggering the clots.",
+          "Option D is consumed during DIC, not the initiator. It is missing in Hemophilia A."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    }
+  ]
+}
