@@ -36,14 +36,17 @@ body, html { margin: 0; padding: 0; height: 100vh; overflow: hidden; background-
     opacity: 0.65; /* Fades back slightly when inactive */
 }
 
-/* Color Spectrum: Green to Red */
-.lvl-btn:nth-child(1) { background-color: #28a745; color: white; } /* L1: Green */
-.lvl-btn:nth-child(2) { background-color: #8bc34a; color: white; } /* L2: Light Green */
-.lvl-btn:nth-child(3) { background-color: #cddc39; color: #333; }  /* L3: Lime */
-.lvl-btn:nth-child(4) { background-color: #ffc107; color: #333; }  /* L4: Yellow */
-.lvl-btn:nth-child(5) { background-color: #ff9800; color: white; } /* L5: Orange */
-.lvl-btn:nth-child(6) { background-color: #f4511e; color: white; } /* L6: Deep Orange */
-.lvl-btn:nth-child(7) { background-color: #d32f2f; color: white; } /* L7: Red */
+/* Color Spectrum: Green to Red (10 Levels) */
+.lvl-btn:nth-child(1) { background-color: #28a745; color: white; } /* L1: Deep Green */
+.lvl-btn:nth-child(2) { background-color: #5cb85c; color: white; } /* L2: Green */
+.lvl-btn:nth-child(3) { background-color: #8bc34a; color: white; } /* L3: Light Green */
+.lvl-btn:nth-child(4) { background-color: #afb42b; color: white; } /* L4: Olive */
+.lvl-btn:nth-child(5) { background-color: #c0ca33; color: #333; }  /* L5: Lime-Yellow */
+.lvl-btn:nth-child(6) { background-color: #ffeb3b; color: #333; }  /* L6: Yellow */
+.lvl-btn:nth-child(7) { background-color: #ffc107; color: #333; }  /* L7: Amber */
+.lvl-btn:nth-child(8) { background-color: #ff9800; color: white; } /* L8: Orange */
+.lvl-btn:nth-child(9) { background-color: #f4511e; color: white; } /* L9: Deep Orange */
+.lvl-btn:nth-child(10) { background-color: #d32f2f; color: white; } /* L10: Red */
 
 .lvl-btn:hover { opacity: 0.85; transform: translateY(-1px); }
 
