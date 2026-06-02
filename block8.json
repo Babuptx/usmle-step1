@@ -1,0 +1,1036 @@
+{
+  "block_id": 8,
+  "block_title": "USMLE Step 1 Mock Exam - Block 8 (Foundations II)",
+  "questions": [
+    {
+      "id": "q1",
+      "discipline": "Microbiology",
+      "system": "Infectious Disease",
+      "vignette": "A 6-year-old boy, whose parents declined routine childhood vaccinations, is brought to the emergency department with a low-grade fever, sore throat, and difficulty breathing. Examination of the oropharynx reveals a thick, grayish exudate tightly adhering to the tonsils and posterior pharynx. Attempting to scrape the exudate causes active bleeding. The child is also found to have an irregular heartbeat, and an ECG shows a first-degree AV block. The primary virulence factor responsible for this patient's cardiac complication exerts its toxic effect by which of the following mechanisms?",
+      "options": [
+        "Inhibiting the release of inhibitory neurotransmitters",
+        "Cleaving host cell rRNA to halt protein synthesis",
+        "ADP-ribosylating elongation factor 2 (EF-2)",
+        "Activating adenylyl cyclase to increase intracellular cAMP",
+        "Forming pores in the host cell membrane"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify the mechanism of action of the Diphtheria toxin.",
+        "correct_rationale": "Option C is correct. The unvaccinated child has classic presentation of respiratory diphtheria (caused by Corynebacterium diphtheriae), characterized by a tough, grayish pseudomembrane that bleeds when scraped. The bacteria release the Diphtheria toxin, which can spread systemically to cause severe myocarditis (arrhythmias) and polyneuropathy. The toxin works by ADP-ribosylating elongation factor 2 (EF-2), completely halting host cell protein synthesis and causing cell death.",
+        "incorrect_rationales": [
+          "Option A describes Tetanus and Botulinum toxins.",
+          "Option B describes Shiga toxin and Shiga-like toxin (EHEC).",
+          "Option D describes Cholera toxin, Pertussis toxin, and E. coli heat-labile (LT) toxin.",
+          "Option E describes toxins like Streptolysin O or Staphylococcal alpha-toxin."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q2",
+      "discipline": "Pharmacology",
+      "system": "Cardiovascular",
+      "vignette": "A 54-year-old man with a history of essential hypertension and type 2 diabetes mellitus presents to the clinic for a follow-up visit. He was recently started on a new antihypertensive medication to provide renal protection. He now complains of a persistent, dry, hacking cough that worsens at night and disrupts his sleep. He denies any fever, chills, or shortness of breath. The accumulation of which of the following substances is the most likely cause of this patient's new symptom?",
+      "options": [
+        "Angiotensin II",
+        "Aldosterone",
+        "Bradykinin",
+        "Renin",
+        "Substance P"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Recognize ACE inhibitor-induced cough and its mediation by bradykinin.",
+        "correct_rationale": "Option C is correct. The patient was started on an Angiotensin-Converting Enzyme (ACE) inhibitor (e.g., lisinopril), which is first-line for hypertension in diabetics due to its renoprotective effects. ACE (also known as kininase II) normally breaks down bradykinin. By inhibiting ACE, bradykinin accumulates in the respiratory tract, leading to a persistent, dry cough in up to 20% of patients. Switching to an Angiotensin Receptor Blocker (ARB) circumvents this side effect.",
+        "incorrect_rationales": [
+          "Option A is decreased by ACE inhibitors.",
+          "Option B is decreased by ACE inhibitors, as it sits downstream in the RAAS pathway.",
+          "Option D increases as a compensatory mechanism due to the loss of negative feedback, but does not cause a cough.",
+          "Option E is a neuropeptide involved in pain perception, also degraded by ACE, but bradykinin is the primary mediator of the cough and angioedema."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q3",
+      "discipline": "Biochemistry",
+      "system": "Musculoskeletal",
+      "vignette": "A 45-year-old man living alone presents to a free clinic complaining of swollen, bleeding gums and severe joint pain. Physical examination reveals numerous petechiae over his lower extremities and coiled, 'corkscrew' body hairs. He admits to a diet consisting almost exclusively of canned soups and instant noodles. The patient's symptoms are caused by a deficiency of a specific vitamin required for the proper synthesis of collagen. Within the rough endoplasmic reticulum, this vitamin normally functions as a crucial cofactor for which of the following processes?",
+      "options": [
+        "Cleavage of procollagen C- and N-terminals",
+        "Hydroxylation of specific proline and lysine residues",
+        "Extracellular cross-linking of tropocollagen molecules",
+        "Formation of the triple helix structure",
+        "Glycosylation of pro-alpha-chain hydroxylysine residues"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the role of Vitamin C in collagen synthesis.",
+        "correct_rationale": "Option B is correct. The patient has Scurvy due to profound Vitamin C (ascorbic acid) deficiency. Vitamin C is a required cofactor for the enzymes prolyl hydroxylase and lysyl hydroxylase, which operate within the rough endoplasmic reticulum. These enzymes hydroxylate proline and lysine residues on the preprocollagen chains. Without this hydroxylation, the collagen chains cannot properly cross-link via hydrogen bonds to form a stable triple helix, leading to fragile blood vessels (bleeding gums, petechiae).",
+        "incorrect_rationales": [
+          "Option A occurs extracellularly via procollagen peptidases.",
+          "Option C occurs extracellularly via lysyl oxidase, an enzyme that requires Copper, not Vitamin C.",
+          "Option D occurs inside the RER, but it is the *result* of the hydroxylation step, not the specific step Vitamin C catalyzes.",
+          "Option E occurs in the RER and Golgi, but does not require Vitamin C."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q4",
+      "discipline": "Anatomy",
+      "system": "Neurology",
+      "vignette": "A 9-pound, 4-ounce male infant is delivered vaginally to a mother with poorly controlled gestational diabetes. The delivery is complicated by shoulder dystocia requiring significant downward traction on the fetal head. In the nursery, the infant's right arm hangs limply at his side, internally rotated, with the elbow extended and the forearm pronated. The wrist is slightly flexed. Which of the following nerve roots of the brachial plexus were most likely injured during the delivery?",
+      "options": [
+        "C5 and C6",
+        "C7 and C8",
+        "C8 and T1",
+        "C6, C7, and C8",
+        "C5, C6, C7, C8, and T1"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Recognize Erb palsy and localize the lesion to the upper trunk of the brachial plexus.",
+        "correct_rationale": "Option A is correct. The infant has Erb-Duchenne palsy ('waiter's tip' posture), classically caused by excessive downward traction on the head and neck during delivery (shoulder dystocia). This maneuver tears the upper trunk of the brachial plexus, specifically the C5 and C6 nerve roots. This causes a loss of abduction (deltoid, supraspinatus), lateral rotation (infraspinatus, teres minor), and flexion/supination (biceps brachii).",
+        "incorrect_rationales": [
+          "Option B does not correspond to a classic traction injury pattern.",
+          "Option C describes a lower trunk injury (Klumpke palsy), usually caused by upward traction on the arm (e.g., grabbing a branch while falling). It presents with intrinsic hand muscle weakness ('claw hand').",
+          "Option D and Option E represent more extensive or complete avulsions of the plexus, which would result in a completely flaccid, insensate arm."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q5",
+      "discipline": "Immunology",
+      "system": "Neurology",
+      "vignette": "A 32-year-old woman presents to her primary care physician complaining of double vision and drooping of her eyelids that worsens progressively throughout the day. She also notes difficulty chewing meat by the end of dinner. Neurological examination demonstrates symmetric ptosis that worsens with sustained upward gaze. A chest CT is ordered to screen for an associated thymoma. The pathophysiology of this patient's condition is best classified as which of the following?",
+      "options": [
+        "Type I hypersensitivity reaction",
+        "Type II hypersensitivity reaction",
+        "Type III hypersensitivity reaction",
+        "Type IV hypersensitivity reaction",
+        "Non-immune mediated paraneoplastic syndrome"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Classify Myasthenia Gravis as a Type II hypersensitivity reaction.",
+        "correct_rationale": "Option B is correct. The patient has Myasthenia Gravis, characterized by fatigable muscle weakness (ptosis, diplopia, bulbar weakness) that worsens with use and improves with rest. It is strongly associated with thymomas or thymic hyperplasia. The disease is caused by autoantibodies that bind to and block the postsynaptic nicotinic acetylcholine receptors at the neuromuscular junction. Because antibodies are directly targeting a fixed cell surface receptor, this is a classic Type II (cytotoxic/receptor-mediated) hypersensitivity reaction.",
+        "incorrect_rationales": [
+          "Option A involves IgE and mast cell degranulation (anaphylaxis, allergies).",
+          "Option C involves circulating antigen-antibody complexes depositing in tissues (SLE, serum sickness).",
+          "Option D is cell-mediated by T cells (contact dermatitis, PPD test).",
+          "Option E describes conditions like Lambert-Eaton myasthenic syndrome, but Myasthenia Gravis is a primary autoimmune disease, even when a thymoma is present."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q6",
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "vignette": "A 30-year-old man presents to the gastroenterology clinic with chronic diarrhea, flatulence, and a 10-pound weight loss over the past four months. He also complains of an intensely itchy, blistering rash on his elbows and knees. Laboratory testing reveals the presence of IgA anti-tissue transglutaminase antibodies. If a biopsy is taken from the distal duodenum of this patient, which of the following histological findings is most likely to be observed?",
+      "options": [
+        "Transmural inflammation with non-caseating granulomas",
+        "Crypt abscesses with mucosal ulceration",
+        "Villous atrophy with crypt hyperplasia and intraepithelial lymphocytosis",
+        "PAS-positive, diastase-resistant macrophages in the lamina propria",
+        "Thickened subepithelial collagen band with normal villous architecture"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify the histologic hallmarks of Celiac disease.",
+        "correct_rationale": "Option C is correct. The patient's chronic diarrhea, weight loss, highly specific autoantibodies (anti-tTG IgA), and concurrent Dermatitis Herpetiformis (itchy vesicular rash on extensor surfaces) are diagnostic of Celiac disease (gluten-sensitive enteropathy). The classic histological findings on a duodenal biopsy are blunting or complete loss of the intestinal villi (villous atrophy), compensatory crypt hyperplasia, and a dense infiltrate of lymphocytes within the epithelium.",
+        "incorrect_rationales": [
+          "Option A describes Crohn disease.",
+          "Option B describes Ulcerative Colitis.",
+          "Option D describes Whipple disease.",
+          "Option E describes collagenous microscopic colitis, typically seen in older women with watery diarrhea."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q7",
+      "discipline": "Endocrinology",
+      "system": "Pathology",
+      "vignette": "A 45-year-old woman presents to her physician complaining of profound fatigue, a 15-pound weight gain, constipation, and cold intolerance. Physical examination reveals dry skin, brittle hair, and a diffusely enlarged, painless, and rubbery thyroid gland. Laboratory testing confirms a significantly elevated TSH and low free T4. Her serum is highly positive for anti-thyroid peroxidase (anti-TPO) antibodies. A fine needle aspiration of the thyroid is performed. Which of the following describes the most likely histologic appearance of her thyroid gland?",
+      "options": [
+        "A dense, mononuclear lymphocytic infiltrate with well-formed germinal centers",
+        "Granulomatous inflammation with multinucleated giant cells",
+        "Branching papillary structures with central fibrovascular stalks and psammoma bodies",
+        "Extensive collagenous fibrosis replacing the glandular parenchyma",
+        "Hyperplastic follicles lined by tall, crowded columnar cells with scalloped colloid"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Recognize the histologic features of Hashimoto thyroiditis.",
+        "correct_rationale": "Option A is correct. The patient presents with classic signs of hypothyroidism, a painless goiter, and anti-TPO antibodies, diagnosing Hashimoto thyroiditis. This is the most common cause of hypothyroidism in iodine-sufficient regions. Histologically, Hashimoto thyroiditis is characterized by massive autoimmune destruction of the thyroid follicles by a dense infiltrate of lymphocytes, often forming organized lymphoid follicles with active germinal centers. Hurthle cells (enlarged eosinophilic follicular cells) are also typically present.",
+        "incorrect_rationales": [
+          "Option B describes Subacute Granulomatous (De Quervain) thyroiditis, which typically follows a viral infection and presents with a very *painful* goiter.",
+          "Option C describes Papillary thyroid carcinoma.",
+          "Option D describes Riedel thyroiditis, presenting as a 'hard as wood' fixed, painless mass.",
+          "Option E describes Graves disease, which causes hyperthyroidism, not hypothyroidism."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q8",
+      "discipline": "Hematology",
+      "system": "Pathology",
+      "vignette": "A 32-year-old woman complains of exhaustion, shortness of breath when climbing stairs, and a craving to chew on ice. Her medical history is significant for heavy menstrual bleeding lasting 8-10 days each month. Physical examination reveals pale conjunctivae and spoon-shaped nails (koilonychia). A complete blood count reveals a hemoglobin of 8.5 g/dL and an MCV of 68 fL. Which of the following laboratory profiles (Ferritin / TIBC / Serum Iron) is most likely to be found in this patient?",
+      "options": [
+        "Low Ferritin / High TIBC / Low Serum Iron",
+        "High Ferritin / Low TIBC / Low Serum Iron",
+        "Normal Ferritin / Normal TIBC / Low Serum Iron",
+        "High Ferritin / Normal TIBC / High Serum Iron",
+        "Low Ferritin / Low TIBC / High Serum Iron"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Interpret the iron study profile of Iron Deficiency Anemia.",
+        "correct_rationale": "Option A is correct. The patient has Iron Deficiency Anemia secondary to chronic blood loss (menorrhagia), manifesting with microcytic, hypochromic anemia, fatigue, pica (craving ice), and koilonychia. In iron deficiency, the body's iron stores are depleted, leading to a Low Ferritin level. In an attempt to capture any available iron, the liver upregulates the production of transferrin, leading to a High Total Iron Binding Capacity (TIBC). The Serum Iron circulating in the blood is Low.",
+        "incorrect_rationales": [
+          "Option B is the classic profile for Anemia of Chronic Disease (inflammation increases hepcidin, which hides iron in ferritin stores, raising ferritin and dropping TIBC and serum iron).",
+          "Option C is a non-specific or mixed profile.",
+          "Option D describes Hemochromatosis or frequent blood transfusions (iron overload).",
+          "Option E is physiologically impossible; if ferritin is low, the body will attempt to raise TIBC to scavenge iron."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q9",
+      "discipline": "Pathology",
+      "system": "Renal",
+      "vignette": "A 70-year-old man is brought to the emergency department from a nursing home with severe nausea, vomiting, and diarrhea for the past four days. He is lethargic and his mucous membranes are bone dry. His blood pressure is 85/50 mmHg, and his heart rate is 115 bpm. Laboratory testing reveals a BUN of 60 mg/dL and a serum creatinine of 2.0 mg/dL. Urinalysis reveals hyaline casts but no red or white blood cells. Which of the following specific findings is most consistent with this patient's acute renal dysfunction?",
+      "options": [
+        "Fractional excretion of sodium (FENa) < 1%",
+        "Urine sodium > 40 mEq/L",
+        "Urine osmolality < 350 mOsm/kg",
+        "BUN/Creatinine ratio < 15",
+        "Granular 'muddy brown' casts on urinalysis"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Identify the laboratory profile of Prerenal Acute Kidney Injury.",
+        "correct_rationale": "Option A is correct. The patient is suffering from severe volume depletion (vomiting/diarrhea, hypotension, tachycardia) leading to decreased renal perfusion. This causes Prerenal Acute Kidney Injury. In prerenal AKI, the kidney itself is physically undamaged and actively attempts to hold onto volume. Aldosterone forces the kidney to aggressively reabsorb sodium, dropping the Fractional Excretion of Sodium (FENa) to less than 1% and the urine sodium to < 20 mEq/L. ADH forces the kidney to aggressively absorb water, causing highly concentrated urine (> 500 mOsm/kg). The BUN/Cr ratio elevates to > 20 because urea is heavily reabsorbed alongside the water.",
+        "incorrect_rationales": [
+          "Option B, Option C, Option D, and Option E are all hallmarks of Acute Tubular Necrosis (Intrinsic AKI), where the tubules die and lose the ability to concentrate urine or reabsorb sodium."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q10",
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "vignette": "A 29-year-old nulliparous woman presents to the gynecology clinic complaining of severe, crampy pelvic pain that occurs right before and during her menstrual periods. She also reports deep pain during sexual intercourse (dyspareunia) and inability to conceive after two years of unprotected intercourse. A transvaginal ultrasound reveals a 4 cm complex cystic mass on her left ovary. If this mass is removed surgically and sectioned, it will most likely be filled with which of the following substances?",
+      "options": [
+        "Clear, serous fluid",
+        "Thick, viscous mucin",
+        "Hair, teeth, and sebaceous material",
+        "Thick, dark-brown, old blood",
+        "Purulent exudate"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Recognize the clinical presentation and gross pathology of an endometrioma.",
+        "correct_rationale": "Option D is correct. The triad of severe dysmenorrhea, dyspareunia, and infertility points strongly to Endometriosis (ectopic functional endometrial tissue outside the uterus). When endometrial tissue implants on the ovary, it undergoes the normal menstrual cycle, bleeding every month. Because the blood has nowhere to exit, it accumulates into a cyst. The old, oxidized blood turns thick and dark brown, creating the classic 'chocolate cyst' (endometrioma) of the ovary.",
+        "incorrect_rationales": [
+          "Option A describes a simple follicular cyst or serous cystadenoma.",
+          "Option B describes a mucinous cystadenoma.",
+          "Option C describes a mature cystic teratoma (dermoid cyst), a benign germ cell tumor.",
+          "Option E describes a tubo-ovarian abscess, a complication of severe Pelvic Inflammatory Disease (PID)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q11",
+      "discipline": "Pathology",
+      "system": "Musculoskeletal",
+      "vignette": "A 68-year-old man, who worked as a carpet installer for 40 years, presents with a long history of bilateral knee pain. He states the pain is worst at the end of the day after walking and is partially relieved by rest. He experiences stiffness in his knees when he wakes up, but it typically resolves within 15 minutes of moving around. Physical examination reveals crepitus upon flexion of the knees. The pathogenesis of this patient's joint disease is primarily driven by which of the following?",
+      "options": [
+        "Autoimmune destruction of the synovial membrane by T-cells",
+        "Deposition of monosodium urate crystals in the joint space",
+        "Mechanical wear and tear of the articular cartilage",
+        "Systemic bacterial infection seeding the joint capsule",
+        "Defective mineralization of osteoid (osteomalacia)"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Distinguish the pathogenesis and presentation of Osteoarthritis.",
+        "correct_rationale": "Option C is correct. The patient has Osteoarthritis (OA), the most common form of arthritis. It classically presents in older adults with pain in weight-bearing joints that worsens with use and improves with rest. Morning stiffness is brief (< 30 minutes), distinguishing it from rheumatoid arthritis. OA is primarily a non-inflammatory, degenerative disease caused by the physical, mechanical wear and tear of the articular hyaline cartilage over time, leading to bone rubbing on bone (causing crepitus and osteophyte formation).",
+        "incorrect_rationales": [
+          "Option A describes Rheumatoid Arthritis, which is inflammatory, autoimmune, causes prolonged morning stiffness (> 1 hour), and typically involves the small joints of the hands.",
+          "Option B describes Gout, presenting as an acute, severely painful, red, swollen joint (often the big toe).",
+          "Option D describes septic arthritis, an acute medical emergency with a highly inflamed, hot, swollen joint.",
+          "Option E causes bone pain and bowing (rickets/osteomalacia), usually due to Vitamin D deficiency, not joint crepitus."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q12",
+      "discipline": "Genetics",
+      "system": "Multisystem",
+      "vignette": "A neonate is born at term to a 41-year-old mother. Physical examination reveals profound generalized hypotonia, upward-slanting palpebral fissures, a flattened facial profile, and a single transverse palmar crease. An echocardiogram reveals an endocardial cushion defect. Cytogenetic analysis confirms the presence of three copies of chromosome 21. In the vast majority of cases, this specific chromosomal abnormality occurs as a direct result of which of the following mechanisms?",
+      "options": [
+        "Robertsonian translocation between chromosomes 14 and 21",
+        "Maternal meiotic nondisjunction during gametogenesis",
+        "Paternal meiotic nondisjunction during spermatogenesis",
+        "Somatic mosaicism occurring post-fertilization",
+        "Microdeletion of the 21q22 region"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify maternal meiotic nondisjunction as the primary cause of Down Syndrome.",
+        "correct_rationale": "Option B is correct. The infant exhibits the classic phenotype of Down Syndrome (Trisomy 21). Approximately 95% of Down syndrome cases are caused by meiotic nondisjunction, where homologous chromosomes or sister chromatids fail to separate properly during meiosis. The vast majority of these nondisjunction events occur during *maternal* meiosis I. The risk of maternal nondisjunction increases exponentially with advancing maternal age (e.g., >35 years old).",
+        "incorrect_rationales": [
+          "Option A is responsible for only about 4% of Down syndrome cases. It is usually familial and not linked to advanced maternal age.",
+          "Option C accounts for a very small fraction (less than 5%) of nondisjunction events.",
+          "Option D accounts for about 1% of cases, resulting in a milder phenotype because only a fraction of the body's cells carry the trisomy.",
+          "Option E describes the mechanism for syndromes like DiGeorge (22q11 deletion) or Prader-Willi/Angelman (15q11 deletion)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q13",
+      "discipline": "Physiology",
+      "system": "Cardiovascular",
+      "vignette": "During a routine cardiac cycle, there is a specific brief period where the pressure inside the left ventricle rapidly skyrockets from roughly 10 mmHg to 80 mmHg. However, during this exact same timeframe, the total volume of blood inside the left ventricle does not change at all. Which of the following mechanical states best describes the position of the heart valves during this specific physiological phase?",
+      "options": [
+        "Mitral valve open, Aortic valve closed",
+        "Mitral valve closed, Aortic valve open",
+        "Mitral valve closed, Aortic valve closed",
+        "Mitral valve open, Aortic valve open",
+        "Tricuspid valve open, Pulmonic valve open"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Determine the valve positions during isovolumetric contraction.",
+        "correct_rationale": "Option C is correct. The phase described is *Isovolumetric Contraction*. The ventricles begin to forcefully contract, causing pressure to rapidly rise. The instant ventricular pressure exceeds atrial pressure, the atrioventricular (Mitral) valve slams shut (creating the S1 heart sound). However, the ventricular pressure has not yet exceeded the systemic blood pressure in the aorta (usually ~80 mmHg), so the Aortic valve remains closed. With all 'doors' closed, the volume cannot change, but the pressure spikes immensely until the aortic valve is forced open.",
+        "incorrect_rationales": [
+          "Option A represents ventricular diastole (filling phase). Volume is increasing.",
+          "Option B represents the ventricular ejection phase. Volume is decreasing as blood is pushed into the aorta.",
+          "Option D is physiologically impossible in a normal heart.",
+          "Option E describes the right side of the heart during diastole/systole overlap, which doesn't fit the LV pressure profile."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q14",
+      "discipline": "Pharmacology",
+      "system": "Psychiatry",
+      "vignette": "A 28-year-old woman is diagnosed with major depressive disorder and generalized anxiety disorder. Her psychiatrist prescribes sertraline. Over the next four weeks, her mood significantly improves, though she notes mild, transient nausea and some sexual dysfunction. The therapeutic effect of this medication is achieved by directly blocking the presynaptic reuptake pump for which of the following neurotransmitters?",
+      "options": [
+        "Norepinephrine",
+        "Dopamine",
+        "Serotonin",
+        "Gamma-aminobutyric acid (GABA)",
+        "Acetylcholine"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify the mechanism of action of SSRIs.",
+        "correct_rationale": "Option C is correct. Sertraline belongs to the Selective Serotonin Reuptake Inhibitor (SSRI) class of antidepressants (along with fluoxetine, paroxetine, citalopram, and escitalopram). SSRIs are first-line therapy for depression and anxiety disorders. They work by selectively blocking the SERT (serotonin transporter) pump on the presynaptic terminal, keeping Serotonin (5-HT) in the synaptic cleft longer. Common side effects include GI upset and sexual dysfunction (anorgasmia/decreased libido).",
+        "incorrect_rationales": [
+          "Option A is targeted by SNRIs (venlafaxine) and TCAs, alongside serotonin.",
+          "Option B is targeted by Bupropion (an NDRI), which inhibits norepinephrine and dopamine reuptake, notably avoiding sexual dysfunction.",
+          "Option D is the target of benzodiazepines and barbiturates.",
+          "Option E is targeted by acetylcholinesterase inhibitors (for Alzheimer's) or blocked by anticholinergics."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q15",
+      "discipline": "Biochemistry",
+      "system": "Metabolic",
+      "vignette": "A 6-month-old infant is brought to the pediatric emergency department with a distended abdomen and unresponsiveness. The parents state the infant had been sleeping for 8 hours without a feeding. Blood tests reveal profound, life-threatening hypoglycemia, hyperlipidemia, hyperuricemia, and a severe lactic acidosis. Physical examination confirms massive hepatomegaly and renomegaly. The enzyme missing in this patient normally catalyzes the final, shared step of both glycogenolysis and gluconeogenesis. What is the deficient enzyme?",
+      "options": [
+        "Lysosomal acid alpha-1,4-glucosidase",
+        "Glycogen phosphorylase",
+        "Debranching enzyme (alpha-1,6-glucosidase)",
+        "Glucose-6-phosphatase",
+        "Pyruvate carboxylase"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Diagnose Von Gierke disease and identify the deficient enzyme.",
+        "correct_rationale": "Option D is correct. Severe fasting hypoglycemia, massive hepatomegaly, hyperuricemia (gout risk), and heavy lactic acidosis define Von Gierke disease (Glycogen Storage Disease Type I). It is caused by a deficiency in Glucose-6-phosphatase, which is primarily found in the liver and kidneys. This enzyme strips the phosphate off glucose-6-phosphate, allowing free glucose to enter the blood. Because it is the final step for *both* glycogen breakdown and gluconeogenesis, the liver is completely incapable of maintaining blood sugar during a fast.",
+        "incorrect_rationales": [
+          "Option A is defective in Pompe disease (Type II), presenting with severe hypertrophic cardiomyopathy and hypotonia, but normal blood sugar.",
+          "Option B is defective in McArdle disease (muscle) causing cramps/myoglobinuria, or Hers disease (liver) causing mild hypoglycemia.",
+          "Option C is defective in Cori disease (Type III), presenting with milder hypoglycemia and normal lactate levels.",
+          "Option E is a purely gluconeogenic enzyme; a defect here would not trap glycogen in the liver to cause massive hepatomegaly."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q16",
+      "discipline": "Genetics",
+      "system": "Musculoskeletal",
+      "vignette": "A 2-year-old boy is brought to the emergency department after a minor fall resulting in a fractured femur. His medical history reveals two previous fractures of the radius and tibia from minimal trauma. Physical examination is notable for a bluish tint to the sclerae and mild hearing loss. The physician suspects a genetic disorder involving defective connective tissue. The primary structural protein defective in this patient's condition normally forms the major organic component of which of the following tissues?",
+      "options": [
+        "Hyaline cartilage",
+        "Basement membranes",
+        "Bone, skin, and tendons",
+        "Blood vessel walls and intestines",
+        "Hair and nails"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify the defect in Type I collagen in Osteogenesis Imperfecta.",
+        "correct_rationale": "Option C is correct. The patient presents with multiple fractures from minimal trauma, blue sclerae (due to choroidal veins showing through thin sclera), and hearing loss (ossicle abnormalities). This is the classic triad of Osteogenesis Imperfecta (OI), also known as 'brittle bone disease'. OI is caused by an autosomal dominant genetic defect in the synthesis of Type I collagen. Type I collagen is the most abundant collagen in the human body, forming the primary organic matrix of bone, skin, tendons, dentin, and the sclera. (Mnemonic: Type ONE is bONE).",
+        "incorrect_rationales": [
+          "Option A describes tissues primarily composed of Type II collagen (defective in chondrodysplasias).",
+          "Option B describes tissues primarily composed of Type IV collagen (defective in Alport syndrome).",
+          "Option D describes tissues heavily reliant on Type III collagen (defective in the vascular type of Ehlers-Danlos syndrome).",
+          "Option E describes tissues composed primarily of keratin."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q17",
+      "discipline": "Immunology",
+      "system": "Endocrine",
+      "vignette": "A neonate is evaluated for tetany and a seizure on the second day of life. Laboratory testing reveals severe hypocalcemia. A chest X-ray shows an absent thymic shadow. The infant also exhibits a cleft palate and a right ventricular outflow tract obstruction (Tetralogy of Fallot). The underlying embryologic failure that caused this patient's condition involved the abnormal development of which of the following structures?",
+      "options": [
+        "First and second pharyngeal arches",
+        "Second and third pharyngeal clefts",
+        "Third and fourth pharyngeal pouches",
+        "Fourth and sixth aortic arches",
+        "Thyroglossal duct"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Recognize DiGeorge Syndrome (22q11.2 microdeletion) and its embryological origins.",
+        "correct_rationale": "Option C is correct. The clinical presentation of hypocalcemia (absent parathyroid glands), absent thymus (immunodeficiency), cleft palate, and cardiac defects (Tetralogy of Fallot) defines DiGeorge Syndrome (a 22q11.2 microdeletion syndrome). The defining embryologic defect is the failure of the third and fourth pharyngeal pouches to develop. The third pouch normally gives rise to the inferior parathyroid glands and the thymus, while the fourth pouch forms the superior parathyroid glands.",
+        "incorrect_rationales": [
+          "Option A anomalies would cause severe facial/jaw deformities (e.g., Treacher Collins syndrome) but not thymic or parathyroid aplasia.",
+          "Option B anomalies typically result in branchial cleft cysts in the lateral neck.",
+          "Option D give rise to the true aortic arch and pulmonary arteries/ductus arteriosus, but do not explain the thymic/parathyroid absence.",
+          "Option E gives rise to the thyroid gland, which is usually normal in DiGeorge syndrome."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q18",
+      "discipline": "Pharmacology",
+      "system": "Neurology",
+      "vignette": "A 25-year-old woman requires a minor surgical procedure to remove a lipoma from her back. The physician injects local lidocaine into the surrounding tissue to provide anesthesia. The patient reports a rapid loss of pain sensation in the area, while motor function and pressure sensation remain intact for a longer period. The injected medication achieves its anesthetic effect by binding to a specific cellular target. Where is the binding site for this medication physically located?",
+      "options": [
+        "The extracellular face of the voltage-gated potassium channel",
+        "The extracellular face of the voltage-gated sodium channel",
+        "The intracellular face of the voltage-gated sodium channel",
+        "The presynaptic calcium channels at the nerve terminal",
+        "The intracellular face of the ligand-gated chloride channel"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify the intracellular mechanism of action of local anesthetics.",
+        "correct_rationale": "Option C is correct. Local anesthetics (like lidocaine and bupivacaine) block nerve conduction by preventing depolarization. They do this by inhibiting voltage-gated sodium channels. However, they do not bind from the outside. To be effective, the un-ionized (lipid-soluble) form of the drug must cross the axonal membrane into the cytoplasm. Once inside the cell, the drug ionizes, and the ionized form binds to the *intracellular face* of the voltage-gated sodium channel, physically blocking the influx of sodium.",
+        "incorrect_rationales": [
+          "Option A and Option B are incorrect because local anesthetics do not target potassium channels, nor do they bind the exterior of the sodium channel (unlike some neurotoxins like tetrodotoxin).",
+          "Option D is the target of certain gabapentinoids (gabapentin/pregabalin) and ziconotide, not local anesthetics.",
+          "Option E describes the mechanism of GABA-A receptor modulation (benzodiazepines/barbiturates)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q19",
+      "discipline": "Pathology",
+      "system": "Renal",
+      "vignette": "A 4-year-old boy is brought to the clinic by his mother, who reports that his eyes have been severely swollen for the past three mornings, and his urine has been 'foamy.' Physical examination reveals periorbital edema and mild ascites. Urinalysis shows 4+ proteinuria with no hematuria. Blood pressure is normal. The physician empirically prescribes a course of corticosteroids, and the child's proteinuria rapidly resolves. If a renal biopsy had been performed prior to treatment, which of the following findings would be most expected on light microscopy?",
+      "options": [
+        "Normal glomerular architecture",
+        "Diffuse thickening of the capillary walls",
+        "Mesangial hypercellularity with 'tram-track' appearance",
+        "Crescent formation in the Bowman space",
+        "Nodular glomerulosclerosis (Kimmelstiel-Wilson nodules)"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Identify the light microscopy findings of Minimal Change Disease.",
+        "correct_rationale": "Option A is correct. The child has nephrotic syndrome (severe edema, frothy urine, massive proteinuria) that rapidly responds to corticosteroids. This is the classic presentation of Minimal Change Disease (MCD), the most common cause of nephrotic syndrome in children. True to its name, MCD shows *absolutely normal glomerular architecture on light microscopy*. The pathology (effacement of podocyte foot processes) is only visible under electron microscopy.",
+        "incorrect_rationales": [
+          "Option B describes Membranous nephropathy, a common cause of nephrotic syndrome in adults (associated with solid tumors or SLE).",
+          "Option C describes Membranoproliferative glomerulonephritis (MPGN).",
+          "Option D describes Rapidly Progressive Glomerulonephritis (RPGN), a severe nephritic syndrome.",
+          "Option E describes diabetic nephropathy."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q20",
+      "discipline": "Microbiology",
+      "system": "Gastrointestinal",
+      "vignette": "A 32-year-old man recently returned from a humanitarian trip to Haiti and presents to the emergency department with profound, massive, watery diarrhea. He describes the stool as resembling 'rice water.' He is severely dehydrated and hypotensive. Stool cultures grow a comma-shaped, Gram-negative, oxidase-positive rod that prefers alkaline growth media. The exotoxin produced by this organism causes massive fluid loss by permanently activating which of the following cellular components?",
+      "options": [
+        "Inhibitory G protein (Gi)",
+        "Stimulatory G protein (Gs)",
+        "Elongation factor 2 (EF-2)",
+        "Guanylate cyclase",
+        "Ribosomal 60S subunit"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the mechanism of action of Cholera toxin.",
+        "correct_rationale": "Option B is correct. The patient is infected with *Vibrio cholerae* (comma-shaped, oxidase-positive rod, rice-water stools, grows on alkaline TCBS agar). The bacteria secrete Cholera toxin, an AB exotoxin. The active 'A' subunit enters intestinal epithelial cells and permanently ADP-ribosylates the *stimulatory G protein (Gs)*, locking it in the 'on' position. This leads to continuous activation of adenylyl cyclase, a massive overproduction of cAMP, and the subsequent uncontrolled efflux of chloride and water into the gut lumen.",
+        "incorrect_rationales": [
+          "Option A is permanently *disabled* (ADP-ribosylated) by Pertussis toxin, causing a rise in cAMP in the respiratory tract.",
+          "Option C is inactivated by Diphtheria toxin and Pseudomonas Exotoxin A.",
+          "Option D is activated by the heat-stable (ST) toxin of Enterotoxigenic E. coli (ETEC), producing cGMP.",
+          "Option E is inactivated by Shiga toxin and Shiga-like toxin (EHEC)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q21",
+      "discipline": "Endocrinology",
+      "system": "Reproductive",
+      "vignette": "A 28-year-old man is evaluated in a fertility clinic for an inability to conceive with his wife after two years of unprotected intercourse. Physical examination reveals a tall stature with disproportionately long limbs, mild gynecomastia, sparse facial and body hair, and small, firm testes. Semen analysis confirms azoospermia. If evaluated, which of the following hormonal profiles is most likely to be found in this patient?",
+      "options": [
+        "Low FSH, Low LH, Low Testosterone",
+        "High FSH, High LH, Low Testosterone",
+        "Low FSH, High LH, High Testosterone",
+        "Normal FSH, Normal LH, High Estradiol",
+        "High FSH, Low LH, Normal Testosterone"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize the hormonal profile of primary hypogonadism in Klinefelter syndrome.",
+        "correct_rationale": "Option B is correct. The clinical presentation of a tall, feminized male with small, firm testes and infertility is diagnostic of Klinefelter Syndrome (47, XXY). The extra X chromosome causes dysgenesis of the seminiferous tubules and Leydig cells in the testes, leading to primary hypogonadism. Because the testes are failing, testosterone levels are low, and inhibin B (from Sertoli cells) is low. The lack of negative feedback on the pituitary results in markedly elevated levels of both Follicle-Stimulating Hormone (FSH) and Luteinizing Hormone (LH).",
+        "incorrect_rationales": [
+          "Option A describes secondary (hypogonadotropic) hypogonadism, such as Kallmann syndrome or a pituitary tumor.",
+          "Option C describes an androgen-secreting tumor or exogenous androgen use (though exogenous use would typically suppress LH).",
+          "Option D and Option E do not match the classic primary gonadal failure profile of Klinefelter syndrome."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q22",
+      "discipline": "Anatomy",
+      "system": "Musculoskeletal",
+      "vignette": "A 45-year-old construction worker presents to the clinic with right shoulder pain that worsens when he attempts to reach overhead to grab tools. He recently felt a 'pop' in his shoulder while lifting a heavy box. Physical examination reveals weakness during the first 15 degrees of arm abduction, and he complains of severe pain during the 'empty can' (Jobe) test. Which of the following muscles is most likely injured in this patient?",
+      "options": [
+        "Infraspinatus",
+        "Teres minor",
+        "Subscapularis",
+        "Supraspinatus",
+        "Deltoid"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Identify the function and clinical testing of the supraspinatus muscle.",
+        "correct_rationale": "Option D is correct. The patient has a rotator cuff tear. The supraspinatus is the most frequently injured muscle of the rotator cuff. Its primary function is to initiate abduction of the arm (the first 15 degrees), after which the deltoid takes over. It is clinically assessed using the 'empty can' (Jobe) test, where the patient abducts the arm to 90 degrees with the thumb pointing downward against resistance.",
+        "incorrect_rationales": [
+          "Option A and Option B primarily perform external (lateral) rotation of the arm. Injury is tested by resisting external rotation with the elbow tucked into the side.",
+          "Option C primarily performs internal (medial) rotation of the arm. Injury is tested using the 'lift-off' test (pushing the hand away from the lower back).",
+          "Option E acts as the primary abductor from 15 to 90 degrees and is innervated by the axillary nerve, rarely injured in classic rotator cuff tears."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q23",
+      "discipline": "Physiology",
+      "system": "Renal",
+      "vignette": "A 24-year-old medical student decides to spend her summer vacation climbing Mount Kilimanjaro (elevation 19,341 feet). By day four of her ascent, the decreased partial pressure of oxygen in the atmosphere triggers a massive hyperventilatory response. To compensate for the systemic acid-base disturbance caused by this continuous hyperventilation, the student's kidneys will primarily perform which of the following actions?",
+      "options": [
+        "Increase the secretion of hydrogen ions (H+) into the tubular lumen",
+        "Increase the synthesis of new bicarbonate (HCO3-) in the proximal tubule",
+        "Decrease the reabsorption of filtered bicarbonate (HCO3-)",
+        "Increase the production and excretion of ammonium (NH4+)",
+        "Increase the reabsorption of filtered potassium (K+)"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Understand renal compensation for high-altitude respiratory alkalosis.",
+        "correct_rationale": "Option C is correct. At high altitudes, low atmospheric oxygen causes hypoxia, which drives hyperventilation. Hyperventilation blows off massive amounts of CO2, leading to a primary Respiratory Alkalosis (high pH, low CO2). To compensate and bring the blood pH back toward normal, the kidneys must eliminate base from the body. They achieve this by dramatically *decreasing the reabsorption of filtered bicarbonate (HCO3-)*, dumping it into the urine, which creates a compensatory metabolic acidosis.",
+        "incorrect_rationales": [
+          "Option A, Option B, and Option D are all renal mechanisms used to compensate for a systemic *acidosis* (by generating new base and excreting acid). Doing these would make the patient's alkalosis fatally worse.",
+          "Option E is incorrect; in alkalosis, potassium shifts into cells, often leading to hypokalemia, and renal potassium handling does not directly compensate for the pH disturbance."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q24",
+      "discipline": "Biostatistics",
+      "system": "Multisystem",
+      "vignette": "A group of researchers conducts a study to investigate the association between artificial sweetener consumption and the development of bladder cancer. They recruit 100 patients recently diagnosed with bladder cancer and 100 healthy individuals matched for age and sex. The participants are interviewed regarding their past dietary habits. The researchers find that 40 of the cancer patients and 20 of the healthy individuals heavily consumed artificial sweeteners. Based on this study design, what is the calculated Odds Ratio (OR) for the association between artificial sweeteners and bladder cancer?",
+      "options": [
+        "0.33",
+        "2.0",
+        "2.66",
+        "4.0",
+        "There is not enough information to calculate an Odds Ratio."
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify a case-control study and calculate the Odds Ratio.",
+        "correct_rationale": "Option C is correct. The study described recruits patients based on disease status (cases with cancer vs. healthy controls) and looks backward at prior exposure. This is a Case-Control study, the measure of association for which is the Odds Ratio (OR). The formula is (Odds of exposure in cases) / (Odds of exposure in controls). Odds in cases = 40 exposed / 60 unexposed = 40/60 = 2/3. Odds in controls = 20 exposed / 80 unexposed = 20/80 = 1/4. Odds Ratio = (2/3) / (1/4) = 8/3 = 2.66. (Alternatively using the cross-product rule: ad/bc = (40*80)/(60*20) = 3200/1200 = 2.66).",
+        "incorrect_rationales": [
+          "Option A is the inverse of the OR.",
+          "Option B is the relative risk calculation ((40/100) / (20/100)), which is inappropriate for a case-control study since the researchers artificially set the total number of diseased patients.",
+          "Option D is mathematically incorrect.",
+          "Option E is false; a case-control study perfectly provides the data needed for an Odds Ratio."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q25",
+      "discipline": "Pathology",
+      "system": "Cardiovascular",
+      "vignette": "A 55-year-old man collapses at home and is pronounced dead on arrival at the hospital. His wife reports he complained of crushing chest pain and nausea exactly 18 hours prior to his collapse, but refused to seek medical care. An autopsy is performed, and a section of the left ventricular myocardium is examined under light microscopy. Which of the following pathological changes is most likely to be the predominant finding in the ischemic tissue at this specific time post-infarction?",
+      "options": [
+        "Dense infiltration of neutrophils",
+        "Macrophage infiltration and phagocytosis of dead cells",
+        "Granulation tissue with plump fibroblasts and new capillaries",
+        "Dense collagenous scar formation",
+        "Coagulative necrosis with wavy fibers and loss of nuclei"
+      ],
+      "correct_index": 4,
+      "explanation": {
+        "educational_objective": "Identify the timeline of microscopic changes in myocardial infarction.",
+        "correct_rationale": "Option E is correct. The patient died exactly 18 hours after the onset of myocardial infarction. The microscopic changes of an MI follow a strict timeline. Between 4 to 24 hours post-MI, the defining feature is early coagulative necrosis. The cells die but retain their basic outline, presenting with a loss of nuclei (karyolysis), hypereosinophilia, and characteristic 'wavy' myocardial fibers. The inflammatory infiltrate has not yet peaked.",
+        "incorrect_rationales": [
+          "Option A (neutrophil infiltration) begins to appear around 12-24 hours, but becomes the absolute *predominant* feature between 1 and 3 days post-MI.",
+          "Option B (macrophages) predominate between 3 to 14 days, clearing the necrotic debris.",
+          "Option C (granulation tissue) predominates from 2 to 4 weeks.",
+          "Option D (collagenous scar) takes months to fully form and solidify."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q26",
+      "discipline": "Microbiology",
+      "system": "Neurology",
+      "vignette": "A 45-year-old man presents to the emergency department with fever, headache, altered mental status, and new-onset focal seizures. A lumbar puncture is performed. Cerebrospinal fluid analysis reveals a markedly elevated protein level, a normal glucose level, a lymphocytic pleocytosis, and the presence of numerous red blood cells. An MRI of the brain demonstrates asymmetric hyperintensity and edema localized specifically to the medial temporal lobes. Which of the following is the most likely causative organism?",
+      "options": [
+        "Streptococcus pneumoniae",
+        "Neisseria meningitidis",
+        "Cryptococcus neoformans",
+        "Herpes simplex virus type 1 (HSV-1)",
+        "Toxoplasma gondii"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Recognize the clinical, CSF, and radiological hallmarks of HSV-1 encephalitis.",
+        "correct_rationale": "Option D is correct. The patient's presentation of altered mental status, fever, and focal seizures, combined with MRI findings of localized *temporal lobe* edema and necrosis, is classic for Herpes Simplex Virus Type 1 (HSV-1) encephalitis. It is the most common cause of sporadic, fatal viral encephalitis in the US. The CSF profile points to a viral etiology (lymphocytes, normal glucose), but the specific presence of red blood cells (due to the hemorrhagic necrosis of the temporal lobes) is highly suggestive of HSV-1.",
+        "incorrect_rationales": [
+          "Option A and Option B cause bacterial meningitis, which would feature a neutrophilic pleocytosis and very *low* glucose in the CSF, without localized temporal lobe necrosis.",
+          "Option C is a fungal cause of meningitis, typically seen in severely immunocompromised patients (e.g., AIDS), presenting with an indolent course and 'soap bubble' lesions in the basal ganglia.",
+          "Option E causes brain abscesses (ring-enhancing lesions) in immunocompromised patients, not viral encephalitis."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q27",
+      "discipline": "Pharmacology",
+      "system": "Renal",
+      "vignette": "A 65-year-old man with severe congestive heart failure is admitted to the hospital with acute pulmonary edema. He is aggressively treated with high intravenous doses of a potent diuretic to quickly offload his fluid volume. Two days later, he reports significant improvement in his breathing but complains of a new, constant ringing in his ears and difficulty hearing the television. The diuretic responsible for this adverse effect exerts its primary therapeutic action by blocking a transport protein located in which of the following nephron segments?",
+      "options": [
+        "Proximal convoluted tubule",
+        "Thin descending limb of the loop of Henle",
+        "Thick ascending limb of the loop of Henle",
+        "Distal convoluted tubule",
+        "Cortical collecting duct"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify the site of action and ototoxicity of loop diuretics.",
+        "correct_rationale": "Option C is correct. The patient was treated for acute pulmonary edema with a potent diuretic and subsequently developed tinnitus and hearing loss (ototoxicity). This is a classic presentation of high-dose Loop Diuretic therapy (e.g., Furosemide, Torsemide, Ethacrynic acid). Loop diuretics act by potently inhibiting the Na+/K+/2Cl- cotransporter, which is located exclusively in the thick ascending limb of the loop of Henle. Ototoxicity occurs because a similar transport protein is found in the inner ear.",
+        "incorrect_rationales": [
+          "Option A is the site of Acetazolamide (carbonic anhydrase inhibitors).",
+          "Option B is permeable only to water (concentrating segment), manipulated by osmotic diuretics like mannitol.",
+          "Option D is the site of Thiazide diuretics.",
+          "Option E is the site of Potassium-sparing diuretics (spironolactone, amiloride)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q28",
+      "discipline": "Embryology",
+      "system": "Cardiovascular",
+      "vignette": "A male infant is born at 39 weeks gestation. Several hours after birth, he is noted to have a bluish discoloration of his lips and nail beds, particularly when crying. Echocardiography reveals a large ventricular septal defect (VSD), an overriding aorta, right ventricular hypertrophy, and narrowing of the pulmonary valve. The physician explains that these four distinct anatomical anomalies are the direct consequence of a single primary embryological malformation. What is this primary malformation?",
+      "options": [
+        "Failure of the endocardial cushions to fuse completely",
+        "Anterosuperior displacement of the infundibular septum",
+        "Failure of the aorticopulmonary septum to spiral",
+        "Incomplete closure of the foramen ovale",
+        "Absence of the tricuspid valve leaflets"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the primary embryologic defect causing Tetralogy of Fallot.",
+        "correct_rationale": "Option B is correct. The infant's presentation (cyanosis when crying/tet spells) and echocardiogram findings (VSD, overriding aorta, RVH, pulmonary stenosis) are the diagnostic hallmarks of Tetralogy of Fallot (TOF). All four of these classic features are the downstream consequence of a single embryological error: the anterosuperior displacement (skewing) of the infundibular (conotruncal) septum. This uneven split of the truncus arteriosus creates a narrow pulmonary trunk and a large aorta that overrides a septal defect.",
+        "incorrect_rationales": [
+          "Option A causes atrial septal defects, VSDs, or complete AV canal defects, often seen in Down syndrome.",
+          "Option C causes Transposition of the Great Vessels, where the aorta arises from the RV and the pulmonary trunk from the LV.",
+          "Option D causes a Patent Foramen Ovale (PFO), which is usually asymptomatic unless a right-to-left shunt occurs later in life.",
+          "Option E describes Tricuspid Atresia, which requires both an ASD and a VSD for survival."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q29",
+      "discipline": "Immunology",
+      "system": "Hematology",
+      "vignette": "A 25-year-old man involved in a trauma requires an emergency blood transfusion. Due to a clerical error in the blood bank, he receives a unit of Type A blood, despite having Type O blood himself. Within minutes of starting the infusion, he develops severe flank pain, chills, a fever, and gross hematuria. His blood pressure drops to 80/50 mmHg. The catastrophic immune response destroying the donor erythrocytes is best classified as which of the following?",
+      "options": [
+        "Type I hypersensitivity reaction",
+        "Type II hypersensitivity reaction",
+        "Type III hypersensitivity reaction",
+        "Type IV hypersensitivity reaction",
+        "Delayed-type cellular rejection"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Classify an acute hemolytic transfusion reaction as a Type II hypersensitivity.",
+        "correct_rationale": "Option B is correct. The patient is experiencing an Acute Hemolytic Transfusion Reaction due to ABO blood group incompatibility. The patient (Type O) has naturally occurring, preformed anti-A and anti-B IgM antibodies. When the Type A blood is infused, these antibodies instantly bind to the A antigens on the donor red blood cells, activating the complement cascade and causing massive intravascular hemolysis. Because the antibodies are directly targeting antigens fixed on a cell surface, this is a classic Type II (Cytotoxic) Hypersensitivity reaction.",
+        "incorrect_rationales": [
+          "Option A involves IgE and mast cell degranulation (anaphylaxis). While this patient is hypotensive, the mechanism is complement-mediated lysis, not IgE.",
+          "Option C involves soluble antigen-antibody complexes depositing in tissues (serum sickness).",
+          "Option D is a delayed, T-cell mediated response (e.g., PPD test or contact dermatitis).",
+          "Option E is a T-cell mediated organ rejection process that takes weeks to months."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q30",
+      "discipline": "Biochemistry",
+      "system": "Metabolic",
+      "vignette": "A 5-day-old infant is brought to the emergency department for severe lethargy, poor feeding, and recurrent vomiting. The mother notes a distinct, sweet, caramel-like odor emanating from the infant's diapers. Laboratory studies reveal severe metabolic acidosis and hypoglycemia. A defect is suspected in the metabolism of specific amino acids. To manage this patient's acute crisis and prevent further neurological damage, the dietary intake of which of the following groups of amino acids must be strictly restricted?",
+      "options": [
+        "Phenylalanine and Tyrosine",
+        "Methionine and Homocysteine",
+        "Lysine and Arginine",
+        "Isoleucine, Leucine, and Valine",
+        "Tryptophan and Histidine"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Identify the restricted amino acids in Maple Syrup Urine Disease (MSUD).",
+        "correct_rationale": "Option D is correct. The clinical presentation of severe neonatal encephalopathy, acidosis, and a sweet, caramel/maple syrup odor to the urine defines Maple Syrup Urine Disease (MSUD). MSUD is an autosomal recessive disorder caused by a deficiency of the Branched-Chain Alpha-Ketoacid Dehydrogenase complex. This enzyme is required to break down the branched-chain amino acids (BCAAs): Isoleucine, Leucine, and Valine. (Mnemonic: I Love Vermont maple syrup). Treatment requires immediate and lifelong restriction of these specific amino acids.",
+        "incorrect_rationales": [
+          "Option A restriction is required for Phenylketonuria (PKU).",
+          "Option B restriction is required for Homocystinuria.",
+          "Option C are basic amino acids; defects in basic amino acid transport cause cystinuria.",
+          "Option E are not related to this classic presentation."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q31",
+      "discipline": "Genetics",
+      "system": "Cardiovascular",
+      "vignette": "A 35-year-old man presents to the clinic with severe, crushing chest pain that radiates to his left jaw. His father died of a massive myocardial infarction at age 42. Physical examination reveals firm, nodular, painless masses on both of his Achilles tendons. His fasting lipid panel shows a total cholesterol of 450 mg/dL and an LDL of 380 mg/dL. The underlying genetic mutation in this patient primarily impairs the cellular uptake of lipoproteins by causing a defect in a receptor that normally recognizes which of the following apolipoproteins?",
+      "options": [
+        "Apo A-I",
+        "Apo B-48",
+        "Apo B-100",
+        "Apo C-II",
+        "Apo E"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify the receptor defect and target apolipoprotein in Familial Hypercholesterolemia (Type IIa).",
+        "correct_rationale": "Option C is correct. (Second-order question). Step 1: Premature coronary artery disease (MI at age 35), tendon xanthomas, and massively elevated LDL (>300 mg/dL) are diagnostic of Familial Hypercholesterolemia (Type IIa dyslipidemia). Step 2: This is an autosomal dominant disorder usually caused by a mutation in the LDL receptor. Step 3: The normal LDL receptor clears LDL from the bloodstream by recognizing and binding directly to Apolipoprotein B-100 (Apo B-100), which is the sole apolipoprotein found on the surface of LDL particles.",
+        "incorrect_rationales": [
+          "Option A is the primary structural protein for HDL and activates LCAT.",
+          "Option B is found exclusively on chylomicrons and is necessary for their secretion from the gut.",
+          "Option D is a required cofactor for lipoprotein lipase (LPL).",
+          "Option E mediates the hepatic uptake of chylomicron remnants and IDL, but LDL receptors rely primarily on Apo B-100 for the clearance of LDL."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q32",
+      "discipline": "Microbiology",
+      "system": "Gastrointestinal",
+      "vignette": "A 24-year-old man presents to the emergency department with severe nausea, abdominal cramping, and copious non-bloody vomiting. His symptoms began suddenly, roughly 3 hours after he ate a large plate of reheated pork fried rice at a local buffet. His symptoms resolve completely within 24 hours without targeted therapy. The pathogenesis of this patient's acute illness is primarily mediated by which of the following?",
+      "options": [
+        "Ingestion of a preformed bacterial enterotoxin",
+        "Bacterial invasion of the intestinal mucosa",
+        "In vivo production of a heat-labile toxin after ingestion",
+        "Granulomatous inflammation of the terminal ileum",
+        "Viral destruction of the mature enterocytes"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Recognize the clinical presentation and mechanism of Bacillus cereus food poisoning.",
+        "correct_rationale": "Option A is correct. (First-order question). Rapid-onset severe nausea and vomiting (emetic syndrome) occurring just a few hours (1-5 hours) after eating reheated rice is the classic presentation of *Bacillus cereus* food poisoning. Because the incubation time is so remarkably short, the bacteria do not have time to grow in the gut. Instead, the illness is caused by the ingestion of the cereulide enterotoxin, which was already *preformed* in the food while it was sitting at room temperature. The toxin is highly heat-stable and survives reheating.",
+        "incorrect_rationales": [
+          "Option B describes invasive organisms like *Salmonella*, *Shigella*, or *Campylobacter*, which take days to incubate and cause bloody diarrhea with fever.",
+          "Option C describes the diarrheal (not emetic) form of *B. cereus*, or *Clostridium perfringens*, which typically takes 8-18 hours to incubate as the toxin is formed in the gut.",
+          "Option D describes Crohn disease.",
+          "Option E describes a Norovirus or Rotavirus infection, which usually takes 24-48 hours to incubate."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q33",
+      "discipline": "Pathology",
+      "system": "Hematology",
+      "vignette": "A 15-year-old girl is brought to the clinic due to intermittent episodes of jaundice and generalized fatigue. Physical examination reveals a palpable, enlarged spleen. Laboratory studies show a normocytic anemia, an elevated reticulocyte count, and an increased mean corpuscular hemoglobin concentration (MCHC). A peripheral blood smear demonstrates numerous small, perfectly round erythrocytes lacking a central pallor. An osmotic fragility test is strongly positive. The fundamental defect in this patient's red blood cells involves an abnormality in which of the following?",
+      "options": [
+        "Hemoglobin beta chain synthesis",
+        "Glutathione reduction capacity",
+        "Glycosylphosphatidylinositol (GPI) anchoring",
+        "Cytoskeletal tethering proteins",
+        "Erythrocyte pyruvate kinase activity"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Identify the cytoskeletal defect in Hereditary Spherocytosis.",
+        "correct_rationale": "Option D is correct. (Second-order question). Step 1: Jaundice, splenomegaly, elevated MCHC, small red cells lacking central pallor (spherocytes), and a positive osmotic fragility test definitively diagnose Hereditary Spherocytosis. Step 2: Hereditary spherocytosis is typically an autosomal dominant disorder caused by a genetic defect in the red blood cell *cytoskeletal tethering proteins* (most commonly ankyrin, band 3, or spectrin). This defect causes the RBC membrane to bleb and shear off over time, forcing the cell into a rigid, spherical shape that is ultimately destroyed by the spleen.",
+        "incorrect_rationales": [
+          "Option A describes Beta-thalassemia, which features target cells and a low MCV (microcytic), not an elevated MCHC and spherocytes.",
+          "Option B describes G6PD deficiency (bite cells, Heinz bodies).",
+          "Option C describes Paroxysmal Nocturnal Hemoglobinuria (PNH).",
+          "Option E describes Pyruvate Kinase deficiency, which presents with burr cells (echinocytes) and normal osmotic fragility."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q34",
+      "discipline": "Physiology",
+      "system": "Endocrine",
+      "vignette": "A 30-year-old woman is admitted to the neurosurgical ICU following a severe motor vehicle collision that resulted in a basilar skull fracture and significant traumatic brain injury. On hospital day 3, the nursing staff notes she has produced 8 liters of very dilute, pale urine over the last 24 hours. Her serum sodium is 152 mEq/L, and her urine osmolality is 110 mOsm/kg. The physician administers an intravenous dose of desmopressin. Two hours later, her urine osmolality increases to 650 mOsm/kg. The patient's polyuria was initially caused by traumatic damage to which of the following anatomical structures?",
+      "options": [
+        "Anterior pituitary gland",
+        "Posterior pituitary gland",
+        "Adrenal cortex",
+        "Renal collecting ducts",
+        "Juxtaglomerular apparatus"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Diagnose Central Diabetes Insipidus post-trauma and localize the defect to the posterior pituitary/hypothalamus.",
+        "correct_rationale": "Option B is correct. (Second-order question). Step 1: Massive polyuria with dilute urine (low osmolality) and hypernatremia following severe head trauma indicates Diabetes Insipidus (DI). Step 2: The administration of exogenous desmopressin (an ADH analog) successfully concentrated her urine (osmolality rose from 110 to 650). This rapid correction proves that her kidneys work perfectly, but her brain is failing to secrete ADH. This is Central Diabetes Insipidus. Step 3: Central DI in the setting of trauma is caused by physical damage to the hypothalamus or the *Posterior pituitary gland* (the site of ADH storage and release).",
+        "incorrect_rationales": [
+          "Option A secretes FLAT PiG hormones (FSH, LH, ACTH, TSH, Prolactin, GH), not ADH.",
+          "Option C secretes aldosterone; damage here causes Addison's disease (hyponatremia, hyperkalemia, hypotension), not massive polyuria.",
+          "Option D is the target of ADH. If the collecting ducts were damaged (Nephrogenic DI), the desmopressin test would have completely failed to concentrate the urine.",
+          "Option E secretes renin in response to low blood pressure."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q35",
+      "discipline": "Anatomy",
+      "system": "Musculoskeletal",
+      "vignette": "A 20-year-old college football player is tackled forcefully from the lateral aspect of his left knee while his left foot is firmly planted on the ground. He hears a loud 'pop' and collapses in severe pain. Rapid joint effusion occurs. Physical examination reveals excessive anterior translation of the tibia relative to the femur when the knee is flexed to 90 degrees. Application of a valgus stress to the knee significantly opens the medial joint line. Based on the mechanism of injury and physical exam findings, an MRI is highly likely to reveal a tear in which of the following additional structures?",
+      "options": [
+        "Lateral collateral ligament",
+        "Medial meniscus",
+        "Posterior cruciate ligament",
+        "Patellar tendon",
+        "Iliotibial band"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the components of the 'Unhappy Triad' of the knee.",
+        "correct_rationale": "Option B is correct. (Second-order question). Step 1: The mechanism of injury (lateral force to a planted leg) and physical exam findings (positive anterior drawer test = Anterior Cruciate Ligament tear; positive valgus stress test = Medial Collateral Ligament tear) are classic for a massive knee blowout. Step 2: A severe lateral blow that simultaneously tears the ACL and MCL is famously associated with a tear of the *Medial Meniscus*. This combination (ACL, MCL, Medial Meniscus) is historically known as the 'Unhappy Triad' (though modern MRI shows lateral meniscus tears are also highly common in acute ACL injuries).",
+        "incorrect_rationales": [
+          "Option A is injured by a varus stress (force applied from the medial side).",
+          "Option C is injured by a direct posterior force to the tibia (e.g., dashboard injury in a car crash), indicated by a positive posterior drawer test.",
+          "Option D rupture causes an inability to actively extend the knee and a high-riding patella (patella alta).",
+          "Option E causes lateral knee pain common in runners (IT band syndrome), not typically torn in acute contact injuries."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q36",
+      "discipline": "Pharmacology",
+      "system": "Neurology",
+      "vignette": "A 68-year-old man presents to the neurology clinic with a resting 'pill-rolling' tremor in his right hand, a shuffling gait, and a masked, expressionless face. He is diagnosed with Parkinson's disease and prescribed a combination pill containing levodopa and carbidopa. The primary pharmacological purpose of including carbidopa in this specific preparation is to accomplish which of the following?",
+      "options": [
+        "Inhibit monoamine oxidase B (MAO-B) in the central nervous system",
+        "Act as a direct agonist at postsynaptic dopamine receptors",
+        "Increase the permeability of the blood-brain barrier to dopamine",
+        "Inhibit DOPA decarboxylase in the peripheral tissues",
+        "Inhibit catechol-O-methyltransferase (COMT) in the peripheral tissues"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Understand the mechanism and rationale for using Carbidopa with Levodopa.",
+        "correct_rationale": "Option D is correct. (First-order question). Levodopa (L-DOPA) is a precursor to dopamine that can cross the blood-brain barrier (dopamine itself cannot). Once in the brain, it is converted to active dopamine. However, if given alone, the vast majority of levodopa is rapidly converted to dopamine in the peripheral bloodstream by the enzyme DOPA decarboxylase. Peripheral dopamine causes severe nausea, vomiting, and arrhythmias. *Carbidopa* is added because it specifically *inhibits peripheral DOPA decarboxylase* (and cannot cross the BBB itself). This dramatically reduces peripheral side effects and vastly increases the amount of levodopa that successfully reaches the brain.",
+        "incorrect_rationales": [
+          "Option A describes Selegiline or Rasagiline.",
+          "Option B describes Pramipexole, Ropinirole, or Bromocriptine.",
+          "Option C is incorrect; the BBB permeability is a fixed physiological property.",
+          "Option E describes Entacapone or Tolcapone."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q37",
+      "discipline": "Immunology",
+      "system": "Rheumatology",
+      "vignette": "A 25-year-old woman presents with severe fatigue, joint pain, and a sunburn-like rash across her cheeks and the bridge of her nose that spares the nasolabial folds. Laboratory testing reveals pancytopenia, proteinuria, and the presence of anti-Smith and anti-dsDNA antibodies. A new, faint systolic murmur is noted on cardiac auscultation. An echocardiogram reveals small, warty vegetations on both the atrial (upper) and ventricular (lower) surfaces of the mitral valve leaflets. The pathogenesis of these specific valvular vegetations is primarily characterized by which of the following?",
+      "options": [
+        "Bacterial colonization of the endocardium",
+        "Sterile deposition of circulating immune complexes",
+        "Autoantibodies directly cross-reacting with cardiac myosin",
+        "Fibrin and platelet aggregation secondary to hypercoagulability",
+        "Amyloid fibril deposition within the valve matrix"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize Libman-Sacks endocarditis in SLE and its pathogenesis.",
+        "correct_rationale": "Option B is correct. (Second-order question). Step 1: A young female with a malar rash, joint pain, proteinuria (nephritis), and highly specific autoantibodies (anti-dsDNA/anti-Smith) has Systemic Lupus Erythematosus (SLE). Step 2: The echocardiogram shows vegetations on *both sides* of the mitral valve. This is the pathognomonic finding of Libman-Sacks endocarditis, a classic cardiac complication of SLE. Step 3: Unlike infective endocarditis, Libman-Sacks vegetations are completely *sterile*. They are formed by the widespread deposition of circulating antigen-antibody (immune) complexes directly onto the valve surfaces.",
+        "incorrect_rationales": [
+          "Option A describes Infective Endocarditis (e.g., S. aureus, S. viridans), which forms large, destructive, infected vegetations typically on just one side of the valve.",
+          "Option C describes the pathogenesis of Acute Rheumatic Fever (molecular mimicry following Strep pharyngitis).",
+          "Option D describes Non-bacterial Thrombotic Endocarditis (Marantic endocarditis), classically seen in advanced malignancies (hypercoagulable states).",
+          "Option E describes cardiac amyloidosis, which causes restrictive cardiomyopathy, not classic warty valvular vegetations."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q38",
+      "discipline": "Embryology",
+      "system": "Renal",
+      "vignette": "A neonate is born prematurely at 34 weeks gestation and exhibits immediate, severe respiratory distress. Physical examination reveals a flattened facial profile, a small jaw, and bilateral clubfeet. The infant expires within two hours of birth. Autopsy reveals profound pulmonary hypoplasia and complete bilateral absence of the kidneys. The severe underdevelopment of this patient's lungs was primarily and directly caused by which of the following intrauterine conditions?",
+      "options": [
+        "Failure of the pleuroperitoneal folds to close",
+        "Oligohydramnios",
+        "Polyhydramnios",
+        "Maternal use of ACE inhibitors",
+        "Failure of the tracheoesophageal septum to partition"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the sequence of events in Potter Sequence (oligohydramnios causing pulmonary hypoplasia).",
+        "correct_rationale": "Option B is correct. (Second-order question). The infant has Potter Sequence, characterized by flattened facies, clubfeet, and lethal pulmonary hypoplasia, all resulting from severe *Oligohydramnios* (lack of amniotic fluid). Amniotic fluid is largely composed of fetal urine. Because this fetus had bilateral renal agenesis (no kidneys), it could not produce urine, leading to oligohydramnios. Fetal swallowing and aspiration of amniotic fluid is physically required for the lungs to expand and develop normally in utero. Without the fluid, the lungs suffer lethal hypoplasia.",
+        "incorrect_rationales": [
+          "Option A describes a congenital diaphragmatic hernia, which also causes pulmonary hypoplasia (due to physical compression by the bowel), but does not cause the lack of kidneys, flattened face, or clubfeet.",
+          "Option C is an *excess* of amniotic fluid, usually due to swallowing defects (anencephaly, esophageal atresia).",
+          "Option D can cause fetal renal damage, but bilateral renal agenesis is a primary embryological failure of the ureteric bud to induce the metanephric mesenchyme.",
+          "Option E causes a tracheoesophageal fistula."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q39",
+      "discipline": "Biostatistics",
+      "system": "Multisystem",
+      "vignette": "A large population study measures the fasting serum total cholesterol levels of 10,000 healthy adult males. The researchers determine that the cholesterol levels are perfectly normally distributed within this population. The mean serum cholesterol is found to be 200 mg/dL, with a standard deviation of 20 mg/dL. Based on the empirical rule of normal distributions, approximately what percentage of the adult males in this specific study have a fasting serum cholesterol level between 160 mg/dL and 240 mg/dL?",
+      "options": [
+        "68%",
+        "90%",
+        "95%",
+        "99%",
+        "99.7%"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Apply the 68-95-99.7 empirical rule to a normal distribution.",
+        "correct_rationale": "Option C is correct. (First-order calculation). In a perfectly normal (bell-shaped) distribution, the empirical rule (the 68-95-99.7 rule) states that: \n- Approximately 68% of the data falls within 1 Standard Deviation (SD) of the mean. \n- Approximately 95% of the data falls within 2 Standard Deviations of the mean. \n- Approximately 99.7% of the data falls within 3 Standard Deviations of the mean. \nThe mean is 200, and the SD is 20. The range provided is 160 to 240. \n160 is exactly 2 SD below the mean (200 - 40). \n240 is exactly 2 SD above the mean (200 + 40). \nTherefore, 95% of the population falls within this range.",
+        "incorrect_rationales": [
+          "Option A (68%) represents the range within 1 SD (180 to 220 mg/dL).",
+          "Option B (90%) is a common confidence interval threshold, but does not correspond to 2 SDs in the empirical rule.",
+          "Option D (99%) is another confidence interval threshold.",
+          "Option E (99.7%) represents the range within 3 SD (140 to 260 mg/dL)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q40",
+      "discipline": "Pathology",
+      "system": "Pulmonary",
+      "vignette": "A 12-year-old boy is brought to the clinic for recurrent, episodic shortness of breath, wheezing, and a dry cough. His symptoms are consistently triggered by cold air and exercise, and are worse at night. A microscopic analysis of his sputum is performed. The pathologist notes the presence of Curschmann spirals (whorled mucous plugs) and numerous hexagonal, double-pointed, needle-like crystals. These distinctive crystals are primarily composed of breakdown products from which of the following cells?",
+      "options": [
+        "Alveolar macrophages",
+        "Mast cells",
+        "Eosinophils",
+        "Goblet cells",
+        "Neutrophils"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify Charcot-Leyden crystals as breakdown products of eosinophils in asthma.",
+        "correct_rationale": "Option C is correct. (Second-order question). Step 1: Episodic wheezing and cough triggered by cold air and exercise in a child defines Asthma. Step 2: The sputum in allergic (extrinsic) asthma classically contains Curschmann spirals (shed epithelium forming whorled mucous plugs) and Charcot-Leyden crystals. Step 3: Charcot-Leyden crystals are hexagonal, double-pointed crystals that are formed purely from the breakdown of *Eosinophils* (specifically from the crystallization of the eosinophil protein Galectin-10).",
+        "incorrect_rationales": [
+          "Option A engulf debris, forming heart failure cells (hemosiderin) or dust cells, but do not form Charcot-Leyden crystals.",
+          "Option B release histamine to trigger the initial bronchoconstriction in asthma, but do not form these specific physical crystals.",
+          "Option D produce the mucus that forms the Curschmann spirals, but not the hexagonal crystals.",
+          "Option E are the primary cells seen in bacterial pneumonia or acute respiratory distress syndrome, not allergic asthma."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    }
+  ]
+}
