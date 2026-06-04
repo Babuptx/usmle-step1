@@ -1,0 +1,1033 @@
+{
+  "block_id": 14,
+  "block_title": "USMLE Step 1 Mock Exam - Block 14 (The Final Frontier)",
+  "questions": [
+    {
+      "id": "q1",
+      "discipline": "Immunology",
+      "system": "Multisystem",
+      "vignette": "A 9-month-old boy is evaluated for recurrent respiratory and gastrointestinal tract infections. Laboratory testing reveals normal absolute numbers of B cells and T cells. However, flow cytometry indicates a profound deficiency of CD4+ T lymphocytes in the peripheral blood, while CD8+ T lymphocytes are within normal limits. A genetic defect in the transcription of which of the following cell surface molecules is the most likely cause of this patient's immunodeficiency?",
+      "options": [
+        "MHC Class I",
+        "MHC Class II",
+        "CD40 Ligand",
+        "Common gamma chain (IL-2R)",
+        "Bruton tyrosine kinase (BTK)"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize Bare Lymphocyte Syndrome Type II and the lack of MHC Class II expression.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: An infant with recurrent infections, normal B/T cell numbers, but a specific, profound lack of CD4+ T cells has Bare Lymphocyte Syndrome Type II. Step 2: CD4+ T cells require interaction with MHC Class II molecules during positive selection in the thymus to survive and mature. Step 3: Bare Lymphocyte Syndrome Type II is an autosomal recessive disease caused by a mutation in transcription factors (such as CIITA) required to express *MHC Class II* molecules on antigen-presenting cells. Without MHC Class II, CD4+ T cells cannot develop, leading to a severe combined immunodeficiency phenotype.",
+        "incorrect_rationales": [
+          "Option A deficiency (Bare Lymphocyte Syndrome Type I) leads to a lack of CD8+ T cells and severe viral susceptibility (due to TAP mutations).",
+          "Option C is mutated in Hyper-IgM syndrome, which features high IgM, low IgG/IgA, and normal T-cell counts.",
+          "Option D is mutated in X-linked SCID, which features a total absence of both T cells and NK cells.",
+          "Option E is mutated in X-linked Agammaglobulinemia, which features a total absence of B cells."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q2",
+      "discipline": "Pharmacology",
+      "system": "Neurology",
+      "vignette": "A 35-year-old man undergoes emergency surgery for an open appendectomy. During the rapid sequence intubation, he is given an intravenous dose of succinylcholine to provide skeletal muscle relaxation. While a normal patient would recover muscle function within 5 to 10 minutes, this patient remains profoundly paralyzed and requires mechanical ventilation for over 3 hours post-operatively. The patient's prolonged paralysis is due to an underlying genetic polymorphism affecting an enzyme that primarily resides in which of the following anatomical locations?",
+      "options": [
+        "The neuromuscular junction synaptic cleft",
+        "The presynaptic motor neuron terminal",
+        "The blood plasma",
+        "The smooth endoplasmic reticulum of hepatocytes",
+        "The sarcoplasmic reticulum of skeletal muscle"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify Pseudocholinesterase deficiency and the plasma metabolism of succinylcholine.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: Prolonged, massive paralysis following the administration of succinylcholine indicates Pseudocholinesterase (Butyrylcholinesterase) deficiency. Step 2: Succinylcholine is a depolarizing neuromuscular blocker. Unlike acetylcholine, which is rapidly degraded directly in the synaptic cleft by acetylcholinesterase, succinylcholine is *not* broken down at the synapse. Step 3: Instead, succinylcholine diffuses away from the synapse and is degraded exclusively in the *blood plasma* by pseudocholinesterase. Patients with a genetic polymorphism making this enzyme slow or inactive cannot clear the drug from their blood, leading to hours of prolonged paralysis.",
+        "incorrect_rationales": [
+          "Option A is the location of true Acetylcholinesterase, which does not effectively break down succinylcholine.",
+          "Option B is the site of acetylcholine synthesis and storage.",
+          "Option D is the site of CYP450 metabolism, which does not handle succinylcholine.",
+          "Option E is the site of the Ryanodine receptor (mutated in Malignant Hyperthermia, which causes rigidity and high fever in response to succinylcholine, not flaccid paralysis)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q3",
+      "discipline": "Biochemistry",
+      "system": "Metabolic",
+      "vignette": "A 25-year-old healthy man applies for a life insurance policy and undergoes routine laboratory and urine testing. He is completely asymptomatic. His urine dipstick returns negative for glucose, but a copper reduction test (Clinitest) on the urine is strongly positive, indicating the presence of a reducing sugar. Detailed biochemical analysis confirms the presence of fructose in his urine. The benign genetic condition causing this presentation is due to a deficiency in an enzyme that normally catalyzes which of the following reactions?",
+      "options": [
+        "Conversion of Fructose-1-phosphate to DHAP and Glyceraldehyde",
+        "Conversion of Fructose to Fructose-1-phosphate",
+        "Conversion of Glucose to Sorbitol",
+        "Conversion of Fructose-6-phosphate to Fructose-1,6-bisphosphate",
+        "Conversion of Galactose to Galactose-1-phosphate"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize Essential Fructosuria and the defect in Fructokinase.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: An asymptomatic patient with a reducing sugar in the urine (positive Clinitest) but a negative urine dipstick (which is highly specific only for glucose) has Essential Fructosuria. Step 2: Essential Fructosuria is a benign, autosomal recessive condition caused by a deficiency in *Fructokinase*. Step 3: Fructokinase normally catalyzes the very first step of fructose metabolism: the *conversion of Fructose to Fructose-1-phosphate*. Because the fructose cannot be trapped in the cells, it simply spills harmlessly into the urine and blood.",
+        "incorrect_rationales": [
+          "Option A describes the reaction of Aldolase B. A defect here causes Hereditary Fructose Intolerance, a severe, life-threatening disease causing hypoglycemia, jaundice, and liver failure after eating fruit.",
+          "Option C is catalyzed by aldose reductase (involved in diabetic cataracts and neuropathy).",
+          "Option D is catalyzed by PFK-1 (the rate-limiting step of glycolysis).",
+          "Option E is catalyzed by Galactokinase (defects cause infantile cataracts)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q4",
+      "discipline": "Microbiology",
+      "system": "Pulmonary",
+      "vignette": "A 20-year-old male college student presents to the university clinic with a 2-week history of a persistent, hacking, non-productive cough, low-grade fever, and malaise. A chest X-ray reveals patchy, diffuse interstitial infiltrates that look significantly worse than his mild clinical appearance would suggest. Two days later, he returns complaining of severe fatigue and dark urine. Laboratory testing reveals a profound hemolytic anemia. The autoantibodies causing the destruction of his red blood cells belong to which of the following immunoglobulin classes?",
+      "options": [
+        "IgA",
+        "IgD",
+        "IgE",
+        "IgG",
+        "IgM"
+      ],
+      "correct_index": 4,
+      "explanation": {
+        "educational_objective": "Identify Mycoplasma pneumoniae and its association with IgM cold agglutinins.",
+        "correct_rationale": "Option E is correct. (Third-order question). Step 1: A young adult with an indolent, 'walking pneumonia' (mild symptoms but terrible-looking chest X-ray) is classically infected with *Mycoplasma pneumoniae*. Step 2: Approximately 1-2 weeks into the infection, *Mycoplasma* frequently triggers a transient, autoimmune hemolytic anemia. Step 3: This hemolysis is caused by 'cold agglutinins'—autoantibodies that cross-react with the I antigen on the surface of human red blood cells. Cold agglutinins are classically *IgM* antibodies. (Mnemonic: Mycoplasma = IgM).",
+        "incorrect_rationales": [
+          "Option A is the primary mucosal antibody.",
+          "Option D (IgG) is responsible for *Warm* autoimmune hemolytic anemia, typically seen in SLE, CLL, or drug reactions (like methyldopa).",
+          "Option E is incorrect, IgE mediates allergies and parasitic defense."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q5",
+      "discipline": "Anatomy",
+      "system": "Gastrointestinal",
+      "vignette": "A 55-year-old man with a long history of severe alcohol use disorder and biopsy-proven cirrhosis presents to the clinic. Physical examination reveals scleral icterus, palmar erythema, and massive ascites. The physician also notes a prominent network of dilated, engorged veins radiating outward from the patient's umbilicus (caput medusae). This specific physical finding is caused by portal hypertension forcing blood backwards through a porto-systemic anastomosis. The systemic venous component of this specific anastomosis is formed by which of the following vessels?",
+      "options": [
+        "Paraumbilical veins",
+        "Superior rectal vein",
+        "Left gastric vein",
+        "Azygos vein",
+        "Superficial epigastric veins"
+      ],
+      "correct_index": 4,
+      "explanation": {
+        "educational_objective": "Identify the porto-systemic anastomosis causing caput medusae (paraumbilical to superficial epigastric veins).",
+        "correct_rationale": "Option E is correct. (Third-order question). Step 1: The physical finding of dilated veins radiating from the umbilicus is Caput Medusae, a classic sign of portal hypertension. Step 2: This occurs due to blood backing up through a porto-systemic anastomosis in the anterior abdominal wall. Step 3: The portal component of this anastomosis is the *Paraumbilical veins*. Step 4: The systemic component (which dilates to form the visible caput medusae as blood is forced into it) is the network of *Superficial epigastric veins* (which drain into the external iliac/femoral system).",
+        "incorrect_rationales": [
+          "Option A are the *portal* veins involved in this anastomosis, not the systemic veins.",
+          "Option B is the portal component of internal hemorrhoids.",
+          "Option C is the portal component of esophageal varices.",
+          "Option D is the systemic component of esophageal varices."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q6",
+      "discipline": "Physiology",
+      "system": "Cardiovascular",
+      "vignette": "A 28-year-old woman with a history of poorly controlled asthma presents to the emergency department in severe respiratory distress. She is wheezing loudly and using accessory muscles to breathe. Her blood pressure is 115/70 mmHg. The physician palpates her radial pulse and notes that the pulse amplitude decreases dramatically, almost disappearing, every time she takes a deep inspiration. This classic physical finding (pulsus paradoxus) is primarily driven by which of the following acute hemodynamic changes during inspiration?",
+      "options": [
+        "Bowing of the interventricular septum into the left ventricle",
+        "Massive decrease in venous return to the right atrium",
+        "Compression of the pulmonary veins by hyperinflated alveoli",
+        "Sudden increase in left ventricular end-diastolic volume (LVEDV)",
+        "Reflex parasympathetic bradycardia via the vagus nerve"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Understand the mechanism of pulsus paradoxus in asthma or cardiac tamponade.",
+        "correct_rationale": "Option A is correct. (Third-order conceptual). Step 1: A drop in systolic blood pressure >10 mmHg during inspiration is Pulsus Paradoxus. It is classically seen in cardiac tamponade, but also in severe asthma and COPD exacerbations. Step 2: During a massive inspiratory effort (like in a severe asthma attack), the patient generates profoundly negative intrathoracic pressure. Step 3: This massive vacuum sucks a huge amount of venous blood into the Right Ventricle. Step 4: Because the right ventricle is suddenly overloaded with volume, it bulges outward. However, the stiff, hyperinflated lungs surrounding the heart prevent the RV free wall from expanding outward. With nowhere else to go, the right ventricle *bows the interventricular septum to the left*, crushing the Left Ventricle. This sharply decreases left ventricular stroke volume and causes the radial pulse to drop on inspiration.",
+        "incorrect_rationales": [
+          "Option B is the opposite of reality; inspiration vastly *increases* venous return to the right heart.",
+          "Option C does occur, but the primary driver of the massive drop in stroke volume is the physical bowing of the septum.",
+          "Option D is incorrect; LVEDV sharply *decreases* because the septum bows into it, restricting filling.",
+          "Option E does not cause pulsus paradoxus (which is a drop in amplitude/pressure, not a drop in heart rate)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q7",
+      "discipline": "Pathology",
+      "system": "Renal",
+      "vignette": "A 62-year-old man with a known history of multiple myeloma presents with severe fatigue and muscle weakness. Laboratory studies reveal a normal serum glucose, but his urinalysis is strongly positive for glucose (3+). Further testing reveals profound phosphaturia, aminoaciduria, and a non-anion gap metabolic acidosis. The toxic light chains produced by his malignancy have caused diffuse damage to a specific segment of his nephrons. Because of this localized damage, his metabolic acidosis is primarily driven by the failure to perform which of the following tubular functions?",
+      "options": [
+        "Secretion of hydrogen ions by alpha-intercalated cells",
+        "Reabsorption of filtered bicarbonate",
+        "Generation of new bicarbonate via ammoniagenesis",
+        "Secretion of potassium by principal cells",
+        "Reabsorption of sodium via the Na+/K+/2Cl- cotransporter"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify Fanconi Syndrome (Type 2 RTA) and the failure of proximal bicarbonate reabsorption.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: The presence of glucosuria (with normal blood sugar), phosphaturia, and aminoaciduria indicates a complete failure of the Proximal Convoluted Tubule (PCT). This global PCT dysfunction is called Fanconi Syndrome (frequently caused by multiple myeloma light chain toxicity, lead poisoning, or expired tetracyclines). Step 2: The PCT is also responsible for reclaiming the vast majority (85%) of filtered bicarbonate. Step 3: Because the PCT is destroyed, the kidney dumps massive amounts of bicarbonate into the urine, resulting in a normal anion gap metabolic acidosis known as Type 2 (Proximal) Renal Tubular Acidosis.",
+        "incorrect_rationales": [
+          "Option A describes the failure in Type 1 (Distal) RTA, located in the collecting duct.",
+          "Option C is a function of the PCT that fails, but the primary driver of the massive, immediate acidosis in Type 2 RTA is the failure to reclaim the massive load of filtered bicarbonate.",
+          "Option D failure describes Type 4 RTA (hypoaldosteronism), which causes hyperkalemia and acidosis.",
+          "Option E describes the defect in Bartter syndrome (thick ascending limb), causing alkalosis, not acidosis."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q8",
+      "discipline": "Embryology",
+      "system": "Head & Neck",
+      "vignette": "A male infant is born at 39 weeks gestation. The delivery room pediatrician notes a unilateral cleft lip on the right side. The infant's palate is completely intact. The parents ask for an explanation of how this structural defect occurred. The physician correctly explains that a cleft lip is the direct result of the failure of fusion between the maxillary prominence and which of the following embryonic structures?",
+      "options": [
+        "The lateral nasal prominence",
+        "The medial nasal prominence",
+        "The contralateral maxillary prominence",
+        "The mandibular prominence",
+        "The lateral palatine shelf"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the embryological failure causing a Cleft Lip.",
+        "correct_rationale": "Option B is correct. (Second-order question). Step 1: The infant has a cleft lip. Step 2: During facial development (weeks 5-6), the upper lip is formed by the fusion of the bilateral maxillary prominences with the intermaxillary segment. Step 3: The intermaxillary segment is formed by the fusion of the two *medial nasal prominences*. Therefore, a cleft lip (unilateral or bilateral) results specifically from the failure of the maxillary prominence to fuse with the medial nasal prominence.",
+        "incorrect_rationales": [
+          "Option A fuses with the maxillary prominence to form the nasolacrimal duct; failure causes an oblique facial cleft.",
+          "Option C do not fuse with each other directly; they must fuse with the medial nasal prominence between them.",
+          "Option D forms the lower jaw and lower lip.",
+          "Option E failure causes a Cleft Palate (failure of the lateral palatine shelves to fuse with each other or with the primary palate)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q9",
+      "discipline": "Pharmacology",
+      "system": "Endocrine",
+      "vignette": "A 28-year-old woman with a history of primary hypothyroidism has been well-controlled on a stable daily dose of levothyroxine for three years. She recently got married and was prescribed a combined oral contraceptive pill containing ethinyl estradiol and norethindrone. Three months later, she presents to the clinic complaining of fatigue, weight gain, and cold intolerance. Laboratory testing reveals an elevated TSH level. Assuming 100% medication compliance, the loss of clinical efficacy of her levothyroxine is directly caused by the estrogen in her birth control pill inducing which of the following changes?",
+      "options": [
+        "Decreased gastrointestinal absorption of levothyroxine",
+        "Increased hepatic synthesis of thyroxine-binding globulin (TBG)",
+        "Increased peripheral conversion of T4 to reverse T3 (rT3)",
+        "Autoimmune destruction of the remaining thyroid tissue",
+        "Direct competitive antagonism at the intracellular thyroid hormone receptor"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Understand the effect of estrogen on Thyroxine-Binding Globulin (TBG) and total T4 levels.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: A patient stable on levothyroxine who starts taking estrogen (OCPs or pregnancy) suddenly develops hypothyroidism. Step 2: Estrogen acts on the liver to significantly *increase the synthesis of Thyroxine-Binding Globulin (TBG)*. Step 3: The excess TBG enters the blood and immediately binds up the free, active T4 (levothyroxine), rendering it inactive. Step 4: In a healthy person, the thyroid would just produce more T4 to compensate. However, because this patient has no functioning thyroid (she relies entirely on a fixed oral dose), her free T4 drops, her TSH spikes, and she develops clinical hypothyroidism until her levothyroxine dose is increased.",
+        "incorrect_rationales": [
+          "Option A is caused by taking levothyroxine with iron, calcium, or proton pump inhibitors, not estrogen.",
+          "Option C occurs during severe illness or starvation (euthyroid sick syndrome).",
+          "Option D is the mechanism of Hashimoto's, which she already has, but does not explain the sudden change provoked by the OCP.",
+          "Option E is not a known effect of estrogen."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q10",
+      "discipline": "Genetics",
+      "system": "Oncology",
+      "vignette": "A 2-year-old boy is brought to the ophthalmologist after his mother noticed a strange 'white reflection' (leukocoria) in his right eye in a recent photograph. Examination confirms a large mass in the retina of the right eye, and genetic testing confirms an inherited germline mutation. His right eye is successfully enucleated, and he requires no further treatment. Because of his specific inherited genetic defect, this patient must be closely monitored for the rest of his life due to a massively increased risk of developing which of the following secondary malignancies?",
+      "options": [
+        "Osteosarcoma",
+        "Medullary thyroid carcinoma",
+        "Hemangioblastoma",
+        "Pheochromocytoma",
+        "Clear cell renal cell carcinoma"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Recognize Familial Retinoblastoma (Rb gene) and the secondary risk of Osteosarcoma.",
+        "correct_rationale": "Option A is correct. (Third-order question). Step 1: Leukocoria (white pupillary reflex) in a toddler is the classic presentation of Retinoblastoma. Step 2: Because it involves a germline mutation, this is Familial Retinoblastoma. It is caused by an autosomal dominant inheritance of one defective *Rb tumor suppressor gene* on chromosome 13 (followed by a somatic 'second hit'). Step 3: The Rb gene normally controls the G1-to-S cell cycle transition. Patients with a germline Rb mutation are notoriously at a massively increased risk of developing a specific secondary cancer later in life: *Osteosarcoma* (typically presenting as bone pain in the distal femur or proximal tibia during adolescence).",
+        "incorrect_rationales": [
+          "Option B and Option D are associated with MEN 2A and MEN 2B (RET proto-oncogene mutations).",
+          "Option C and Option E are associated with von Hippel-Lindau (VHL) disease."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q11",
+      "discipline": "Pathology",
+      "system": "Pulmonary",
+      "vignette": "A 65-year-old man with a 50-pack-year smoking history presents with a persistent cough, hemoptysis, and significant weight loss. Laboratory evaluation reveals a serum calcium level of 13.5 mg/dL, with a suppressed intact parathyroid hormone (PTH) level. A chest CT demonstrates a large, centrally located cavitary mass in the right mainstem bronchus. A biopsy of this mass is most likely to reveal which of the following histological features?",
+      "options": [
+        "Small, dark blue cells with scant cytoplasm and granular neuroendocrine chromatin",
+        "Glandular formation with copious mucin production",
+        "Nests of polygonal cells with intercellular bridges and keratin pearls",
+        "Large, pleomorphic giant cells with prominent nucleoli",
+        "Sheets of uniform cells forming rosettes and neurosecretory granules"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify Squamous Cell Carcinoma of the lung and its production of PTHrP.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: A smoker with a central lung mass, cavitation, and hypercalcemia with suppressed PTH has Squamous Cell Carcinoma of the lung. Step 2: The hypercalcemia is a paraneoplastic syndrome caused by the tumor secreting Parathyroid Hormone-related Peptide (PTHrP). Step 3: The pathognomonic histological features of Squamous Cell Carcinoma are the presence of *intercellular bridges* (desmosomes connecting adjacent cells) and *keratin pearls* (concentric whorls of eosinophilic keratin).",
+        "incorrect_rationales": [
+          "Option A describes Small Cell Lung Cancer, which is also central but typically causes SIADH (hyponatremia) or Cushing syndrome (ACTH), not hypercalcemia.",
+          "Option B describes Adenocarcinoma of the lung, which is typically located peripherally and is the most common lung cancer in non-smokers.",
+          "Option D describes Large Cell Carcinoma, a peripheral, highly anaplastic tumor.",
+          "Option E describes a Carcinoid tumor (producing serotonin/flushing/diarrhea)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q12",
+      "discipline": "Biochemistry",
+      "system": "Neurology",
+      "vignette": "A 12-year-old boy with cystic fibrosis presents to the neurology clinic complaining of clumsiness and frequent falls over the past 6 months. Physical examination reveals an ataxic gait, decreased deep tendon reflexes, and a profound loss of vibratory and position sense in his toes. His peripheral blood smear reveals normal erythrocytes with an MCV of 88 fL. A deficiency in a specific vitamin is suspected due to his underlying exocrine pancreatic insufficiency. The missing vitamin normally functions within the body to perform which of the following roles?",
+      "options": [
+        "Acting as a cofactor for methylmalonyl-CoA mutase",
+        "Protecting cell membranes from free radical lipid peroxidation",
+        "Facilitating the intestinal absorption of calcium and phosphorus",
+        "Gamma-carboxylating glutamic acid residues on clotting factors",
+        "Acting as a structural component of the visual pigment rhodopsin"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize Vitamin E deficiency in fat malabsorption and its role as an antioxidant.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: The patient has cystic fibrosis, leading to exocrine pancreatic insufficiency and fat malabsorption. This makes him deficient in fat-soluble vitamins (A, D, E, K). Step 2: He presents with a neurological syndrome identical to B12 deficiency (ataxia, loss of dorsal columns/proprioception, loss of reflexes). Step 3: However, his RBCs are completely normal (MCV 88), explicitly ruling out B12 deficiency (which causes megaloblastic anemia). This isolated neurologic presentation in a fat-malabsorption state definitively isolates *Vitamin E deficiency*. Step 4: Vitamin E (tocopherol) is a major lipid-soluble antioxidant. Its primary role is *protecting cell membranes from free radical lipid peroxidation*, especially the long, vulnerable axons of the spinal cord.",
+        "incorrect_rationales": [
+          "Option A is the role of Vitamin B12.",
+          "Option C is the role of Vitamin D.",
+          "Option D is the role of Vitamin K.",
+          "Option E is the role of Vitamin A (retinal)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q13",
+      "discipline": "Anatomy",
+      "system": "Neurology",
+      "vignette": "A 65-year-old man with a history of poorly controlled atrial fibrillation is brought to the emergency department after a sudden collapse. Upon regaining consciousness, he exhibits a hoarse voice and severe difficulty swallowing. Neurological examination reveals a loss of pain and temperature sensation on the right side of his face and the left side of his body. He also exhibits ptosis and a constricted pupil on the right side. The ischemic event responsible for this specific syndrome is located in the territory supplied by which of the following arteries?",
+      "options": [
+        "Right anterior inferior cerebellar artery (AICA)",
+        "Left anterior inferior cerebellar artery (AICA)",
+        "Right posterior inferior cerebellar artery (PICA)",
+        "Left posterior inferior cerebellar artery (PICA)",
+        "Right middle cerebral artery (MCA)"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Localize Wallenberg (Lateral Medullary) syndrome to the PICA territory.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: A patient presenting with hoarseness, dysphagia (Nucleus Ambiguus / CN IX, X), Horner's syndrome (sympathetic tract), and a crossed sensory loss (pain/temp lost on ipsilateral face and contralateral body) has Lateral Medullary Syndrome (Wallenberg Syndrome). Step 2: The sensory loss is on the *Right* face and *Left* body, meaning the lesion is on the *Right* side of the brainstem. Step 3: The lateral medulla is supplied by the *Posterior Inferior Cerebellar Artery (PICA)*. Therefore, the lesion is in the Right PICA.",
+        "incorrect_rationales": [
+          "Option A and Option B supply the lateral Pons. A lesion here (Lateral Pontine Syndrome) presents similarly with a crossed sensory loss, but distinctly features *facial paralysis (CN VII)* and *deafness/vertigo (CN VIII)*, rather than hoarseness and dysphagia.",
+          "Option D would cause loss of pain/temp on the *Left* face and *Right* body.",
+          "Option E would cause left-sided hemiparesis and left-sided facial droop."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q14",
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "vignette": "A 28-year-old man presents to the urology clinic after discovering a painless lump in his right testicle while showering. An ultrasound confirms a 3 cm solid intratesticular mass. Serum tumor markers are drawn, revealing a normal beta-hCG but a markedly elevated alpha-fetoprotein (AFP). A radical inguinal orchiectomy is performed. Under light microscopy, the pathologist observes primitive-looking cells forming glomeruloid-like structures with a central blood vessel enveloped by tumor cells. Which of the following is the most likely diagnosis?",
+      "options": [
+        "Seminoma",
+        "Choriocarcinoma",
+        "Yolk sac tumor",
+        "Embryonal carcinoma",
+        "Leydig cell tumor"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify a Yolk Sac Tumor by its elevated AFP and pathognomonic Schiller-Duval bodies.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: A young man with a solid testicular mass and a highly elevated Alpha-Fetoprotein (AFP) has a Non-Seminomatous Germ Cell Tumor. Step 2: The classic histologic finding of 'glomeruloid-like structures with a central blood vessel' perfectly describes Schiller-Duval bodies. Step 3: Schiller-Duval bodies and elevated AFP are the definitive diagnostic hallmarks of a *Yolk sac tumor* (Endodermal sinus tumor).",
+        "incorrect_rationales": [
+          "Option A is the most common testicular tumor, but it typically has normal AFP and beta-hCG, and histologically features large cells with clear cytoplasm ('fried egg' appearance).",
+          "Option B produces astronomically high beta-hCG and typically spreads hematogenously to the lungs very early.",
+          "Option D is an aggressive tumor that can have elevated hCG and AFP, but lacks Schiller-Duval bodies.",
+          "Option E is a sex cord-stromal tumor that produces androgens or estrogens (causing gynecomastia or precocious puberty) and features Reinke crystals."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q15",
+      "discipline": "Biostatistics",
+      "system": "Multisystem",
+      "vignette": "A revolutionary new treatment is developed for a previously fatal autoimmune disease. The treatment effectively suppresses all symptoms and prevents death, allowing patients to live a normal lifespan. However, the treatment does not cure the underlying condition, and patients must remain on the medication for life. Ten years after the widespread implementation of this new treatment, an epidemiologist reviews the national health registry data for this disease. Compared to the data from ten years prior, what changes are most likely to be observed in the incidence and prevalence of this specific autoimmune disease?",
+      "options": [
+        "Incidence increases; Prevalence increases",
+        "Incidence remains unchanged; Prevalence decreases",
+        "Incidence remains unchanged; Prevalence increases",
+        "Incidence decreases; Prevalence increases",
+        "Incidence increases; Prevalence remains unchanged"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Understand the mathematical relationship between Incidence, Prevalence, and disease duration.",
+        "correct_rationale": "Option C is correct. (Second-order conceptual). Step 1: *Incidence* is the number of NEW cases of a disease developing in a given time period. Because the new drug treats the disease but does not prevent people from getting it in the first place, the *Incidence remains unchanged*. Step 2: *Prevalence* is the total number of EXISTING cases in the population at a given time. The fundamental equation is: Prevalence ≈ Incidence x Duration of disease. Step 3: Because the new drug prevents patients from dying (increasing the duration they live with the disease), they accumulate in the population. Therefore, the *Prevalence increases*.",
+        "incorrect_rationales": [
+          "Option A would occur if a new risk factor caused more people to catch the disease.",
+          "Option B would occur if a new *cure* was found (decreasing duration) or if the disease suddenly became rapidly fatal.",
+          "Option D would occur if a vaccine was invented (lowering incidence) and the disease was also cured (though prevalence usually tracks incidence).",
+          "Option E is mathematically incompatible; if incidence rises and duration is stable, prevalence must rise."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q16",
+      "discipline": "Pathology",
+      "system": "Pulmonary",
+      "vignette": "A 32-year-old male smoker presents with a progressive, non-productive cough, mild dyspnea, and a dull, aching bone pain in his right thigh. A skeletal radiograph reveals a lytic bone lesion in the right femur. A high-resolution chest CT shows numerous thin-walled cystic spaces and small nodules predominantly in the upper lobes of the lungs. A biopsy of the lung lesions reveals an accumulation of large, mononuclear cells with grooved, 'coffee-bean' shaped nuclei. Electron microscopy of these cells demonstrates distinctive, rod-shaped intracytoplasmic organelles with a central striated line (tennis-racket appearance). The cells driving this patient's disease are derived from which of the following lineages?",
+      "options": [
+        "Myeloid dendritic cells",
+        "Alveolar macrophages",
+        "Natural killer (NK) cells",
+        "Pluripotent mesenchymal stem cells",
+        "Epithelial type II pneumocytes"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Identify Langerhans Cell Histiocytosis and its myeloid dendritic cell lineage.",
+        "correct_rationale": "Option A is correct. (Fourth-order question). Step 1: A young adult smoker with lytic bone lesions and cystic/nodular lung disease has Pulmonary Langerhans Cell Histiocytosis (PLCH). Step 2: The pathognomonic histologic findings are cells with 'coffee-bean' nuclei and Birbeck granules (tennis-racket shaped organelles on EM). Step 3: These cells also stain strongly positive for S-100 and CD1a. Step 4: Langerhans cells are a specialized subset of *myeloid dendritic cells* (antigen-presenting cells) normally found in the skin and mucosa. In this disease, they undergo clonal proliferation (often driven by a BRAF V600E mutation) and aggressively infiltrate the lungs and bones.",
+        "incorrect_rationales": [
+          "Option B clear debris from the alveoli and are involved in pneumoconioses, but do not form Birbeck granules or coffee-bean nuclei.",
+          "Option C are lymphoid lineage cells involved in viral defense.",
+          "Option D give rise to connective tissues, bone, and cartilage.",
+          "Option E secrete surfactant and regenerate the alveolar lining."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q17",
+      "discipline": "Pharmacology",
+      "system": "Neurology",
+      "vignette": "A 55-year-old woman presents with severe, episodic, electric-shock-like pain shooting across her right cheek and jaw. The pain is excruciating, lasts for a few seconds, and is frequently triggered by brushing her teeth or chewing. Her physician prescribes the first-line medication for this specific condition. Two weeks later, she reports excellent pain relief, but routine laboratory monitoring reveals a mild, asymptomatic hyponatremia. The medication achieving this patient's pain relief acts by altering the conformation of which of the following?",
+      "options": [
+        "Inactivating the fast voltage-gated sodium channels",
+        "Opening the GABA-A chloride channels",
+        "Blocking the T-type voltage-gated calcium channels",
+        "Inhibiting the vesicular monoamine transporter (VMAT2)",
+        "Stimulating the presynaptic alpha-2 adrenergic receptors"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Recognize Trigeminal Neuralgia, its treatment with Carbamazepine, and its mechanism of action.",
+        "correct_rationale": "Option A is correct. (Third-order question). Step 1: Severe, episodic, lancinating pain in the distribution of CN V (jaw/cheek) triggered by light touch defines Trigeminal Neuralgia (tic douloureux). Step 2: The absolute first-line treatment for trigeminal neuralgia is Carbamazepine. Step 3: A classic side effect of carbamazepine is SIADH-like fluid retention, leading to mild hyponatremia (as well as agranulocytosis and CYP450 autoinduction). Step 4: Carbamazepine prevents the repetitive, high-frequency firing of the trigeminal nerve by binding to and *prolonging the inactivated state of fast voltage-gated sodium channels*.",
+        "incorrect_rationales": [
+          "Option B is the mechanism of benzodiazepines and barbiturates.",
+          "Option C is the mechanism of Ethosuximide (used for absence seizures).",
+          "Option D is the mechanism of Tetrabenazine (used for Huntington chorea).",
+          "Option E is the mechanism of Clonidine or Tizanidine (used for hypertension or muscle spasticity)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q18",
+      "discipline": "Biochemistry",
+      "system": "Hematology",
+      "vignette": "A 6-month-old boy is brought to the clinic for severe lethargy, pallor, and failure to thrive. Laboratory evaluation reveals a profound megaloblastic anemia. His serum vitamin B12 and folate levels are completely normal, and administration of high-dose vitamin B12 and folate fails to improve his anemia. A urinalysis reveals massive amounts of needle-shaped crystals that are identified as orotic acid. Notably, his serum ammonia levels are strictly within normal limits. The physician successfully treats this patient's anemia by administering an oral supplement containing which of the following compounds?",
+      "options": [
+        "Uridine",
+        "Thymidine",
+        "Cytosine",
+        "Guanine",
+        "Adenine"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Identify Orotic Aciduria and its specific treatment with Uridine.",
+        "correct_rationale": "Option A is correct. (Third-order question). Step 1: Megaloblastic anemia that does *not* respond to B12 or folate, combined with high urinary orotic acid and *normal ammonia*, definitively diagnoses Orotic Aciduria. (Note: Ornithine transcarbamylase [OTC] deficiency also has high orotic acid, but features massive, lethal hyperammonemia and no megaloblastic anemia). Step 2: Orotic aciduria is an autosomal recessive defect in UMP synthase, a crucial enzyme in the *de novo* pyrimidine synthesis pathway. Step 3: Because the child cannot synthesize UMP, he cannot make pyrimidines for DNA/RNA synthesis, leading to the megaloblastic anemia. Step 4: The disease is bypassed and successfully treated by administering exogenous *Uridine* (or uridine triacetate). The body easily converts uridine directly into UMP, bypassing the enzymatic block, allowing DNA synthesis to resume and strongly feedback-inhibiting the upstream production of orotic acid.",
+        "incorrect_rationales": [
+          "Option B, Option C, Option D, and Option E do not bypass the UMP synthase block effectively or provide the exact substrate needed to feedback-inhibit CPS-II to stop the orotic acid buildup."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q19",
+      "discipline": "Microbiology",
+      "system": "Infectious Disease",
+      "vignette": "A 34-year-old man who recently spent two months on a wildlife safari in rural East Africa presents with recurrent, highly episodic fevers. He reports that he will run a high fever for a week, completely recover for a week, and then the fever will spike again. Physical examination reveals an enlarged, rubbery, painless cervical lymph node (Winterbottom sign). A peripheral blood smear demonstrates flagellated, extracellular protozoa actively swimming among the red blood cells. The unique, relapsing nature of this patient's fever is directly attributed to the pathogen's ability to repeatedly alter the genetic expression of which of the following?",
+      "options": [
+        "Polysaccharide capsular antigens",
+        "Variant surface glycoproteins (VSGs)",
+        "Peptidoglycan cross-linking proteins",
+        "Ribosomal RNA target sequences",
+        "Outer membrane porin channels"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify Trypanosoma brucei (African Sleeping Sickness) and its mechanism of antigenic variation.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: Recurrent fevers, posterior cervical lymphadenopathy (Winterbottom sign), and an *extracellular* flagellated protozoan in the blood of an African traveler identifies *Trypanosoma brucei* (the cause of African Sleeping Sickness, transmitted by the Tsetse fly). Step 2: The hallmark of *T. brucei* is its violently undulating, relapsing fever. Step 3: This relapsing fever is caused by continuous *Antigenic Variation*. The parasite is covered by a dense coat of Variant Surface Glycoprotein (VSG). When the host immune system finally mounts an IgG response to clear the parasite (the fever breaks), a small fraction of the trypanosomes undergo massive gene rearrangement, swapping out their entire VSG coat for a completely novel one. The immune system no longer recognizes them, allowing them to multiply unchecked, and the fever returns. This cycle repeats endlessly.",
+        "incorrect_rationales": [
+          "Option A describes the mechanism used by *Streptococcus pneumoniae* or *Neisseria meningitidis* to evade phagocytosis.",
+          "Option C is targeted by penicillins; it does not dictate antigenic variation.",
+          "Option D is altered by bacteria to develop resistance to macrolides.",
+          "Option E is altered by Gram-negative bacteria (like *Pseudomonas*) to prevent antibiotic entry."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q20",
+      "discipline": "Embryology",
+      "system": "Cardiovascular",
+      "vignette": "An obstetrician is performing a routine fetal anatomical ultrasound on a woman at 24 weeks gestation. The physician carefully traces the fetal cardiovascular circulation to ensure proper development. Blood returning from the placenta is highly oxygenated. To maximize the delivery of this oxygen-rich blood to the developing fetal brain and heart, the vast majority of it actively bypasses the fetal liver. This specific physiological bypass is achieved by shunting blood directly from the umbilical vein into the inferior vena cava through which of the following fetal structures?",
+      "options": [
+        "Ductus arteriosus",
+        "Foramen ovale",
+        "Ductus venosus",
+        "Umbilical artery",
+        "Sinus venosus"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Understand fetal circulation and the function of the Ductus Venosus.",
+        "correct_rationale": "Option C is correct. (Second-order question). Step 1: The fetus receives highly oxygenated blood from the mother via the single Umbilical Vein. Step 2: This blood enters the fetal abdomen and heads toward the liver. However, the liver does not need highly oxygenated blood. Step 3: To preserve this precious oxygen for the developing brain and myocardium, roughly 50% of the blood completely bypasses the hepatic sinusoids by flowing through a specialized fetal vessel called the *Ductus venosus*. The ductus venosus shunts the oxygenated blood directly into the Inferior Vena Cava (IVC). After birth, this structure collapses and obliterates, becoming the ligamentum venosum.",
+        "incorrect_rationales": [
+          "Option A shunts deoxygenated blood from the pulmonary trunk directly into the descending aorta (bypassing the fluid-filled lungs).",
+          "Option B shunts oxygenated blood from the right atrium directly into the left atrium (bypassing the right ventricle/lungs).",
+          "Option D (there are two) carry completely *deoxygenated* blood from the fetus back to the placenta.",
+          "Option E forms the smooth part of the right atrium (sinus venarum) and the coronary sinus."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q21",
+      "discipline": "Anatomy",
+      "system": "Reproductive",
+      "vignette": "A 65-year-old man undergoes a radical retropubic prostatectomy for localized, high-grade prostate cancer. The surgical margins are clear, and he recovers well. However, six months later, he complains of a complete inability to achieve an erection, despite having normal nocturnal erections prior to the surgery. His libido is intact, and his serum testosterone is normal. The surgeon explains that this complication is due to unavoidable damage to a delicate neural plexus located immediately lateral to the prostatic capsule. The specific nerve fibers severed during this procedure normally provide which of the following autonomic inputs to the penis?",
+      "options": [
+        "Sympathetic fibers originating from T11-L2",
+        "Parasympathetic fibers originating from S2-S4",
+        "Somatic motor fibers originating from S2-S4",
+        "Sympathetic fibers originating from the superior hypogastric plexus",
+        "Somatic sensory fibers originating from the pudendal nerve"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the cavernous nerves (parasympathetic S2-S4) as the structures injured in post-prostatectomy erectile dysfunction.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: Erectile dysfunction following a radical prostatectomy is incredibly common. Step 2: It is caused by surgical trauma to the prostatic plexus, which contains the delicate *Cavernous nerves* traveling along the posterolateral surface of the prostate gland. Step 3: The cavernous nerves carry postganglionic *parasympathetic* fibers that originate from the pelvic splanchnic nerves (spinal cord levels *S2-S4*). Step 4: These parasympathetic fibers release nitric oxide (NO), which relaxes the smooth muscle of the corpus cavernosum, allowing blood to engorge the penis and cause an erection. (Mnemonic: 'Point and Shoot' – Parasympathetic = Erection, Sympathetic = Ejaculation).",
+        "incorrect_rationales": [
+          "Option A and Option D describe sympathetic fibers, which mediate emission and ejaculation (and detumescence), not the initiation of the erection.",
+          "Option C describes the perineal branch of the pudendal nerve, which controls the bulbospongiosus and ischiocavernosus muscles for semen expulsion, but does not initiate vasodilation.",
+          "Option E describes the sensory input of the erection reflex, which is generally preserved if the pudendal nerve itself isn't damaged."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q22",
+      "discipline": "Physiology",
+      "system": "Endocrine",
+      "vignette": "A phenotypic female infant is evaluated in the pediatric intensive care unit due to failure to thrive, persistent vomiting, and severe dehydration. She was born two weeks ago. Physical examination reveals ambiguous, heavily virilized external genitalia with clitoromegaly and partial labioscrotal fusion. Blood pressure is 60/40 mmHg. Laboratory studies demonstrate a serum sodium of 120 mEq/L and a serum potassium of 6.5 mEq/L. Plasma renin activity is markedly elevated. The genetic deficiency driving this patient's adrenal crisis most directly results in the massive accumulation of which of the following steroid precursors?",
+      "options": [
+        "11-deoxycorticosterone (11-DOC)",
+        "17-hydroxyprogesterone",
+        "Pregnenolone",
+        "Cholesterol",
+        "Corticosterone"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize classic 21-hydroxylase deficiency and the accumulation of 17-hydroxyprogesterone.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: A virilized female infant with severe salt wasting (hypotension, hyponatremia, hyperkalemia) has classical Congenital Adrenal Hyperplasia (CAH). Step 2: The combination of virilization and hypotension perfectly defines *21-hydroxylase deficiency* (the most common form of CAH). Step 3: The enzyme 21-hydroxylase is required for the synthesis of both aldosterone and cortisol. Because it is blocked, the pathway backs up. Step 4: The immediate, direct precursor sitting just behind the blocked enzyme is *17-hydroxyprogesterone*. This precursor accumulates massively and spills over into the sex hormone (androgen) pathway, creating excessive testosterone that virilizes the female fetus. Testing for elevated 17-hydroxyprogesterone is the gold standard diagnostic newborn screen for this disease.",
+        "incorrect_rationales": [
+          "Option A accumulates in 11-beta-hydroxylase deficiency (which causes virilization but features *hypertension*, not hypotension, because 11-DOC acts as a weak mineralocorticoid).",
+          "Option C accumulates in 17-alpha-hydroxylase deficiency (causes hypertension and *undervirilization*).",
+          "Option D accumulates in StAR protein or cholesterol desmolase deficiency (lethal salt wasting, complete sex reversal in males).",
+          "Option E is formed downstream of 21-hydroxylase, so it would be severely deficient."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q23",
+      "discipline": "Genetics",
+      "system": "Neurology",
+      "vignette": "A 19-year-old man is evaluated for a history of recurrent, severe headaches and generalized tonic-clonic seizures. During the clinical interview, his mother mentions that she has suffered from similar seizures and was recently diagnosed with diabetes and bilateral deafness. Her brother (the patient's uncle) died at age 25 after suffering a massive stroke. Notably, the mother's sister (the patient's aunt) has three children, none of whom display any of these symptoms. A muscle biopsy of the patient reveals muscle fibers with a patchy, irregular contour that stain deep red when using a modified Gömöri trichrome stain. The diverse, variable severity of the symptoms observed across this specific family pedigree is best explained by which of the following genetic principles?",
+      "options": [
+        "Incomplete penetrance",
+        "Variable expressivity",
+        "Heteroplasmy",
+        "Anticipation",
+        "Pleiotropy"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Recognize Mitochondrial Encephalomyopathy (MELAS) and the principle of heteroplasmy.",
+        "correct_rationale": "Option C is correct. (Fourth-order question). Step 1: A young patient with seizures, strokes, myopathy, and a maternal family history of deafness and diabetes has Mitochondrial Encephalomyopathy, Lactic Acidosis, and Stroke-like episodes (MELAS). Step 2: The muscle biopsy showing 'ragged red fibers' (accumulations of diseased mitochondria) definitively confirms a mitochondrial disease. Step 3: Mitochondrial diseases are inherited strictly from the mother. Step 4: The wide variation in symptom severity among family members (and within different organs of the same patient) is the hallmark of *Heteroplasmy*. A single cell contains hundreds of mitochondria. Some are mutated, some are normal. The random distribution of mutated vs. normal mitochondria during cell division determines how severely a specific tissue (or a specific child) is affected.",
+        "incorrect_rationales": [
+          "Option A (having the gene but showing no symptoms) and Option B (having different severity of symptoms) apply to Mendelian genetics, but mitochondrial diseases have a unique, specific term (heteroplasmy) to describe this variance based on organelle sorting.",
+          "Option D describes trinucleotide repeat disorders (e.g., Huntington, Fragile X), where symptoms get worse in each subsequent generation.",
+          "Option E means one gene mutation causes multiple distinct phenotypic effects (e.g., Marfan syndrome), which is true here, but it doesn't explain the *variation in severity* across the family members."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q24",
+      "discipline": "Pharmacology",
+      "system": "Oncology",
+      "vignette": "A 62-year-old man with newly diagnosed stage III colorectal cancer is scheduled to undergo the FOLFOX chemotherapy regimen. One of the primary antineoplastic agents in this regimen is 5-fluorouracil (5-FU). During his infusion, the oncology nurse also heavily administers intravenous leucovorin (folinic acid). Unlike its use as a 'rescue' agent in high-dose methotrexate therapy, the administration of leucovorin concurrently with 5-FU is specifically intended to accomplish which of the following?",
+      "options": [
+        "Protect healthy bone marrow cells from 5-FU toxicity",
+        "Bypass the inhibited dihydrofolate reductase (DHFR) enzyme",
+        "Enhance the binding of 5-FU to the thymidylate synthase enzyme",
+        "Increase the renal clearance of the toxic 5-FU metabolites",
+        "Prevent the formation of uric acid crystals in the renal tubules"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Distinguish the role of Leucovorin with 5-FU (enhancement) vs Methotrexate (rescue).",
+        "correct_rationale": "Option C is correct. (Third-order conceptual). Step 1: 5-Fluorouracil (5-FU) is a pyrimidine analog used heavily in GI cancers. It acts by irreversibly inhibiting Thymidylate Synthase, halting DNA synthesis (thymineless death). Step 2: To do this, 5-FU binds to thymidylate synthase and its cofactor, 5,10-methylene-tetrahydrofolate (THF), forming a 'ternary complex.' Step 3: Leucovorin (folinic acid) is essentially a ready-to-use form of 5,10-methylene-THF. When given with 5-FU, it massively stabilizes this ternary complex, permanently locking the enzyme down. Therefore, leucovorin *enhances* the toxic, tumor-killing effect of 5-FU. (This is the exact opposite of its use with Methotrexate, where it is used to *rescue* healthy cells by bypassing the DHFR blockade).",
+        "incorrect_rationales": [
+          "Option A and Option B describe the use of Leucovorin in Methotrexate therapy (Leucovorin rescue).",
+          "Option D is the purpose of hydration and mesna (for cyclophosphamide).",
+          "Option E is the purpose of allopurinol or rasburicase (preventing Tumor Lysis Syndrome)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q25",
+      "discipline": "Pathology",
+      "system": "Hematology",
+      "vignette": "A 10-year-old boy presents to the emergency department with prolonged, uncontrolled bleeding after a minor tooth extraction. He has a history of easy bruising and frequent epistaxis since infancy. Coagulation studies reveal a normal PT and a normal aPTT. His platelet count is completely normal, but a peripheral blood smear demonstrates dramatically enlarged platelets, some nearly the size of red blood cells. Platelet aggregation studies show no agglutination in response to ristocetin. When normal, healthy plasma is added to the patient's sample, the ristocetin assay still remains completely abnormal. The underlying genetic defect in this patient results in the absence of which of the following surface molecules?",
+      "options": [
+        "Glycoprotein IIb/IIIa",
+        "von Willebrand Factor",
+        "Glycoprotein Ib",
+        "Factor VIII",
+        "Fibrinogen"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify Bernard-Soulier syndrome by large platelets and lack of ristocetin correction.",
+        "correct_rationale": "Option C is correct. (Fourth-order question). Step 1: Mucosal bleeding with normal PT/aPTT, normal platelet count, but massive ('giant') platelets defines Bernard-Soulier Syndrome. Step 2: Bernard-Soulier is an autosomal recessive deficiency of the *Glycoprotein Ib (GpIb)* receptor on the platelet surface. Step 3: GpIb is the receptor that binds to von Willebrand Factor (vWF) to tether the platelet to exposed collagen. Step 4: The Ristocetin test forces vWF to bind to GpIb. If the test is abnormal, it means either vWF is missing (von Willebrand disease) OR GpIb is missing (Bernard-Soulier). Step 5: If you add normal plasma (which contains plenty of normal vWF), vWD will correct. Because this patient's blood *still failed to aggregate*, the defect is physically on the patient's platelet itself (missing GpIb).",
+        "incorrect_rationales": [
+          "Option A deficiency causes Glanzmann Thrombasthenia. Platelets are normal size, and the ristocetin test is actually *normal* (because initial vWF tethering works, they just can't bind fibrinogen to clump together).",
+          "Option B deficiency causes von Willebrand Disease. The ristocetin test is abnormal, but *corrects* when normal plasma is added. Also, platelets are normal size.",
+          "Option D deficiency is Hemophilia A (prolonged aPTT, deep joint bleeding).",
+          "Option E is the circulating protein that links GpIIb/IIIa receptors together."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q26",
+      "discipline": "Immunology",
+      "system": "Rheumatology",
+      "vignette": "A 45-year-old man presents with a 2-month history of fever, weight loss, severe abdominal pain after eating, and newly developed foot drop on the right side. He also notes a purplish, lacy rash (livedo reticularis) on his legs. His medical history is significant for a chronic viral infection. A biopsy of a medium-sized mesenteric artery is performed. Microscopic examination reveals severe, transmural inflammation with striking fibrinoid necrosis of the arterial wall. Notably, a chest X-ray and high-resolution CT of the lungs are completely clear of any abnormalities. This patient's vasculitis is most strongly associated with chronic infection by which of the following viruses?",
+      "options": [
+        "Hepatitis C virus",
+        "Human immunodeficiency virus (HIV)",
+        "Hepatitis B virus",
+        "Epstein-Barr virus (EBV)",
+        "Parvovirus B19"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Recognize Polyarteritis Nodosa (PAN) and its strong association with Hepatitis B.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: A middle-aged man with systemic symptoms, mesenteric ischemia (pain after eating), peripheral neuropathy (foot drop / mononeuritis multiplex), livedo reticularis, and a biopsy showing transmural fibrinoid necrosis of medium-sized arteries has Polyarteritis Nodosa (PAN). Step 2: A highly defining clinical hallmark of PAN is that it characteristically *spares the pulmonary circulation* (clear chest X-ray). Step 3: Roughly 30% of patients with classic Polyarteritis Nodosa are chronically infected with the *Hepatitis B virus* (HBV). The vasculitis is driven by the deposition of Hepatitis B surface antigen-antibody immune complexes in the vessel walls.",
+        "incorrect_rationales": [
+          "Option A is heavily associated with Mixed Cryoglobulinemia (causing palpable purpura, arthralgias, and membranoproliferative glomerulonephritis).",
+          "Option B can cause various opportunistic infections and Kaposi sarcoma, but not PAN.",
+          "Option D is associated with various lymphomas and nasopharyngeal carcinoma.",
+          "Option E causes Erythema infectiosum (Fifth disease) and aplastic crises."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q27",
+      "discipline": "Microbiology",
+      "system": "Pulmonary",
+      "vignette": "A 19-year-old man with cystic fibrosis is admitted to the hospital with a severe exacerbation of pneumonia. Sputum cultures yield a heavy growth of Pseudomonas aeruginosa. The microbiology lab notes that the bacterial colonies on the agar plate have an intensely mucoid, glistening appearance. This specific mucoid phenotype confers an extreme survival advantage to the bacteria within the thick mucus of the patient's respiratory tract. The mucoid appearance is directly caused by the overproduction of which of the following extracellular structures?",
+      "options": [
+        "A dense network of highly motile flagella",
+        "A thick, polysaccharide alginate capsule",
+        "Abundant type IV attachment pili (fimbriae)",
+        "A highly branched peptidoglycan cell wall",
+        "An extracellular lipid-based biofilm matrix"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the alginate capsule as the source of the mucoid phenotype in Pseudomonas strains infecting CF patients.",
+        "correct_rationale": "Option B is correct. (Second-order question). Step 1: *Pseudomonas aeruginosa* is the leading cause of respiratory failure and death in adult patients with Cystic Fibrosis (CF). Step 2: When *Pseudomonas* establishes a chronic infection in the thick, dehydrated mucus of a CF lung, it frequently undergoes a genetic mutation that causes it to convert to a 'mucoid' phenotype. Step 3: This mucoid phenotype is characterized by the massive, unrelenting overproduction of *Alginate*, an exopolysaccharide capsule. This thick alginate slime physically surrounds the bacteria, forming an impenetrable biofilm that blocks phagocytes and completely prevents antibiotics from reaching the cell surface, making eradication virtually impossible.",
+        "incorrect_rationales": [
+          "Option A mediates motility (which *Pseudomonas* has, but it doesn't cause the mucoid look).",
+          "Option C allows for initial attachment to epithelial cells.",
+          "Option D is standard structural support for the bacteria, not the exopolysaccharide slime.",
+          "Option E is incorrect; the biofilm matrix in this specific organism is heavily carbohydrate-based (alginate), not lipid-based."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q28",
+      "discipline": "Biochemistry",
+      "system": "Gastrointestinal",
+      "vignette": "A 7-year-old boy presents to the clinic with a prominent, red, scaling rash on his face, neck, and the dorsum of his hands that worsens with sun exposure. His mother reports he has been having episodes of watery diarrhea and recently appears clumsy and unsteady when walking. Urinalysis reveals massive quantities of neutral amino acids, but no proteins or glucose. The metabolic derangement causing this patient's severe skin and neurological symptoms is primarily due to the profound downstream deficiency of which of the following essential compounds?",
+      "options": [
+        "Riboflavin",
+        "Niacin",
+        "Ascorbic acid",
+        "Pyridoxine",
+        "Cobalamin"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize Hartnup disease and its subsequent presentation as Niacin deficiency (Pellagra).",
+        "correct_rationale": "Option B is correct. (Fourth-order question). Step 1: A child with a photosensitive rash, diarrhea, cerebellar ataxia, and massive aminoaciduria has Hartnup Disease. Step 2: Hartnup disease is an autosomal recessive defect in the neutral amino acid transporters located in the proximal renal tubules and the intestinal enterocytes. Step 3: Because of this defect, the body cannot absorb or retain neutral amino acids. The most clinically critical of these lost amino acids is *Tryptophan*. Step 4: Tryptophan is the absolute required endogenous precursor for the synthesis of *Niacin (Vitamin B3)*. A lack of tryptophan causes profound Niacin deficiency, which clinically manifests as Pellagra (the 3 D's: Dermatitis, Diarrhea, and Dementia/ataxia).",
+        "incorrect_rationales": [
+          "Option A deficiency causes angular cheilitis and corneal vascularization.",
+          "Option C deficiency causes Scurvy (bleeding gums, petechiae).",
+          "Option D deficiency causes peripheral neuropathy and sideroblastic anemia.",
+          "Option E deficiency causes megaloblastic anemia and subacute combined degeneration of the spinal cord."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q29",
+      "discipline": "Anatomy",
+      "system": "Gastrointestinal",
+      "vignette": "A 65-year-old man with a history of advanced pancreatic cancer located in the body and tail of the pancreas presents to the emergency department with sudden, severe, left-sided upper abdominal pain and hematemesis. A CT angiogram reveals a massive tumor invasion causing complete occlusion and thrombosis of the splenic artery. Due to this vascular occlusion, a specific region of the patient's stomach is currently undergoing acute ischemic necrosis. Which of the following specific vessels normally supplies the affected, ischemic region of the stomach?",
+      "options": [
+        "Left gastric artery",
+        "Right gastric artery",
+        "Right gastroepiploic artery",
+        "Left gastroepiploic artery",
+        "Short gastric arteries"
+      ],
+      "correct_index": 4,
+      "explanation": {
+        "educational_objective": "Identify the short gastric arteries as branches of the splenic artery vulnerable to ischemia.",
+        "correct_rationale": "Option E is correct. (Third-order question). Step 1: The patient has complete occlusion of the Splenic Artery. Step 2: The splenic artery courses along the superior border of the pancreas (making it highly vulnerable to pancreatic cancer or pancreatitis). It gives off two major branches to the stomach: the Left Gastroepiploic artery and the *Short Gastric arteries*. Step 3: The Left Gastroepiploic has a strong anastomosis with the Right Gastroepiploic, protecting the greater curvature from ischemia. However, the Short Gastric arteries (which supply the fundus of the stomach) have very poor collateral anastomoses. Therefore, splenic artery occlusion uniquely causes isolated, severe ischemia and infarction of the *gastric fundus*.",
+        "incorrect_rationales": [
+          "Option A supplies the upper lesser curvature and arises directly from the celiac trunk.",
+          "Option B supplies the lower lesser curvature and arises from the proper hepatic artery.",
+          "Option C supplies the lower greater curvature and arises from the gastroduodenal artery.",
+          "Option D supplies the upper greater curvature, and while it arises from the splenic artery, it is protected from ischemia by its strong anastomosis with the right gastroepiploic."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q30",
+      "discipline": "Biostatistics",
+      "system": "Multisystem",
+      "vignette": "A multi-center, randomized, double-blind, placebo-controlled trial is conducted to evaluate a new drug for the treatment of severe Alzheimer's disease. The researchers established their significance level (alpha) at 0.05 prior to data collection. At the conclusion of the 5-year trial, the data analysis yields a p-value of 0.03. Based on this value, the lead investigator officially publishes that the new drug significantly slows cognitive decline compared to the placebo. However, ten years later, multiple massive, independent replication studies conclusively prove that the new drug is entirely useless and performs exactly identically to a placebo. In the original trial, the lead investigator committed which of the following specific statistical errors?",
+      "options": [
+        "Type II Error (Beta)",
+        "Type I Error (Alpha)",
+        "Selection Bias",
+        "Observer-Expectancy Bias",
+        "Lead-time Bias"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify a Type I Error (False Positive).",
+        "correct_rationale": "Option B is correct. (Second-order conceptual). Step 1: The original study found a statistically significant result (p = 0.03 < 0.05), leading them to *reject the null hypothesis* and claim the drug works. Step 2: In reality, the drug is completely useless (the null hypothesis was actually true). Step 3: Rejecting a true null hypothesis (falsely claiming a difference exists when it does not) is the exact definition of a *Type I Error* (a False Positive). Step 4: The probability of making this exact mistake is represented by the *Alpha* level. Because they set alpha to 0.05, they accepted a 5% risk that their 'significant' finding was purely due to random chance.",
+        "incorrect_rationales": [
+          "Option A is a False Negative. This happens when the drug actually *does* work in reality, but the study fails to detect it (often due to small sample size/low power).",
+          "Option C is a flaw in how patients are enrolled, not the final mathematical conclusion error.",
+          "Option D is a flaw where researchers subconsciously influence results (prevented here by double-blinding).",
+          "Option E is an illusion of survival time caused by early screening."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q31",
+      "discipline": "Biochemistry",
+      "system": "Gastrointestinal",
+      "vignette": "A 10-month-old infant is evaluated for chronic diarrhea, poor growth, and a severe, crusted, erythematous rash predominantly located around his mouth, eyes, and anus. The mother also reports that the child has lost most of his scalp hair over the past two months. The infant was recently transitioned from breast milk to a specialized parenteral nutrition formula due to severe short bowel syndrome. The clinical presentation is highly suggestive of a trace mineral deficiency. The deficient element normally functions as an essential cofactor for hundreds of metalloenzymes, including which of the following?",
+      "options": [
+        "Lysyl oxidase",
+        "Carbonic anhydrase",
+        "Glutathione peroxidase",
+        "Xanthine oxidase",
+        "Thyroid peroxidase"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize Zinc deficiency (acrodermatitis enteropathica) and its role in metalloenzymes.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: An infant presenting with a periorificial rash (acrodermatitis), alopecia, diarrhea, and failure to thrive, especially in the context of Total Parenteral Nutrition (TPN) or weaning, has profound Zinc deficiency. Step 2: Zinc is a critical trace element required for the function of over 100 metalloenzymes, including RNA/DNA polymerases, alkaline phosphatase, alcohol dehydrogenase, and *Carbonic anhydrase*. Step 3: Carbonic anhydrase is highly dependent on zinc to catalyze the reversible hydration of carbon dioxide into bicarbonate and protons.",
+        "incorrect_rationales": [
+          "Option A relies on Copper (defective in Menkes disease).",
+          "Option C relies on Selenium.",
+          "Option D relies on Molybdenum.",
+          "Option E relies on Iron and Iodine."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q32",
+      "discipline": "Pharmacology",
+      "system": "Toxicology",
+      "vignette": "A 35-year-old firefighter is pulled from a burning plastics factory. He is comatose, hypotensive, and breathing rapidly. His breath has a faint, bitter almond odor. Arterial blood gas reveals a profound lactic acidosis. The emergency physician immediately administers an intravenous kit containing nitrites and sodium thiosulfate. The nitrites in this rescue kit intentionally alter the patient's hemoglobin to create a new state. This altered hemoglobin successfully sequesters the deadly toxin because its iron moiety has been chemically locked into which of the following states?",
+      "options": [
+        "Ferrous (Fe2+)",
+        "Ferric (Fe3+)",
+        "Carboxyhemoglobin",
+        "Oxyhemoglobin",
+        "Deoxyhemoglobin"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify Cyanide poisoning and the mechanism of nitrite therapy (creating methemoglobin/Fe3+).",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: Smoke inhalation from burning plastics (polyurethanes), bitter almond breath, and severe lactic acidosis (due to halted aerobic metabolism) is the classic presentation of Cyanide toxicity. Step 2: Cyanide is deadly because it binds directly to the Fe3+ (ferric) iron in Cytochrome c oxidase (Complex IV) of the electron transport chain, completely halting ATP production. Step 3: To rescue the patient, Amyl nitrite is administered. Nitrites intentionally oxidize the normal Fe2+ (ferrous) iron in hemoglobin into *Fe3+ (ferric)* iron, intentionally causing Methemoglobinemia. Step 4: Cyanide has a much higher affinity for the newly created circulating Methemoglobin (Fe3+) than it does for the Cytochrome c oxidase. The methemoglobin acts as a massive decoy, pulling the cyanide out of the tissues and into the blood, where sodium thiosulfate can then convert it into thiocyanate for renal excretion.",
+        "incorrect_rationales": [
+          "Option A is the normal state of iron in hemoglobin, which binds oxygen. Cyanide does not bind well to Fe2+.",
+          "Option C is formed during Carbon Monoxide (CO) poisoning, which is also likely present in a fire, but the antidote for CO is 100% oxygen, not nitrites.",
+          "Option D and Option E represent normal physiologic states of hemoglobin (Fe2+)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q33",
+      "discipline": "Biostatistics",
+      "system": "Multisystem",
+      "vignette": "A team of cardiologists designs a clinical trial to evaluate the effect of three different dietary regimens (Mediterranean, DASH, and Keto) on systolic blood pressure. They recruit 300 patients and randomly assign 100 patients to each of the three diets. After six months, the researchers measure the mean systolic blood pressure of each group. To determine if there is a statistically significant difference in the mean blood pressures across these three independent groups, which of the following statistical tests is the most appropriate to utilize?",
+      "options": [
+        "Chi-square test",
+        "Two-sample t-test",
+        "Analysis of variance (ANOVA)",
+        "Pearson correlation coefficient",
+        "Paired t-test"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Select the appropriate statistical test (ANOVA) for comparing the means of 3 or more groups.",
+        "correct_rationale": "Option C is correct. (Second-order conceptual). Step 1: Identify the type of data being analyzed. The outcome variable is 'mean systolic blood pressure,' which is continuous, numerical data. Step 2: Identify the number of groups being compared. The study is comparing the means of *three independent groups* (Mediterranean, DASH, Keto). Step 3: The standard statistical test used to compare the means of 3 or more independent groups is the Analysis of Variance (ANOVA).",
+        "incorrect_rationales": [
+          "Option A is used to compare categorical (nominal) data between 2 or more groups (e.g., comparing the percentage of people who had a heart attack vs no heart attack).",
+          "Option B is used to compare the means of exactly TWO independent groups.",
+          "Option D is used to measure the linear relationship between two continuous variables (e.g., age vs blood pressure in a single population).",
+          "Option E is used to compare the means of TWO related groups (e.g., measuring blood pressure in the exact same 100 patients *before* and *after* a diet)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q34",
+      "discipline": "Genetics",
+      "system": "Cardiovascular",
+      "vignette": "A 10-year-old boy is brought to the emergency department with sudden-onset right-sided weakness and aphasia. An MRI confirms an acute ischemic stroke in the left middle cerebral artery territory. Physical examination reveals a tall, thin habitus, exceptionally long fingers (arachnodactyly), and a noticeable inward deformity of his chest (pectus excavatum). An ophthalmologic examination reveals a bilateral downward and inward subluxation of the lenses. His physician diagnoses a severe metabolic disorder and immediately initiates therapy with a specific vitamin supplement. Which of the following vitamins serves as an essential cofactor for the enzyme missing in this patient?",
+      "options": [
+        "Thiamine (Vitamin B1)",
+        "Riboflavin (Vitamin B2)",
+        "Niacin (Vitamin B3)",
+        "Pyridoxine (Vitamin B6)",
+        "Cobalamin (Vitamin B12)"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Recognize Homocystinuria (cystathionine synthase defect) and its requirement for Pyridoxine (B6).",
+        "correct_rationale": "Option D is correct. (Third-order question). Step 1: A child with a Marfanoid habitus (tall, long fingers, pectus excavatum) who suffers a massive thrombotic event (stroke, DVT) and exhibits *downward/inward* lens subluxation has Homocystinuria. (Note: Marfan syndrome presents similarly, but features *upward/outward* lens subluxation and causes aortic dissection, not hypercoagulable strokes). Step 2: The most common cause of classical homocystinuria is a severe deficiency in the enzyme Cystathionine beta-synthase. Step 3: Cystathionine beta-synthase is the enzyme that converts homocysteine into cystathionine. This enzyme absolutely requires *Pyridoxine (Vitamin B6)* as a cofactor. Massive doses of B6 can often push the mutant enzyme to function, reducing the lethal homocysteine levels.",
+        "incorrect_rationales": [
+          "Option A is required for transketolase and pyruvate dehydrogenase.",
+          "Option B is required for FAD (succinate dehydrogenase).",
+          "Option C is required for NAD/NADP.",
+          "Option E is required for Methionine Synthase. A defect in methionine synthase *also* causes homocystinuria (with megaloblastic anemia), but the classic Marfanoid phenotype and B6 responsiveness are tied to the much more common cystathionine synthase defect."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q35",
+      "discipline": "Immunology",
+      "system": "Endocrine",
+      "vignette": "A 15-year-old boy presents to the clinic with severe, recurrent Candida albicans infections of his mouth and nails that have persisted since early childhood. His medical history is significant for frequent muscle spasms, which were recently attributed to chronic hypocalcemia resulting from primary hypoparathyroidism. His physician is concerned that the boy is at a high risk of developing primary adrenal insufficiency (Addison's disease) in the near future. This patient's syndrome is driven by a profound failure of the immune system to establish central tolerance. The genetic mutation responsible for this disease completely abolishes the expression of a protein located primarily in which of the following anatomical structures?",
+      "options": [
+        "Bone marrow",
+        "Thymic medulla",
+        "Lymph node germinal centers",
+        "Splenic white pulp",
+        "Peyer's patches"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify Autoimmune Polyendocrine Syndrome Type 1 (APS-1) and the thymic location of the AIRE gene.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: The classic triad of Chronic Mucocutaneous Candidiasis, autoimmune Hypoparathyroidism, and autoimmune Adrenal Insufficiency definitively diagnoses Autoimmune Polyendocrine Syndrome Type 1 (APS-1). Step 2: APS-1 is caused by a mutation in the Autoimmune Regulator (AIRE) gene. Step 3: The AIRE protein acts as a master transcription factor. It is expressed almost exclusively in the medullary epithelial cells of the *Thymic medulla*. Step 4: Normally, AIRE forces the thymus to express thousands of random tissue-specific antigens (e.g., insulin, thyroid proteins, parathyroid proteins) so that developing T cells can be screened against them. T cells that react to these self-antigens are killed (Negative Selection). Without AIRE, negative selection fails, and massive populations of auto-reactive T cells escape into the body, destroying the endocrine organs.",
+        "incorrect_rationales": [
+          "Option A is where B cells undergo negative selection.",
+          "Option C, Option D, and Option E are secondary lymphoid organs where peripheral tolerance and active immune responses occur, not the primary site of T cell central tolerance."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q36",
+      "discipline": "Pharmacology",
+      "system": "Infectious Disease",
+      "vignette": "A 22-year-old college student presents to the student health clinic during winter finals week with a sudden onset of high fever, severe myalgias, headache, and a non-productive cough. Rapid antigen testing is positive for Influenza A. The physician prescribes oral oseltamivir. To be maximally effective, this medication must be started within 48 hours of symptom onset. The primary mechanism of action of oseltamivir inhibits the viral spread by directly preventing which of the following processes?",
+      "options": [
+        "Uncoating of the viral RNA genome inside the host endosome",
+        "Cleavage of sialic acid residues to allow the release of progeny virions",
+        "Binding of the viral hemagglutinin to host cell surface receptors",
+        "Integration of the viral RNA genome into the host cell DNA",
+        "Translation of viral mRNA by host ribosomes"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the mechanism of action of Neuraminidase Inhibitors (Oseltamivir).",
+        "correct_rationale": "Option B is correct. (Second-order question). Step 1: The patient has Influenza A and is prescribed Oseltamivir (Tamiflu). Step 2: Oseltamivir is a Neuraminidase Inhibitor. Step 3: When influenza replicates inside a cell, the newly formed progeny virions push out through the cell membrane, but they remain tethered to the host cell via hemagglutinin binding to sialic acid residues on the host surface. Step 4: The viral enzyme *Neuraminidase* acts as a pair of molecular scissors, cleaving these sialic acid bonds to free the newly formed virions so they can spread to other cells. By inhibiting neuraminidase, oseltamivir traps the newly formed viruses, leaving them clumped to the dying host cell, halting the spread of the infection.",
+        "incorrect_rationales": [
+          "Option A describes the mechanism of Amantadine and Rimantadine (which block the viral M2 ion channel), now largely obsolete due to massive viral resistance.",
+          "Option C is the very first step of viral entry, mediated by viral hemagglutinin, not neuraminidase.",
+          "Option D describes Integrase inhibitors used for HIV (influenza does not integrate into host DNA).",
+          "Option E is a mechanism of human interferons or certain antibiotics, not targeted antivirals."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q37",
+      "discipline": "Anatomy",
+      "system": "Neurology",
+      "vignette": "A 65-year-old man with a history of long-standing, poorly controlled hypertension is brought to the emergency department after suddenly developing violent, uncontrollable, and continuous flailing movements of his entire right arm and right leg. The movements are wild, wide-amplitude, and physically exhausting. His mental status is intact, and he has no other focal neurological deficits. A non-contrast head CT demonstrates a small, hyperdense acute hemorrhage deep within the brain parenchyma. The specific anatomical structure destroyed by this lacunar stroke normally provides a critical excitatory (glutamatergic) signal to which of the following regions?",
+      "options": [
+        "Globus pallidus internus (GPi)",
+        "Globus pallidus externus (GPe)",
+        "Striatum (Caudate and Putamen)",
+        "Ventral lateral (VL) nucleus of the thalamus",
+        "Substantia nigra pars compacta (SNc)"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Localize Hemiballismus to the Subthalamic Nucleus and identify its excitatory output to the GPi.",
+        "correct_rationale": "Option A is correct. (Third-order question). Step 1: Sudden, violent, flailing movements of one side of the body (right arm/leg) describes *Contralateral Hemiballismus*. Step 2: Hemiballismus is pathognomonic for a lesion in the *Subthalamic Nucleus (STN)*, most commonly caused by a lacunar stroke in hypertensive patients. Because the deficit is on the right, the stroke is in the Left STN. Step 3: In the basal ganglia circuitry (the indirect pathway), the normal role of the STN is to send an excitatory (glutamatergic) signal to the *Globus Pallidus internus (GPi)*. Step 4: The GPi acts as the 'brakes' for the brain, inhibiting the thalamus. When the STN is destroyed, the GPi loses its excitation and falls asleep. With the brakes off, the thalamus fires wildly, causing the violent hemiballistic movements.",
+        "incorrect_rationales": [
+          "Option B sends inhibitory (GABAergic) signals to the STN.",
+          "Option C sends inhibitory signals to both the GPe (indirect) and GPi (direct).",
+          "Option D receives inhibitory signals from the GPi and sends excitatory signals to the motor cortex.",
+          "Option E sends dopaminergic signals to the striatum (D1/D2 receptors)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q38",
+      "discipline": "Embryology",
+      "system": "Head & Neck",
+      "vignette": "A 10-year-old girl is brought to the pediatrician because of a painless, enlarging mass located exactly in the midline of her anterior neck, just below the hyoid bone. During physical examination, the physician asks the girl to stick her tongue out. As she protrudes her tongue, the cystic mass is observed to physically move upward. This benign cystic structure is a developmental remnant of a tract that normally originates from which of the following anatomical landmarks in the embryo?",
+      "options": [
+        "The second pharyngeal cleft",
+        "The foramen cecum",
+        "The third pharyngeal pouch",
+        "The ultimobranchial body",
+        "The tuberculum impar"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize a Thyroglossal Duct Cyst and its origin at the foramen cecum.",
+        "correct_rationale": "Option B is correct. (Second-order question). Step 1: A painless, midline anterior neck mass that moves upward with swallowing or protrusion of the tongue is the classic presentation of a *Thyroglossal Duct Cyst*. Step 2: During normal embryogenesis, the thyroid gland develops at the base of the tongue and descends through the neck down to its final position, leaving behind a tract (the thyroglossal duct) that normally completely obliterates. Step 3: The precise starting point of this descent, which remains visible as a tiny pit on the dorsal surface of the adult tongue, is the *Foramen Cecum*.",
+        "incorrect_rationales": [
+          "Option A fails to obliterate to form a Branchial Cleft Cyst. These present as a *lateral* neck mass (anterior to the SCM) and do *not* move with swallowing.",
+          "Option C forms the inferior parathyroid glands and the thymus.",
+          "Option D forms the parafollicular C cells of the thyroid (calcitonin).",
+          "Option E is a swelling in the floor of the pharynx that helps form the anterior two-thirds of the tongue."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q39",
+      "discipline": "Physiology",
+      "system": "Neurology",
+      "vignette": "A 55-year-old woman with a long history of severe alcohol use disorder is admitted to the hospital with profound weakness, seizures, and altered mental status. Laboratory testing reveals a critically low serum sodium level of 108 mEq/L (Normal: 135-145). The medical resident aggressively administers a rapid, continuous infusion of 3% hypertonic saline. Twelve hours later, the patient's sodium is corrected to 136 mEq/L. However, on hospital day 3, the patient suddenly develops quadriplegia, an inability to speak, and an inability to swallow, though she remains fully conscious and can only communicate by blinking her eyes vertically. The aggressive treatment initiated in the ED caused massive osmotic damage to which of the following specific regions of the central nervous system?",
+      "options": [
+        "The mammillary bodies",
+        "The corpus callosum",
+        "The basal ganglia",
+        "The base of the pons",
+        "The anterior horns of the spinal cord"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Identify Osmotic Demyelination Syndrome (Central Pontine Myelinolysis) caused by rapid hyponatremia correction.",
+        "correct_rationale": "Option D is correct. (Third-order question). Step 1: A patient with severe, chronic hyponatremia is treated with aggressive, rapid correction (hypertonic saline). Step 2: This rapid shift in osmolarity forcefully sucks water out of the brain cells, severely damaging the myelin sheaths. This is known as Osmotic Demyelination Syndrome (formerly Central Pontine Myelinolysis). Step 3: The clinical presentation is 'Locked-in Syndrome' (quadriplegia, bulbar palsy, intact cognition, only capable of vertical eye movements). Step 4: Locked-in syndrome is caused by the massive demyelination and destruction of the massive descending corticospinal and corticobulbar tracts as they pass through the *Base of the Pons*. (Mnemonic: From low to high, your pons will die).",
+        "incorrect_rationales": [
+          "Option A are destroyed in Wernicke encephalopathy (caused by Thiamine deficiency in alcoholics), presenting with ataxia, confusion, and nystagmus.",
+          "Option B can be affected in Marchiafava-Bignami disease (rare demyelination seen in alcoholics).",
+          "Option C is affected in Wilson disease or carbon monoxide poisoning.",
+          "Option E is affected in ALS or Polio."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q40",
+      "discipline": "Pharmacology",
+      "system": "Cardiovascular",
+      "vignette": "A 60-year-old man undergoes percutaneous coronary intervention (PCI) with the placement of a drug-eluting stent following a myocardial infarction. To prevent in-stent thrombosis, the cardiologist prescribes dual antiplatelet therapy consisting of daily aspirin and clopidogrel. While aspirin irreversibly inhibits cyclooxygenase, clopidogrel exerts its potent antiplatelet effect by binding to a completely different receptor. The specific receptor targeted by clopidogrel normally responds to which of the following endogenous ligands?",
+      "options": [
+        "Thromboxane A2 (TXA2)",
+        "Adenosine diphosphate (ADP)",
+        "Serotonin (5-HT)",
+        "Fibrinogen",
+        "Von Willebrand Factor (vWF)"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the mechanism of action of Clopidogrel (ADP / P2Y12 receptor antagonist).",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: The patient is placed on Clopidogrel to prevent stent thrombosis. Step 2: Clopidogrel (along with prasugrel and ticagrelor) belongs to the thienopyridine class of antiplatelet drugs. Step 3: These drugs act as irreversible antagonists at the P2Y12 receptor on the platelet surface. Step 4: The endogenous ligand that normally binds to the P2Y12 receptor to trigger platelet aggregation is *Adenosine diphosphate (ADP)*. By blocking ADP from binding, clopidogrel prevents the platelet from expressing the massive Glycoprotein IIb/IIIa receptors needed to bind fibrinogen and form a clot.",
+        "incorrect_rationales": [
+          "Option A synthesis is blocked by Aspirin (COX inhibition).",
+          "Option C plays a minor role in platelet aggregation but is not the target of clopidogrel.",
+          "Option D binds to the Glycoprotein IIb/IIIa receptor. Drugs like Abciximab or Eptifibatide block fibrinogen binding directly.",
+          "Option E binds to the Glycoprotein Ib receptor on the platelet."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    }
+  ]
+}
