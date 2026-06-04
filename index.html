@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>USMLE Step 1 Master Bank</title>
+    <title>USMLE Step 1 Mock Exam</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -47,6 +47,7 @@
                         <div><span class="box flagged"></span> Flagged</div>
                     </div>
                     <div class="timer" id="exam-timer">60:00</div>
+                    <button id="btn-dark-mode" class="control-btn dark-btn">🌙 Dark Mode</button>
                     <button id="btn-lab-values" class="control-btn lab-btn">Lab Values</button>
                 </div>
             </div>
@@ -57,6 +58,12 @@
         </nav>
 
         <main class="main-content">
+            <div class="stats-bar">
+                <div class="stat-box">Current Block: <span id="block-score-display">0%</span></div>
+                <div class="stat-box">Overall Avg: <span id="global-score-display">0%</span></div>
+                <button id="btn-reset-stats" class="reset-stats-btn">Reset Overall Stats</button>
+            </div>
+
             <div class="question-wrapper">
                 <header class="exam-header">
                     <div class="header-left">
@@ -64,6 +71,7 @@
                         <h3 id="question-number">Question 1</h3>
                     </div>
                     <div class="header-right">
+                        <button id="btn-shuffle" class="control-btn shuffle-btn">🔀 Shuffle Questions</button>
                         <button id="btn-flag" class="control-btn flag-btn">⚑ Flag for Review</button>
                         <button id="btn-end-block" class="control-btn end-btn hidden">End Block</button>
                     </div>
@@ -92,6 +100,13 @@
                 </footer>
             </div>
         </main>
+
+        <footer class="site-footer">
+            <div class="footer-content">
+                <p><strong>Disclaimer:</strong> This question bank was generated with advanced AI assistance and is intended solely as a free, supplementary educational resource for USMLE Step 1 preparation. It does not constitute medical advice. The creators assume no responsibility or liability for the accuracy, completeness, or reliability of the information provided. Always verify medical facts with official primary literature.</p>
+                <p class="feedback-text">Feedback, corrections, and suggestions are welcome at: <a href="mailto:babuptx@gmail.com">babuptx@gmail.com</a></p>
+            </div>
+        </footer>
     </div>
 
     <div id="lab-modal" class="modal hidden">
@@ -103,49 +118,49 @@
             <div class="modal-body" id="lab-values-content">
                 <table style="width: 100%; border-collapse: collapse; text-align: left;">
                     <thead>
-                        <tr style="background-color: #ecf0f1; border-bottom: 2px solid #bdc3c7;">
+                        <tr style="background-color: var(--card-bg); border-bottom: 2px solid #bdc3c7;">
                             <th style="padding: 10px;">Analyte (Blood, Plasma, Serum)</th>
                             <th style="padding: 10px;">Reference Range</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr style="border-bottom: 1px solid #eee;">
+                        <tr style="border-bottom: 1px solid rgba(150,150,150,0.2);">
                             <td style="padding: 8px;">Sodium (Na+)</td>
                             <td style="padding: 8px;">136 - 145 mEq/L</td>
                         </tr>
-                        <tr style="border-bottom: 1px solid #eee; background-color: #f9f9f9;">
+                        <tr style="border-bottom: 1px solid rgba(150,150,150,0.2); background-color: rgba(150,150,150,0.05);">
                             <td style="padding: 8px;">Potassium (K+)</td>
                             <td style="padding: 8px;">3.5 - 5.0 mEq/L</td>
                         </tr>
-                        <tr style="border-bottom: 1px solid #eee;">
+                        <tr style="border-bottom: 1px solid rgba(150,150,150,0.2);">
                             <td style="padding: 8px;">Chloride (Cl-)</td>
                             <td style="padding: 8px;">95 - 105 mEq/L</td>
                         </tr>
-                        <tr style="border-bottom: 1px solid #eee; background-color: #f9f9f9;">
+                        <tr style="border-bottom: 1px solid rgba(150,150,150,0.2); background-color: rgba(150,150,150,0.05);">
                             <td style="padding: 8px;">Bicarbonate (HCO3-)</td>
                             <td style="padding: 8px;">22 - 28 mEq/L</td>
                         </tr>
-                        <tr style="border-bottom: 1px solid #eee;">
+                        <tr style="border-bottom: 1px solid rgba(150,150,150,0.2);">
                             <td style="padding: 8px;">Blood Urea Nitrogen (BUN)</td>
                             <td style="padding: 8px;">7 - 18 mg/dL</td>
                         </tr>
-                        <tr style="border-bottom: 1px solid #eee; background-color: #f9f9f9;">
+                        <tr style="border-bottom: 1px solid rgba(150,150,150,0.2); background-color: rgba(150,150,150,0.05);">
                             <td style="padding: 8px;">Creatinine</td>
                             <td style="padding: 8px;">0.6 - 1.2 mg/dL</td>
                         </tr>
-                        <tr style="border-bottom: 1px solid #eee;">
+                        <tr style="border-bottom: 1px solid rgba(150,150,150,0.2);">
                             <td style="padding: 8px;">Glucose (Fasting)</td>
                             <td style="padding: 8px;">70 - 100 mg/dL</td>
                         </tr>
-                        <tr style="border-bottom: 1px solid #eee; background-color: #f9f9f9;">
+                        <tr style="border-bottom: 1px solid rgba(150,150,150,0.2); background-color: rgba(150,150,150,0.05);">
                             <td style="padding: 8px;">Calcium (Total)</td>
                             <td style="padding: 8px;">8.4 - 10.2 mg/dL</td>
                         </tr>
-                        <tr style="border-bottom: 1px solid #eee;">
+                        <tr style="border-bottom: 1px solid rgba(150,150,150,0.2);">
                             <td style="padding: 8px;">Magnesium (Mg2+)</td>
                             <td style="padding: 8px;">1.5 - 2.0 mEq/L</td>
                         </tr>
-                        <tr style="border-bottom: 1px solid #eee; background-color: #f9f9f9;">
+                        <tr style="border-bottom: 1px solid rgba(150,150,150,0.2); background-color: rgba(150,150,150,0.05);">
                             <td style="padding: 8px;">Phosphorus (Inorganic)</td>
                             <td style="padding: 8px;">3.0 - 4.5 mg/dL</td>
                         </tr>
