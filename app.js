@@ -11,45 +11,47 @@ let currentBlockFile = 'block1.json';
 let timeRemaining = 3600; // 60 minutes in seconds
 let timerInterval;
 
+// Global Score State
+let globalStats = JSON.parse(localStorage.getItem('usmleGlobalStats')) || { totalCorrect: 0, totalAttempted: 0 };
+
 // Initialize Exam Block
 async function loadBlock(filename) {
     try {
-        // 1. Reset all global states for the new block
         currentQuestionIndex = 0;
         userAnswers = {};
         flaggedQuestions.clear();
         revealedQuestions.clear();
         isReviewMode = false;
         
-        // 2. Reset and restart the timer
         clearInterval(timerInterval);
         timeRemaining = 3600; 
         
-        // 3. Fetch the new JSON file
         const response = await fetch(`${filename}?t=${new Date().getTime()}`);
-        const data = await response.json();
-        questionData = data.questions || [];
+        if (!response.ok) throw new Error("File not found");
         
-        // 4. Update the UI Title
+        const data = await response.json();
+        // Create a deep copy of questions to allow shuffling without affecting the original fetch cache
+        questionData = JSON.parse(JSON.stringify(data.questions || []));
+        
         document.getElementById('block-title').innerText = data.block_title || `USMLE Step 1 - ${filename}`;
         
         const btnEndBlock = document.getElementById('btn-end-block');
         if(btnEndBlock) btnEndBlock.classList.remove('hidden');
 
-        // 5. Render questions if the file has data
+        updateLocalScore();
+
         if (questionData.length > 0) {
             renderQuestion(currentQuestionIndex);
             generateNavigationGrid();
             startTimer();
         } else {
-            document.getElementById('vignette-text').innerText = "This level is currently empty. Add questions to the JSON file!";
+            document.getElementById('vignette-text').innerText = "This level is currently empty.";
             document.getElementById('options-container').innerHTML = '';
             document.getElementById('question-grid').innerHTML = '';
-            document.getElementById('question-number').innerText = "No Questions Found";
         }
     } catch (error) {
         console.error("Error loading question bank:", error);
-        document.getElementById('vignette-text').innerText = "System Error: Failed to load block data.";
+        document.getElementById('vignette-text').innerText = "System Error: Failed to load block data. Ensure the JSON file is properly formatted.";
     }
 }
 
@@ -88,7 +90,7 @@ function startTimer() {
     }, 1000);
 }
 
-// NAV WRAPPER: Handles the Reset Logic for Wrong Answers
+// NAV WRAPPER
 function goToQuestion(newIndex) {
     if (!isReviewMode && revealedQuestions.has(newIndex)) {
         if (userAnswers[newIndex] !== questionData[newIndex].correct_index) {
@@ -96,7 +98,6 @@ function goToQuestion(newIndex) {
             revealedQuestions.delete(newIndex);
         }
     }
-    
     currentQuestionIndex = newIndex;
     renderQuestion(currentQuestionIndex);
     updateSidebarGrid();
@@ -112,18 +113,10 @@ function renderQuestion(index) {
     document.getElementById('question-number').innerText = `Question ${index + 1}`;
     
     let tagsContainer = document.getElementById('question-tags');
-    if (!tagsContainer) {
-        tagsContainer = document.createElement('div');
-        tagsContainer.id = 'question-tags';
-        tagsContainer.className = 'question-tags';
-        const vignette = document.getElementById('vignette-text');
-        vignette.parentNode.insertBefore(tagsContainer, vignette);
-    }
-    
     if (q.discipline && q.system) {
         tagsContainer.innerHTML = `
-            <span class="tag">Discipline: ${q.discipline}</span>
-            <span class="tag">System: ${q.system}</span>
+            <span class="tag">${q.discipline}</span>
+            <span class="tag">${q.system}</span>
         `;
         tagsContainer.style.display = 'flex';
     } else {
@@ -134,7 +127,6 @@ function renderQuestion(index) {
     
     const exhibitContainer = document.getElementById('exhibit-container');
     const exhibitImage = document.getElementById('exhibit-image');
-    
     if (q.has_exhibit && q.exhibit_url) {
         exhibitImage.src = q.exhibit_url;
         exhibitContainer.classList.remove('hidden');
@@ -146,9 +138,11 @@ function renderQuestion(index) {
     if (flaggedQuestions.has(index)) {
         flagBtn.innerText = '⚑ Unflag';
         flagBtn.style.backgroundColor = '#ffc107';
+        flagBtn.style.color = '#2d3436';
     } else {
         flagBtn.innerText = '⚑ Flag for Review';
         flagBtn.style.backgroundColor = '';
+        flagBtn.style.color = '';
     }
     
     const optionsContainer = document.getElementById('options-container');
@@ -170,6 +164,7 @@ function renderQuestion(index) {
             label.querySelector('input').addEventListener('change', (e) => {
                 userAnswers[index] = parseInt(e.target.value);
                 updateSidebarGrid();
+                updateLocalScore();
             });
         }
 
@@ -263,7 +258,6 @@ function updateSidebarGrid() {
         
         if (userAnswers[i] !== undefined) {
             btn.classList.add('answered');
-            
             if (revealedQuestions.has(i) || isReviewMode) {
                 if (userAnswers[i] === q.correct_index) {
                     btnText += ' ✅';
@@ -279,6 +273,36 @@ function updateSidebarGrid() {
     });
 }
 
+// Local Score Display
+function updateLocalScore() {
+    let localScore = 0;
+    let localAttempted = 0;
+
+    questionData.forEach((q, i) => {
+        if (userAnswers[i] !== undefined && (revealedQuestions.has(i) || isReviewMode)) {
+            localAttempted++;
+            if (userAnswers[i] === q.correct_index) localScore++;
+        }
+    });
+
+    const display = document.getElementById('block-score-display');
+    if (localAttempted === 0) {
+        display.innerText = '0%';
+    } else {
+        display.innerText = `${Math.round((localScore / localAttempted) * 100)}%`;
+    }
+}
+
+// Global Score Display
+function updateGlobalScoreDisplay() {
+    const display = document.getElementById('global-score-display');
+    if (globalStats.totalAttempted === 0) {
+        display.innerText = '0%';
+    } else {
+        display.innerText = `${Math.round((globalStats.totalCorrect / globalStats.totalAttempted) * 100)}%`;
+    }
+}
+
 // Flagging Logic
 document.getElementById('btn-flag').addEventListener('click', () => {
     if (isReviewMode) return;
@@ -289,6 +313,34 @@ document.getElementById('btn-flag').addEventListener('click', () => {
     }
     renderQuestion(currentQuestionIndex);
     updateSidebarGrid();
+});
+
+// Shuffle Logic
+document.getElementById('btn-shuffle').addEventListener('click', () => {
+    if (Object.keys(userAnswers).length > 0 || isReviewMode) {
+        const confirmShuffle = confirm("Shuffling will reset your current progress in this block. Continue?");
+        if (!confirmShuffle) return;
+    }
+    
+    // Fisher-Yates Shuffle
+    for (let i = questionData.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [questionData[i], questionData[j]] = [questionData[j], questionData[i]];
+    }
+
+    currentQuestionIndex = 0;
+    userAnswers = {};
+    flaggedQuestions.clear();
+    revealedQuestions.clear();
+    isReviewMode = false;
+    
+    clearInterval(timerInterval);
+    timeRemaining = 3600;
+    startTimer();
+    
+    generateNavigationGrid();
+    renderQuestion(currentQuestionIndex);
+    updateLocalScore();
 });
 
 // Show Answer Logic
@@ -302,6 +354,7 @@ if (btnShowAnswerEvent) {
         revealedQuestions.add(currentQuestionIndex);
         renderQuestion(currentQuestionIndex); 
         updateSidebarGrid();
+        updateLocalScore();
     });
 }
 
@@ -315,18 +368,59 @@ function endBlock() {
     clearInterval(timerInterval);
     isReviewMode = true;
     
-    let score = 0;
+    let blockScore = 0;
+    let blockAttempted = questionData.length;
+
     questionData.forEach((q, i) => {
-        if (userAnswers[i] === q.correct_index) score++;
+        // Ensure all answered questions are marked as revealed for grading
+        revealedQuestions.add(i); 
+        if (userAnswers[i] === q.correct_index) {
+            blockScore++;
+        }
     });
+
+    // Update global persistent scoreboard
+    globalStats.totalCorrect += blockScore;
+    globalStats.totalAttempted += blockAttempted;
+    localStorage.setItem('usmleGlobalStats', JSON.stringify(globalStats));
+    updateGlobalScoreDisplay();
     
-    alert(`Block Completed! Score: ${score} / ${questionData.length} (${Math.round((score/questionData.length)*100)}%)`);
+    alert(`Block Completed! Score: ${blockScore} / ${blockAttempted} (${Math.round((blockScore/blockAttempted)*100)}%)`);
     
     document.getElementById('btn-end-block').classList.add('hidden');
     document.getElementById('exam-timer').innerText = "REVIEW MODE";
     
+    updateLocalScore();
     goToQuestion(0); 
 }
+
+// Reset Global Stats
+document.getElementById('btn-reset-stats').addEventListener('click', () => {
+    const confirmReset = confirm("Are you sure you want to permanently erase your overall average score?");
+    if (confirmReset) {
+        globalStats = { totalCorrect: 0, totalAttempted: 0 };
+        localStorage.setItem('usmleGlobalStats', JSON.stringify(globalStats));
+        updateGlobalScoreDisplay();
+    }
+});
+
+// Dark Mode Toggle Logic
+const darkModeBtn = document.getElementById('btn-dark-mode');
+if (localStorage.getItem('usmleDarkMode') === 'enabled') {
+    document.body.classList.add('dark-mode');
+    darkModeBtn.innerText = '☀️ Light Mode';
+}
+
+darkModeBtn.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    if (document.body.classList.contains('dark-mode')) {
+        localStorage.setItem('usmleDarkMode', 'enabled');
+        darkModeBtn.innerText = '☀️ Light Mode';
+    } else {
+        localStorage.setItem('usmleDarkMode', 'disabled');
+        darkModeBtn.innerText = '🌙 Dark Mode';
+    }
+});
 
 // Event Listeners for Standard Navigation
 document.getElementById('btn-next').addEventListener('click', () => {
@@ -348,6 +442,7 @@ document.getElementById('btn-end-block').addEventListener('click', endBlock);
 // Boot Up Sequence
 window.onload = () => {
     setupLevelButtons();
+    updateGlobalScoreDisplay();
     currentBlockFile = 'block1.json'; 
     loadBlock(currentBlockFile);
 };
