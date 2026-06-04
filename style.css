@@ -55,9 +55,10 @@ body {
 .set-row {
     display: flex;
     align-items: center;
-    gap: 12px;
+    justify-content: flex-start; /* Changed from center to left-align */
+    gap: 15px;
     background: rgba(255, 255, 255, 0.05);
-    padding: 8px 15px;
+    padding: 10px 15px;
     border-radius: 8px;
 }
 
@@ -65,8 +66,8 @@ body {
     font-weight: 600;
     font-size: 0.95rem;
     color: #dfe6e9;
-    min-width: 150px;
-    text-align: right;
+    min-width: 220px; /* Increased to fit the longer text */
+    text-align: left; /* Changed from right to left-align */
 }
 
 .level-buttons {
