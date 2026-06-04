@@ -1,0 +1,1031 @@
+{
+  "block_id": 12,
+  "block_title": "USMLE Step 1 Mock Exam - Block 12 (Elite Integrative)",
+  "questions": [
+    {
+      "id": "q1",
+      "discipline": "Pathology",
+      "system": "Renal",
+      "vignette": "A 14-year-old boy presents with progressive edema, hematuria, and dark urine. His blood pressure is 145/90 mmHg. Laboratory studies reveal nephrotic-range proteinuria and a profoundly decreased serum C3 complement level, while his C4 level is strictly within normal limits. A renal biopsy is performed. Electron microscopy demonstrates continuous, ribbon-like, electron-dense deposits situated directly within the glomerular basement membrane. The pathogenesis of this patient's renal disease is most strongly driven by an IgG autoantibody directed against which of the following?",
+      "options": [
+        "The alpha-3 chain of Type IV collagen",
+        "The M-type phospholipase A2 receptor (PLA2R)",
+        "The C3 convertase of the alternative complement pathway",
+        "Double-stranded DNA (dsDNA)",
+        "Neutrophil myeloperoxidase (MPO)"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify Dense Deposit Disease (MPGN Type II) and its association with C3 nephritic factor.",
+        "correct_rationale": "Option C is correct. (Fourth-order question). Step 1: Hematuria, proteinuria, and an isolated low C3 with a normal C4 strongly point to an alternative complement pathway defect. Step 2: The electron microscopy finding of 'ribbon-like' intramembranous dense deposits definitively diagnoses Dense Deposit Disease (formerly Membranoproliferative Glomerulonephritis Type II). Step 3: Over 70% of patients with this disease have a circulating IgG autoantibody known as 'C3 nephritic factor' (C3NeF). Step 4: C3NeF physically binds to and stabilizes the C3 convertase (C3bBb) of the alternative pathway. This prevents its degradation, leaving it permanently 'on', which leads to the massive, unchecked consumption of C3 and severe glomerular inflammation.",
+        "incorrect_rationales": [
+          "Option A describes Goodpasture syndrome (anti-GBM disease).",
+          "Option B describes primary Membranous Nephropathy.",
+          "Option D describes Lupus Nephritis, which typically consumes BOTH C3 and C4 via the classical pathway.",
+          "Option E describes Microscopic Polyangiitis or Eosinophilic Granulomatosis with Polyangiitis (p-ANCA)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q2",
+      "discipline": "Pharmacology",
+      "system": "Neurology",
+      "vignette": "A 45-year-old man with a known autosomal dominant genetic disorder presents to the neurology clinic. Over the past year, his continuous, unpredictable, dancing-like movements of his limbs have become so severe that he can no longer feed himself. His physician decides to prescribe tetrabenazine to suppress these debilitating hyperkinetic movements. This medication achieves its therapeutic effect by directly promoting which of the following cellular events?",
+      "options": [
+        "Inhibition of dopamine breakdown in the synaptic cleft",
+        "Depletion of monoamines from presynaptic vesicles",
+        "Direct agonism of postsynaptic dopamine D2 receptors",
+        "Irreversible inhibition of monoamine oxidase B (MAO-B)",
+        "Blockade of central muscarinic acetylcholine receptors"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the mechanism of action of tetrabenazine in the treatment of Huntington chorea.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: An adult with severe chorea and an autosomal dominant family history has Huntington Disease. Step 2: The hyperkinetic movements in Huntington disease are caused by an excess of dopaminergic signaling relative to the dying GABAergic neurons in the striatum. Step 3: Tetrabenazine (and deutetrabenazine) is a targeted therapy used specifically to reduce chorea. Step 4: It works by reversibly inhibiting the Vesicular Monoamine Transporter type 2 (VMAT2). By blocking VMAT2, dopamine cannot be packaged into presynaptic vesicles. The unpackaged dopamine is destroyed by intracellular MAO, leading to a profound *depletion of monoamines* available for release, thus calming the hyperkinetic movements.",
+        "incorrect_rationales": [
+          "Option A describes COMT inhibitors (entacapone) or MAOIs.",
+          "Option C describes pramipexole or ropinirole, which would *worsen* the chorea.",
+          "Option D describes selegiline (used in Parkinson disease to increase dopamine).",
+          "Option E describes benztropine (used for Parkinson tremor or acute dystonia)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q3",
+      "discipline": "Biochemistry",
+      "system": "Neurology",
+      "vignette": "A 2-year-old girl is evaluated for a progressive loss of motor milestones, frequent falls, and a newly developed staggering gait. Physical examination reveals generalized muscle wasting and complete absent deep tendon reflexes in the lower extremities. An MRI of the brain and spinal cord demonstrates widespread demyelination in both the central and peripheral nervous systems. A urine assay reveals a massive accumulation of cerebroside sulfate. The enzyme deficient in this patient's devastating disease is which of the following?",
+      "options": [
+        "Arylsulfatase A",
+        "Galactocerebrosidase",
+        "Sphingomyelinase",
+        "Hexosaminidase A",
+        "Alpha-L-iduronidase"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Recognize Metachromatic Leukodystrophy and its deficient enzyme (Arylsulfatase A).",
+        "correct_rationale": "Option A is correct. (Third-order question). Step 1: A toddler presenting with ataxia, loss of motor milestones, peripheral neuropathy (absent DTRs), and central demyelination has a leukodystrophy. Step 2: The specific, pathognomonic accumulation of *cerebroside sulfate* (sulfatides) definitively diagnoses Metachromatic Leukodystrophy (MLD). Step 3: MLD is an autosomal recessive lysosomal storage disease caused by a severe deficiency of the enzyme *Arylsulfatase A*. Without this enzyme, sulfatides cannot be degraded and accumulate to toxic levels, aggressively destroying the myelin sheaths produced by both oligodendrocytes (CNS) and Schwann cells (PNS).",
+        "incorrect_rationales": [
+          "Option B is deficient in Krabbe disease, which presents similarly but accumulates galactocerebroside and psychosine, and features characteristic 'globoid cells' on biopsy.",
+          "Option C is deficient in Niemann-Pick disease (accumulates sphingomyelin, cherry-red macula, hepatosplenomegaly).",
+          "Option D is deficient in Tay-Sachs disease (accumulates GM2 ganglioside, cherry-red macula, NO hepatosplenomegaly).",
+          "Option E is deficient in Hurler syndrome (accumulates heparan/dermatan sulfate, coarse facies, corneal clouding)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q4",
+      "discipline": "Anatomy",
+      "system": "Cardiovascular",
+      "vignette": "A 45-year-old woman with highly symptomatic, drug-refractory atrioventricular nodal reentrant tachycardia (AVNRT) undergoes a successful radiofrequency catheter ablation of the 'slow pathway'. To ensure he ablates the correct target without permanently destroying the patient's entire cardiac conduction system, the electrophysiologist navigates his catheter into a specific anatomical landmark known as the Triangle of Koch. Which of the following structures forms the superior/anterior border (the apex) of this specific anatomical triangle?",
+      "options": [
+        "The ostium of the coronary sinus",
+        "The septal leaflet of the tricuspid valve",
+        "The tendon of Todaro",
+        "The atrioventricular (AV) node itself",
+        "The fossa ovalis"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Identify the borders and contents of the Triangle of Koch.",
+        "correct_rationale": "Option D is correct. (Third-order question). Step 1: The slow pathway involved in AVNRT is located in the right atrium near the AV node. Step 2: Electrophysiologists find the AV node by locating the Triangle of Koch. Step 3: The Triangle of Koch is bounded by three structures: the ostium of the coronary sinus (posterior/inferior base), the septal leaflet of the tricuspid valve (anterior border), and the tendon of Todaro (superior/posterior border). Step 4: The apex of the triangle (where the borders converge superiorly and anteriorly) contains the *Atrioventricular (AV) node itself*. The ablation target is usually just inferior and posterior to the node.",
+        "incorrect_rationales": [
+          "Option A forms the base of the triangle.",
+          "Option B forms the anterior/inferior margin of the triangle.",
+          "Option C is a subendocardial ridge that forms the superior/posterior margin.",
+          "Option E is located higher up on the interatrial septum and is not a boundary of the Triangle of Koch."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q5",
+      "discipline": "Microbiology",
+      "system": "Gastrointestinal",
+      "vignette": "A 55-year-old man who immigrated to the US from Southeast Asia 20 years ago presents with right upper quadrant pain, jaundice, and severe, unintentional weight loss. An abdominal CT scan reveals a large, irregular mass originating from the intrahepatic biliary tree, and a biopsy confirms cholangiocarcinoma. Upon obtaining a detailed dietary history from his youth, the physician suspects that a chronic parasitic infection heavily predisposed him to this malignancy. The parasite responsible for this infection was most likely acquired by consuming which of the following?",
+      "options": [
+        "Undercooked pork containing encysted larvae",
+        "Freshwater snails carrying infectious cercariae",
+        "Undercooked freshwater fish containing metacercariae",
+        "Watercress contaminated with metacercariae",
+        "Feces-contaminated water containing embryonated eggs"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Connect Clonorchis sinensis infection with cholangiocarcinoma and its transmission vector.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: A patient from Southeast Asia presenting with cholangiocarcinoma (bile duct cancer) is highly suspicious for a chronic *Clonorchis sinensis* (Chinese liver fluke) infection. Step 2: The parasite lives in the biliary tract for decades, causing chronic inflammation, pigmented gallstones, and massively increasing the risk of cholangiocarcinoma. Step 3: The life cycle of *C. sinensis* involves snails as the first intermediate host and freshwater fish as the second. Humans (the definitive host) acquire the infection exclusively by eating *undercooked or raw freshwater fish* containing the encysted metacercariae.",
+        "incorrect_rationales": [
+          "Option A transmits *Taenia solium* (intestinal tapeworm) or *Trichinella spiralis* (myositis, periorbital edema).",
+          "Option B directly penetrate the skin (e.g., *Schistosoma haematobium*, which causes bladder cancer, not cholangiocarcinoma).",
+          "Option D transmits *Fasciola hepatica* (sheep liver fluke), which causes hepatic pain but is not classically linked to cholangiocarcinoma like Clonorchis.",
+          "Option E transmits *Ascaris lumbricoides* or *Echinococcus granulosus* (hydatid cyst)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q6",
+      "discipline": "Pathology",
+      "system": "Musculoskeletal",
+      "vignette": "A 70-year-old man complains that his hats no longer fit his head and that he has developed a deep, aching pain in his right thigh. He also reports new-onset, progressive hearing loss in his left ear. Laboratory testing reveals a markedly elevated serum alkaline phosphatase, but serum calcium, phosphorus, and parathyroid hormone (PTH) levels are completely normal. A bone biopsy of his right femur reveals a chaotic, 'mosaic' pattern of lamellar bone interspersed with prominent cement lines. The very first, initiating phase of this patient's disease process is characterized by the hyperactivation of which of the following?",
+      "options": [
+        "Multinucleated osteoclasts",
+        "Bone-forming osteoblasts",
+        "Chondrocytes within the epiphyseal plate",
+        "Monoclonal plasma cells",
+        "Fibroblasts in the periosteum"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Identify the primary lytic phase of Paget Disease of Bone (osteoclast hyperactivation).",
+        "correct_rationale": "Option A is correct. (Third-order question). Step 1: Increasing hat size (skull thickening), hearing loss (cranial nerve VIII impingement from narrowing bony foramina), bone pain, and an *isolated* high alkaline phosphatase with a normal metabolic panel is the classic presentation of Paget Disease of Bone (Osteitis Deformans). Step 2: The bone biopsy showing a 'mosaic' or 'jigsaw puzzle' pattern of lamellar bone confirms the diagnosis. Step 3: Paget disease occurs in three distinct phases. The very first (initiating) phase is the *Osteolytic phase*, driven by massive, unprovoked hyperactivation of incredibly large, multinucleated *Osteoclasts*, which violently resorb bone. Step 4: This is followed by a mixed phase (osteoblasts rush in to keep up), and finally an osteosclerotic phase (osteoblasts win, laying down thick, weak, chaotic bone).",
+        "incorrect_rationales": [
+          "Option B drives the final (sclerotic) phase of the disease, leading to the increased hat size and high alkaline phosphatase, but it is not the *initiating* event.",
+          "Option C describes endochondral ossification, defective in achondroplasia.",
+          "Option D describes Multiple Myeloma, which causes hypercalcemia and lytic lesions ('punched out'), not thick mosaic bone.",
+          "Option E relates to fracture repair or fibrotic diseases."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q7",
+      "discipline": "Immunology",
+      "system": "Hematology",
+      "vignette": "A 45-year-old woman is involved in a severe trauma and receives a rapid transfusion of three units of packed red blood cells. Thirty minutes into the infusion of the third unit, she suddenly develops extreme respiratory distress, a fever, and severe hypotension. Her oxygen saturation drops to 78%. A chest X-ray reveals diffuse, bilateral pulmonary infiltrates. Echocardiography shows a hyperdynamic left ventricle with a normal ejection fraction and no evidence of volume overload. Which of the following immunologic mechanisms is most likely responsible for this acute, life-threatening complication?",
+      "options": [
+        "Recipient IgE antibodies cross-linking against donor IgA proteins",
+        "Donor anti-leukocyte antibodies activating recipient neutrophils in the pulmonary vasculature",
+        "Recipient IgG antibodies targeting ABO antigens on donor erythrocytes",
+        "Volume overload stretching the pulmonary capillary bed",
+        "Cytokines released from donor leukocytes that accumulated during storage"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize TRALI and its mechanism (donor antibodies attacking recipient neutrophils).",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: Acute, severe hypoxemia with bilateral infiltrates occurring during or immediately after a blood transfusion is Transfusion-Related Acute Lung Injury (TRALI). Step 2: The normal echocardiogram strictly rules out Transfusion-Associated Circulatory Overload (TACO), which is a cardiogenic pulmonary edema. TRALI is a non-cardiogenic pulmonary edema. Step 3: The pathophysiology of TRALI involves *Donor* anti-leukocyte antibodies (usually from multiparous female donors) that are present in the transfused plasma. These antibodies directly attack and activate the *Recipient's* neutrophils. The activated neutrophils degranulate violently within the pulmonary capillaries, destroying the alveolar-capillary barrier and flooding the lungs with fluid.",
+        "incorrect_rationales": [
+          "Option A describes anaphylaxis (e.g., in a patient with Selective IgA deficiency). It causes wheezing and shock, but not typically the massive bilateral ARDS-like infiltrates.",
+          "Option C describes an acute hemolytic transfusion reaction (ABO incompatibility), presenting with flank pain, hematuria, and fever.",
+          "Option D describes TACO, which was ruled out by the normal echocardiogram and lack of volume overload signs.",
+          "Option E describes a Febrile Non-Hemolytic Transfusion Reaction, which causes fever and chills but not severe respiratory failure."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q8",
+      "discipline": "Embryology",
+      "system": "Respiratory",
+      "vignette": "A pregnant woman goes into premature labor and delivers a male infant at exactly 24 weeks of gestation. The infant experiences profound respiratory distress and is intubated immediately. At this specific point in gestation, the infant's lungs are transitioning between major developmental phases. Which of the following best describes the anatomical status of the lung parenchyma at this exact stage of development (24 weeks)?",
+      "options": [
+        "Formation of the major bronchi and complete closure of the pleuroperitoneal folds",
+        "Appearance of the first respiratory bronchioles and highly vascularized primitive alveoli",
+        "Massive proliferation of terminal bronchioles but a complete lack of respiratory bronchioles",
+        "Formation of true, mature alveoli with a fully functional alveolar-capillary barrier",
+        "Branching of the lung buds into the surrounding splanchnic mesoderm"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the Canalicular stage of lung development (Weeks 16-26) as the border of viability.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: Lung development is divided into 5 stages: Embryonic (wks 4-7), Pseudoglandular (wks 5-17), Canalicular (wks 16-26), Saccular (wks 26-birth), and Alveolar (wks 32-8 years). Step 2: The infant is born at 24 weeks. This places him squarely in the late *Canalicular* phase. Step 3: The hallmark of the Canalicular phase is that the terminal bronchioles finally branch into *respiratory bronchioles*, and the surrounding capillary network begins to approximate the epithelium. It is during this exact window (23-24 weeks) that Type II pneumocytes first appear and respiration becomes theoretically possible, making it the absolute edge of fetal viability outside the womb.",
+        "incorrect_rationales": [
+          "Option A describes the Embryonic phase.",
+          "Option C describes the Pseudoglandular phase (weeks 5-17). Because there are no respiratory bronchioles yet, fetuses born in this phase cannot survive.",
+          "Option D describes the Alveolar phase, which doesn't begin in earnest until week 32.",
+          "Option E describes the very initial budding in the early Embryonic phase."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q9",
+      "discipline": "Pharmacology",
+      "system": "Psychiatry",
+      "vignette": "A 22-year-old female college student presents to the student health clinic requesting medication to help her quit smoking. She has a BMI of 17.5 kg/m2. During the physical examination, the physician notes bilateral, painless enlargement of her parotid glands and severe enamel erosion on the lingual surfaces of her front teeth. The physician declines to prescribe her the most commonly requested smoking cessation medication due to a black-box warning. If prescribed, this specific medication would put this patient at a highly increased risk of experiencing which of the following adverse events?",
+      "options": [
+        "Severe, treatment-resistant weight gain",
+        "Life-threatening generalized tonic-clonic seizures",
+        "Serotonin syndrome and hyperthermia",
+        "Acute hepatic failure",
+        "Prolongation of the QT interval and Torsades de Pointes"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize Bulimia Nervosa and the strict contraindication for Bupropion (seizures).",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: A young female with low-normal BMI, parotid gland hypertrophy, and dental enamel erosion has Bulimia Nervosa (repetitive self-induced vomiting). Step 2: She wants a drug for smoking cessation. The primary drug for this is Bupropion (an NDRI). Step 3: Bupropion is famously known to lower the seizure threshold. Step 4: Patients with eating disorders (Bulimia or Anorexia) frequently have severe electrolyte imbalances (e.g., hypokalemia, hypomagnesemia) from vomiting/purging. Combining these baseline electrolyte derangements with Bupropion creates a massive, life-threatening risk for *generalized tonic-clonic seizures*. Therefore, Bupropion is strictly contraindicated in anyone with a history of an eating disorder.",
+        "incorrect_rationales": [
+          "Option A is incorrect; Bupropion actually promotes mild weight loss and avoids the weight gain seen with SSRIs/mirtazapine.",
+          "Option C is a risk with SSRIs, SNRIs, or MAOIs, but Bupropion does not act on serotonin (it affects dopamine and norepinephrine).",
+          "Option D is the risk of Valproate or Tolcapone.",
+          "Option E is a risk of TCAs or certain antipsychotics (Ziprasidone), not the primary fatal risk of Bupropion."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q10",
+      "discipline": "Genetics",
+      "system": "Oncology",
+      "vignette": "A 28-year-old woman is diagnosed with early-stage, triple-negative breast cancer. Her family history is notable for her brother dying of an osteosarcoma at age 15, and her mother surviving an adrenocortical carcinoma in her 30s. A genetic panel confirms the patient carries a germline mutation in the TP53 gene. In a healthy cell without this mutation, the protein encoded by this gene exerts its primary tumor-suppressive effect by heavily upregulating the transcription of a secondary protein. This secondary protein directly acts to block the cell cycle at the G1/S transition by inhibiting which of the following?",
+      "options": [
+        "Cyclin-dependent kinases (CDKs)",
+        "The Retinoblastoma (Rb) protein",
+        "The E2F transcription factor",
+        "B-cell lymphoma 2 (BCL-2)",
+        "Poly (ADP-ribose) polymerase (PARP)"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Map the p53 pathway: p53 upregulates p21, which inhibits CDKs, halting the cell cycle.",
+        "correct_rationale": "Option A is correct. (Fourth-order question). Step 1: Early breast cancer, osteosarcoma, and adrenal cancer in a young family is Li-Fraumeni Syndrome, caused by a TP53 mutation. Step 2: The normal p53 protein is the 'guardian of the genome.' When it detects DNA damage, it acts as a transcription factor. Step 3: p53 primarily upregulates the transcription of *p21*. Step 4: The p21 protein is a potent *Cyclin-dependent kinase (CDK) inhibitor*. By binding to and inhibiting CDKs, p21 prevents the CDKs from phosphorylating the Rb protein. Because Rb remains unphosphorylated, it holds tightly onto E2F, permanently halting the cell cycle at the G1/S checkpoint until the DNA is repaired.",
+        "incorrect_rationales": [
+          "Option B is the downstream *result* of the CDK inhibition. p21 stops CDKs from phosphorylating Rb. p21 does not inhibit Rb directly.",
+          "Option C is held captive by unphosphorylated Rb. p21 does not bind it directly.",
+          "Option D is an anti-apoptotic protein. If DNA damage is too severe, p53 upregulates BAX (pro-apoptotic) which punches holes in the mitochondria, overwhelming BCL-2.",
+          "Option E is a DNA repair enzyme targeted by drugs (PARP inhibitors) in BRCA-mutated breast cancers."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q11",
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "vignette": "A 45-year-old man presents to a hepatologist for evaluation of moderately elevated AST and ALT levels discovered during a routine life insurance exam. He drinks one glass of wine per week and is generally healthy, though he mentions experiencing progressively worsening shortness of breath over the past two years. A liver biopsy is performed. Microscopic examination demonstrates clusters of bright pink, spherical globules within the cytoplasm of the hepatocytes. These globules stain strongly positive with Periodic acid-Schiff (PAS) and completely resist digestion by diastase. The primary mechanism causing this patient's hepatic injury is which of the following?",
+      "options": [
+        "Autoimmune destruction of the intrahepatic bile ducts",
+        "Accumulation of misfolded, polymerized protein within the endoplasmic reticulum",
+        "Uninhibited proteolytic destruction of the hepatic stroma by neutrophil elastase",
+        "Oxidative stress secondary to massive intracellular iron deposition",
+        "Impaired excretion of conjugated bilirubin due to a transporter defect"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify Alpha-1 Antitrypsin deficiency and its mechanism of liver injury (polymerization).",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: A middle-aged man with unexplained liver damage, early-onset pulmonary symptoms (emphysema), and a biopsy showing *PAS-positive, diastase-resistant globules* definitively diagnoses Alpha-1 Antitrypsin (AAT) deficiency (PiZZ genotype). Step 2: AAT deficiency causes disease in both the lungs and the liver, but by two completely different mechanisms. Step 3: In the liver, the genetic mutation causes the AAT protein to misfold. Because it is misfolded, it cannot be secreted. It aggressively polymerizes and gets permanently trapped within the *rough endoplasmic reticulum* of the hepatocyte. This physical, toxic accumulation (seen as the pink globules) directly kills the liver cells, eventually leading to cirrhosis.",
+        "incorrect_rationales": [
+          "Option A describes Primary Biliary Cholangitis (PBC).",
+          "Option C is the exact mechanism that destroys the *lungs* in AAT deficiency (because the protective enzyme never arrives), but it is NOT the mechanism that destroys the liver.",
+          "Option D describes Hemochromatosis (Prussian blue stain).",
+          "Option E describes Dubin-Johnson syndrome (black liver)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q12",
+      "discipline": "Biochemistry",
+      "system": "Dermatology",
+      "vignette": "A 40-year-old man with a history of chronic Hepatitis C infection presents to the dermatology clinic complaining of severe, blistering lesions on the backs of his hands and forearms. He notes that the blisters appear specifically after he spends time in the sun. He also mentions that his urine occasionally appears a dark, tea-like color. Physical examination reveals numerous vesicles, bullae, and scars on the dorsal aspects of his hands, as well as noticeable hyperpigmentation and hypertrichosis (excess facial hair). The enzyme deficient in this patient's condition normally participates in a metabolic pathway that occurs in which of the following subcellular compartments?",
+      "options": [
+        "Exclusively in the mitochondria",
+        "Exclusively in the cytosol",
+        "Partially in the mitochondria and partially in the cytosol",
+        "Exclusively in the smooth endoplasmic reticulum",
+        "Exclusively in the lysosomes"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify Porphyria Cutanea Tarda, the deficient enzyme (UROD), and its cytosolic localization.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: Blistering photosensitivity strictly on sun-exposed areas, tea-colored urine, hypertrichosis, and an association with Hepatitis C or alcohol use definitively diagnoses Porphyria Cutanea Tarda (PCT). Step 2: PCT is the most common porphyria and is caused by a deficiency in Uroporphyrinogen decarboxylase (UROD). Step 3: UROD is an enzyme in the Heme Synthesis pathway. Step 4: The heme synthesis pathway famously starts in the mitochondria (ALA synthase), moves to the cytosol (ALA dehydratase, PBG deaminase, UROD), and finishes back in the mitochondria (Ferrochelatase). Because UROD is the deficient enzyme, the defect is located *exclusively in the cytosol*.",
+        "incorrect_rationales": [
+          "Option A describes the first and last steps of heme synthesis (ALA synthase, Ferrochelatase).",
+          "Option C describes the *entire* heme pathway, but the question asks where the *deficient enzyme* (UROD) normally acts, which is strictly cytosolic.",
+          "Option D is where CYP450 enzymes operate.",
+          "Option E handles degradation of macromolecules."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q13",
+      "discipline": "Anatomy",
+      "system": "Neurology",
+      "vignette": "A 55-year-old man presents to the emergency department after experiencing a sudden loss of vision. Upon careful neurological examination with confrontation visual field testing, the physician discovers that the patient is completely blind in the upper right quadrant of his visual field in both eyes (a right superior homonymous quadrantanopia). The remainder of his visual field is entirely intact. An MRI of the brain confirms an ischemic stroke. The infarcted tissue is most likely located within which of the following anatomical structures?",
+      "options": [
+        "Left temporal lobe",
+        "Right temporal lobe",
+        "Left parietal lobe",
+        "Right parietal lobe",
+        "Optic chiasm"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Localize a superior quadrantanopia ('pie in the sky') to the contralateral Meyer's loop in the temporal lobe.",
+        "correct_rationale": "Option A is correct. (Third-order question). Step 1: A homonymous deficit means the lesion is *posterior* to the optic chiasm. Step 2: The patient has a right-sided deficit. Because the visual pathways cross, the lesion must be on the *Left* side of the brain. Step 3: The patient has a *superior* quadrantanopia ('pie in the sky' deficit). Step 4: The lower retina receives the upper visual field. These lower retinal fibers travel through the optic radiations via *Meyer's loop*, which swings deep through the *Temporal lobe* before reaching the visual cortex. Therefore, a Left Temporal lobe lesion knocks out the left Meyer's loop, blinding the upper right visual field.",
+        "incorrect_rationales": [
+          "Option B would cause a *Left* superior quadrantanopia.",
+          "Option C would destroy the dorsal optic radiations (Baum's loop), which carry the upper retinal fibers. This causes a right *inferior* quadrantanopia ('pie on the floor').",
+          "Option D would cause a left inferior quadrantanopia.",
+          "Option E lesions (like a pituitary tumor) cause bitemporal hemianopsia (loss of peripheral vision in both eyes)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q14",
+      "discipline": "Physiology",
+      "system": "Cardiovascular",
+      "vignette": "A 19-year-old college athlete presents for a routine pre-participation physical. Auscultation reveals a harsh, crescendo-decrescendo systolic murmur heard best at the left lower sternal border. The physician instructs the patient to quickly squat down from a standing position. During the squat, the intensity of the murmur significantly decreases. The physician then asks the patient to stand up and bear down as if having a bowel movement (Valsalva maneuver), which causes the murmur to immediately become significantly louder. The physiological mechanism explaining the decrease in the murmur's intensity during the squatting maneuver is primarily driven by which of the following?",
+      "options": [
+        "Decreased venous return leading to a smaller left ventricular cavity",
+        "Increased venous return and increased systemic vascular resistance",
+        "Decreased systemic vascular resistance causing rapid forward flow",
+        "Increased parasympathetic tone leading to severe bradycardia",
+        "Dilation of the peripheral capillary beds reducing afterload"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Understand the hemodynamics of Hypertrophic Cardiomyopathy (HOCM) and the effect of squatting.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: A young athlete with a harsh systolic murmur that *decreases* with squatting and *increases* with Valsalva has Hypertrophic Obstructive Cardiomyopathy (HOCM). Step 2: In HOCM, the massively thickened interventricular septum creates a physical obstruction in the left ventricular outflow tract (LVOT). Step 3: Any maneuver that *increases* the volume of blood in the left ventricle pushes the obstruction apart, opening the tract and making the murmur quieter. Step 4: Squatting acts by severely kinking the arteries and veins in the legs. This forces a massive amount of blood back to the heart (*Increased Venous Return/Preload*) and simultaneously clamps down on arterial outflow (*Increased Systemic Vascular Resistance/Afterload*). Both actions trap more blood inside the left ventricle, expanding it, pulling the anterior leaflet of the mitral valve away from the septum, and quieting the murmur.",
+        "incorrect_rationales": [
+          "Option A describes the Valsalva maneuver or standing. A smaller LV cavity brings the septum and mitral valve closer together, making the obstruction *worse* and the murmur *louder*.",
+          "Option C describes the effect of medications like amyl nitrite or ACE inhibitors. Decreasing SVR empties the heart faster, making the HOCM murmur louder.",
+          "Option D does not explain the immediate mechanical expansion of the left ventricle required to quiet this specific murmur.",
+          "Option E is the opposite of squatting (which compresses capillary beds)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q15",
+      "discipline": "Biostatistics",
+      "system": "Multisystem",
+      "vignette": "A research team is measuring the resting systolic blood pressure in a population of 500 medical students. They calculate a sample mean of 115 mmHg with a standard deviation (SD) of 12 mmHg. To improve the precision of their study, they decide to expand their sample size and recruit an additional 9,500 students from across the country, bringing the total sample size to 10,000. Assuming the overall population demographics remain unchanged, which of the following best describes the most likely mathematical effect this massive increase in sample size will have on the Standard Deviation (SD) and the Standard Error of the Mean (SEM)?",
+      "options": [
+        "The SD will decrease significantly, and the SEM will decrease significantly.",
+        "The SD will remain relatively unchanged, and the SEM will decrease significantly.",
+        "The SD will increase significantly, and the SEM will remain relatively unchanged.",
+        "The SD will decrease significantly, and the SEM will remain relatively unchanged.",
+        "Both the SD and the SEM will remain relatively unchanged."
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Differentiate Standard Deviation (population spread) from Standard Error of the Mean (precision of the mean).",
+        "correct_rationale": "Option B is correct. (Second-order conceptual). Step 1: You must distinguish between SD and SEM. Standard Deviation (SD) is a measure of the inherent biological variability or 'spread' of the data in the population. Because blood pressures in the general population naturally vary by about 12 mmHg, sampling more people won't change this biological fact; the *SD will remain relatively unchanged* no matter how many people you measure. Step 2: The Standard Error of the Mean (SEM) represents how accurately the sample mean reflects the true population mean. The formula is SEM = SD / sqrt(n). Step 3: As the sample size (n) goes from 500 to 10,000, the denominator grows massively. Therefore, the *SEM will decrease significantly*. The larger the sample, the more precise and confident you are that your calculated mean is the true mean.",
+        "incorrect_rationales": [
+          "Option A incorrectly assumes that sampling more people reduces biological variability (SD).",
+          "Option C, Option D, and Option E all misunderstand the fundamental mathematical relationship: SD is a fixed population parameter (roughly constant), while SEM is inversely proportional to the square root of the sample size."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q16",
+      "discipline": "Biochemistry",
+      "system": "Neurology",
+      "vignette": "A 7-year-old boy presents with progressive behavioral changes, vision loss, and an unsteady gait. Physical examination reveals diffuse hyperpigmentation of the skin and oral mucosa, despite no sun exposure. A blood test reveals profound hypoglycemia and hyponatremia. An MRI of the brain demonstrates severe, symmetrical demyelination of the cerebral white matter. A defect in a specific membrane transporter is identified, leading to the massive accumulation of very-long-chain fatty acids (VLCFAs) in the plasma and tissues. In a healthy individual, the organelle that normally catabolizes these specific fatty acids initiates the breakdown process by transferring electrons directly to molecular oxygen, generating which of the following toxic byproducts?",
+      "options": [
+        "Superoxide free radicals",
+        "Hydrogen peroxide",
+        "Carbon monoxide",
+        "Hydroxyl radicals",
+        "Singlet oxygen"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify X-linked Adrenoleukodystrophy and the normal function of peroxisomes (producing H2O2).",
+        "correct_rationale": "Option B is correct. (Fourth-order question). Step 1: A young boy with progressive neurodegeneration (leukodystrophy) and primary adrenal insufficiency (Addison's disease: hyperpigmentation, hypoglycemia, hyponatremia) has X-linked Adrenoleukodystrophy (X-ALD). Step 2: X-ALD is caused by a mutated ABCD1 transporter, which prevents Very-Long-Chain Fatty Acids (VLCFAs) from entering Peroxisomes. The VLCFAs accumulate and destroy the adrenal cortex and CNS myelin. Step 3: Normally, VLCFAs undergo their initial beta-oxidation exclusively within the *peroxisome* (mitochondria cannot handle chains >22 carbons). Step 4: Unlike mitochondrial beta-oxidation (which passes electrons to FAD/NAD to make ATP), the first enzyme in peroxisomal beta-oxidation (acyl-CoA oxidase) transfers electrons directly to molecular oxygen ($O_2$), generating *Hydrogen peroxide* ($H_2O_2$). The peroxisome contains abundant catalase to safely neutralize this toxic byproduct.",
+        "incorrect_rationales": [
+          "Option A, Option D, and Option E are reactive oxygen species typically generated by the mitochondrial electron transport chain leak or by neutrophils during the respiratory burst, not the specific primary product of peroxisomal beta-oxidation.",
+          "Option C is a byproduct of heme degradation (by heme oxygenase)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q17",
+      "discipline": "Pharmacology",
+      "system": "Infectious Disease",
+      "vignette": "A 35-year-old man who recently emigrated from Southeast Asia tests positive for latent tuberculosis. He is initiated on a 9-month course of monotherapy. Two months later, he presents with a 'pins and needles' sensation and numbness in a 'stocking-glove' distribution. The medication responsible for this adverse effect is administered as a prodrug. To become pharmacologically active and exert its bactericidal effect, this prodrug must be processed by which of the following mycobacterial enzymes?",
+      "options": [
+        "Arabinosyltransferase",
+        "DNA-dependent RNA polymerase",
+        "Pyrazinamidase",
+        "Catalase-peroxidase (KatG)",
+        "Topoisomerase II (DNA gyrase)"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Identify Isoniazid (INH) monotherapy for latent TB and its activation by mycobacterial KatG.",
+        "correct_rationale": "Option D is correct. (Third-order question). Step 1: The standard monotherapy for latent tuberculosis is Isoniazid (INH). Step 2: INH commonly causes peripheral neuropathy (preventable by co-administering Vitamin B6 / pyridoxine). Step 3: INH is a prodrug. It relies entirely on the mycobacteria's own *Catalase-peroxidase enzyme (encoded by the KatG gene)* to activate it into a toxic free radical that halts mycolic acid synthesis. Step 4: The most common mechanism by which Mycobacterium tuberculosis develops high-level resistance to INH is by mutating or deleting the KatG gene, leaving the prodrug permanently inactive.",
+        "incorrect_rationales": [
+          "Option A is the direct target of Ethambutol.",
+          "Option B is the direct target of Rifampin.",
+          "Option C is the enzyme that activates Pyrazinamide (another TB prodrug), which operates best in the acidic environments of macrophage phagolysosomes.",
+          "Option E is the target of fluoroquinolones."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q18",
+      "discipline": "Embryology",
+      "system": "Gastrointestinal",
+      "vignette": "A male neonate is evaluated in the nursery for failure to pass meconium during the first 48 hours of life. Physical examination reveals abdominal distension. Inspection of the perineum reveals a complete absence of the anal opening. A fistula is identified connecting the distal rectum to the prostatic urethra, allowing small amounts of meconium to pass in the urine. This specific constellation of severe congenital malformations is directly caused by the developmental failure of which of the following embryonic structures?",
+      "options": [
+        "Urorectal septum",
+        "Vitelline duct",
+        "Genital tubercle",
+        "Mesonephric duct",
+        "Labioscrotal swellings"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Recognize Imperforate Anus and the embryologic role of the urorectal septum.",
+        "correct_rationale": "Option A is correct. (Third-order question). Step 1: An absent anal opening with a fistula to the urinary tract (urethra or bladder) diagnoses an Imperforate Anus (anorectal malformation). Step 2: During weeks 4-7 of embryogenesis, the hindgut and the allantois empty into a shared, common cavity called the cloaca. Step 3: A wedge of mesoderm called the *Urorectal septum* grows downward to physically partition the cloaca into an anterior urogenital sinus (forming the bladder/urethra) and a posterior anorectal canal. Failure of the urorectal septum to descend and partition this space results in an imperforate anus, almost always accompanied by a persistent fistulous connection between the rectum and the urinary tract.",
+        "incorrect_rationales": [
+          "Option B failure causes a Meckel diverticulum or an umbilico-ileal fistula (feces draining from the umbilicus).",
+          "Option C forms the glans penis/clitoris; failure causes epispadias or hypospadias.",
+          "Option D forms the male internal genitalia (epididymis, vas deferens).",
+          "Option E failure to fuse causes a bifid scrotum or labia majora."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q19",
+      "discipline": "Anatomy",
+      "system": "Reproductive",
+      "vignette": "A 28-year-old woman is in the active stage of labor. She experiences excruciating, tearing pain in her perineum and lower vagina as the fetal head descends. She requests a localized nerve block to tolerate the final stages of pushing. The anesthesiologist plans to perform a bilateral pudendal nerve block. To safely and accurately administer the anesthetic, the physician inserts an index finger into the vagina to palpate a specific bony landmark that the pudendal nerve wraps around. This palpable landmark is an anatomical projection of which of the following pelvic bones?",
+      "options": [
+        "Ilium",
+        "Ischium",
+        "Pubis",
+        "Sacrum",
+        "Coccyx"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the Ischial Spine as the landmark for a pudendal nerve block.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: The patient requires a pudendal nerve block to anesthetize the somatic sensory fibers of the perineum (S2-S4). Step 2: The pudendal nerve exits the pelvis through the greater sciatic foramen, crosses *behind the ischial spine*, and re-enters the pelvis through the lesser sciatic foramen to travel through Alcock's canal. Step 3: To perform the block transvaginally, the physician palpates the *Ischial spine*, which is a sharp, bony projection of the *Ischium* bone. The anesthetic is injected immediately adjacent to this spine to bathe the nerve.",
+        "incorrect_rationales": [
+          "Option A is the superior portion of the pelvis (iliac crest).",
+          "Option C forms the anterior ring of the pelvis (pubic symphysis).",
+          "Option D and Option E form the posterior wall of the pelvis, giving rise to the sacrospinous and sacrotuberous ligaments, but the palpable targeting landmark itself is on the ischium."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q20",
+      "discipline": "Genetics",
+      "system": "Dermatology",
+      "vignette": "A 6-year-old girl is brought to the dermatologist due to extreme sensitivity to sunlight. Even brief exposure causes severe, blistering sunburns that take weeks to heal. Physical examination reveals excessive, dark freckling across her face and shoulders, and a raised, crusty, 1-cm ulcerated lesion on her nose that is biopsied and confirmed to be squamous cell carcinoma. The genetic mutation driving this patient's extreme cancer predisposition primarily abolishes the activity of which of the following specific enzymes?",
+      "options": [
+        "DNA ligase",
+        "DNA polymerase beta",
+        "Endonuclease",
+        "Mismatch repair glycosylase",
+        "Telomerase"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Recognize Xeroderma Pigmentosum and the specific defect in nucleotide excision repair (Endonuclease).",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: Extreme UV sensitivity, massive freckling, and childhood skin cancers (BCC, SCC, melanoma) definitively diagnose Xeroderma Pigmentosum (XP). Step 2: XP is an autosomal recessive disorder caused by a severe defect in Nucleotide Excision Repair (NER). Step 3: UV light cross-links adjacent pyrimidine bases, forming bulky pyrimidine dimers. The NER pathway repairs this by using a specific *Endonuclease* complex to snip the DNA strand on both sides of the dimer, removing the damaged oligonucleotide so DNA polymerase can fill in the gap. In XP, this endonuclease activity is absent, leaving the mutagenic dimers permanently in the DNA.",
+        "incorrect_rationales": [
+          "Option A seals the final nick in the sugar-phosphate backbone after repair, but is not the primary defective enzyme in XP.",
+          "Option B is involved in base excision repair (repairing non-bulky, spontaneous deaminations), not bulky UV dimers.",
+          "Option D describes the mechanism defective in Lynch Syndrome (HNPCC).",
+          "Option E maintains chromosomal length; defects cause aplastic anemias/pulmonary fibrosis (Dyskeratosis Congenita)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q21",
+      "discipline": "Pathology",
+      "system": "Cardiovascular",
+      "vignette": "A 48-year-old woman presents to the emergency department with sudden-onset left-sided weakness and aphasia. She has a history of intermittent syncope and progressive shortness of breath over the past six months. A physical examination reveals a mid-diastolic, low-pitched 'plop' sound heard best at the apex, the timing of which changes depending on the patient's body position. An MRI of the brain confirms an embolic ischemic stroke. If the primary lesion responsible for this patient's entire clinical picture is surgically resected, it will most likely be found attached to which of the following cardiac structures?",
+      "options": [
+        "The ventricular surface of the aortic valve",
+        "The anterolateral papillary muscle",
+        "The interatrial septum at the fossa ovalis",
+        "The apex of the right ventricle",
+        "The chordae tendineae of the tricuspid valve"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Diagnose an Atrial Myxoma based on the 'tumor plop' and systemic emboli, and identify its usual location.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: A patient presenting with an embolic stroke, syncope, and a low-pitched, mid-diastolic 'plop' that changes with body position has an Atrial Myxoma. Step 2: A myxoma is the most common primary cardiac tumor in adults. It is a gelatinous, friable mass composed of scattered stellate cells in a mucopolysaccharide stroma. Step 3: Because it is friable, pieces break off and embolize to the brain (stroke). Because it is highly mobile on a stalk, it acts like a wrecking ball, swinging down into the mitral valve opening during diastole (causing the syncope and the 'tumor plop' sound). Step 4: Roughly 90% of myxomas occur in the left atrium, and they are almost universally attached to the *interatrial septum at the border of the fossa ovalis*.",
+        "incorrect_rationales": [
+          "Option A describes the typical location of a papillary fibroelastoma.",
+          "Option B, Option D, and Option E are incorrect anatomical locations for an atrial myxoma."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q22",
+      "discipline": "Physiology",
+      "system": "Respiratory",
+      "vignette": "A 24-year-old elite marathon runner is undergoing physiological testing on a treadmill. She reaches a steady-state of maximal aerobic exertion. Her heart rate is 175 bpm and her minute ventilation has increased five-fold. In order to sustain this level of intense metabolic activity, dramatic shifts in gas exchange occur at the tissue level. Compared to her resting baseline values, which of the following best describes the partial pressures of oxygen and carbon dioxide in her systemic arterial blood (PaO2, PaCO2) and her mixed venous blood (PvO2, PvCO2) during this period of peak exercise?",
+      "options": [
+        "Arterial PaO2: Normal | Arterial PaCO2: Normal | Venous PvCO2: Increased",
+        "Arterial PaO2: Decreased | Arterial PaCO2: Increased | Venous PvCO2: Increased",
+        "Arterial PaO2: Increased | Arterial PaCO2: Decreased | Venous PvCO2: Decreased",
+        "Arterial PaO2: Normal | Arterial PaCO2: Increased | Venous PvCO2: Normal",
+        "Arterial PaO2: Decreased | Arterial PaCO2: Normal | Venous PvCO2: Decreased"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Understand that arterial blood gases remain largely normal during exercise, while venous values change drastically.",
+        "correct_rationale": "Option A is correct. (Third-order conceptual). A classic physiological trap is assuming that exercise changes arterial blood gases. In a healthy person during steady-state exercise, the massive increase in alveolar ventilation perfectly matches the massive increase in oxygen consumption and CO2 production by the muscles. Therefore, the *Arterial PaO2 and Arterial PaCO2 remain strictly normal* (or PaCO2 may even drop slightly due to hyperventilation from lactic acidosis). However, the tissues are extracting maximum oxygen and dumping massive amounts of CO2 into the returning blood. Thus, the Mixed Venous PvO2 is significantly decreased, and the *Mixed Venous PvCO2 is significantly increased*.",
+        "incorrect_rationales": [
+          "Option B describes a state of severe hypoventilation/respiratory failure.",
+          "Option C describes hyperventilation at rest (e.g., anxiety attack), which blows off CO2 and lowers venous CO2 as well.",
+          "Option D and Option E mathematically contradict the principle of matched ventilation and perfusion during healthy exercise."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q23",
+      "discipline": "Pharmacology",
+      "system": "Toxicology",
+      "vignette": "A 40-year-old agricultural worker is brought to the emergency department by his coworkers. He was spraying crops with an organophosphate insecticide and accidentally spilled a large amount onto his clothes. He is profusely sweating, salivating, and wheezing. His heart rate is 45 bpm, and his pupils are pinpoint. The physician immediately administers high-dose intravenous atropine. Thirty minutes later, the patient's heart rate normalizes and his breathing improves significantly, but he remains completely paralyzed and exhibits severe, diffuse muscle fasciculations. To reverse these remaining symptoms, the physician must administer a secondary antidote that directly performs which of the following?",
+      "options": [
+        "Competitively antagonizes nicotinic acetylcholine receptors",
+        "Regenerates active acetylcholinesterase by removing the phosphate group",
+        "Irreversibly binds to the organophosphate in the plasma",
+        "Stimulates the release of dopamine from presynaptic vesicles",
+        "Reverses the central nervous system respiratory depression"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Differentiate the effects of Atropine (muscarinic) and Pralidoxime (nicotinic) in organophosphate poisoning.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: The patient has organophosphate poisoning (DUMBELS: diarrhea, urination, miosis, bronchospasm, emesis, lacrimation, salivation) due to irreversible inhibition of acetylcholinesterase, leading to a massive buildup of acetylcholine. Step 2: Atropine is a competitive *muscarinic* antagonist. It successfully reversed the deadly muscarinic effects (bradycardia, bronchospasm, secretions). Step 3: However, atropine has ZERO effect on *nicotinic* receptors. The excess acetylcholine at the neuromuscular junction (nicotinic receptors) is causing the muscle fasciculations and flaccid paralysis. Step 4: To fix the paralysis, the physician must administer *Pralidoxime (2-PAM)*. Pralidoxime acts as a chemical crowbar, cleaving the phosphate group off the poisoned acetylcholinesterase enzyme, freeing it to break down the acetylcholine at the neuromuscular junction.",
+        "incorrect_rationales": [
+          "Option A would paralyze the patient further (this is how paralytics like rocuronium work).",
+          "Option C describes a scavenger mechanism, but pralidoxime works directly at the enzyme's active site.",
+          "Option D is irrelevant to cholinergic toxicity.",
+          "Option E is the function of flumazenil (benzodiazepine overdose) or naloxone (opioid overdose)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q24",
+      "discipline": "Pathology",
+      "system": "Renal",
+      "vignette": "A 35-year-old African American woman presents to the emergency department with sudden, severe right flank pain and gross hematuria. Her medical history is significant for sickle cell trait. An unenhanced CT scan of the abdomen shows no evidence of kidney stones, but urinalysis reveals significant hematuria and pieces of sloughed tissue. Renal ultrasound reveals blunting of the right renal calyces. The specific anatomical region of the kidney currently undergoing ischemic necrosis in this patient is exquisitely vulnerable to hypoxia because it is normally supplied by which of the following distinct vascular structures?",
+      "options": [
+        "Interlobar arteries",
+        "Afferent arterioles",
+        "Vasa recta",
+        "Arcuate arteries",
+        "Peritubular capillaries"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify Renal Papillary Necrosis in sickle cell trait and the role of the vasa recta.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: Sudden flank pain, gross hematuria, and sloughing of tissue in a patient with Sickle Cell Trait is the hallmark presentation of Renal Papillary Necrosis. (Other triggers mnemonic SAAD papa: Sickle cell, Acute pyelonephritis, Analgesics/NSAIDs, Diabetes). Step 2: The renal papilla (the tip of the renal medulla) is located in an extremely harsh, hyperosmotic, and naturally hypoxic environment. Step 3: It receives its blood supply exclusively from the *Vasa Recta*—long, hairpin-loop capillaries that dip deep into the medulla. Because flow through the vasa recta is incredibly slow and sluggish, it is a prime location for red blood cells to sickle, completely obstructing blood flow and causing ischemic necrosis of the papilla.",
+        "incorrect_rationales": [
+          "Option A, Option B, and Option D are arteries supplying the highly oxygenated renal cortex. They have high flow rates and do not typically cause isolated papillary necrosis.",
+          "Option E surround the convoluted tubules in the cortex, not the deep medulla."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q25",
+      "discipline": "Anatomy",
+      "system": "Endocrine",
+      "vignette": "A 42-year-old woman undergoes a total thyroidectomy for a large, multinodular goiter that was compressing her trachea. During the surgical procedure, the superior thyroid artery is carefully ligated. Following surgery, the patient notes that while her normal speaking voice is intact and unhoarse, she is completely unable to project her voice or hit high-pitched notes while singing. The surgeon suspects inadvertent injury to a nerve that traveled in close proximity to the ligated artery. The specific denervated muscle causing her symptoms is derived from which of the following embryonic structures?",
+      "options": [
+        "First pharyngeal arch",
+        "Second pharyngeal arch",
+        "Third pharyngeal arch",
+        "Fourth pharyngeal arch",
+        "Sixth pharyngeal arch"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Localize the cricothyroid muscle to the external superior laryngeal nerve and the 4th pharyngeal arch.",
+        "correct_rationale": "Option D is correct. (Fourth-order question). Step 1: The patient cannot pitch her voice high, but is not hoarse. This indicates isolated paralysis of the Cricothyroid muscle, the only muscle that tenses the vocal cords. Step 2: The cricothyroid is innervated by the External branch of the Superior Laryngeal Nerve. This nerve travels directly adjacent to the Superior Thyroid Artery (which was ligated). Step 3: Embryologically, the cricothyroid muscle and the superior laryngeal nerve are derived from the *Fourth Pharyngeal Arch*.",
+        "incorrect_rationales": [
+          "Option A forms the muscles of mastication (CN V3).",
+          "Option B forms the muscles of facial expression (CN VII).",
+          "Option C forms the stylopharyngeus muscle (CN IX).",
+          "Option E forms all the *other* intrinsic muscles of the larynx (innervated by the recurrent laryngeal nerve, which travels with the inferior thyroid artery). Injury to the 6th arch nerve causes severe hoarseness."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q26",
+      "discipline": "Microbiology",
+      "system": "Gastrointestinal",
+      "vignette": "A 28-year-old man with a known history of intravenous drug use has been chronically infected with the Hepatitis B virus for three years. His liver enzymes have historically remained stable and mildly elevated. He suddenly presents to the emergency department with severe jaundice, right upper quadrant pain, and an AST of 3,500 U/L. Serology reveals the presence of a new, superinfecting viral genome composed of negative-sense, single-stranded circular RNA. To successfully replicate and become infectious within this patient, the new virus is absolutely dependent on the host's existing Hepatitis B infection to provide which of the following?",
+      "options": [
+        "An RNA-dependent DNA polymerase (Reverse Transcriptase)",
+        "A pre-formed viral envelope glycoprotein",
+        "A host-cell attachment receptor (CD81)",
+        "A viral protease for polyprotein cleavage",
+        "A highly active RNA-dependent RNA polymerase"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize Hepatitis D superinfection and its absolute reliance on HBsAg for its envelope.",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: A patient with chronic, stable Hepatitis B (HBV) who suddenly develops fulminant, massive liver failure has suffered a *Superinfection* with the Hepatitis D virus (HDV, the Delta agent). Step 2: HDV is a unique, defective virus (circular, negative-sense RNA). It can replicate its own RNA inside the nucleus, but it cannot package itself into an infectious virion to leave the cell and infect others. Step 3: To become infectious, HDV must steal the *Hepatitis B Surface Antigen (HBsAg)* to use as its own viral envelope. Without this specific pre-formed envelope glycoprotein from HBV, HDV is totally harmless.",
+        "incorrect_rationales": [
+          "Option A is used by HBV to replicate its own DNA, but HDV does not use reverse transcriptase.",
+          "Option C is a host receptor used by Hepatitis C.",
+          "Option D is required by Hepatitis C (targeted by protease inhibitors like glecaprevir), but not HDV.",
+          "Option E is the enzyme RNA viruses use to replicate, but HDV actually uniquely hijacks the host's own DNA-dependent RNA polymerase II to copy its RNA genome."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q27",
+      "discipline": "Physiology",
+      "system": "Gastrointestinal",
+      "vignette": "Researchers are conducting an experiment on mammalian digestion. A catheter is placed into the duodenum of an anesthetized animal, and a highly acidic solution (pH 2.0) is continuously infused. This acidic stimulus triggers a specific population of enteroendocrine cells (S cells) in the duodenal mucosa to massively secrete a peptide hormone into the bloodstream. The primary physiological target of this hormone responds by massively upregulating the secretion of a fluid that is best characterized by which of the following profiles relative to blood plasma?",
+      "options": [
+        "Hypertonic; rich in chloride and low in bicarbonate",
+        "Isotonic; rich in bicarbonate and low in chloride",
+        "Hypotonic; rich in amylase and lipase",
+        "Isotonic; rich in hydrogen ions and intrinsic factor",
+        "Hypertonic; rich in bile salts and cholesterol"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the action of Secretin on pancreatic ductal cells (isotonic, high bicarb fluid).",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: Acid in the duodenum triggers the S cells to release *Secretin*. Step 2: The primary role of Secretin is to neutralize stomach acid. It does this by traveling through the blood to the pancreatic ductal cells. Step 3: Secretin forces the pancreas to secrete a massive volume of fluid that is highly rich in *bicarbonate* (to buffer the acid). To maintain electrical neutrality, as bicarbonate goes up, *chloride* goes down. Step 4: Importantly, all pancreatic secretions are *Isotonic* to plasma, regardless of the flow rate. Water freely follows the ions out of the duct, ensuring the fluid matches plasma osmolarity.",
+        "incorrect_rationales": [
+          "Option A describes sweat in cystic fibrosis patients, not pancreatic juice.",
+          "Option C describes salivary gland secretions, which are hypotonic.",
+          "Option D describes gastric juice (stomach acid).",
+          "Option E describes gallbladder bile."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q28",
+      "discipline": "Genetics",
+      "system": "Hematology",
+      "vignette": "A 22-year-old woman is evaluated for frequent nosebleeds, easy bruising, and menorrhagia (heavy menstrual periods) since menarche. She reports that several female family members have similar bleeding tendencies. Laboratory studies show a normal platelet count and a normal PT, but a mildly prolonged aPTT. A bleeding time test is significantly prolonged. Addition of normal plasma corrects the aPTT. The defective protein responsible for this patient's inherited bleeding disorder normally performs which of the following essential functions?",
+      "options": [
+        "Cross-linking fibrin strands into a stable meshwork",
+        "Activating plasminogen to dissolve formed blood clots",
+        "Protecting Factor VIII from rapid proteolytic degradation",
+        "Binding directly to antithrombin III to inhibit Factor Xa",
+        "Cleaving ultra-large von Willebrand factor multimers"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify von Willebrand Disease and the role of vWF in protecting Factor VIII.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: A female with mucosal bleeding (nosebleeds, menorrhagia), a prolonged bleeding time (platelet dysfunction), but a *normal platelet count* and a mildly prolonged aPTT definitively diagnoses von Willebrand Disease (vWD), the most common inherited bleeding disorder. Step 2: vWD is caused by a deficiency of von Willebrand Factor (vWF). Step 3: vWF has two crucial roles. First, it binds to exposed collagen and platelets (via GpIb) to form the initial platelet plug (explaining the prolonged bleeding time). Second, vWF acts as a carrier protein for *Factor VIII* in the blood. By binding Factor VIII, vWF protects it from rapid degradation. Without vWF, Factor VIII degrades quickly, leading to a mildly prolonged aPTT.",
+        "incorrect_rationales": [
+          "Option A is the function of Factor XIII.",
+          "Option B is the function of Tissue Plasminogen Activator (tPA).",
+          "Option D is the mechanism of action of Heparin.",
+          "Option E is the function of ADAMTS13 (deficient in TTP)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q29",
+      "discipline": "Immunology",
+      "system": "Dermatology",
+      "vignette": "A 60-year-old man presents to the dermatology clinic with painful, flaccid blisters on his torso and severe ulcerations in his mouth. Physical examination reveals that when firm, lateral pressure is applied to visually normal skin, the epidermis easily shears off, leaving a denuded area (positive Nikolsky sign). A skin biopsy is subjected to direct immunofluorescence, which reveals a distinct, 'net-like' (reticular) pattern of IgG deposition throughout the epidermis. The autoantibodies driving this life-threatening blistering disease are directed against a structural protein that normally connects which of the following?",
+      "options": [
+        "Basal keratinocytes to the underlying basement membrane",
+        "The basement membrane to the underlying dermal collagen",
+        "Keratinocytes to adjacent keratinocytes within the stratum spinosum",
+        "Melanocytes to the surrounding extracellular matrix",
+        "Actin microfilaments to the inner cell membrane"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Distinguish Pemphigus Vulgaris (Desmoglein/Desmosomes) from Bullous Pemphigoid (Hemidesmosomes).",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: Flaccid, easily ruptured blisters with oral mucosal involvement and a positive Nikolsky sign is definitive for Pemphigus Vulgaris. Step 2: The 'net-like' (reticular) immunofluorescence pattern confirms that the antibodies are surrounding individual cells within the epidermis. Step 3: Pemphigus Vulgaris is a Type II hypersensitivity reaction caused by IgG autoantibodies against Desmoglein 1 and 3, which are integral components of *Desmosomes*. Step 4: Desmosomes function as the structural 'spot welds' that tightly bind *adjacent keratinocytes to one another* in the stratum spinosum. When destroyed, the cells detach (acantholysis), causing intraepidermal blisters.",
+        "incorrect_rationales": [
+          "Option A describes Hemidesmosomes, targeted in Bullous Pemphigoid (which presents with tense, rigid blisters, no oral involvement, a negative Nikolsky sign, and linear IF).",
+          "Option B describes anchoring fibrils, disrupted in Epidermolysis Bullosa Acquisita.",
+          "Option D and Option E do not describe the structural targets of classic autoimmune blistering dermatoses."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q30",
+      "discipline": "Biostatistics",
+      "system": "Multisystem",
+      "vignette": "A pharmaceutical company is conducting a phase III clinical trial for a revolutionary new heart failure medication. The researchers are highly concerned that the results of the trial might only be applicable to a narrow, highly controlled subset of patients. To ensure that the findings of the study will be scientifically applicable and reproducible when prescribed to the general, real-world population of heart failure patients, the trial designers ensure their inclusion criteria perfectly mirror the diverse demographics, ages, and comorbidities of national heart failure registries. By doing this, the researchers are attempting to maximize which of the following statistical properties of the study?",
+      "options": [
+        "Internal validity",
+        "External validity",
+        "Statistical power",
+        "Positive predictive value",
+        "Inter-rater reliability"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Differentiate Internal Validity from External Validity (Generalizability).",
+        "correct_rationale": "Option B is correct. (Second-order conceptual). Step 1: The researchers want their study results to accurately reflect what will happen when the drug is used in the 'real world' general population. Step 2: The ability to apply or extrapolate the results of a specific clinical study to a broader population outside of the study environment is the exact definition of *External Validity* (also known as Generalizability).",
+        "incorrect_rationales": [
+          "Option A (Internal validity) refers to how well the study was run strictly within its own boundaries—meaning the results are free from confounding, measurement bias, or flawed design. A study can be perfectly internally valid but have zero external validity if it only tested 20-year-old male marathon runners.",
+          "Option C relates to sample size and the ability to detect a true difference, not population mapping.",
+          "Option D is a diagnostic test metric.",
+          "Option E measures whether two different researchers scoring the data come up with the same numbers."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q31",
+      "discipline": "Microbiology",
+      "system": "Oncology",
+      "vignette": "A 45-year-old man who recently emigrated from Japan presents to the clinic with severe fatigue, bone pain, and a generalized skin rash. Physical examination reveals diffuse lymphadenopathy and hepatosplenomegaly. Laboratory studies show a markedly elevated white blood cell count and severe hypercalcemia. A peripheral blood smear demonstrates atypical lymphocytes with multi-lobated, 'cloverleaf' or 'flower-shaped' nuclei. The virus responsible for this patient's aggressive malignancy is primarily endemic to Japan, the Caribbean, and parts of West Africa. Which of the following is the most likely causative pathogen?",
+      "options": [
+        "Epstein-Barr virus (EBV)",
+        "Human T-lymphotropic virus 1 (HTLV-1)",
+        "Human herpesvirus 8 (HHV-8)",
+        "Hepatitis C virus (HCV)",
+        "Human papillomavirus type 16 (HPV-16)"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify HTLV-1 as the cause of Adult T-cell Leukemia/Lymphoma (ATLL).",
+        "correct_rationale": "Option B is correct. (Third-order question). Step 1: An adult from Japan/the Caribbean with generalized lymphadenopathy, lytic bone lesions (causing hypercalcemia), a skin rash, and 'flower cells' on a peripheral smear has Adult T-cell Leukemia/Lymphoma (ATLL). Step 2: ATLL is an aggressive T-cell malignancy directly caused by the Human T-lymphotropic virus 1 (HTLV-1). Step 3: HTLV-1 is an RNA retrovirus that infects CD4+ T cells, driving clonal expansion and the unique 'cloverleaf' nuclear morphology.",
+        "incorrect_rationales": [
+          "Option A causes Burkitt lymphoma, Hodgkin lymphoma, and nasopharyngeal carcinoma, but does not typically present with severe hypercalcemia and 'flower cells'.",
+          "Option C causes Kaposi sarcoma and primary effusion lymphoma.",
+          "Option D is associated with B-cell lymphomas and hepatocellular carcinoma.",
+          "Option E causes squamous cell carcinomas of the cervix, anus, and oropharynx."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q32",
+      "discipline": "Pathology",
+      "system": "Pulmonary",
+      "vignette": "A 22-year-old man is brought to the trauma center following a high-speed motorcycle collision. He sustains a closed, comminuted fracture of the right femoral shaft. On hospital day 2, he suddenly develops severe shortness of breath, confusion, and agitation. Physical examination reveals a petechial rash scattered across his chest, axillae, and conjunctivae. Arterial blood gas shows profound hypoxemia. Which of the following is the most likely primary pathophysiological mechanism causing this patient's acute respiratory failure?",
+      "options": [
+        "Thrombosis of the deep veins of the lower extremity",
+        "Mechanical obstruction of the pulmonary microvasculature by bone marrow elements",
+        "Autoimmune destruction of the alveolar-capillary basement membrane",
+        "Aspiration of gastric contents leading to chemical pneumonitis",
+        "Contusion and hemorrhage of the lung parenchyma"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize the clinical triad of Fat Embolism Syndrome.",
+        "correct_rationale": "Option B is correct. (Second-order question). Step 1: The classic triad of severe hypoxemia, neurological abnormalities (confusion), and a petechial rash occurring 1 to 3 days after a major long-bone fracture (e.g., femur or pelvis) is the definitive presentation of Fat Embolism Syndrome. Step 2: The physical trauma fractures the marrow cavity, forcing fat globules and hematopoietic bone marrow cells into the venous circulation. These fat emboli travel to the lungs, mechanically obstructing the pulmonary capillaries and triggering a massive inflammatory cascade that causes ARDS-like respiratory failure.",
+        "incorrect_rationales": [
+          "Option A describes a standard pulmonary embolism (DVT). While possible after trauma, a classic DVT does not cause a petechial rash or sudden neurological decline unless a paradoxical embolus occurs.",
+          "Option C describes Goodpasture syndrome.",
+          "Option D causes Mendelson syndrome (aspiration pneumonitis), which lacks the petechial rash.",
+          "Option E would present immediately at the time of the trauma, not 48 hours later with a petechial rash."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q33",
+      "discipline": "Pharmacology",
+      "system": "Psychiatry",
+      "vignette": "A 34-year-old woman is brought to the emergency department after a suspected intentional drug overdose. She is comatose, hypotensive, and actively seizing. Her pupils are widely dilated, and her skin is hot and dry. An ECG reveals a wide QRS complex and a prolonged QT interval. The emergency physician immediately orders a bolus of intravenous sodium bicarbonate. The primary therapeutic goal of administering this specific antidote is to overcome the toxic blockade of which of the following?",
+      "options": [
+        "Fast voltage-gated sodium channels in the myocardium",
+        "L-type calcium channels in the sinoatrial node",
+        "GABA-A receptors in the central nervous system",
+        "Serotonin reuptake transporters in the presynaptic terminal",
+        "Muscarinic acetylcholine receptors in the peripheral vasculature"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Identify the mechanism of sodium bicarbonate in Tricyclic Antidepressant (TCA) toxicity.",
+        "correct_rationale": "Option A is correct. (Third-order question). Step 1: Coma, seizures, profound anticholinergic signs (hot, dry skin, dilated pupils), and a widened QRS complex is the hallmark of Tricyclic Antidepressant (TCA) overdose. Step 2: The most immediate, life-threatening complication of a TCA overdose is fatal ventricular arrhythmias caused by the drug blocking the *fast voltage-gated sodium channels* in the cardiac His-Purkinje system. Step 3: Intravenous sodium bicarbonate acts as the antidote via two mechanisms: it provides a massive sodium load to outcompete the drug at the receptor, and it alkalinizes the blood, which physically unbinds the TCA from the sodium channel.",
+        "incorrect_rationales": [
+          "Option B is targeted by Calcium Channel Blockers, treated with IV calcium or glucagon.",
+          "Option C is targeted by benzodiazepines; reversal with flumazenil is strictly contraindicated in TCA overdose because it lowers the seizure threshold.",
+          "Option D is the normal therapeutic action of TCAs (and SSRIs), but it does not cause the fatal QRS widening.",
+          "Option E causes the dry mouth and dilated pupils, but blocking them does not kill the patient; the sodium channel blockade does."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q34",
+      "discipline": "Anatomy",
+      "system": "Neurology",
+      "vignette": "A 45-year-old woman is admitted to the hospital with a severe, progressing facial infection. 24 hours later, she develops a high fever, severe retro-orbital pain, and swelling around her left eye. Physical examination reveals paralysis of all extraocular movements in her left eye, as well as a loss of sensation over her forehead and upper cheek. The physician diagnoses cavernous sinus thrombosis. In the earliest stages of this condition, which of the following cranial nerves is typically the very first to lose function due to its vulnerable anatomical position within the center of the sinus?",
+      "options": [
+        "Oculomotor nerve (CN III)",
+        "Trochlear nerve (CN IV)",
+        "Ophthalmic division of the trigeminal nerve (CN V1)",
+        "Abducens nerve (CN VI)",
+        "Maxillary division of the trigeminal nerve (CN V2)"
+      ],
+      "correct_index": 3,
+      "explanation": {
+        "educational_objective": "Locate the Abducens nerve (CN VI) within the center of the cavernous sinus.",
+        "correct_rationale": "Option D is correct. (Third-order question). Step 1: The patient has Cavernous Sinus Thrombosis, characterized by proptosis, ophthalmoplegia, and facial numbness following a facial infection. Step 2: Multiple cranial nerves run through the cavernous sinus (CN III, IV, V1, V2, and VI). Step 3: CN III, IV, V1, and V2 travel embedded safely within the thick lateral wall of the sinus. However, the *Abducens nerve (CN VI)* travels completely 'free' through the very center of the sinus, directly alongside the internal carotid artery. Because it lacks the protection of the dural wall, it is almost universally the very first nerve affected by increasing pressure or thrombosis within the sinus.",
+        "incorrect_rationales": [
+          "Option A, Option B, Option C, and Option E are all located in the cavernous sinus, but they are protected within the lateral dural wall, making them affected slightly later in the disease process than CN VI."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q35",
+      "discipline": "Biochemistry",
+      "system": "Metabolic",
+      "vignette": "A 10-month-old infant of Ashkenazi Jewish descent is brought to the clinic due to failure to thrive, progressive weakness, and a loss of motor skills. Physical examination reveals massive hepatosplenomegaly and generalized lymphadenopathy. An ophthalmologic exam reveals a bright red spot on the macula bilaterally. A bone marrow biopsy demonstrates numerous lipid-laden macrophages with a foamy, 'soap-bubble' appearance in the cytoplasm. The severe neurodegeneration and organomegaly in this patient are caused by the toxic accumulation of which of the following substrates?",
+      "options": [
+        "Glucocerebroside",
+        "GM2 ganglioside",
+        "Sphingomyelin",
+        "Ceramide trihexoside",
+        "Galactocerebroside"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Recognize Niemann-Pick disease and the accumulation of sphingomyelin.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: An infant with neurodegeneration, a cherry-red macular spot, and *massive hepatosplenomegaly* has Niemann-Pick disease. (Note: Tay-Sachs disease also has a cherry-red spot and neurodegeneration, but it famously does *not* cause hepatosplenomegaly). Step 2: The bone marrow biopsy showing 'foam cells' (lipid-laden macrophages) confirms the diagnosis. Step 3: Niemann-Pick disease is an autosomal recessive lysosomal storage disorder caused by a deficiency in the enzyme sphingomyelinase, leading to the toxic cellular accumulation of *Sphingomyelin*.",
+        "incorrect_rationales": [
+          "Option A accumulates in Gaucher disease (hepatosplenomegaly, bone pain, 'crumpled tissue paper' macrophages, but no cherry-red spot).",
+          "Option B accumulates in Tay-Sachs disease (cherry-red spot, NO hepatosplenomegaly).",
+          "Option D accumulates in Fabry disease (angiokeratomas, peripheral neuropathy, renal failure).",
+          "Option E accumulates in Krabbe disease (globoid cells, profound demyelination)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q36",
+      "discipline": "Immunology",
+      "system": "Rheumatology",
+      "vignette": "A 70-year-old woman presents to her physician complaining of severe, aching pain and stiffness in her shoulders, neck, and hips. She reports the stiffness is profound in the morning and makes it difficult for her to get out of bed or raise her arms to brush her hair. Physical examination shows no active joint swelling, and her muscle strength is normal despite the pain. Laboratory testing reveals an erythrocyte sedimentation rate (ESR) of 85 mm/hr and a normal creatine kinase (CK) level. Because of the strong statistical association with her current diagnosis, this patient must be urgently evaluated for which of the following concurrent conditions?",
+      "options": [
+        "Giant cell (temporal) arteritis",
+        "Polyarteritis nodosa",
+        "Dermatomyositis",
+        "Fibromyalgia",
+        "Rheumatoid arthritis"
+      ],
+      "correct_index": 0,
+      "explanation": {
+        "educational_objective": "Link Polymyalgia Rheumatica (PMR) with Giant Cell Arteritis.",
+        "correct_rationale": "Option A is correct. (Third-order question). Step 1: An elderly female presenting with severe bilateral shoulder/hip aching, profound morning stiffness, an extremely high ESR, and normal muscle enzymes (CK) has Polymyalgia Rheumatica (PMR). Step 2: PMR is an inflammatory disorder, not a primary muscle disease (which is why the CK is normal and strength is technically intact). Step 3: PMR is incredibly strongly associated with *Giant Cell (Temporal) Arteritis*. Over 15% of PMR patients will develop this vasculitis, and up to 50% of Giant Cell Arteritis patients have PMR. Because Temporal Arteritis can cause rapid, irreversible blindness, any patient diagnosed with PMR must be aggressively screened for headaches, jaw claudication, and visual changes.",
+        "incorrect_rationales": [
+          "Option B is associated with Hepatitis B, not PMR.",
+          "Option C presents with proximal muscle *weakness* (not just pain), elevated CK, and distinct skin rashes (heliotrope rash/Gottron papules).",
+          "Option D presents with widespread musculoskeletal pain and 'tender points', but the ESR and all inflammatory markers are strictly normal.",
+          "Option E presents with symmetric swelling of the small joints of the hands (MCPs, PIPs), not primarily isolated shoulder/hip girdle stiffness."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q37",
+      "discipline": "Genetics",
+      "system": "Cardiovascular",
+      "vignette": "A 6-year-old girl is brought to the pediatric cardiologist for evaluation of a harsh systolic murmur heard best at the right upper sternal border. Physical examination reveals a very friendly, highly social demeanor, full lips, a wide mouth, and a prominent forehead ('elfin' facies). Laboratory testing demonstrates a mildly elevated serum calcium level. Genetic micro-array analysis confirms a microdeletion on the long arm of chromosome 7. The cardiovascular anomaly most strongly associated with this patient's specific genetic syndrome is driven by a profound lack of which of the following proteins?",
+      "options": [
+        "Fibrillin-1",
+        "Type III collagen",
+        "Elastin",
+        "Myosin binding protein C",
+        "Fibroblast growth factor receptor 3 (FGFR3)"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Recognize Williams Syndrome and its association with elastin gene deletion and supravalvular aortic stenosis.",
+        "correct_rationale": "Option C is correct. (Third-order question). Step 1: The clinical presentation of a highly sociable 'cocktail party' personality, 'elfin' facial features, hypercalcemia (due to extreme vitamin D sensitivity), and a microdeletion on chromosome 7q11.23 is definitive for Williams Syndrome. Step 2: The microdeletion spans roughly 25 genes, but the most clinically critical gene lost is the *Elastin* gene. Step 3: The profound lack of elastin causes severe connective tissue abnormalities, specifically in the major blood vessels. This manifests as Supravalvular Aortic Stenosis (a narrowing of the ascending aorta just above the valve), causing the harsh systolic murmur.",
+        "incorrect_rationales": [
+          "Option A is defective in Marfan syndrome (aortic root dilation/dissection).",
+          "Option B is defective in vascular Ehlers-Danlos syndrome (berry aneurysms, organ rupture).",
+          "Option D is mutated in Hypertrophic Cardiomyopathy (HOCM).",
+          "Option E is mutated in Achondroplasia (dwarfism)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q38",
+      "discipline": "Physiology",
+      "system": "Gastrointestinal",
+      "vignette": "A 40-year-old man with a history of recurrent duodenal ulcers undergoes a gastric secretion analysis. The study measures the output of hydrochloric acid from his parietal cells under various physiological stimuli. The researchers note that the administration of a specific peptide hormone massively increases the release of bicarbonate-rich fluid from the pancreas while simultaneously slowing gastric emptying and actively inhibiting gastric acid secretion. This hormone is normally secreted by S cells located in which of the following regions of the gastrointestinal tract?",
+      "options": [
+        "Gastric antrum",
+        "Duodenum",
+        "Terminal ileum",
+        "Pancreatic islets",
+        "Descending colon"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Identify the origin of Secretin from the S cells in the duodenum.",
+        "correct_rationale": "Option B is correct. (Second-order conceptual). Step 1: The hormone described increases pancreatic bicarbonate, decreases gastric acid secretion, and slows gastric emptying. This perfectly describes *Secretin*, nature's primary 'anti-acid' hormone. Step 2: Secretin is produced and released exclusively by the *S cells* located in the mucosa of the *Duodenum*. Step 3: When highly acidic chyme leaves the stomach and hits the duodenum, the S cells detect the low pH and dump secretin into the blood, triggering the pancreas to flood the duodenum with bicarbonate buffer to neutralize the acid.",
+        "incorrect_rationales": [
+          "Option A contains G cells, which secrete Gastrin (which *increases* gastric acid).",
+          "Option C contains K cells, which secrete Glucose-dependent insulinotropic peptide (GIP), and L cells, which secrete GLP-1.",
+          "Option D contains Alpha, Beta, and Delta cells (secreting glucagon, insulin, and somatostatin, respectively).",
+          "Option E contains goblet cells for lubrication, but no major endocrine regulatory cells for upper GI digestion."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q39",
+      "discipline": "Embryology",
+      "system": "Reproductive",
+      "vignette": "A newborn male is evaluated in the nursery for an abnormal urinary stream. Physical examination reveals that the urethral meatus is located on the ventral (inferior) surface of the penile shaft, rather than at the tip of the glans. The scrotum appears normal and both testes are descended. The physician assures the parents that this relatively common congenital defect can be surgically corrected. The anatomical abnormality observed in this patient is caused directly by a failure of which of the following embryological events?",
+      "options": [
+        "Fusion of the labioscrotal swellings",
+        "Migration of the genital tubercle ventrally",
+        "Fusion of the urethral (urogenital) folds",
+        "Canalization of the glandular plate",
+        "Obliteration of the urachus"
+      ],
+      "correct_index": 2,
+      "explanation": {
+        "educational_objective": "Identify the embryologic failure in Hypospadias.",
+        "correct_rationale": "Option C is correct. (Second-order question). Step 1: A urethral opening on the *ventral* (under) side of the penis diagnoses Hypospadias. Step 2: During male fetal development, the urethral (urogenital) folds must grow toward each other and fuse in the midline to form the spongy urethra, enclosing the urinary tract inside the penile shaft. Step 3: A failure of the *urethral folds to fuse completely* leaves an opening on the ventral surface of the penis. (Note: Epispadias, an opening on the dorsal/top surface, is caused by faulty positioning of the genital tubercle).",
+        "incorrect_rationales": [
+          "Option A failure results in a bifid scrotum.",
+          "Option B failure causes Epispadias.",
+          "Option D forms the very distal tip of the urethra within the glans; failure causes a specific glandular web but does not cause the classic ventral shaft opening of hypospadias.",
+          "Option E failure causes a patent urachus (urine leaking from the umbilicus)."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    },
+    {
+      "id": "q40",
+      "discipline": "Biostatistics",
+      "system": "Multisystem",
+      "vignette": "A public health department wants to quickly assess the burden of a newly discovered, chronic tick-borne illness within a specific county. They send out a detailed health questionnaire and collect blood samples from 5,000 randomly selected residents on a single day in July. They determine that 150 of the surveyed residents currently have the disease. Because the researchers gathered data on both the exposure (tick bites) and the outcome (disease) simultaneously at one specific point in time, this study design is uniquely capable of determining which of the following epidemiological metrics?",
+      "options": [
+        "Disease incidence",
+        "Disease prevalence",
+        "Relative Risk (RR)",
+        "Attributable Risk (AR)",
+        "Hazard Ratio (HR)"
+      ],
+      "correct_index": 1,
+      "explanation": {
+        "educational_objective": "Recognize a Cross-Sectional Study and its ability to measure Prevalence.",
+        "correct_rationale": "Option B is correct. (Second-order conceptual). Step 1: The researchers gathered data on both exposure and outcome *simultaneously* at a single, specific point in time (a 'snapshot'). This is the exact definition of a Cross-Sectional Study. Step 2: Because there is no follow-up over time, a cross-sectional study cannot track new cases developing. Therefore, it cannot measure Incidence. Step 3: It is only capable of measuring the total number of existing cases in the population at that exact moment, which is the definition of *Disease Prevalence*.",
+        "incorrect_rationales": [
+          "Option A requires following a disease-free population forward in time to count *new* cases (Cohort study).",
+          "Option C and Option D require incidence data, which means they require a prospective Cohort study.",
+          "Option E requires time-to-event analysis (survival analysis), typically derived from clinical trials or longitudinal cohort studies."
+        ]
+      },
+      "has_exhibit": false,
+      "exhibit_url": ""
+    }
+  ]
+}

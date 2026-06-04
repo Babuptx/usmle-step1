@@ -3,149 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>USMLE Step 1 Mock Exam</title>
+    <title>USMLE Step 1 - Master Bank</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="exam-container">
-        <nav class="top-nav-frame">
-            <div class="nav-row-1">
-                <div class="level-selector-container">
-                    <span class="level-label">Exam Level:</span>
-                    <div class="level-buttons">
-                       <button class="lvl-btn active" data-file="question_bank.json">L-1</button>
-                       <button class="lvl-btn" data-file="block2.json">L-2</button>
-                       <button class="lvl-btn" data-file="block3.json">L-3</button>
-                       <button class="lvl-btn" data-file="block4.json">L-4</button>
-                       <button class="lvl-btn" data-file="block5.json">L-5</button>
-                       <button class="lvl-btn" data-file="block6.json">L-6</button>
-                       <button class="lvl-btn" data-file="block7.json">L-7</button>
-                       <button class="lvl-btn" data-file="block8.json">L-8</button>
-                       <button class="lvl-btn" data-file="block9.json">L-9</button>
-                       <button class="lvl-btn" data-file="block10.json">L-10</button>
-                    </div>
-                </div>
-
-                <div class="header-right-controls">
-                    <div class="legend">
-                        <div><span class="box unanswered"></span> Unanswered</div>
-                        <div><span class="box answered"></span> Answered</div>
-                        <div><span class="box flagged"></span> Flagged</div>
-                    </div>
-                    <div class="timer" id="exam-timer">60:00</div>
-                    <button id="btn-lab-values" class="control-btn lab-btn">Lab Values</button>
+    <header class="app-header">
+        <h1>USMLE Step 1 <span>Master Bank</span></h1>
+        
+        <div class="sets-container">
+            <div class="set-row">
+                <span class="set-label">Set 1: Foundations</span>
+                <div class="level-buttons">
+                    <button class="lvl-btn active" data-file="block1.json">L-1</button>
+                    <button class="lvl-btn" data-file="block2.json">L-2</button>
+                    <button class="lvl-btn" data-file="block3.json">L-3</button>
+                    <button class="lvl-btn" data-file="block4.json">L-4</button>
+                    <button class="lvl-btn" data-file="block5.json">L-5</button>
+                    <button class="lvl-btn" data-file="block6.json">L-6</button>
+                    <button class="lvl-btn" data-file="block7.json">L-7</button>
                 </div>
             </div>
 
-            <div class="nav-row-2">
-                <div id="question-grid" class="question-grid-horizontal"></div>
-            </div>
-        </nav>
-
-        <main class="main-content">
-            <div class="question-wrapper">
-                <header class="exam-header">
-                    <div class="header-left">
-                        <h2 id="block-title">USMLE Step 1 Mock Exam</h2>
-                        <h3 id="question-number">Question 1</h3>
-                    </div>
-                    <div class="header-right">
-                        <button id="btn-flag" class="control-btn flag-btn">⚑ Flag for Review</button>
-                        <button id="btn-end-block" class="control-btn end-btn hidden">End Block</button>
-                    </div>
-                </header>
-
-                <div class="question-body">
-                    
-                    <div class="question-body">
-                    
-                    <div id="question-tags" class="question-tags"></div>
-                    
-                    <p id="vignette-text" class="vignette"></p>
-                    
-                    <div id="exhibit-container" class="exhibit hidden">
-                        <img id="exhibit-image" src="" alt="Clinical Exhibit">
-                    </div>
-                    
-                    <div id="options-container" class="options"></div>
-                    
-                    <div id="explanation-container" class="explanation hidden">
-                        <h4>Explanation</h4>
-                        <div id="explanation-text"></div>
-                    </div>
+            <div class="set-row">
+                <span class="set-label">Set 2: Clinical</span>
+                <div class="level-buttons">
+                    <button class="lvl-btn" data-file="block8.json">L-8</button>
+                    <button class="lvl-btn" data-file="block9.json">L-9</button>
+                    <button class="lvl-btn" data-file="block10.json">L-10</button>
+                    <button class="lvl-btn" data-file="block11.json">L-11</button>
+                    <button class="lvl-btn" data-file="block12.json">L-12</button>
+                    <button class="lvl-btn" data-file="block13.json">L-13</button>
+                    <button class="lvl-btn" data-file="block14.json">L-14</button>
                 </div>
-
-                <footer class="exam-footer">
-                    <button id="btn-prev" class="nav-btn" disabled>◄ Previous</button>
-                    <button id="btn-show-answer" class="control-btn tutor-btn">👁 Show Answer</button>
-                    <button id="btn-next" class="nav-btn">Next ►</button>
-                </footer>
-            </div>
-        </main>
-    </div>
-
-    <div id="lab-modal" class="modal hidden">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2>Standard Laboratory Values</h2>
-                <span id="btn-close-modal" class="close-btn">&times;</span>
-            </div>
-            <div class="modal-body" id="lab-values-content">
-                <table style="width: 100%; border-collapse: collapse; text-align: left;">
-                    <thead>
-                        <tr style="background-color: #ecf0f1; border-bottom: 2px solid #bdc3c7;">
-                            <th style="padding: 10px;">Analyte (Blood, Plasma, Serum)</th>
-                            <th style="padding: 10px;">Reference Range</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr style="border-bottom: 1px solid #eee;">
-                            <td style="padding: 8px;">Sodium (Na+)</td>
-                            <td style="padding: 8px;">136 - 145 mEq/L</td>
-                        </tr>
-                        <tr style="border-bottom: 1px solid #eee; background-color: #f9f9f9;">
-                            <td style="padding: 8px;">Potassium (K+)</td>
-                            <td style="padding: 8px;">3.5 - 5.0 mEq/L</td>
-                        </tr>
-                        <tr style="border-bottom: 1px solid #eee;">
-                            <td style="padding: 8px;">Chloride (Cl-)</td>
-                            <td style="padding: 8px;">95 - 105 mEq/L</td>
-                        </tr>
-                        <tr style="border-bottom: 1px solid #eee; background-color: #f9f9f9;">
-                            <td style="padding: 8px;">Bicarbonate (HCO3-)</td>
-                            <td style="padding: 8px;">22 - 28 mEq/L</td>
-                        </tr>
-                        <tr style="border-bottom: 1px solid #eee;">
-                            <td style="padding: 8px;">Blood Urea Nitrogen (BUN)</td>
-                            <td style="padding: 8px;">7 - 18 mg/dL</td>
-                        </tr>
-                        <tr style="border-bottom: 1px solid #eee; background-color: #f9f9f9;">
-                            <td style="padding: 8px;">Creatinine</td>
-                            <td style="padding: 8px;">0.6 - 1.2 mg/dL</td>
-                        </tr>
-                        <tr style="border-bottom: 1px solid #eee;">
-                            <td style="padding: 8px;">Glucose (Fasting)</td>
-                            <td style="padding: 8px;">70 - 100 mg/dL</td>
-                        </tr>
-                        <tr style="border-bottom: 1px solid #eee; background-color: #f9f9f9;">
-                            <td style="padding: 8px;">Calcium (Total)</td>
-                            <td style="padding: 8px;">8.4 - 10.2 mg/dL</td>
-                        </tr>
-                        <tr style="border-bottom: 1px solid #eee;">
-                            <td style="padding: 8px;">Magnesium (Mg2+)</td>
-                            <td style="padding: 8px;">1.5 - 2.0 mEq/L</td>
-                        </tr>
-                        <tr style="border-bottom: 1px solid #eee; background-color: #f9f9f9;">
-                            <td style="padding: 8px;">Phosphorus (Inorganic)</td>
-                            <td style="padding: 8px;">3.0 - 4.5 mg/dL</td>
-                        </tr>
-                    </tbody>
-                </table>
             </div>
         </div>
-    </div>
+    </header>
 
-    <script src="app.js"></script>
+    <main class="quiz-container">
+        <div class="stats-bar">
+            <div class="stat-box">Block: <span id="block-title-display">Loading...</span></div>
+            <div class="stat-box">Question: <span id="question-counter">0 / 0</span></div>
+            <div class="stat-box">Score: <span id="score-display">0%</span></div>
+        </div>
+
+        <div id="question-box" class="question-box">
+            <div class="tags">
+                <span id="discipline-tag" class="tag">Discipline</span>
+                <span id="system-tag" class="tag">System</span>
+            </div>
+            <p id="vignette-text" class="vignette"></p>
+            <div id="options-container" class="options">
+                </div>
+        </div>
+
+        <div id="feedback-box" class="feedback-box hidden">
+            <h3 id="feedback-title"></h3>
+            <p id="educational-objective" class="objective"></p>
+            <p id="correct-rationale" class="rationale-correct"></p>
+            <div id="incorrect-rationales" class="rationale-incorrect"></div>
+            <button id="next-btn" class="next-btn">Next Question ➔</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
